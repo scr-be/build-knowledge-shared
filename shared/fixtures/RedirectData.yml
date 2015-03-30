@@ -1,0 +1,18 @@
+---
+Redirect:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        priority:   1
+        mode:       truncate
+        entity:     s.mantle.redirect.entity.class
+        repository: s.mantle.redirect.repo
+
+    dependencies: null
+
+    data:

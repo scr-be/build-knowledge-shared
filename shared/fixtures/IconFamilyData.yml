@@ -1,0 +1,95 @@
+---
+IconFamily:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        priority:   100
+        mode:       truncate
+        entity:     s.mantle.iconfamily.entity.class
+        repository: s.mantle.iconfamily.repo
+
+    dependencies: null
+
+    data:
+
+        0:
+            slug:    'fa'
+            name:    'Font Awesome'
+            version: 4.2
+            url:     'http://fontawesome.io/'
+            prefix:  'fa'
+            requiredClasses:
+                - 'fa'
+            optionalClasses:
+                - 'fa-fw'
+                - 'fa-lg'
+                - 'fa-2x'
+                - 'fa-3x'
+                - 'fa-4x'
+                - 'fa-5x'
+                - 'fa-li'
+                - 'fa-border'
+                - 'fa-rotate-90'
+                - 'fa-rotate-180'
+                - 'fa-rotate-270'
+                - 'fa-flip-horizontal'
+                - 'fa-flip-vertical'
+                - 'fa-spin'
+                - 'fa-inverse'
+                - 'fa-stack'
+                - 'fa-stack-1x'
+                - 'fa-stack-2x'
+            attributes: null
+
+        1:
+            slug:    'gl'
+            name:    'Glyphicons for Bootstrap'
+            version: 1.8
+            url:     'http://glyphicons.com/'
+            prefix:  'glyphicon'
+            requiredClasses:
+                - 'glyphicon'
+            optionalClasses: null
+            attributes: null
+
+        2:
+            slug:    'gm-blk'
+            name:    'Google Material Design Icons (PNG/Black)'
+            version: 1.0.1
+            url:     'https://github.com/google/material-design-icons'
+            prefix:  'icon'
+            requiredClasses:
+                - 'icon'
+            optionalClasses: null
+            attributes:
+                color: 'black'
+                size:  '24dp'
+
+        3:
+            slug:    'gm-wht'
+            name:    'Google Material Design Icons (PNG/White)'
+            version: 1.0.1
+            url:     'https://github.com/google/material-design-icons'
+            prefix:  'icon'
+            requiredClasses:
+                - 'icon'
+            optionalClasses: null
+            attributes:
+                color: 'white'
+                size:  '24dp'
+
+        4:
+            slug:    'gm-svg'
+            name:    'Google Material Design Icons (SVG)'
+            version: 1.0.1
+            url:     'https://github.com/google/material-design-icons'
+            prefix:  'svg'
+            requiredClasses: null
+            optionalClasses: null
+            attributes:
+                size:  '24px'

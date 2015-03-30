@@ -1,0 +1,36 @@
+---
+OrgPhoneType:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        mode:       truncate
+        repository: s.security.repo.orgPhoneType
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug: 'tollfree'
+            name: 'Toll-free'
+
+        2:
+            slug: 'corp'
+            name: 'Corporate'
+
+        3:
+            slug: 'branch'
+            name: 'Branch Location'
+
+        4:
+            slug: 'fax'
+            name: 'Facsimile'
+
+        5:
+            slug: 'other'
+            name: 'Other'

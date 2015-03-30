@@ -1,0 +1,36 @@
+---
+OrgAddressType:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        mode:       truncate
+        repository: s.security.repo.orgAddressType
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug: 'head'
+            name: 'Headquarters'
+
+        2:
+            slug: 'branch'
+            name: 'Branch Office'
+
+        3:
+            slug: 'po'
+            name: 'P.O. Box'
+
+        4:
+            slug: 'temp'
+            name: 'Temp Location'
+
+        5:
+            slug: 'other'
+            name: 'Other'

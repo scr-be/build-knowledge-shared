@@ -1,0 +1,32 @@
+---
+UserAddressType:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        mode:       truncate
+        repository: s.security.repo.userAddressType
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug: 'home'
+            name: 'Home'
+
+        2:
+            slug: 'work'
+            name: 'Work'
+
+        3:
+            slug: 'po'
+            name: 'P.O. Box'
+
+        4:
+            slug: 'other'
+            name: 'Other'

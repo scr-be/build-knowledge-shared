@@ -1,0 +1,32 @@
+---
+UserPhoneType:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        mode:       truncate
+        repository: s.security.repo.userPhoneType
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug: 'home'
+            name: 'Home'
+
+        2:
+            slug: 'mobile'
+            name: 'Mobile'
+
+        3:
+            slug: 'work'
+            name: 'Work'
+
+        4:
+            slug: 'other'
+            name: 'Other'

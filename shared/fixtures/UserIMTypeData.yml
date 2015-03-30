@@ -1,0 +1,32 @@
+---
+UserIMType:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        mode:       truncate
+        repository: s.security.repo.userIMType
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug: 'skype'
+            name: 'Skype'
+
+        2:
+            slug: 'hangouts'
+            name: 'Google Hangouts'
+
+        3:
+            slug: 'slack'
+            name: 'Slack'
+
+        4:
+            slug: 'other'
+            name: 'Other'
