@@ -1,6 +1,6 @@
 # World Knowledge
 
-This repository contains a collection of YAML configuration files that allow for both the front-end (Symfony/World) and the back-end (Prepper/Transmog) to share configuration information, most notably as it applies to the ORM mapping and fixtures.
+This repository contains a collection of YAML configuration files that allow for the public aspects of Scribe's Symfony projects (Mantle) to function, most notably as it applies to the ORM mapping and fixtures.
 
 ## ORM Fixtures
 
