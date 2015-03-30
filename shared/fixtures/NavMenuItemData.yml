@@ -1,0 +1,19 @@
+---
+NavMenuItem:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        priority:   10
+        mode:       truncate
+        entity:     s.mantle.navmenuitem.entity.class
+        repository: s.mantle.navmenuitem.repo
+
+    dependencies: null
+
+    data:
+
