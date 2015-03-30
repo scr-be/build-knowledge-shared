@@ -8,16 +8,10 @@
  * file that was distributed with this source code.
  */
 
-require_once realpath(__DIR__.'/includes/constants.php');
-require_once TEST_BS_FILE_FUNCTIONS;
+require_once(realpath(__DIR__.'/includes/constants.php'));
+require_once(TEST_BS_FILE_FUNCTIONS);
 
-$loader = testBootstrap__requireFileOnce(
-    TEST_BS_FILE_KERNEL,
-    testBootstrap__newLogicException(
-        'Could not include autoload/kernel at %s.',
-        TEST_BS_FILE_KERNEL
-    )
-);
+$loader = require_once(TEST_BS_FILE_LOADER);
 
 if (!class_exists('\PHPUnit_Framework_TestCase') ||
     version_compare(\PHPUnit_Runner_Version::id(), TEST_BS_VER_MIN_PHPUNIT) < 0) {

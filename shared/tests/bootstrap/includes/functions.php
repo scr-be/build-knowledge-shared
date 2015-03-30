@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-require_once realpath(__DIR__.'/constants.php');
+require_once(realpath(__DIR__.'/constants.php'));
 
 /**
  * Create new LogicException instance
@@ -159,7 +159,22 @@ function testBootstrap__setupContainerParametersFromPHPUnitXML($filePath, \Logic
         return false;
     }
 
+    $xml       = simplexml_load_string(file_get_contents($filePath));
+    $xmlElsSvr = (array) @$xml->xpath('php/server');
 
+    foreach ($xmlElsSvr as $xmlEl) {
+        $varName      = (string) @$xmlEl->attributes()->name[0];
+        $defaultValue = (string) @$xmlEl->attributes()->value[0];
+
+        if (substr($varName, 0, 9) !== 'SYMFONY__') {
+            continue;
+        }
+
+        testBootstrap__setupContainerParameter(
+            str_replace('SYMFONY__', '', $varName),
+            $defaultValue
+        );
+    }
 }
 
 /**

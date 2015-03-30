@@ -8,8 +8,8 @@
  * file that was distributed with this source code.
  */
 
-require_once realpath(__DIR__.'/includes/constants.php');
-require_once TEST_BS_FILE_FUNCTIONS;
+require_once(realpath(__DIR__.'/includes/constants.php'));
+require_once(TEST_BS_FILE_FUNCTIONS);
 
 testBootstrap__setupContainerParametersFromPHPUnitXML(
     TEST_BS_FILE_PHPUNIT_LOCAL,
@@ -19,20 +19,14 @@ testBootstrap__setupContainerParametersFromPHPUnitXML(
     )
 );
 
-$loader = testBootstrap__requireFileOnce(
-    TEST_BS_FILE_KERNEL,
-    testBootstrap__newLogicException(
-        'Could not include autoload/kernel at %s.',
-        TEST_BS_FILE_KERNEL
-    )
-);
+$loader = require_once(TEST_BS_FILE_LOADER);
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Debug\Debug;
 
 $input = new ArgvInput();
-$env = $input->getParameterOption(array('--env', '-e'), getenv('SYMFONY_ENV') ?: 'dev');
+$env = $input->getParameterOption(array('--env', '-e'), getenv('SYMFONY_ENV') ?: 'test');
 $debug = getenv('SYMFONY_DEBUG') !== '0' && !$input->hasParameterOption(array('--no-debug', '')) && $env !== 'prod';
 
 if ($debug) {

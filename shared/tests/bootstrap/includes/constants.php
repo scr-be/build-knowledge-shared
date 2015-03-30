@@ -32,6 +32,13 @@ define('TEST_BS_FILE_FUNCTIONS',  realpath(__DIR__.'/functions.php'));
 define('TEST_BS_FILE_KERNEL',     realpath(__DIR__.'/kernel.php'));
 
 /**
+ * Path to loader include
+ *
+ * @var string
+ */
+define('TEST_BS_FILE_LOADER',     realpath(__DIR__.'/loader.php'));
+
+/**
  * Path to kernel include
  *
  * @var string
