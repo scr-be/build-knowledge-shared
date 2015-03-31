@@ -8,6 +8,25 @@
  * file that was distributed with this source code.
  */
 
+/**
+ * Umask of all files output using the console
+ *
+ * @var int
+ */
+define('TEST_BS_FILE_CONSOLE_APP_UMASK', 0446);
+
+/**
+ * Execution limit of console app (0 removes limit)
+ *
+ * @var int
+ */
+define('TEST_BS_FILE_CONSOLE_APP_EXEC_LIMIT', 0);
+
+/**
+ * Root directory of bundle
+ *
+ * @var string
+ */
 define('TEST_BS_ROOT', realpath(__DIR__.'/../../../../../'));
 
 /**
