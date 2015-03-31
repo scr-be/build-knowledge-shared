@@ -13,7 +13,7 @@
  *
  * @var int
  */
-define('TEST_BS_FILE_CONSOLE_APP_UMASK', 0446);
+define('TEST_BS_FILE_CONSOLE_APP_UMASK', 0002);
 
 /**
  * Execution limit of console app (0 removes limit)
