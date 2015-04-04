@@ -10,14 +10,14 @@ IconTemplate:
 
         priority:   101
         mode:       truncate
-        entity:     s.mantle.icontemplate.entity.class
-        repository: s.mantle.icontemplate.repo
+        entity:     s.mantle.icon_template.entity.class
+        repository: s.mantle.icon_template.repo
 
     dependencies:
 
         IconFamily:
-            entity:     's.mantle.iconfamily.entity.class'
-            repository: 's.mantle.iconfamily.repo'
+            entity:     's.mantle.icon_family.entity.class'
+            repository: 's.mantle.icon_family.repo'
 
     data:
 

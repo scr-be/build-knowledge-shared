@@ -1,5 +1,5 @@
 ---
-Redirect:
+RouteRedirect:
 
     version:
 
@@ -10,8 +10,8 @@ Redirect:
 
         priority:   1
         mode:       truncate
-        entity:     s.mantle.redirect.entity.class
-        repository: s.mantle.redirect.repo
+        entity:     s.mantle.route_redirect.entity.class
+        repository: s.mantle.route_redirect.repo
 
     dependencies: null
 
