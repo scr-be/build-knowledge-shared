@@ -1,0 +1,22 @@
+---
+NodeRenderEngine:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        priority:   150
+        mode:       truncate
+        entity:     s.mantle.node_render_engine.entity.class
+        repository: s.mantle.node_render_engine.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug:       'twig'
+            service:    's.mantle.node.twig.render'
