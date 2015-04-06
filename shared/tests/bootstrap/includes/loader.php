@@ -11,11 +11,11 @@
 require_once(realpath(__DIR__.'/constants.php'));
 require_once(TEST_BS_FILE_FUNCTIONS);
 
-return testBootstrap__requireFileOnce(
-    TEST_BS_FILE_KERNEL,
+$loader = testBootstrap__requireFileOnce(
+    TEST_BS_FILE_AUTOLOAD,
     testBootstrap__newLogicException(
-        'Could not include autoload/kernel at %s.',
-        TEST_BS_FILE_KERNEL
+        'Could not find autoload file at %s.',
+        TEST_BS_FILE_AUTOLOAD
     )
 );
 

@@ -19,7 +19,7 @@ testBootstrap__setupContainerParametersFromPHPUnitXML(
     )
 );
 
-$loader = require_once(TEST_BS_FILE_LOADER);
+$loader = require_once(TEST_BS_FILE_KERNEL);
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;

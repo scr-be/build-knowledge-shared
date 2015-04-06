@@ -10,8 +10,8 @@ IconFamily:
 
         priority:   100
         mode:       truncate
-        entity:     s.mantle.iconfamily.entity.class
-        repository: s.mantle.iconfamily.repo
+        entity:     s.mantle.icon_family.entity.class
+        repository: s.mantle.icon_family.repo
 
     dependencies: null
 
