@@ -18,5 +18,4 @@ NodeRenderEngine:
     data:
 
         1:
-            slug:       'twig'
-            service:    's.mantle.node.twig.render'
+            slug: 'twig'
