@@ -8,8 +8,10 @@ UserIMType:
 
     orm:
 
+        priority:   200
         mode:       truncate
-        repository: s.security.repo.userIMType
+        entity:     s.security.user_im_type.entity.class
+        repository: s.security.user_im_type.repo
 
     dependencies: null
 

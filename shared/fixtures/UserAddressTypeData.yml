@@ -8,8 +8,10 @@ UserAddressType:
 
     orm:
 
+        priority:   200
         mode:       truncate
-        repository: s.security.repo.userAddressType
+        entity:     s.security.user_address_type.entity.class
+        repository: s.security.user_address_type.repo
 
     dependencies: null
 

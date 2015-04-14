@@ -8,8 +8,10 @@ OrgAddressType:
 
     orm:
 
+        priority:   200
         mode:       truncate
-        repository: s.security.repo.orgAddressType
+        entity:     s.security.org_address_type.entity.class
+        repository: s.security.org_address_type.repo
 
     dependencies: null
 

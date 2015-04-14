@@ -8,8 +8,10 @@ UserPhoneType:
 
     orm:
 
+        priority:   200
         mode:       truncate
-        repository: s.security.repo.userPhoneType
+        entity:     s.security.user_phone_type.entity.class
+        repository: s.security.user_phone_type.repo
 
     dependencies: null
 

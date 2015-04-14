@@ -8,8 +8,10 @@ OrgPhoneType:
 
     orm:
 
+        priority:   200
         mode:       truncate
-        repository: s.security.repo.orgPhoneType
+        entity:     s.security.org_phone_type.entity.class
+        repository: s.security.org_phone_type.repo
 
     dependencies: null
 
