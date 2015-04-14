@@ -1,0 +1,384 @@
+---
+NavigationItem:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        priority:   51
+        cannibal:   true
+        mode:       truncate
+        entity:     s.mantle.navigation_item.entity.class
+        repository: s.mantle.navigation_item.repo
+
+    dependencies: 
+
+        NavigationItem:
+            entity:     s.mantle.navigation_item.entity.class
+            repository: s.mantle.navigation_item.repo
+
+        NavigationSet:
+            entity:     s.mantle.navigation_set.role.entity.class
+            repository: s.mantle.navigation_set.role.repo
+
+        Routes:
+
+    data:
+        1:
+            slug: security-sign-in
+            title: Sign In
+            description: 
+            weight: 1
+            parent:
+            route:
+            icon:
+            roleRestrictions:
+            reverseRoleRestrictions:
+        1:
+            slug:      'security-sign-in'
+            context:   '__security'
+            title:     'Sign In'
+            weight:    1
+            routeName: 'login'
+            reverseRoleRestrictions:
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        2:
+            slug:      'security-account'
+            context:   '__security'
+            title:     "%User.FirstName%'s Account"
+            weight:    1
+            routeName: 'security_dashboard'
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        3:
+            context:     '__services'
+            title:       'Accounts'
+            weight:      100
+            routeName:   'security_dashboard'
+            description: 'Manage your Scribe account and organization.'
+            attrs:
+                forceActiveByBundle: 'security'
+
+        4:
+            context:     '__services'
+            title:       'Blog/Book'
+            weight:      4
+            routeName:   'scribe_blog_index'
+            description: 'Articles and information about contemporary publishing.'
+            attrs:
+                forceActiveByBundle: 'blog'
+
+        5:
+            context:     '__services'
+            title:       'Status'
+            weight:      100
+            routeName:   'scribe_status_index'
+            description: 'Information and notifications about our services.'
+            attrs:
+                forceActiveByBundle: 'status'
+
+        6:
+            context:     '__services'
+            title:       'E-Book Project'
+            weight:      5
+            routeName:   'scribe_eep_index'
+            description: 'A collaborative initiative for discussing books in the digital age.'
+            attrs:
+                forceActiveByBundle: 'eep'
+
+        7:
+            context:     '__services'
+            title:       'WFDW'
+            weight:      2
+            routeName:   'scribe_hub_index'
+            description: 'Our WFDW services and tools, including the Digital Hub and the SAI.'
+            attrs:
+                forceActiveByBundle: 'digitalhub'
+
+        8:
+            context:     '__services'
+            title:       'Home'
+            weight:      1
+            routeName:   'public_index'
+            description: 'An overview of our publishing services.'
+            attrs:
+                forceActiveByBundle: 'public'
+
+        9:
+            context:     '__services'
+            title:       'Files'
+            weight:      3
+            routeName:   'scribe_file_browser'
+            description: 'Internal file manager for sending and receiving files from us.'
+            attrs:
+                forceActiveByBundle: 'file'
+
+        10:
+            context:     '__services'
+            title:       'SPS'
+            weight:      2
+            routeName:   'scribe_sps_redirect'
+            description: 'Our internal production systems for project management.'
+            roleRestrictions: 
+                - 'SCR'
+
+        11:
+            context:   'blog'
+            title:     'Book'
+            weight:    1
+            routeName: 'scribe_book_list'
+
+        12:
+            context:   'blog'
+            title:     'Blog'
+            weight:    2
+            routeName: 'scribe_blog_list'
+
+        13:
+            context:   'blog'
+            title:     'E-book Project'
+            weight:    3
+            routeName: 'scribe_eep_index'
+
+        14:
+            slug:      'blog-admin'
+            context:   'blog'
+            title:     'Admin'
+            weight:    100
+            roleRestrictions: 
+                - 'ROLE_BLOG_ADMIN'
+
+        15:
+            context:   'security'
+            title:     'Dashboard'
+            weight:    1
+            routeName: 'security_dashboard'
+
+        16:
+            slug:      'security-user'
+            context:   'security'
+            title:     'User'
+            weight:    1
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        17:
+            slug:      'security-org'
+            context:   'security'
+            title:     'Organization'
+            weight:    3
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        18:
+            slug:      'security-role'
+            context:   'security'
+            title:     'Role'
+            weight:    2
+            roleRestrictions: 
+                - 'ROLE_SECURITY_ADMIN'
+
+        19:
+            context:   'status'
+            title:     'Dashboard'
+            weight:    1
+            routeName: 'scribe_status_dashboard'
+
+        20:
+            context:   'status'
+            title:     'Systems'
+            weight:    2
+            routeName: 'scribe_status_systems'
+
+        21:
+            context:   'status'
+            title:     'Reports'
+            weight:    3
+            routeName: 'scribe_status_issues'
+
+        22:
+            context:   'status'
+            title:     'Updates'
+            weight:    4
+            routeName: 'scribe_status_notices'
+
+        23:
+            slug:      'status-logs'
+            context:   'status'
+            title:     'Logs'
+            weight:    10
+            roleRestrictions: 
+                - 'ROLE_STATUS_ADMIN'
+
+        24:
+            slug:      'status-admin'
+            context:   'status'
+            title:     'Admin'
+            weight:    100
+            roleRestrictions: 
+                - 'ROLE_STATUS_ADMIN'
+
+        25:
+            context:   'eep'
+            title:     'Home'
+            weight:    1
+            routeName: 'scribe_eep_index'
+
+        26:
+            context:   'eep'
+            title:     'Sessions'
+            weight:    2
+            routeName: 'scribe_eep_sessions'
+
+        27:
+            context:   'eep'
+            title:     'Resources'
+            weight:    3
+            routeName: 'scribe_eep_resources'
+
+        28:
+            context:   'eep'
+            title:     'Participants'
+            weight:    4
+            routeName: 'scribe_eep_participants'
+
+        29:
+            context:   'digitalhub'
+            title:     'Digital Hub'
+            weight:    13
+            routeName: 'scribe_hub_dashboard'
+            roleRestrictions: 
+                - 'ROLE_HUB_USER'
+
+        30:
+            context:   'digitalhub'
+            title:     'Documentation'
+            weight:    12
+            routeName: 'scribe_hub_docs'
+            routeParameters: 
+                k: 'index'
+
+        31:
+            context:   'digitalhub'
+            title:     'Support'
+            weight:    18
+            routeName: 'scribe_hub_support'
+
+        32:
+            context:   'digitalhub'
+            title:     'Updates'
+            weight:    30
+            routeName: 'scribe_status_systems_view'
+            routeParameters: 
+                system: 'digital-hub'
+                id:     15
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        33:
+            context:   'docs'
+            title:     'Home'
+            weight:    1
+            routeName: 'learning_home'
+
+        34:
+            context:   'docs'
+            title:     'Page Index'
+            weight:    2
+            routeName: 'learning_node_list'
+
+        35:
+            context:   'docs'
+            title:     'Categories'
+            weight:    3
+            routeName: 'learning_category_list'
+
+        36:
+            context:   'docs'
+            title:     'Admin'
+            weight:    100
+            roleRestrictions: 
+                - 'ROLE_LEARNING_ADMIN'
+
+        37:
+            context:   'digitalhub'
+            title:     'Downloads'
+            weight:    19
+            routeName: 'scribe_hub_resources'
+
+        38:
+            context:   'digitalhub'
+            title:     'About'
+            weight:    10
+            routeName: 'scribe_hub_public'
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_ANONYMOUSLY'
+            reverseRoleRestrictions: 
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        39:
+            context:   'digitalhub'
+            title:     'SAI Lite'
+            weight:    11
+            routeName: 'scribe_hub_public_sail'
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_ANONYMOUSLY'
+            reverseRoleRestrictions: 
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        40:
+            context:   'digitalhub'
+            title:     'Demonstration'
+            weight:    20
+            routeName: 'scribe_hub_public_demo'
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_ANONYMOUSLY'
+            reverseRoleRestrictions: 
+                - 'IS_AUTHENTICATED_REMEMBERED'
+
+        41:
+            context:   'public'
+            title:     'Home'
+            weight:    1
+            routeName: 'public_index'
+
+        42:
+            context:   'public'
+            title:     'Services'
+            weight:    2
+            routeName: 'public_services'
+
+        43:
+            context:   'public'
+            title:     'Well-Formed Document Workflow'
+            weight:    3
+            routeName: 'scribe_hub_index'
+
+        44:
+            context:   'digitalhub'
+            title:     'Digital Hub'
+            weight:    13
+            routeName: 'scribe_hub_dashboard'
+            roleRestrictions: 
+                - 'IS_AUTHENTICATED_ANONYMOUSLY'
+            reverseRoleRestrictions: 
+                - 'ROLE_HUB_USER'
+
+        45:
+            context:   'public'
+            title:     'Admin'
+            weight:    100
+            routeName: 'public_node_list'
+            roleRestrictions: 
+                - 'ROLE_PUBLIC_ADMIN'
+
+        46:
+            context:   'file'
+            title:     'Your Files'
+            weight:    1
+            routeName: 'scribe_file_browser'
