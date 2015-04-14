@@ -1,0 +1,31 @@
+---
+NavigationSet:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        priority:   50
+        mode:       truncate
+        entity:     s.mantle.navigation_set.entity.class
+        repository: s.mantle.navigation_set.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug:        'main'
+            name:        'Main Navigation'
+            description: 'The main navigation set for all top-level routes within Scribe's website.'
+
+        2:
+            slug:        'security'
+            name:        'Security/Accounts'
+            description: 'Accounts related navigation for login/logout and management of current user.'
+
+        3:
+            slug:        'footer'
