@@ -3,8 +3,8 @@ Route:
 
     version:
 
-        structure: 1.0.0
-        data:      1.0.0
+        structure:  1.0.0
+        data:       1.0.0
 
     orm:
 
@@ -13,7 +13,7 @@ Route:
         entity:     s.route.entity.class
         repository: s.route.repo
 
-    dependencies: null
+    dependencies:   null
 
     data:
 
@@ -73,78 +73,68 @@ Route:
             description: Index for book chapters
 
         12:
-            slug:        security_dashboard
-            name:        security_dashboard
-            description: Security dashboard
-
-        13:
             slug:        security_user
             name:        security_user
             description: Security user
 
-        14:
+        13:
             slug:        security_org
             name:        security_org
             description: Security organization
 
-        15:
+        14:
             slug:        security_role
             name:        security_role
             description: Security role
 
-        16:
+        15:
             slug:        scribe_status_dashboard
             name:        scribe_status_dashboard
             description: Status dashboard
 
-        17:
+        16:
             slug:        scribe_status_systems
             name:        scribe_status_systems
             description: Systems status
 
-        18:
+        17:
             slug:        scribe_status_issues
             name:        scribe_status_issues
             description: Status reports and issues
 
-        19:
+        18:
             slug:        scribe_status_notices
             name:        scribe_status_notices
             description: Status updates
 
-        20:
+        19:
             slug:        scribe_status_logs
             name:        scribe_status_logs
             description: Status logs
 
+        20:
+            slug:        scribe_status_admin
+            name:        scribe_status_admin
+            description: Status admin
+
         21:
-            slug:        scribe_status_admin
-            name:        scribe_status_admin
-            description: Status admin
-
-        22:
-            slug:        scribe_status_admin
-            name:        scribe_status_admin
-            description: Status admin
-
-        23:
             slug:        scribe_hub_dashboard
             name:        scribe_hub_dashboard
             description: Digital Hub dashboard
 
-        24:
+        22:
             slug:        scribe_hub_docs
             name:        scribe_hub_docs
             description: Digital Hub documentation
             parameters:
                 k:       index
 
-        25:
+        23:
             slug:        scribe_hub_support
             name:        scribe_hub_support
             description: Support form for the Digital Hub
 
-        26:
+        24:
             slug:        scribe_status_systems_view
             name:        scribe_status_systems_view
             description: Support form for the Digital Hub
@@ -152,62 +142,238 @@ Route:
                 system:  digital-hub
                 id:      15
 
-        27:
+        25:
             slug:        learning_node_list
             name:        learning_node_list
             description: Page index for the documentation nodes
 
-        28:
+        26:
             slug:        learning_category_list
             name:        learning_category_list
             description: Category index for the documentation nodes
 
-        29:
+        27:
             slug:        scribe_learning_admin
             name:        scribe_learning_admin
             description: Category index for the documentation nodes
 
-        30:
+        28:
             slug:        scribe_hub_resources
             name:        scribe_hub_resources
             description: Downloadable resources for the WFDW
 
-        31:
+        29:
             slug:        scribe_hub_public
             name:        scribe_hub_public
             description: Description of the Digital Hub
 
-        32:
+        30:
             slug:        scribe_hub_public_sail
             name:        scribe_hub_public_sail
             description: SAI Lite
 
-        33:
+        31:
             slug:        scribe_hub_public_demo
             name:        scribe_hub_public_demo
             description: Digital Hub demonstration
 
-        34:
-            slug:        public_index
-            name:        public_index
-            description: Home page index
-
-        35:
+        32:
             slug:        public_services
             name:        public_services
             description: Scribe available services
 
-        36:
-            slug:        scribe_hub_index
-            name:        scribe_hub_index
-            description: WFDW Home
-
-        37:
-            slug:        scribe_hub_dashboard
-            name:        scribe_hub_dashboard
-            description: Digital Hub dashboard
-
-        38:
+        33:
             slug:        public_node_list
             name:        public_node_list
             description: Admin home page
+
+        34:
+            slug:        security_user_account
+            route:       security_user_account
+            description:
+
+        35:
+            slug:        security_profile
+            route:       security_profile
+            description:
+
+        36:
+            slug:        security_user_admin
+            route:       security_user_admin
+            description:
+
+        37:
+            slug:        security_organizations_list
+            route:       security_organizations_list
+            description:
+
+        38:
+            slug:        security_roles_list
+            route:       security_roles_list
+            description:
+
+        39:
+            slug:        security_user_session
+            route:       security_user_session
+            description:
+
+        40:
+            slug:        security_switch_user_exit
+            route:       security_switch_user_exit
+            description:
+
+        41:
+            slug:        security_switch_user_redirect
+            route:       security_switch_user_redirect
+            description:
+
+        42:
+            slug:        logout
+            route:       logout
+            description:
+
+        43:
+            slug:        scribe_blog_add
+            route:       scribe_blog_add
+            description:
+
+        44:
+            slug:        scribe_blog_author
+            route:       scribe_blog_author
+            description:
+
+        45:
+            slug:        scribe_blog_author_add
+            route:       scribe_blog_author_add
+            description:
+
+        46:
+            slug:        scribe_blog_author_list
+            route:       scribe_blog_author_list
+            description:
+
+        47:
+            slug:        scribe_book_ch_add
+            route:       scribe_book_ch_add
+            description:
+
+        48:
+            slug:        scribe_org
+            route:       scribe_org
+            description:
+
+        49:
+            slug:        security_organizations_view
+            route:       security_organizations_view
+            description:
+            parameters:
+                id:      '%Org.Id%'
+
+        50:
+            slug:        security_users_list
+            route:       security_users_list
+            description:
+            parameters:
+                orgid:   '%Org.Id%'
+
+        51:
+            slug:        security_users_account
+            route:       security_users_account
+            description:
+
+        52:
+            slug:        security_users_edit
+            route:       security_users_edit
+            description:
+            parameters:
+                id:      '%User.Id%'
+
+        53:
+            slug:        security_org_manager
+            route:       security_org_manager
+            description:
+
+        54:
+            slug:        security_users_create
+            route:       security_users_create
+            description:
+            parameters:
+                orgid:   '%Org.Id%'
+
+
+        55:
+            slug:        security_organizations_edit
+            route:       security_organizations_edit
+            description:
+            parameters:
+                id:      '%Org.Id%'
+
+        56:
+            slug:        security_org_admin
+            route:       security_org_admin
+            description:
+
+
+        57:
+            slug:        security_organizations_create
+            route:       security_organizations_create
+            description:
+
+
+        58:
+            slug:        security_roles_create
+            route:       security_roles_create
+            description:
+
+        59:
+            slug:        security_users_view
+            route:       security_users_view
+            description:
+            parameters:
+                id:      '%User.Id%'
+
+        60:
+            slug:        status_syslog_list
+            route:       status_syslog_list
+            description:
+
+        61:
+            slug:        status_syslog_search
+            route:       status_syslog_search
+            description:
+
+        62:
+            slug:        status_firewall_list
+            route:       status_firewall_list
+            description:
+
+        63:
+            slug:        status_firewall_byip
+            route:       status_firewall_byip
+            description:
+
+        64:
+            slug:        status_issues_add
+            route:       status_issues_add
+            description:
+
+        65:
+            slug:        status_systems_add
+            route:       status_systems_add
+            description:
+
+        66:
+            slug:        status_notices_add
+            route:       status_notices_add
+            description:
+
+        67:
+            slug:        status_ftp_list
+            route:       status_ftp_list
+            description:
+
+        68:
+            slug:        status_ftp_search
+            route:       status_ftp_search
+            description:
+

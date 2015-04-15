@@ -35,18 +35,18 @@ NavigationItem:
             title:       Sign In
             weight:      1
             description: For signing in to the site.
-            root:        @NavigationSet?slug=security
-            route:       @Routes?slug=login
+            root:        '@NavigationSet?slug=security'
+            route:       '@Routes?slug=login'
             restrictionsInverse:
                 - IS_AUTHENTICATED_REMEMBERED
 
         2:
             slug:         security-account
-            title:        %User.FirstName%'s Account
+            title:        "%User.FirstName%'s Account"
             weight:       1
             description:  Signing in to the site.
-            root:         @NavigationSet?slug=security
-            route:        @Routes?slug=security_dashboard
+            root:         '@NavigationSet?slug=security'
+            route:        '@Routes?slug=security_dashboard'
             restrictions:
                 - IS_AUTHENTICATED_REMEMBERED
 
@@ -55,8 +55,8 @@ NavigationItem:
             title:       Accounts
             weight:      100
             description: Manage your Scribe account and organization.
-            root:        @NavigationSet?slug=main
-            route:       @Routes?slug=security_dashboard
+            root:        '@NavigationSet?slug=main'
+            route:       '@Routes?slug=security_dashboard'
             attributes:
                 forceActiveByBundle: security
 
@@ -65,8 +65,8 @@ NavigationItem:
             title:       Blog/Book
             weight:      4
             description: Articles and information about contemporary publishing.
-            root:        @NavigationSet?slug=main
-            route:       @Routes?slug=security_dashboard
+            root:        '@NavigationSet?slug=main'
+            route:       '@Routes?slug=security_dashboard'
             attributes:
                 forceActiveByBundle: blog
 
@@ -75,8 +75,8 @@ NavigationItem:
             title:       Status
             weight:      100
             description: Information and notifications about our services.
-            root:        @NavigationSet?slug=main
-            route:       @Routes?slug=scribe_status_index
+            root:        '@NavigationSet?slug=main'
+            route:       '@Routes?slug=scribe_status_index'
             attributes:
                 forceActiveByBundle: status
 
@@ -85,8 +85,8 @@ NavigationItem:
             title:       WFDW
             weight:      2
             description: Our WFDW services and tools, including the Digital Hub and the SAI.
-            root:        @NavigationSet?slug=main
-            route:       @Routes?slug=scribe_hub_index
+            root:        '@NavigationSet?slug=main'
+            route:       '@Routes?slug=scribe_hub_index'
             attributes:
                 forceActiveByBundle: digitalhub
 
@@ -95,8 +95,8 @@ NavigationItem:
             title:       Home
             weight:      1
             description: An overview of our publishing services.
-            root:        @NavigationSet?slug=main
-            route:       @Routes?slug=public_index
+            root:        '@NavigationSet?slug=main'
+            route:       '@Routes?slug=public_index'
             attributes:
                 forceActiveByBundle: public
 
@@ -105,8 +105,8 @@ NavigationItem:
             title:       Files
             weight:      3
             description: Internal file manager for sending and receiving files from us.
-            root:        @NavigationSet?slug=main
-            route:       @Routes?slug=scribe_file_browser
+            root:        '@NavigationSet?slug=main'
+            route:       '@Routes?slug=scribe_file_browser'
             attributes:
                 forceActiveByBundle: file
 
@@ -115,8 +115,8 @@ NavigationItem:
             title:       Home
             weight:      1
             description: The documentation home page.
-            root:        @NavigationSet?slug=main
-            route:       @Routes?slug=learning_home
+            root:        '@NavigationSet?slug=main'
+            route:       '@Routes?slug=learning_home'
             attributes:
                 forceActiveByBundle: docs 
 
@@ -125,24 +125,24 @@ NavigationItem:
             title:       Book
             weight:      1
             description: The WFDW book.
-            parent:      @NavigationItem?slug=blog
-            route:       @Routes?slug=scribe_book_list
+            parent:      '@NavigationItem?slug=blog'
+            route:       '@Routes?slug=scribe_book_list'
 
         11:
             slug:        blog-sub
             title:       Blog
             weight:      2
             description: WFDW-related blog posts.
-            parent:      @NavigationItem?slug=blog
-            route:       @Routes?slug=scribe_blog_list
+            parent:      '@NavigationItem?slug=blog'
+            route:       '@Routes?slug=scribe_blog_list'
 
         12:
             slug:        blog-admin
             title:       Admin
             weight:      100
             description: Admin area for the blog and book section.
-            parent:      @NavigationItem?slug=blog
-            route:       @Routes?slug=scribe_blog_admin
+            parent:      '@NavigationItem?slug=blog'
+            route:       '@Routes?slug=scribe_blog_admin'
             restrictions: 
                 - 'ROLE_BLOG_ADMIN'
 
@@ -151,16 +151,16 @@ NavigationItem:
             title:       Dashboard
             weight:      1
             description: Security dashboard.
-            root:        @NavigationSet?slug=security
-            route:       @Routes?slug=security_dashboard
+            root:        '@NavigationSet?slug=security'
+            route:       '@Routes?slug=security_dashboard'
 
         14:
             slug:        security-user
             title:       User
             weight:      1
             description: Security user
-            root:        @NavigationSet?slug=security
-            route:       @Routes?slug=security_user
+            root:        '@NavigationSet?slug=security'
+            route:       '@Routes?slug=security_user'
             restrictions: 
                 - 'IS_AUTHENTICATED_REMEMBERED'
 
@@ -169,8 +169,8 @@ NavigationItem:
             title:       Organization
             weight:      3
             description: Security organization
-            root:        @NavigationSet?slug=security
-            route:       @Routes?slug=security_org
+            root:        '@NavigationSet?slug=security'
+            route:       '@Routes?slug=security_org'
             restrictions: 
                 - 'IS_AUTHENTICATED_REMEMBERED'
 
@@ -179,8 +179,8 @@ NavigationItem:
             title: Role
             weight:    2
             description: Security role
-            root: @NavigationSet?slug=security
-            route:       @Routes?slug=security_role
+            root: '@NavigationSet?slug=security'
+            route:       '@Routes?slug=security_role'
             restrictions: 
                 - 'ROLE_SECURITY_ADMIN'
 
@@ -189,40 +189,40 @@ NavigationItem:
             title:       Dashboard
             weight:      1
             description: Status dashboard
-            parent:      @NavigationItem?slug=status
-            route:       @Routes?slug=scribe_status_dashboard
+            parent:      '@NavigationItem?slug=status'
+            route:       '@Routes?slug=scribe_status_dashboard'
 
         18:
             slug:        status-systems
             title:       Systems
             weight:      2
             description: Systems status
-            parent:      @NavigationItem?slug=status
-            route:       @Routes?slug=scribe_status_systems
+            parent:      '@NavigationItem?slug=status'
+            route:       '@Routes?slug=scribe_status_systems'
 
         19:
             slug:        status-reports
             title:       Reports
             weight:      3
             description: Status reports and issues
-            parent:      @NavigationItem?slug=status
-            route:       @Routes?slug=scribe_status_issues
+            parent:      '@NavigationItem?slug=status'
+            route:       '@Routes?slug=scribe_status_issues'
 
         20:
             slug:        status-updates
             title:       Updates
             weight:      4
             description: Status updates
-            parent:      @NavigationItem?slug=status
-            route:       @Routes?slug=scribe_status_notices
+            parent:      '@NavigationItem?slug=status'
+            route:       '@Routes?slug=scribe_status_notices'
 
         21:
             slug:         status-logs
             title:        Logs
             weight:       10
             description:  Status logs
-            parent:       @NavigationItem?slug=status
-            route:        @Routes?slug=scribe_status_logs
+            parent:       '@NavigationItem?slug=status'
+            route:        '@Routes?slug=scribe_status_logs'
             restrictions:
                 - 'ROLE_STATUS_ADMIN'
 
@@ -231,8 +231,8 @@ NavigationItem:
             title:        Admin
             weight:       100
             description:  Status admin
-            parent:       @NavigationItem?slug=status
-            route:        @Routes?slug=scribe_status_admin
+            parent:       '@NavigationItem?slug=status'
+            route:        '@Routes?slug=scribe_status_admin'
             restrictions:
                 - 'ROLE_STATUS_ADMIN'
 
@@ -241,8 +241,8 @@ NavigationItem:
             title:        Digital Hub
             weight:       13
             description:  Digital Hub dashboard
-            parent:       @NavigationItem?slug=wfdw
-            route:        @Routes?slug=scribe_hub_dashboard
+            parent:       '@NavigationItem?slug=wfdw'
+            route:        '@Routes?slug=scribe_hub_dashboard'
             restrictions:
                 - 'ROLE_HUB_USER'
 
@@ -251,24 +251,24 @@ NavigationItem:
             title:       Documentation
             weight:      12
             description: Documentation for the Digital Hub
-            parent:      @NavigationItem?slug=docs
-            route:       @Routes?slug=scribe_hub_docs
+            parent:      '@NavigationItem?slug=docs'
+            route:       '@Routes?slug=scribe_hub_docs'
 
         25:
             slug:        hub-support
             title:       Support
             weight:      18
             description: Support form for the Digital Hub
-            parent:      @NavigationItem?slug=wfdw
-            route:       @Routes?slug=scribe_hub_support
+            parent:      '@NavigationItem?slug=wfdw'
+            route:       '@Routes?slug=scribe_hub_support'
 
         26:
             slug:         hub-updates
             title:        Updates
             weight:       30
             description:  Hub updates and status
-            parent:       @NavigationItem?slug=wfdw
-            route:        @Routes?slug=scribe_status_systems_view
+            parent:       '@NavigationItem?slug=wfdw'
+            route:        '@Routes?slug=scribe_status_systems_view'
             restrictions:
                 - 'IS_AUTHENTICATED_REMEMBERED'
 
@@ -277,24 +277,24 @@ NavigationItem:
             title:       Page Index
             weight:      2
             description: Page index for the documentation nodes
-            parent:      @NavigationItem?slug=docs
-            route:       @Routes?slug=learning_node_list
+            parent:      '@NavigationItem?slug=docs'
+            route:       '@Routes?slug=learning_node_list'
 
         28:
             slug:        docs-categories
             title:       Categories
             weight:      3
             description: Documentation category list
-            parent:      @NavigationItem?slug=docs
-            route:       @Routes?slug=learning_category_list
+            parent:      '@NavigationItem?slug=docs'
+            route:       '@Routes?slug=learning_category_list'
 
         29:
             slug:         docs-admin
             title:        Admin
             weight:       100
             description:  Admin area for documentation nodes
-            parent:       @NavigationItem?slug=docs
-            route:        @Routes?slug=scribe_learning_admin
+            parent:       '@NavigationItem?slug=docs'
+            route:        '@Routes?slug=scribe_learning_admin'
             restrictions:
                 - 'ROLE_LEARNING_ADMIN'
 
@@ -303,16 +303,16 @@ NavigationItem:
             title:       Downloads
             weight:      19
             description: Downloadable resources for the WFDW
-            parent:      @NavigationItem?slug=wfdw
-            route:       @Routes?slug=scribe_hub_resources
+            parent:      '@NavigationItem?slug=wfdw'
+            route:       '@Routes?slug=scribe_hub_resources'
 
         31:
             slug:         hub-about
             title:        About
             weight:       10
             description:  Description of the Digital Hub
-            parent:       @NavigationItem?slug=wfdw
-            route:        @Routes?slug=scribe_hub_public
+            parent:       '@NavigationItem?slug=wfdw'
+            route:        '@Routes?slug=scribe_hub_public'
             restrictions:
                 - 'IS_AUTHENTICATED_ANONYMOUSLY'
             restrictionsInverse: 
@@ -323,8 +323,8 @@ NavigationItem:
             title:       SAI Lite
             weight:      11
             description: SAI Lite
-            parent:      @NavigationItem?slug=wfdw
-            route:       @Routes?slug=scribe_hub_public_sail
+            parent:      '@NavigationItem?slug=wfdw'
+            route:       '@Routes?slug=scribe_hub_public_sail'
             restrictions: 
                 - 'IS_AUTHENTICATED_ANONYMOUSLY'
             restrictionsInverse: 
@@ -335,8 +335,8 @@ NavigationItem:
             title:       Demonstration
             weight:      20
             description: Digital Hub demonstration
-            parent:      @NavigationItem?slug=wfdw
-            route:       @Routes?slug=scribe_hub_public_demo
+            parent:      '@NavigationItem?slug=wfdw'
+            route:       '@Routes?slug=scribe_hub_public_demo'
             restrictions: 
                 - 'IS_AUTHENTICATED_ANONYMOUSLY'
             restrictionsInverse: 
@@ -347,32 +347,32 @@ NavigationItem:
             title:       Home
             weight:      1
             description: Home page index
-            parent:      @NavigationItem?slug=home
-            route:       @Routes?slug=public_index
+            parent:      '@NavigationItem?slug=home'
+            route:       '@Routes?slug=public_index'
 
         35:
             slug:        home-services
             title:       Services
             weight:      2
             description: Scribe available services
-            parent:      @NavigationItem?slug=home
-            route:       @Routes?slug=public_services
+            parent:      '@NavigationItem?slug=home'
+            route:       '@Routes?slug=public_services'
 
         36:
             slug:        home-wfdw
             title:       Well-Formed Document Workflow
             weight:      3
             description: WFDW Home
-            parent:      @NavigationItem?slug=home
-            route:       @Routes?slug=scribe_hub_index
+            parent:      '@NavigationItem?slug=home'
+            route:       '@Routes?slug=scribe_hub_index'
 
         37:
             slug:        hub-dashboard
             title:       Digital Hub
             weight:      13
             description: Digital Hub dashboard
-            parent:      @NavigationItem?slug=wfdw
-            route:       @Routes?slug=scribe_hub_dashboard
+            parent:      '@NavigationItem?slug=wfdw'
+            route:       '@Routes?slug=scribe_hub_dashboard'
             restrictions: 
                 - 'IS_AUTHENTICATED_ANONYMOUSLY'
             restrictionsInverse: 
@@ -383,8 +383,8 @@ NavigationItem:
             title:        Admin
             weight:       100
             description:  Admin home page
-            parent:       @NavigationItem?slug=home
-            route:        @Routes?slug=public_node_list
+            parent:       '@NavigationItem?slug=home'
+            route:        '@Routes?slug=public_node_list'
             restrictions:
                 - 'ROLE_PUBLIC_ADMIN'
 
@@ -393,5 +393,459 @@ NavigationItem:
             title:       Your Files
             weight:      1
             description: Org-specific file list
-            parent:      @NavigationItem?slug=file
-            route:       @Routes?slug=scribe_file_browser
+            parent:      '@NavigationItem?slug=file'
+            route:       '@Routes?slug=scribe_file_browser'
+
+        40:
+            slug:   user-account
+            title:  '%User.FullName%'
+            weight: 1
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_user_account'
+
+        41:
+            slug:   security-dashboard-account
+            title:  Dashboard
+            weight: 2
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_dashboard'
+
+        42:
+            slug:   security-profile-edit
+            title:  Edit Profile
+            weight: 3
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_profile'
+
+        43:
+            slug:   security-user-admin
+            title:  Administration
+            weight: 20
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_user_admin'
+            restrictions: 
+                - ROLE_SECURITY_ADMIN
+
+        44:
+            slug:         security-user-list
+            title:        Users
+            weight:       22
+            description:
+            parent:       '@NavigationItem?slug=security-account'
+            route:        '@Routes?slug=security_users_list'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        45:
+            slug:   security-org-list
+            title:  Organizations
+            weight: 21
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_organizations_list'
+            restrictions: 
+                - ROLE_SECURITY_ADMIN
+
+        46:
+            slug:   security-roles-list
+            title:  Roles
+            weight: 23
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_roles_list'
+            restrictions: 
+                - ROLE_SECURITY_ADMIN
+
+        47:
+            slug:   security-user-session
+            title:  Session
+            weight: 30
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_user_session'
+
+        48:
+            slug:   security-switch-user-exit
+            title:  Switch Back
+            weight: 31
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_switch_user_exit'
+            restrictions:
+                - ROLE_PREVIOUS_ADMIN
+
+        49:
+            slug:   security-switch-user-redirect
+            title:  Switch User
+            weight: 32
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=security_switch_user_redirect'
+            restrictions:
+                - ROLE_ALLOWED_TO_SWITCH
+            restrictionsInverse: 
+                - ROLE_PREVIOUS_ADMIN
+
+        50:
+            slug:   security-logout
+            title:  Sign Out
+            weight: 33
+            description:
+            parent: '@NavigationItem?slug=security-account'
+            route:  '@Routes?slug=logout'
+            restrictionsInverse:
+                - ROLE_PREVIOUS_ADMIN
+
+        51:
+            slug:   blog-add
+            title:  Add Entry
+            weight: 2
+            description:
+            parent: '@NavigationItem?slug=blog-admin'
+            route:  '@Routes?slug=scribe_blog_add'
+
+        52:
+            slug:         blog-author
+            title:        Blog Author
+            weight:       10
+            description:
+            parent:       '@NavigationItem?slug=blog-admin'
+            route:        '@Routes?slug=scribe_blog_author'
+
+        53:
+            slug:         blog-author-add
+            title:        Add Author
+            weight:       11
+            description:
+            parent:       '@NavigationItem?slug=blog-admin'
+            route:        '@Routes?slug=scribe_blog_author_add'
+
+        54:
+            slug:         blog-author-list
+            title:        List Authors
+            weight:       12
+            description:
+            parent:       '@NavigationItem?slug=blog-admin'
+            route:        '@Routes?slug=scribe_blog_author_list'
+
+        55:
+            slug:         blog-book-chap-add
+            title:        Add Chapter
+            weight:       21
+            description:
+            parent:       '@NavigationItem?slug=blog-admin'
+            route:        '@Routes?slug=scribe_book_ch_add'
+
+        56:
+            slug:         security-account-org
+            title:        '%Org.Name%'
+            weight:       10
+            description:
+            parent:       '@NavigationItem?slug=security-account'
+            route:        '@Routes?slug=scribe_org'
+
+        57:
+            slug:         security-org-view
+            title:        View
+            weight:       11
+            description:
+            parent:       '@NavigationItem?slug=security-account'
+            route:        '@Routes?slug=security_organizations_view'
+            restrictions:
+                - IS_AUTHENTICATED_REMEMBERED
+                - IS_ORG_MANAGER
+
+        58:
+            slug:         security-users-list
+            title:        Users
+            weight:       12
+            description:
+            parent:       '@NavigationItem?slug=security-account'
+            route:        '@Routes?slug=security_users_list'
+            restrictions:
+                -         IS_ORG_MANAGER
+
+        59:
+            slug:         security-users-account
+            title:        '%User.FullName%'
+            weight:       1
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_users_account'
+
+        60:
+            slug:         security-users-edit
+            title:        Edit
+            weight:       3
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_users_edit'
+
+        61:
+            slug:         security-org-manager
+            title:        '%Org.Name%'
+            weight:       10
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_org_manager'
+            restrictions:
+                - IS_ORG_MANAGER
+
+        62:
+            slug:         security-users-list
+            title:        List
+            weight:       11
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_users_list'
+            restrictions:
+                - IS_ORG_MANAGER
+
+        63:
+            slug:         security-users-create
+            title:        Create
+            weight:       12
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_users_create'
+            restrictions:
+                - IS_ORG_MANAGER
+
+        64:
+            slug:         security-user-admin
+            title:        Administration
+            weight:       20
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_user_admin'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        65:
+            slug:         security-users-list
+            title:        List
+            weight:       21
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_users_list'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        66:
+            slug:         security-users-create
+            title:        Create
+            weight:       22
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_users_create'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        67:
+            slug:         security-org
+            title:        '%Org.Name%'
+            weight:       1
+            description:
+            parent:       '@NavigationItem?slug=security-org'
+            route:        '@Routes?slug=security_org'
+
+        68:
+            slug:         security-org-view
+            title:        View
+            weight:       2
+            description:
+            parent:       '@NavigationItem?slug=security-org'
+            route:        '@Routes?slug=security_organizations_view'
+
+        69:
+            slug:         security-org-edit
+            title:        Edit
+            weight:       3
+            description:
+            parent:       '@NavigationItem?slug=security-org'
+            route:        '@Routes?slug=security_organizations_edit'
+            restrictions:
+                - IS_ORG_MANAGER
+
+        70:
+            slug:         security-org-admin
+            title:        Administration
+            weight:       10
+            description:
+            parent:       '@NavigationItem?slug=security-org'
+            route:        '@Routes?slug=security_org_admin'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        71:
+            slug:         security-org-list
+            title:        List
+            weight:       11
+            description:
+            parent:       '@NavigationItem?slug=security-org'
+            route:        '@Routes?slug=security_organizations_list'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        72:
+            slug:         security-org-create
+            title:        Create
+            weight:       12
+            description:
+            parent:       '@NavigationItem?slug=security-org'
+            route:        '@Routes?slug=security_organizations_create'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        73:
+            slug:         security-roles-list
+            title:        List
+            weight:       1
+            description:
+            parent:       '@NavigationItem?slug=security-role'
+            route:        '@Routes?slug=security_roles_list'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        74:
+            slug:         security-roles-create
+            title:        Create
+            weight:       2
+            description:
+            parent:       '@NavigationItem?slug=security-role'
+            route:        '@Routes?slug=security_roles_create'
+            restrictions:
+                - ROLE_SECURITY_ADMIN
+
+        75:
+            slug:         security-users-view
+            title:        View
+            weight:       2
+            description:
+            parent:       '@NavigationItem?slug=security-user'
+            route:        '@Routes?slug=security_users_view'
+
+        76:
+            slug:         status-logs
+            title:        System Logs
+            weight:       1
+            description:
+            parent:       '@NavigationItem?slug=status-logs'
+            route:        '@Routes?slug=scribe_status_logs'
+
+        77:
+            slug:         status-syslog-list
+            title:        List All
+            weight:       2
+            description:
+            parent:       '@NavigationItem?slug=status-logs'
+            route:        '@Routes?slug=status_syslog_list'
+
+        78:
+            slug:         status-syslog-search
+            title:        Search
+            weight:       3
+            description:
+            parent:       '@NavigationItem?slug=status-logs'
+            route:        '@Routes?slug=status_syslog_search'
+
+        79:
+            slug:         security-firewall-logs
+            title:        Firewall Logs
+            weight:       10
+            description:
+            parent:       '@NavigationItem?slug=status-logs'
+            route:        '@Routes?slug=scribe_status_logs'
+
+        80:
+            slug:         security-logs-all
+            title:        List All
+            weight:       11
+            description:
+            parent:       '@NavigationItem?slug=status-logs'
+            route:        '@Routes?slug=status_firewall_list'
+
+        81:
+            slug:   security-firewall-ips
+            title:  Filter by IP
+            weight: 12
+            description:
+            parent: '@NavigationItem?slug=status-logs'
+            route:  '@Routes?slug=status_firewall_byip'
+
+        82:
+            slug:   systems-admin
+            title:  Systems
+            weight: 1
+            description:
+            parent: '@NavigationItem?slug=status-admin'
+            route:  '@Routes?slug=scribe_status_admin'
+
+        83:
+            slug:   status-issues-add
+            title:  Create
+            weight: 11
+            description:
+            parent: '@NavigationItem?slug=status-admin'
+            route:  '@Routes?slug=status_issues_add'
+
+        84:
+            slug:   status-systems-add
+            title:  Create
+            weight: 3
+            description:
+            parent: '@NavigationItem?slug=status-admin'
+            route:  '@Routes?slug=status_systems_add'
+
+        85:
+            slug:   status-reports
+            title:  Reports
+            weight: 10
+            description:
+            parent: '@NavigationItem?slug=status-admin'
+            route:  '@Routes?slug=scribe_status_admin'
+
+        86:
+            slug:   status-notices
+            title:  Notices
+            weight: 20
+            description:
+            parent: '@NavigationItem?slug=status-admin'
+            route:  '@Routes?slug=scribe_status_admin'
+
+        87:
+            slug:   status-notices-admin
+            title:  Create
+            weight: 21
+            description:
+            parent: '@NavigationItem?slug=status-admin'
+            route:  '@Routes?slug=status_notices_add'
+
+        88:
+            slug:   status-ftp-logs
+            title:  FTP Logs
+            weight: 20
+            description:
+            parent: '@NavigationItem?slug=status-logs'
+            route:  '@Routes?slug=scribe_status_logs'
+
+        89:
+            slug:   status-logs-all
+            title:  List All
+            weight: 21
+            description:
+            parent: '@NavigationItem?slug=status-logs'
+            route:  '@Routes?slug=status_ftp_list'
+
+        90:
+            slug:   status-logs-search
+            title:  Search
+            weight: 22
+            description:
+            parent: '@NavigationItem?slug=status-logs'
+            route:  '@Routes?slug=status_ftp_search'
+
