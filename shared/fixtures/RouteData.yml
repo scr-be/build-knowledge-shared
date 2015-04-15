@@ -1,0 +1,213 @@
+---
+Route:
+
+    version:
+
+        structure: 1.0.0
+        data:      1.0.0
+
+    orm:
+
+        priority:   200
+        mode:       truncate
+        entity:     s.route.entity.class
+        repository: s.route.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug:        login
+            name:        login
+            description: For logging in.
+
+        2:
+            slug:        security_dashboard
+            name:        security_dashboard
+            description: To get to the security dashboard
+
+        3:
+            slug:        scribe_blog_index
+            name:        scribe_blog_index
+            description: Blog index
+
+        4:
+            slug:        scribe_status_index
+            name:        scribe_status_index
+            description: Status index
+
+        5:
+            slug:        scribe_hub_index
+            name:        scribe_hub_index
+            description: Hub index
+
+        6:
+            slug:        public_index
+            name:        public_index
+            description: Public index
+
+        7:
+            slug:        scribe_file_browser
+            name:        scribe_file_browser
+            description: File Browser
+
+        8:
+            slug:        learning_home
+            name:        learning_home
+            description: Learning and Documentation Home
+
+        9:
+            slug:        scribe_blog_list
+            name:        scribe_blog_list
+            description: Index for blog posts
+
+        10:
+            slug:        scribe_book_list
+            name:        scribe_book_list
+            description: Index for book chapters
+
+        11:
+            slug:        scribe_blog_admin
+            name:        scribe_blog_admin
+            description: Index for book chapters
+
+        12:
+            slug:        security_dashboard
+            name:        security_dashboard
+            description: Security dashboard
+
+        13:
+            slug:        security_user
+            name:        security_user
+            description: Security user
+
+        14:
+            slug:        security_org
+            name:        security_org
+            description: Security organization
+
+        15:
+            slug:        security_role
+            name:        security_role
+            description: Security role
+
+        16:
+            slug:        scribe_status_dashboard
+            name:        scribe_status_dashboard
+            description: Status dashboard
+
+        17:
+            slug:        scribe_status_systems
+            name:        scribe_status_systems
+            description: Systems status
+
+        18:
+            slug:        scribe_status_issues
+            name:        scribe_status_issues
+            description: Status reports and issues
+
+        19:
+            slug:        scribe_status_notices
+            name:        scribe_status_notices
+            description: Status updates
+
+        20:
+            slug:        scribe_status_logs
+            name:        scribe_status_logs
+            description: Status logs
+
+        21:
+            slug:        scribe_status_admin
+            name:        scribe_status_admin
+            description: Status admin
+
+        22:
+            slug:        scribe_status_admin
+            name:        scribe_status_admin
+            description: Status admin
+
+        23:
+            slug:        scribe_hub_dashboard
+            name:        scribe_hub_dashboard
+            description: Digital Hub dashboard
+
+        24:
+            slug:        scribe_hub_docs
+            name:        scribe_hub_docs
+            description: Digital Hub documentation
+            parameters:
+                k:       index
+
+        25:
+            slug:        scribe_hub_support
+            name:        scribe_hub_support
+            description: Support form for the Digital Hub
+
+        26:
+            slug:        scribe_status_systems_view
+            name:        scribe_status_systems_view
+            description: Support form for the Digital Hub
+            parameters:
+                system:  digital-hub
+                id:      15
+
+        27:
+            slug:        learning_node_list
+            name:        learning_node_list
+            description: Page index for the documentation nodes
+
+        28:
+            slug:        learning_category_list
+            name:        learning_category_list
+            description: Category index for the documentation nodes
+
+        29:
+            slug:        scribe_learning_admin
+            name:        scribe_learning_admin
+            description: Category index for the documentation nodes
+
+        30:
+            slug:        scribe_hub_resources
+            name:        scribe_hub_resources
+            description: Downloadable resources for the WFDW
+
+        31:
+            slug:        scribe_hub_public
+            name:        scribe_hub_public
+            description: Description of the Digital Hub
+
+        32:
+            slug:        scribe_hub_public_sail
+            name:        scribe_hub_public_sail
+            description: SAI Lite
+
+        33:
+            slug:        scribe_hub_public_demo
+            name:        scribe_hub_public_demo
+            description: Digital Hub demonstration
+
+        34:
+            slug:        public_index
+            name:        public_index
+            description: Home page index
+
+        35:
+            slug:        public_services
+            name:        public_services
+            description: Scribe available services
+
+        36:
+            slug:        scribe_hub_index
+            name:        scribe_hub_index
+            description: WFDW Home
+
+        37:
+            slug:        scribe_hub_dashboard
+            name:        scribe_hub_dashboard
+            description: Digital Hub dashboard
+
+        38:
+            slug:        public_node_list
+            name:        public_node_list
+            description: Admin home page
