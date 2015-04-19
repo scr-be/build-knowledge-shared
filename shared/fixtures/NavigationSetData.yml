@@ -8,7 +8,7 @@ NavigationSet:
 
     orm:
 
-        priority:   50
+        priority:   500
         mode:       truncate
         entity:     s.mantle.navigation_set.entity.class
         repository: s.mantle.navigation_set.repo
