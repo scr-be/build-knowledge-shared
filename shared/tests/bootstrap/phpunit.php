@@ -21,6 +21,8 @@ if (!class_exists('\PHPUnit_Framework_TestCase') ||
     );
 }
 
+require_once(TEST_BS_FILE_KERNEL);
+
 return $loader;
 
 /* EOF */

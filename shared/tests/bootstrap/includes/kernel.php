@@ -11,6 +11,7 @@
 require_once(realpath(__DIR__.'/constants.php'));
 require_once(TEST_BS_FILE_FUNCTIONS);
 
+testBootstrap__removeDirectory(realpath(__DIR__.'/../../../../../src/Tests/Helper/app/cache/'));
 testBootstrap__removeDirectory(__DIR__.'/Fixtures/app/cache/');
 
 $loader = testBootstrap__requireFileOnce(

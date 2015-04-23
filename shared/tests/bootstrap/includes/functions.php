@@ -109,7 +109,7 @@ function testBootstrap__removeDirectory($path)
     }
 
     foreach ((array)glob($path.'/*') as $file) {
-        is_dir($file) ? removeDirectory($file) : unlink($file);
+        is_dir($file) ? testBootstrap__removeDirectory($file) : unlink($file);
     }
 
     return rmdir($path);
