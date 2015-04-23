@@ -8,7 +8,7 @@ NavigationSet:
 
     orm:
 
-        priority:   50
+        priority:   500
         mode:       truncate
         entity:     s.mantle.navigation_set.entity.class
         repository: s.mantle.navigation_set.repo
@@ -20,7 +20,7 @@ NavigationSet:
         1:
             slug:        'main'
             name:        'Main Navigation'
-            description: 'The main navigation set for all top-level routes within Scribe's website.'
+            description: "The main navigation set for all top-level routes within Scribe's website."
 
         2:
             slug:        'security'
@@ -29,3 +29,5 @@ NavigationSet:
 
         3:
             slug:        'footer'
+            name:        'Footer'
+            description: 'General navigation in the footer page.'

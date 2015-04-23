@@ -19,3 +19,7 @@ NodeRenderEngine:
 
         1:
             slug: 'twig'
+
+        2:
+            slug: 'swim'
+
