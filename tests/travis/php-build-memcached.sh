@@ -3,8 +3,6 @@
 sudo apt-get remove php5-memcached
 sudo apt-get install libjson-c2 php5-json
 
-cd ../../../../../
-
 mkdir -p build/pecl/ && cd build/pecl/
 wget http://pecl.php.net/get/memcached-2.2.0.tgz
 tar xzf memcached-2.2.0.tgz
@@ -15,6 +13,5 @@ phpize
 
 make
 make install
-cd ../../../
 
 echo "extension = memcached.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
