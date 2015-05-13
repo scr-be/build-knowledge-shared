@@ -36,35 +36,35 @@ define('TEST_BS_ROOT', realpath(__DIR__.'/../../../../../../'));
  *
  * @var string
  */
-define('TEST_BS_FILE_AUTOLOAD',   realpath(TEST_BS_ROOT.'/vendor/autoload.php'));
+define('TEST_BS_FILE_AUTOLOAD', realpath(TEST_BS_ROOT.'/vendor/autoload.php'));
 
 /**
  * Path to functions include
  *
  * @var string
  */
-define('TEST_BS_FILE_FUNCTIONS',  realpath(__DIR__.'/functions.php'));
+define('TEST_BS_FILE_FUNCTIONS', realpath(__DIR__.'/functions.php'));
 
 /**
  * Path to kernel include
  *
  * @var string
  */
-define('TEST_BS_FILE_KERNEL',     realpath(__DIR__.'/kernel.php'));
+define('TEST_BS_FILE_KERNEL', realpath(__DIR__.'/kernel.php'));
 
 /**
  * Path to loader include
  *
  * @var string
  */
-define('TEST_BS_FILE_LOADER',     realpath(__DIR__.'/loader.php'));
+define('TEST_BS_FILE_LOADER', realpath(__DIR__.'/loader.php'));
 
 /**
  * Path to kernel include
  *
  * @var string
  */
-define('TEST_BS_FILE_CONSOLE_APP',     realpath(__DIR__.'/../console.php'));
+define('TEST_BS_FILE_CONSOLE_APP', realpath(__DIR__.'/../console.php'));
 
 /**
  * Path to our mock AppKernel
