@@ -98,11 +98,12 @@ function testBootstrap__requireFileOnce($filePath, \LogicException $exception)
 /**
  * Remove directory if it exists
  *
- * @param string $path Path to remove
+ * @param string $path       Path to remove.
+ * @param bool   $removeBase Should the passed base dir be removed.
  *
  * @return bool
  */
-function testBootstrap__removeDirectory($path)
+function testBootstrap__removeDirectory($path, $removeBase = false)
 {
     if (false === is_dir($path)) {
         return false;
@@ -112,7 +113,11 @@ function testBootstrap__removeDirectory($path)
         is_dir($file) ? testBootstrap__removeDirectory($file) : unlink($file);
     }
 
-    return rmdir($path);
+    if (true === $removeBase) {
+        rmdir($path);
+    }
+
+    return true;
 }
 
 /**

@@ -18,205 +18,205 @@ RouteRedirect:
     data:
 
         1:
-            pathFrom: '/blog/learning-we-go'
-            pathTo:   '/article/2013/09/19/learning-as-we-go/13'
+            path:         '/blog/learning-we-go'
+            pathRedirect: '/article/2013/09/19/learning-as-we-go/13'
 
         2:
-            pathFrom: '/blog/what-i-heard-aaup'
-            pathTo:   '/article/2013/07/19/what-i-heard-at-aaup/11'
+            path:         '/blog/what-i-heard-aaup'
+            pathRedirect: '/article/2013/07/19/what-i-heard-at-aaup/11'
 
         3:
-            pathFrom: '/blog/considering-publishing-conventions'
-            pathTo:   '/article/2013/06/24/considering-publishing-conventions/12'
+            path:         '/blog/considering-publishing-conventions'
+            pathRedirect: '/article/2013/06/24/considering-publishing-conventions/12'
 
         4:
-            pathFrom: '/blog/book-branding'
-            pathTo:   '/article/2013/06/17/book-branding/1'
+            path:         '/blog/book-branding'
+            pathRedirect: '/article/2013/06/17/book-branding/1'
 
         5:
-            pathFrom: '/blog/why-you-must-implement-xml-workflow'
-            pathTo:   '/article/2013/06/10/you-must-implement-an-xml-workflow/2'
+            path:         '/blog/why-you-must-implement-xml-workflow'
+            pathRedirect: '/article/2013/06/10/you-must-implement-an-xml-workflow/2'
 
         6:
-            pathFrom: '/blog/table-revisited'
-            pathTo:   '/article/2013/02/21/the-table-revisited/3'
+            path:         '/blog/table-revisited'
+            pathRedirect: '/article/2013/02/21/the-table-revisited/3'
 
         7:
-            pathFrom: '/blog/solidifying-manuscript-part-2'
-            pathTo:   '/article/2012/10/05/solidifying-the-manuscript-part-2/4'
+            path:         '/blog/solidifying-manuscript-part-2'
+            pathRedirect: '/article/2012/10/05/solidifying-the-manuscript-part-2/4'
 
         8:
-            pathFrom: '/blog/file-format-essentials'
-            pathTo:   '/article/2012/08/20/file-format-essentials/5'
+            path:         '/blog/file-format-essentials'
+            pathRedirect: '/article/2012/08/20/file-format-essentials/5'
 
         9:
-            pathFrom: '/blog/solidifying-manuscript'
-            pathTo:   '/article/2012/08/14/solidifying-the-manuscript/6'
+            path:         '/blog/solidifying-manuscript'
+            pathRedirect: '/article/2012/08/14/solidifying-the-manuscript/6'
 
         10:
-            pathFrom: '/blog/demand-ocr'
-            pathTo:   '/article/2012/07/17/demand-for-ocr/7'
+            path:         '/blog/demand-ocr'
+            pathRedirect: '/article/2012/07/17/demand-for-ocr/7'
 
         11:
-            pathFrom: '/blog/elegance-templates'
-            pathTo:   '/article/2012/07/10/the-elegance-of-templates/8'
+            path:         '/blog/elegance-templates'
+            pathRedirect: '/article/2012/07/10/the-elegance-of-templates/8'
 
         12:
-            pathFrom: '/blog/publishing-industry-standards'
-            pathTo:   '/article/2012/06/27/publishing-industry-standards/9'
+            path:         '/blog/publishing-industry-standards'
+            pathRedirect: '/article/2012/06/27/publishing-industry-standards/9'
 
         13:
-            pathFrom: '/blog/importance-instructions-printed-circuit-board'
-            pathTo:   '/article/2012/06/14/the-importance-of-instructions-the-printed-circuit-board/10'
+            path:         '/blog/importance-instructions-printed-circuit-board'
+            pathRedirect: '/article/2012/06/14/the-importance-of-instructions-the-printed-circuit-board/10'
 
         14:
-            pathFrom: '/blog/understand-xml-first'
-            pathTo:   '/article/2012/05/15/understand-xml-first/14'
+            path:         '/blog/understand-xml-first'
+            pathRedirect: '/article/2012/05/15/understand-xml-first/14'
 
         15:
-            pathFrom: '/blog/e-book-first-and-other-publishing-strategies'
-            pathTo:   '/article/2012/02/22/e-book-first-and-other-publishing-strategies/15'
+            path:         '/blog/e-book-first-and-other-publishing-strategies'
+            pathRedirect: '/article/2012/02/22/e-book-first-and-other-publishing-strategies/15'
 
         16:
-            pathFrom: '/blog/new-game-books'
-            pathTo:   '/article/2012/02/19/a-new-game-in-books/34'
+            path:         '/blog/new-game-books'
+            pathRedirect: '/article/2012/02/19/a-new-game-in-books/34'
 
         17:
-            pathFrom: '/blog/counting-money'
-            pathTo:   '/article/2011/11/10/counting-the-money/33'
+            path:         '/blog/counting-money'
+            pathRedirect: '/article/2011/11/10/counting-the-money/33'
 
         18:
-            pathFrom: '/blog/dealing-shapelessness'
-            pathTo:   '/article/2011/10/24/dealing-with-shapelessness/32'
+            path:         '/blog/dealing-shapelessness'
+            pathRedirect: '/article/2011/10/24/dealing-with-shapelessness/32'
 
         19:
-            pathFrom: '/blog/must-publishers’-roles-be-diminished'
-            pathTo:   '/article/2011/10/18/must-publishers-roles-be-diminished/31'
+            path:         '/blog/must-publishers’-roles-be-diminished'
+            pathRedirect: '/article/2011/10/18/must-publishers-roles-be-diminished/31'
 
         20:
-            pathFrom: '/blog/proofing-and-quality-part-2'
-            pathTo:   '/article/2011/10/17/proofing-and-quality-part-2/30'
+            path:         '/blog/proofing-and-quality-part-2'
+            pathRedirect: '/article/2011/10/17/proofing-and-quality-part-2/30'
 
         21:
-            pathFrom: '/blog/proofing-and-quality-part-1'
-            pathTo:   '/article/2011/07/20/proofing-and-quality-part-1/29'
+            path:         '/blog/proofing-and-quality-part-1'
+            pathRedirect: '/article/2011/07/20/proofing-and-quality-part-1/29'
 
         22:
-            pathFrom: '/blog/lessons-allentown-single-skilled-staff'
-            pathTo:   '/article/2011/07/19/lessons-from-allentown-single-skilled-staff/28'
+            path:         '/blog/lessons-allentown-single-skilled-staff'
+            pathRedirect: '/article/2011/07/19/lessons-from-allentown-single-skilled-staff/28'
 
         23:
-            pathFrom: '/blog/positive-economic-outlook-publishers'
-            pathTo:   '/article/2011/01/12/positive-economic-outlook-for-publishers/27'
+            path:         '/blog/positive-economic-outlook-publishers'
+            pathRedirect: '/article/2011/01/12/positive-economic-outlook-for-publishers/27'
 
         24:
-            pathFrom: '/blog/bad-epub-blame-automation'
-            pathTo:   '/article/2011/01/11/bad-epub-blame-automation/26'
+            path:         '/blog/bad-epub-blame-automation'
+            pathRedirect: '/article/2011/01/11/bad-epub-blame-automation/26'
 
         25:
-            pathFrom: '/blog/bad-epub-blame-pdf'
-            pathTo:   '/article/2010/12/16/bad-epub-blame-the-pdf/25'
+            path:         '/blog/bad-epub-blame-pdf'
+            pathRedirect: '/article/2010/12/16/bad-epub-blame-the-pdf/25'
 
         26:
-            pathFrom: '/blog/connecting-editorial-and-production-processes'
-            pathTo:   '/article/2010/11/30/connecting-the-editorial-and-production-processes/24'
+            path:         '/blog/connecting-editorial-and-production-processes'
+            pathRedirect: '/article/2010/11/30/connecting-the-editorial-and-production-processes/24'
 
         27:
-            pathFrom: '/blog/xml'
-            pathTo:   '/article/2010/11/23/this-is-xml/23'
+            path:         '/blog/xml'
+            pathRedirect: '/article/2010/11/23/this-is-xml/23'
 
         28:
-            pathFrom: '/blog/imprint-identity'
-            pathTo:   '/article/2010/11/17/imprint-identity/22'
+            path:         '/blog/imprint-identity'
+            pathRedirect: '/article/2010/11/17/imprint-identity/22'
 
         29:
-            pathFrom: '/blog/choosing-xml-dtd'
-            pathTo:   '/article/2010/11/04/choosing-an-xml-dtd/21'
+            path:         '/blog/choosing-xml-dtd'
+            pathRedirect: '/article/2010/11/04/choosing-an-xml-dtd/21'
 
         30:
-            pathFrom: '/blog/eight-development-tips-better-e-books'
-            pathTo:   '/article/2010/07/15/eight-development-tips-for-better-e-books/20'
+            path:         '/blog/eight-development-tips-better-e-books'
+            pathRedirect: '/article/2010/07/15/eight-development-tips-for-better-e-books/20'
 
         31:
-            pathFrom: '/blog/how-stay-successful-during-recession'
-            pathTo:   '/article/2008/05/07/how-to-stay-successful-during-the-recession/17'
+            path:         '/blog/how-stay-successful-during-recession'
+            pathRedirect: '/article/2008/05/07/how-to-stay-successful-during-the-recession/17'
 
         32:
-            pathFrom: '/blog/scribe-source-e-book-development'
-            pathTo:   '/article/2008/04/28/scribe-the-source-for-e-book-development/16'
+            path:         '/blog/scribe-source-e-book-development'
+            pathRedirect: '/article/2008/04/28/scribe-the-source-for-e-book-development/16'
 
         33:
-            pathFrom: '/blog/xml-emperor’s-clothing'
-            pathTo:   '/article/2009/03/10/xml-the-emperors-clothing/19'
+            path:         '/blog/xml-emperor’s-clothing'
+            pathRedirect: '/article/2009/03/10/xml-the-emperors-clothing/19'
 
         34:
-            pathFrom: '/blog/multipurpose-editing-multipurpose-publishing'
-            pathTo:   '/article/2008/12/17/multipurpose-editing-for-multipurpose-publishing/18'
+            path:         '/blog/multipurpose-editing-multipurpose-publishing'
+            pathRedirect: '/article/2008/12/17/multipurpose-editing-for-multipurpose-publishing/18'
 
         35:
-            pathFrom: '/blog'
-            pathTo:   '/articles'
+            path:         '/blog'
+            pathRedirect: '/articles'
 
         36:
-            pathFrom: '/node/2268'
-            pathTo:   '/book'
+            path:         '/node/2268'
+            pathRedirect: '/book'
 
         37:
-            pathFrom: '/node/2279'
-            pathTo:   '/book/chapter/1/cya'
+            path:         '/node/2279'
+            pathRedirect: '/book/chapter/1/cya'
 
         38:
-            pathFrom: '/node/2300'
-            pathTo:   '/book/chapter/2/context'
+            path:         '/node/2300'
+            pathRedirect: '/book/chapter/2/context'
 
         39:
-            pathFrom: '/node/2132'
-            pathTo:   '/book/chapter/3/correct-vs-valid'
+            path:         '/node/2132'
+            pathRedirect: '/book/chapter/3/correct-vs-valid'
 
         40:
-            pathFrom: '/node/2290'
-            pathTo:   '/book/chapter/4/do-try-this-at-home'
+            path:         '/node/2290'
+            pathRedirect: '/book/chapter/4/do-try-this-at-home'
 
         41:
-            pathFrom: '/node/2269'
-            pathTo:   '/book/chapter/5/feedback-verification-and-qc'
+            path:         '/node/2269'
+            pathRedirect: '/book/chapter/5/feedback-verification-and-qc'
 
         42:
-            pathFrom: '/node/2276'
-            pathTo:   '/book/chapter/6/goodbye-cruel-world'
+            path:         '/node/2276'
+            pathRedirect: '/book/chapter/6/goodbye-cruel-world'
 
         43:
-            pathFrom: '/node/2282'
-            pathTo:   '/book/chapter/7/oh-my-word'
+            path:         '/node/2282'
+            pathRedirect: '/book/chapter/7/oh-my-word'
 
         44:
-            pathFrom: '/node/2270'
-            pathTo:   '/book/chapter/8/paper'
+            path:         '/node/2270'
+            pathRedirect: '/book/chapter/8/paper'
 
         45:
-            pathFrom: '/node/2277'
-            pathTo:   '/book/chapter/9/project-management-101'
+            path:         '/node/2277'
+            pathRedirect: '/book/chapter/9/project-management-101'
 
         46:
-            pathFrom: '/node/2288'
-            pathTo:   '/book/chapter/10/replicate-yourself'
+            path:         '/node/2288'
+            pathRedirect: '/book/chapter/10/replicate-yourself'
 
         47:
-            pathFrom: '/node/2278'
-            pathTo:   '/book/chapter/11/the-big-picture-and-the-process-of-questioning'
+            path:         '/node/2278'
+            pathRedirect: '/book/chapter/11/the-big-picture-and-the-process-of-questioning'
 
         48:
-            pathFrom: '/node/2273'
-            pathTo:   '/book/chapter/12/the-readers-experience'
+            path:         '/node/2273'
+            pathRedirect: '/book/chapter/12/the-readers-experience'
 
         49:
-            pathFrom: '/node/2267'
-            pathTo:   '/book/chapter/13/vetting'
+            path:         '/node/2267'
+            pathRedirect: '/book/chapter/13/vetting'
 
         50:
-            pathFrom: '/ebook-enhancement-project'
-            pathTo:   '/ebook-project'
+            path:         '/ebook-enhancement-project'
+            pathRedirect: '/ebook-project'
 
         51:
-            pathFrom: '/node/2518'
-            pathTo:   '/ebook-project'
+            path:         '/node/2518'
+            pathRedirect: '/ebook-project'
