@@ -29,7 +29,7 @@ define('TEST_BS_FILE_CONSOLE_APP_EXEC_LIMIT', 0);
  *
  * @var string
  */
-define('TEST_BS_ROOT', realpath(__DIR__.'/../../../../../'));
+define('TEST_BS_ROOT', realpath(__DIR__.'/../../../../../../'));
 
 /**
  * Path to autoload include
@@ -71,14 +71,14 @@ define('TEST_BS_FILE_CONSOLE_APP',     realpath(__DIR__.'/../console.php'));
  *
  * @var string
  */
-define('TEST_BS_FILE_APP_KERNEL', realpath(TEST_BS_ROOT.'/src/Tests/Helper/app/AppKernel.php'));
+define('TEST_BS_FILE_APP_KERNEL', realpath(TEST_BS_ROOT.'/src/Tests/app/AppKernel.php'));
 
 /**
  * Path to "local" version of PHPUnit file
  *
  * @var string
  */
-define('TEST_BS_FILE_PHPUNIT_LOCAL', realpath(TEST_BS_ROOT.'/phpunit.local.xml'));
+define('TEST_BS_FILE_PHPUNIT_LOCAL', realpath(TEST_BS_ROOT.'/phpunit.xml.dist'));
 
 /**
  * Minimum PHPUnit version supported

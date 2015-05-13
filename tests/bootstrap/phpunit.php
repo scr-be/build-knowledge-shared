@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-require_once(realpath(__DIR__.'/includes/constants.php'));
+require_once(__DIR__.'/includes/constants.php');
 require_once(TEST_BS_FILE_FUNCTIONS);
 
 $loader = require_once(TEST_BS_FILE_LOADER);
