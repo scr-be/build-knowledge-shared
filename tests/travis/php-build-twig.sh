@@ -1,6 +1,6 @@
 #!/bin/sh
 
-mkdir -p build/temp/ && cd build/temp/
+mkdir -p build/pecl/ && cd build/pecl/
 git clone https://github.com/twigphp/Twig.git twig
 cd twig && git checkout v1.18.1 && cd ext/twig
 phpize
