@@ -392,7 +392,7 @@ NavigationItem:
             slug:        file-org
             name:        Your Files
             weight:      1
-            description: Org-specific file list
+            description: Organization-specific file list
             parent:      '@NavigationItem?slug=file'
             route:       '@Route?slug=scribe_file_browser'
 
@@ -542,7 +542,7 @@ NavigationItem:
 
         56:
             slug:         security-account-org
-            name:         '%Org.Name%'
+            name:         '%Organization.Name%'
             weight:       10
             description:
             parent:       '@NavigationItem?slug=security-account'
@@ -587,7 +587,7 @@ NavigationItem:
 
         61:
             slug:         security-org-manager
-            name:         '%Org.Name%'
+            name:         '%Organization.Name%'
             weight:       10
             description:
             parent:       '@NavigationItem?slug=security-user'
@@ -647,7 +647,7 @@ NavigationItem:
 
         67:
             slug:         security-org
-            name:         '%Org.Name%'
+            name:         '%Organization.Name%'
             weight:       1
             description:
             parent:       '@NavigationItem?slug=security-org'
