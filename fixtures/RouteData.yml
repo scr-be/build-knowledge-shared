@@ -267,14 +267,14 @@ Route:
             name:        security_organizations_view
             description:
             parameters:
-                id:      '%Org.Id%'
+                id:      '%Organization.Id%'
 
         50:
             slug:        security_users_list
             name:        security_users_list
             description:
             parameters:
-                orgid:   '%Org.Id%'
+                orgid:   '%Organization.Id%'
 
         51:
             slug:        security_users_account
@@ -298,7 +298,7 @@ Route:
             name:        security_users_create
             description:
             parameters:
-                orgid:   '%Org.Id%'
+                orgid:   '%Organization.Id%'
 
 
         55:
@@ -306,7 +306,7 @@ Route:
             name:        security_organizations_edit
             description:
             parameters:
-                id:      '%Org.Id%'
+                id:      '%Organization.Id%'
 
         56:
             slug:        security_org_admin
