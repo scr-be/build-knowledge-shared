@@ -1,0 +1,4461 @@
+
+
+<p class="lead">Scribe Markup Language (ScML) describes document elements based on their structural function and articulates the relationships among elements.</p>
+<h2 id="anchor-paragraphstyles">Paragraph Styles</h2>
+<h3 id="anchor-book">Book</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Full book title."><span class="scml">bk</span></span></td>
+<td>Book Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The book subtitle, one level down from the main book title."><span class="scml">bk1</span></span></td>
+<td>Book Title Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Two levels down from the book title. If a book has two subtitles, this would be used for the second one. Sometimes book titles include a year as well as an additional descriptive subtitle."><span class="scml">bk2</span></span></td>
+<td>Book Title Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The author's name or the editor's name. Can also be used for the phrase “Edited by” or “A Novel by” if this is to appear on its own line before the author's name or the editor's name."><span class="scml">bkau</span></span></td>
+<td>Book Author</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If there are multiple authors, this tag should be used for all that follow the first bkau. It can also be used for an author's title or affiliation."><span class="scml">bkau1</span></span></td>
+<td>Book Author Line 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Book half title. Typically appears on first recto page and is either the same size or smaller than the book title as it appears on the full title page."><span class="scml">bkht</span></span></td>
+<td>Book Half Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="First book publisher line. Typically, this is the name of the publisher."><span class="scml">bkpub</span></span></td>
+<td>Book Publisher</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Second book publisher line. Often, this is the publisher's location."><span class="scml">bkpub1</span></span></td>
+<td>Book Publisher Line 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For The Old Testament or The New Testament in some Bibles"><span class="scml">bksect</span></span></td>
+<td>Book Section Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Library of Congress Catalog-in-Publication data."><span class="scml">cip</span></span></td>
+<td>Catalog-in-Publication Data</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used for the first level of indent within Library of Congress Catalog-in-Publication information."><span class="scml">cip1</span></span></td>
+<td>Catalog-in-Publication Data Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used for the second level of indent within Library of Congress Catalog-in-Publication information."><span class="scml">cip2</span></span></td>
+<td>Catalog-in-Publication Data Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Library of Congress Catalog-in-Publication data that will have space above it."><span class="scml">cipf</span></span></td>
+<td>Catalog-in-Publication Data First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">cipf1</span></td>
+<td>Catalog-in-Publication Data Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">cipl</span></td>
+<td>Catalog-in-Publication Data Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used for the text on copyright pages that is not Library of Congress Catalog-in-Publication data."><span class="scml">crt</span></span></td>
+<td>Copyright</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">crt1</span></td>
+<td>Copyright level 1</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">crt1f</span></td>
+<td>Copyright level 1 first</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">crt2</span></td>
+<td>Copyright level 2</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">crt3</span></td>
+<td>Copyright level 3</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">crtf</span></td>
+<td>Copyright first</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Dedication text. Typically set on its own page."><span class="scml">ded</span></span></td>
+<td>Dedication</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">dedf</span></td>
+<td>Dedication First</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ded1</span></td>
+<td>Dedication Level 1</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ded1f</span></td>
+<td>Dedication Level 1 First</td>
+<td>February 16, 2012</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-series">Series</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The series title is the title of the series (not a book title within the series)."><span class="scml">sert</span></span></td>
+<td>Series Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The series subtitle is a subtitle under the sert."><span class="scml">sers</span></span></td>
+<td>Series Subtitle</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="An a-head within a series list. For example, if an author wrote half his books under a pseudonym, this a-head might say “As [Author Name]” before each grouping. Or if an educational series is divided by subject or grade level, this a-head may be used."><span class="scml">serah</span></span></td>
+<td>Series A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">serahaft</span></td>
+<td>Series A-Head After Series Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If further divisions are needed within a series list, this is the b-head level."><span class="scml">serbh</span></span></td>
+<td>Series B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A title within the series section. This is the base level series tag. It will generally be either a book title or a book title followed by the author name."><span class="scml">ser</span></span></td>
+<td>Series Entry</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A title within the series, following a head."><span class="scml">seraft</span></span></td>
+<td>Series After Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The author of a book listed in the series list, if it appears on a separate line."><span class="scml">serau</span></span></td>
+<td>Series Author</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The series entry first is the same as the ser style but with added space above."><span class="scml">serf</span></span></td>
+<td>Series Entry First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For series page content beyond heads and title listings."><span class="scml">serp</span></span></td>
+<td>Series Paragraph</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For series page content beyond heads and title listings."><span class="scml">serpf</span></span></td>
+<td>Series Paragraph First</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Level 1 series tag, if special spacing or indentation is needed."><span class="scml">ser1</span></span></td>
+<td>Series Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Level 2 series tag, if special spacing or indentation is needed."><span class="scml">ser2</span></span></td>
+<td>Series Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rvh</span></td>
+<td>Review Head</td>
+<td>April 14, 2014</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Review should be used for praise pages. This is the quote, much like an ep or quot paragraph, but specific to book reviews, praise comments, or testimonials, typically seen in a book's front matter."><span class="scml">rv</span></span></td>
+<td>Review</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Review description is a catchall for a line containing further information about a review's source or author affiliation."><span class="scml">rvd</span></span></td>
+<td>Review Description</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The review tail is the author of the rv quotation. Most commonly preceded by an em dash and right aligned, like an ept or quotail."><span class="scml">rvt</span></span></td>
+<td>Review Tail</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-contents">Contents</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Table of contents base level. This most commonly corresponds with the chapter titles (ct) of the book."><span class="scml">toc</span></span></td>
+<td>Table of Contents (TOC) Main Level</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This level typically corresponds with a book's a-heads, if sublevels of book chapters are included in the TOC. It can also be used for lists of tables/figures if the main TOC includes only top-level listings."><span class="scml">toc1</span></span></td>
+<td>TOC Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This level typically corresponds with a book's b-heads, if sublevels of book chapters are included in the TOC. It can also be used for lists of tables/figures if the main TOC includes both toc and toc1 listings."><span class="scml">toc2</span></span></td>
+<td>TOC Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This level typically corresponds with a book's c-heads, if sublevels of book chapters are included in the TOC. It can also be used for lists of tables/figures if the main TOC includes toc, toc1, and toc2 listings."><span class="scml">toc3</span></span></td>
+<td>TOC Level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">toc4</span></td>
+<td>TOC Level 4</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">toc5</span></td>
+<td>TOC Level 5</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If a chapter (or introduction/preface) has a different author that should be listed in the TOC on a separate line. Corresponds with the au style."><span class="scml">tocau</span></span></td>
+<td>TOC Author</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used for back matter listings in the TOC (Notes, Bibliography, Index, Appendix, About the Author, etc.)."><span class="scml">tocbm</span></span></td>
+<td>TOC Back Matter</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used for front matter listings in the TOC (Preface, Acknowledgments, List of Figures/Tables, etc.). These are generally the pages that use roman numerals in a typeset book."><span class="scml">tocfm</span></span></td>
+<td>TOC Front Matter</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used for part titles that are included in the TOC. Corresponds with text in the pt style."><span class="scml">tocpt</span></span></td>
+<td>TOC Part Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used for unit titles that are included in the TOC. Corresponds with text in the ut style."><span class="scml">tocut</span></span></td>
+<td>TOC Unit Title</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Expanded Set Definition</strong></p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If you need to control the spacing above the first tocbm entry, use this style. Outside InDesign, this style reverts back to tocbm."><span class="scml">tocbmf</span></span></td>
+<td>TOC Back Matter First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If you need to control the spacing above the first regular toc entry, use this style. Normally, there's a front matter entry (tocfm) that will handle spacing, but occasionally you need to use this in the same way you have pf as the first paragraph in a chapter. Outside InDesign, this style reverts back to toc."><span class="scml">tocf</span></span></td>
+<td>TOC Main Level First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If you need to control the spacing above the first tocfm entry, use this style. Outside InDesign, this style reverts back to tocfm."><span class="scml">tocfmf</span></span></td>
+<td>TOC Front Matter First</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-partsandchapters">Parts and Chapters</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">cn</span></td>
+<td>Chapter Number</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ct</span></td>
+<td>Chapter Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">cs</span></td>
+<td>Chapter Subtitle</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A back matter chapter title is the same level head as a regular chapter title, but it may be rendered differently in some designs. Use ctbm for those titles (“Appendix Title,” “Notes,” “Bibliography,” etc.)."><span class="scml">ctbm</span></span></td>
+<td>Chapter Title Back Matter</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A front matter chapter title is the same level head as a regular chapter title, but it may be rendered differently in some designs, and they get a different treatment when producing e-books. Therefore, use ctfm for those titles (“Contents,” “Preface,” etc.)."><span class="scml">ctfm</span></span></td>
+<td>Chapter Title Front Matter</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Distinct from the bkau style that appears on a book's title page, au is used when a different author is associated with each chapter."><span class="scml">au</span></span></td>
+<td>Chapter Author</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">au1</span></td>
+<td>Chapter Author Level 1</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">pn</span></td>
+<td>Part Number</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">pt</span></td>
+<td>Part Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ps</span></td>
+<td>Part Subtitle</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">un</span></td>
+<td>Unit Number</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Specifically for heavily divided textbooks, a unit is structurally in between a part and a chapter."><span class="scml">ut</span></span></td>
+<td>Unit Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">us</span></td>
+<td>Unit Subtitle</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-chaptercontents">Chapter Contents</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Head level used for a TOC appearing within a chapter or part."><span class="scml">ctoch</span></span></td>
+<td>Chapter TOC Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Main TOC level for a TOC appearing within a chapter or part."><span class="scml">ctoc</span></span></td>
+<td>Chapter TOC Main Level</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="First TOC sublevel for a TOC appearing within a chapter or part."><span class="scml">ctoc1</span></span></td>
+<td>Chapter TOC Level 1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-epigraph">Epigraph</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="When an epigraph is more than one paragraph, this should be used for any paragraph that isn't epf or epl."><span class="scml">ep</span></span></td>
+<td>Epigraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used for epigraphs appearing after heads in chapters."><span class="scml">epaft</span></span></td>
+<td>Epigraph After Head</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This should be used for the first paragraph of an epigraph. Use epf/ept when your epigraph is a single paragraph with a source line."><span class="scml">epf</span></span></td>
+<td>Epigraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The last paragraph of a multiple-paragraph epigraph when there is not a source line."><span class="scml">epl</span></span></td>
+<td>Epigraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If a single paragraph epigraph has no ept."><span class="scml">eps</span></span></td>
+<td>Epigraph Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The speaker/author of the epigraph, typically preceded by an em dash."><span class="scml">ept</span></span></td>
+<td>Epigraph Tail</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Epigraph senseline should be used for an epigraph that contains lines of poetry."><span class="scml">epsl</span></span></td>
+<td>Epigraph Senseline</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">epsl1</span></td>
+<td>Epigraph Senseline Level 1</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">epslf</span></td>
+<td>Epigraph Senseline First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="First epigraph sublevel, available if special spacing or indentation is required."><span class="scml">ep1</span></span></td>
+<td>Epigraph Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Second epigraph sublevel, available if special spacing or indentation is required."><span class="scml">ep2</span></span></td>
+<td>Epigraph Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Second line variation for epigraph tails."><span class="scml">ept1</span></span></td>
+<td>Epigraph Tail Level 1</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-heads">Heads</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Level 1 head, often seen as H1."><span class="scml">ah</span></span></td>
+<td>A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This is for an ah that opens a chapter, preceding the pf paragraph. If an ah follows a list, it is recommended that ah be used but that the last list item be changed to ul or nl (rather than ull or nll) to allow the ah to control spacing."><span class="scml">ahaft</span></span></td>
+<td>A-Head after Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Level 2 head, often seen as H2."><span class="scml">bh</span></span></td>
+<td>B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This should be used when a bh follows an ah."><span class="scml">bhaft</span></span></td>
+<td>B-Head after A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Level 3 head, often seen as H3."><span class="scml">ch</span></span></td>
+<td>C-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This should be used when a ch follows an bh."><span class="scml">chaft</span></span></td>
+<td>C-Head after B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Level 4 head, often seen as H4."><span class="scml">dh</span></span></td>
+<td>D-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This should be used when a dh follows an ch."><span class="scml">dhaft</span></span></td>
+<td>D-Head after C-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">eh</span></td>
+<td>E-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="IfThis should be used when an eh follows an dh."><span class="scml">ehaft</span></span></td>
+<td>E-Head after D-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">chsect</span></td>
+<td>Chapter Section</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">chsubsect</span></td>
+<td>Chapter Subsection</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Most commonly used in fiction titles, for datelines that are not structural divisions."><span class="scml">dl</span></span></td>
+<td>Dateline</td>
+<td>April 14, 2014</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Most commonly used in fiction titles, for datelines that are not structural divisions."><span class="scml">dl1</span></span></td>
+<td>Dateline Level 1</td>
+<td>April 14, 2014</td>
+</tr>
+<tr>
+<td><span class="scml">dt</span></td>
+<td>Major Division Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">dtsub</span></td>
+<td>Secondary Division Subhead</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sh</span></td>
+<td>Section Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Generally used in Bibles, this style can also be appropriated when a one-off head is needed in an exceptional circumstance."><span class="scml">hd</span></span></td>
+<td>Head</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-body">Body</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Body paragraph, or standard paragraph, the base level for nearly all projects. Most commonly, it includes a first-line indent."><span class="scml">p</span></span></td>
+<td>Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Paragraphs that follow heads often do not indent, as a regular p would. When composing, be aware of when a paft needs to occur. If the first paragraph of a chapter is preceded by an ahaft, use pf."><span class="scml">paft</span></span></td>
+<td>Paragraph after Head (or sec)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="When a paragraph is broken up by a block quote, figure, or list, the **continuation** of the paragraph should be composed as pcon. This is structurally different from paft, which is a paragraph that follows a head. When composing, keep in mind whether a paragraph that follows a list is a new paragraph (p) or the continuation of the previous paragraph."><span class="scml">pcon</span></span></td>
+<td>Paragraph Continued</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If the author of a preface or introduction is listed at the end of the section, rather than at the beginning as an au, the name is typically rendered as a right-aligning paragraph."><span class="scml">patr</span></span></td>
+<td>Paragraph Attribution</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The sublevel of a paragraph attribution. This is typically the author's location, affiliation, or the date on which the piece of text was written."><span class="scml">patr1</span></span></td>
+<td>Paragraph Attribution Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This is the first regular (body) paragraph of a chapter, even if it follows an a-head. Many designs include a drop cap or small caps on this paragraph. It is not the same as paft or psec and should not be used to control spacing within a chapter."><span class="scml">pf</span></span></td>
+<td>Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A paragraph that represents a new section within a chapter, typically by having space above it and no indent. Also referred to as an unornamented paragraph break. Note: this style is mutually exclusive with the sec style."><span class="scml">psec</span></span></td>
+<td>Paragraph Section Break</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="In case you have two different types of psec that have different spacing or indentation."><span class="scml">psec1</span></span></td>
+<td>Paragraph Section Break Level 1</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="An ornamented space break (aka asterisk break). If a dingbat or asterisks are used to show the start of a new section, then the symbol or asterisks should be given the sec style. As with an a-head, the paragraph that follows should be paft. Note: this style is mutually exclusive with the psec style."><span class="scml">sec</span></span></td>
+<td>Section Break (Asterisk Break)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Bottom-of-page sec to accomodate spacing/baseline needs of required ornament."><span class="scml">secbot</span></span></td>
+<td>Bottom-of-Page Section Break</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Top-of-page sec to accomodate spacing/baseline needs of required ornament."><span class="scml">sectop</span></span></td>
+<td>Top-of-Page Section Break</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Same definition and function as sec style. Hiatus break terminology is preferred by some publishers."><span class="scml">hb</span></span></td>
+<td>Hiatus Break</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This should be used in About the Author sections or other author biographies."><span class="scml">aubio</span></span></td>
+<td>Author Biographical Data</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">aubiof</span></td>
+<td>Author Biographical Data First</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Expanded Set Definition</strong></p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">pcust1</span></td>
+<td>Paragraph Custom 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">pcust2</span></td>
+<td>Paragraph Custom 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">pcust3</span></td>
+<td>Paragraph Custom 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Temporary bottom-of-page sec when a psec happens to fall at a page break. This is removed when converting a typeset book to ScML or e-pub."><span class="scml">tsecbot</span></span></td>
+<td>Temporary Bottom-of-Page Section Break</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Temporary top-of-page sec when a psec happens to fall at a page break. This is removed when converting a typeset book to ScML or e-pub."><span class="scml">tsectop</span></span></td>
+<td>Temporary Top-of-Page Section Break</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-dialogue">Dialogue</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A dialogue paragraph. The speaker name can use the dispk character style if it is to be rendered differently from the other dia text. Most commonly used for plays, though some types of plays, like those by Shakespeare, may be better suited to the senseline (poetry) styles."><span class="scml">dia</span></span></td>
+<td>Dialogue</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The first line of a section of dialogue. "><span class="scml">diaf</span></span></td>
+<td>Dialogue First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The last line of a section of dialogue."><span class="scml">dial</span></span></td>
+<td>Dialogue Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Use this style if a line within a section of dialogue spans more than a single paragraph."><span class="scml">diap</span></span></td>
+<td>Dialogue Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">diapl</span></td>
+<td>Dialogue Paragraph Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A stand-alone line of dialogue."><span class="scml">dias</span></span></td>
+<td>Dialogue Stand-Alone</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-curriculum">Curriculum</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">exh</span></td>
+<td>Exercise Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exah</span></td>
+<td>Exercise A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exbh</span></td>
+<td>Exercise B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ex</span></td>
+<td>Exercise</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">exaft</span></td>
+<td>Exercise after head</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">exf</span></td>
+<td>Exercise First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exl</span></td>
+<td>Exercise Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exs</span></td>
+<td>Exercise Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnl</span></td>
+<td>Exercise Numbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnl1</span></td>
+<td>Exercise Numbered List Item Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnl1f</span></td>
+<td>Exercise Numbered List Item Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnl1l</span></td>
+<td>Exercise Numbered List Item Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnl1p</span></td>
+<td>Exercise Numbered List Item Level 1 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnl1s</span></td>
+<td>Exercise Numbered List Item Level 1 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnlf</span></td>
+<td>Exercise Numbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnll</span></td>
+<td>Exercise Numbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnlp</span></td>
+<td>Exercise Numbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exnls</span></td>
+<td>Exercise Numbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exul</span></td>
+<td>Exercise Unnumbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exul1</span></td>
+<td>Exercise Unnumbered List Item Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exul1f</span></td>
+<td>Exercise Unnumbered List Item Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exul1l</span></td>
+<td>Exercise Unnumbered List Item Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exul1p</span></td>
+<td>Exercise Unnumbered List Item Level 1 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exul1s</span></td>
+<td>Exercise Unnumbered List Item Level 1 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exulf</span></td>
+<td>Exercise Unnumbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exull</span></td>
+<td>Exercise Unnumbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exulp</span></td>
+<td>Exercise Unnumbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">exuls</span></td>
+<td>Exercise Unnumbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The glossary definition, often used in conjunction with the gt (glossary term) character style. This style should also be used for abbreviations lists when there is not a glossary chapter."><span class="scml">glo</span></span></td>
+<td>Glossary Definition</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If the glossary entry encompasses more than one paragraph. For example, if the term is on one line and the definition is on another, use this style for the former."><span class="scml">glof</span></span></td>
+<td>Glossary Definition First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For endpaper text in workbooks. Or, in books that include The End, use this style for that paragraph."><span class="scml">end</span></span></td>
+<td>Endpaper Text</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">lo</span></td>
+<td>Learning Objective</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">fs</span></td>
+<td>Further Study</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wsh</span></td>
+<td>Worksheet Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ard</span></td>
+<td>Assigned Reading</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-blockquotation">Block Quotation</h3>
+<h4 id="anchor-extract">Extract</h4>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">bqh</span></td>
+<td>Block Quote Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Often referred to as an extract. Use the f, l, and s variations to control spacing above and below as needed. When multiple block quotes appear consecutively, use bqf for all paragraphs that need space above them until the last one, which should use bqs, giving space above and below. This will prevent you from doubling up on space between separate block quotes. Block quote variations include bq1 sublevels as well as bqnl (block quote numbered list) and bqul (block quote unnumbered list) styles."><span class="scml">bq</span></span></td>
+<td>Block Quote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For use instead of bqf when the first paragraph of a block quote follows immediately after a head, just as a paft paragraph would be used following a head. If it is the only block quote paragraph after the head, though, use bqo."><span class="scml">bqaft</span></span></td>
+<td>Block Quote after Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqf</span></td>
+<td>Block Quote First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bql</span></td>
+<td>Block Quote Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqo</span></td>
+<td>Block Quote Only</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">bqs</span></td>
+<td>Block Quote Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For use if your block quote has a source line. Controls spacing above and below."><span class="scml">bqt</span></span></td>
+<td>Block Quote Tail</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">bqnl</span></td>
+<td>Block Quote Numbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqnlf</span></td>
+<td>Block Quote Numbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqnll</span></td>
+<td>Block Quote Numbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqnls</span></td>
+<td>Block Quote Numbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqul</span></td>
+<td>Block Quote Unnumbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqulf</span></td>
+<td>Block Quote Unnumbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bqull</span></td>
+<td>Block Quote Unnumbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bquls</span></td>
+<td>Block Quote Unnumbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bq1</span></td>
+<td>Block Quote Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bq1f</span></td>
+<td>Block Quote Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bq1l</span></td>
+<td>Block Quote Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bq1s</span></td>
+<td>Block Quote Level 1 Stand-Alone</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-senseline">Senseline</h3>
+<h4 id="anchor-poetry">Poetry</h4>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The title of a poem or liturgy."><span class="scml">slh</span></span></td>
+<td>Senseline Head</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Senselines are lines of text that have a specific cadence, such as poems or liturgies. Indentations for senseline text are controlled by the numbered sl1, sl2, and sl3 styles."><span class="scml">sl</span></span></td>
+<td>Senseline</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">slf</span></td>
+<td>Senseline First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sll</span></td>
+<td>Senseline Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sls</span></td>
+<td>Senseline Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Senseline tail, like an epigraph tail, is the author or speaker of the poem."><span class="scml">slt</span></span></td>
+<td>Senseline Tail</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Senseline indent is for special types of indentation, like when the first line of a poem starts very far to the right. If you have a regular occurrence of indented lines, then these should use the sl1 style, which would be set to the proper indentation that differs from the main sl style. In other words, most indented poetry lines will use sl1, not sli, but the sli style is available should the need arise."><span class="scml">sli</span></span></td>
+<td>Senseline Indent</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Senseline indent is for special types of indentation, like when the first line of a poem starts very far to the right. If you have a regular occurrence of indented lines, then these should use the sl1 style, which would be set to the proper indentation that differs from the main sl style. In other words, most indented poetry lines will use sl1, not sli, but the sli style is available should the need arise."><span class="scml">slif</span></span></td>
+<td>Senseline Indent First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Senseline indent is for special types of indentation, like when the first line of a poem starts very far to the right. If you have a regular occurrence of indented lines, then these should use the sl1 style, which would be set to the proper indentation that differs from the main sl style. In other words, most indented poetry lines will use sl1, not sli, but the sli style is available should the need arise."><span class="scml">slil</span></span></td>
+<td>Senseline Indent Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl1</span></td>
+<td>Senseline Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl1f</span></td>
+<td>Senseline Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl1l</span></td>
+<td>Senseline Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl2</span></td>
+<td>Senseline Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl2f</span></td>
+<td>Senseline Level 2 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl2l</span></td>
+<td>Senseline Level 2 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl3</span></td>
+<td>Senseline Level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl3f</span></td>
+<td>Senseline Level 3 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl3l</span></td>
+<td>Senseline Level 3 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sl4</span></td>
+<td>Senseline Level 4</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl4f</span></td>
+<td>Senseline Level 4 First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl4l</span></td>
+<td>Senseline Level 4 Last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl5</span></td>
+<td>Senseline Level 5</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl5f</span></td>
+<td>Senseline Level 5 First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl5l</span></td>
+<td>Senseline Level 5 Last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl6</span></td>
+<td>Senseline Level 6</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl6f</span></td>
+<td>Senseline Level 6 First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl6l</span></td>
+<td>Senseline Level 6 Last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl7</span></td>
+<td>Senseline Level 7</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl7f</span></td>
+<td>Senseline Level 7 First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl7l</span></td>
+<td>Senseline Level 7 Last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl8</span></td>
+<td>Senseline Level 8</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl8f</span></td>
+<td>Senseline Level 8 First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl8l</span></td>
+<td>Senseline Level 8 Last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl9</span></td>
+<td>Senseline Level 9</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl9f</span></td>
+<td>Senseline Level 9 First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sl9l</span></td>
+<td>Senseline Level 9 Last</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-notes">Notes</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Endnotes appear at the end of a chapter or book. The number before the note should be composed as ennum to ensure that notes are automatically linked in the e-book. To accomodate some variations that may appear within an endnote, the ntbq, ntsl, nttd, and nteq styles are available."><span class="scml">en</span></span></td>
+<td>Endnote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For an unnumbered endnote. This is usually used for acknowledgments in books with multiple authors."><span class="scml">enhn</span></span></td>
+<td>Endnote Headnote</td>
+<td>April 14, 2014</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within an endnote. If an endnote is more than one paragraph long, then the second paragraph should use the enp style, which will control the proper indentation."><span class="scml">enp</span></span></td>
+<td>Endnote Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Footnotes appear at the foot of a page. The number or symbol before the note should be composed as fnnum to ensure that notes are automatically linked in the e-book. To accomodate some variations that may appear within a footnote, the ntbq, ntsl, nttd, and nteq styles are available."><span class="scml">fn</span></span></td>
+<td>Footnote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within a footnote. If a footnote is more than one paragraph long, then the second paragraph should use the fnp style, which will control the proper indentation."><span class="scml">fnp</span></span></td>
+<td>Footnote Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ntbq</span></td>
+<td>Note Block Quote</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntbqf</span></td>
+<td>Note Block Quote First</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntbql</span></td>
+<td>Note Block Quote Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntbqs</span></td>
+<td>Note Block Quote Stand-Alone</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntcon</span></td>
+<td>Note Continued</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">nteq</span></td>
+<td>Note Equation</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntnl</span></td>
+<td>Note Numbered List</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntnlf</span></td>
+<td>Note Numbered List First</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntnll</span></td>
+<td>Note Numbered List Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntsl</span></td>
+<td>Note Senseline</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntslf</span></td>
+<td>Note Senseline First</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntsll</span></td>
+<td>Note Senseline Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">nttd</span></td>
+<td>Note Table</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntul</span></td>
+<td>Note Unnumbered List</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntulf</span></td>
+<td>Note Unnumbered List First</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ntull</span></td>
+<td>Note Unnumbered List Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For references and bibliographies, the rf style typically uses a hanging indent, with a font that's slightly smaller than the main p text."><span class="scml">rf</span></span></td>
+<td>Reference/Bibliography</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rf1</span></td>
+<td>Reference/Bibliography Level 1</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">rf2</span></td>
+<td>Reference/Bibliography Level 2</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">eds</span></td>
+<td>Editor's Note</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-figure">Figure</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The figure head is the functional equivalent to a table head: the main title level for a figure. If a figure caption is only one line that contains the figure number and title, this style should be used for that paragraph. If the figure title is to be on a separate line from a descriptive caption, then figh should be used for the figure's title, followed by the figcap style for the caption. The fighn character style should be used for the figure number, rather than simply making it bold, italic, or small caps."><span class="scml">figh</span></span></td>
+<td>Figure Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used if a figure title has a subtitle."><span class="scml">figh1</span></span></td>
+<td>Figure Head Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This should be used in conjunction with the img character style to indicate a figure appearing at the paragraph level. Use an alternative style for figures created using live text."><span class="scml">fig</span></span></td>
+<td>Figure Marker</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The source, or attribution credit line, of the figure."><span class="scml">figatr</span></span></td>
+<td>Figure Credit/Attribution</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used when the caption for a figure is on a separate line from the figh content."><span class="scml">figcap</span></span></td>
+<td>Figure Caption</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used when a book includes different types of figure captions for different kinds of figures, like photos versus maps or drawings."><span class="scml">figcap1</span></span></td>
+<td>Figure Caption Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Figure note."><span class="scml">fign</span></span></td>
+<td>Figure Note</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Equations that appear in their own paragraphs, like figures, should use the eq paragraph style. A typesetter can use alternate styles to help control spacing needs, but composition in Word need not concern itself with this and can use eq for all equation paragraphs."><span class="scml">eq</span></span></td>
+<td>Equation</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">eqaft</span></td>
+<td>Equation After Head</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-index">Index</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used when an index includes the letter as a head before each letter group; should be followed by an in entry, **not** inf."><span class="scml">inh</span></span></td>
+<td>Index Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If an index is broken up into a number of sublevels, the inh1 style is available for sublevel heads."><span class="scml">inh1</span></span></td>
+<td>Index Head Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Main-level index entries."><span class="scml">in</span></span></td>
+<td>Index Main Level</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A main-level index entry with added space above; used when letter groups' entries do not use a head but instead simply have space between them."><span class="scml">inf</span></span></td>
+<td>Index Main Level First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="First-sublevel index entries."><span class="scml">in1</span></span></td>
+<td>Index Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Second-sublevel index entries."><span class="scml">in2</span></span></td>
+<td>Index Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Third-sublevel index entries."><span class="scml">in3</span></span></td>
+<td>Index Level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For paragraphs preceding indexes that indicate what symbols or fonts mean within the index."><span class="scml">inhn</span></span></td>
+<td>Index Headnote</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-numberedlist">Numbered List</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">nlh</span></td>
+<td>Numbered List Head</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Numbered lists should use nl styles. The f, l, and s styles should be used to control spacing above and below. If an unnumbered list appears within the numbered list, remember to use the ul1 sublevel."><span class="scml">nl</span></span></td>
+<td>Numbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nlf</span></td>
+<td>Numbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nll</span></td>
+<td>Numbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within a numbered list item. If a list item is more than one paragraph long, then the second paragraph should use this style, which will control the proper indentation."><span class="scml">nlp</span></span></td>
+<td>Numbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nlpl</span></td>
+<td>Numbered List Item Paragraph Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">nls</span></td>
+<td>Numbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl1</span></td>
+<td>Numbered List Item Level 1 (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl1f</span></td>
+<td>Numbered List Item Level 1 First (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl1l</span></td>
+<td>Numbered List Item Level 1 Last (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within a numbered list level 1 item. If a list item is more than one paragraph long, then the second paragraph should use this style, which will control the proper indentation."><span class="scml">nl1p</span></span></td>
+<td>Numbered List Item Level 1 Paragraph (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl1pl</span></td>
+<td>Numbered List Item Level 1 Paragraph Last (Subpoint)</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">nl1s</span></td>
+<td>Numbered List Item Level 1 Stand-Alone (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl2</span></td>
+<td>Numbered List Item Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl2f</span></td>
+<td>Numbered List Item Level 2 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl2l</span></td>
+<td>Numbered List Item Level 2 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl2p</span></td>
+<td>Numbered List Item Level 2 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl2s</span></td>
+<td>Numbered List Item Level 2 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl3</span></td>
+<td>Numbered List Item Level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl3f</span></td>
+<td>Numbered List Item Level 3 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl3l</span></td>
+<td>Numbered List Item Level 3 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl3p</span></td>
+<td>Numbered List Item Level 3 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl3s</span></td>
+<td>Numbered List Item Level 3 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl4</span></td>
+<td>Numbered List Item Level 4</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl4f</span></td>
+<td>Numbered List Item Level 4 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl4l</span></td>
+<td>Numbered List Item Level 4 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl4p</span></td>
+<td>Numbered List Item Level 4 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl4s</span></td>
+<td>Numbered List Item Level 4 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl5</span></td>
+<td>Numbered List Item Level 5</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl5f</span></td>
+<td>Numbered List Item Level 5 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl5l</span></td>
+<td>Numbered List Item Level 5 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl5p</span></td>
+<td>Numbered List Item Level 5 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">nl5s</span></td>
+<td>Numbered List Item Level 5 Stand-Alone</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-unnumberedlists">Unnumbered Lists</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">ulh</span></td>
+<td>Unnumbered List Head</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Unnumbered (unordered) list styles are for all kinds of unnumbered lists, whether they use a bullet, a dingbat, or nothing at all. The bulleted list (bl) style exists to specifically differentiate one kind of unnumbered list from another kind of unnumbered list within your project."><span class="scml">ul</span></span></td>
+<td>Unnumbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ulf</span></td>
+<td>Unnumbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ull</span></td>
+<td>Unnumbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within an unnumbered list item. If a list item is more than one paragraph long, then the second paragraph should use this style, which will control the proper indentation."><span class="scml">ulp</span></span></td>
+<td>Unnumbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ulpl</span></td>
+<td>Unnumbered List Item Paragraph Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">uls</span></td>
+<td>Unnumbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul1</span></td>
+<td>Unnumbered List Item Level 1 (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul1f</span></td>
+<td>Unnumbered List Item Level 1 First (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul1l</span></td>
+<td>Unnumbered List Item Level 1 Last (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul1p</span></td>
+<td>Unnumbered List Item Level 1 Paragraph (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul1pl</span></td>
+<td>Unnumbered List Item Level 1 Paragraph (Subpoint) Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">ul1s</span></td>
+<td>Unnumbered List Item Level 1 Stand-Alone (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul2</span></td>
+<td>Unnumbered List Item Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul2f</span></td>
+<td>Unnumbered List Item Level 2 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul2l</span></td>
+<td>Unnumbered List Item Level 2 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul2p</span></td>
+<td>Unnumbered List Item Level 2 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul2s</span></td>
+<td>Unnumbered List Item Level 2 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul3</span></td>
+<td>Unnumbered List Item Level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul3f</span></td>
+<td>Unnumbered List Item Level 3 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul3l</span></td>
+<td>Unnumbered List Item Level 3 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul3p</span></td>
+<td>Unnumbered List Item Level 3 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul3s</span></td>
+<td>Unnumbered List Item Level 3 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul4</span></td>
+<td>Unnumbered List Item Level 4</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul4f</span></td>
+<td>Unnumbered List Item Level 4 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul4l</span></td>
+<td>Unnumbered List Item Level 4 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul4p</span></td>
+<td>Unnumbered List Item Level 4 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul4s</span></td>
+<td>Unnumbered List Item Level 4 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul5</span></td>
+<td>Unnumbered List Item Level 5</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul5f</span></td>
+<td>Unnumbered List Item Level 5 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul5l</span></td>
+<td>Unnumbered List Item Level 5 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul5p</span></td>
+<td>Unnumbered List Item Level 5 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ul5s</span></td>
+<td>Unnumbered List Item Level 5 Stand-Alone</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-bulletedlist">Bulleted List</h3>
+<p>There are rare occasions when you need to denote a bulleted list as a separate list type from an unnumbered list.</p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">blh</span></td>
+<td>Bulleted List Head</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The bulleted list (bl) style exists to specifically differentiate one kind of unnumbered list from another kind of unnumbered list within your project. The default for a standard unnumbered list, whether it uses a bullet, a dingbat, or nothing at all, should be the ul style."><span class="scml">bl</span></span></td>
+<td>Bulleted List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">blf</span></td>
+<td>Bulleted List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bll</span></td>
+<td>Bulleted List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within a bulleted list item. If a list item is more than one paragraph long, then the second paragraph should use this style, which will control the proper indentation."><span class="scml">blp</span></span></td>
+<td>Bulleted List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">blpl</span></td>
+<td>Bulleted List Item Paragraph Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">bls</span></td>
+<td>Bulleted List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bl1</span></td>
+<td>Bulleted List Item Level 1 (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bl1f</span></td>
+<td>Bulleted List Item Level 1 First (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bl1l</span></td>
+<td>Bulleted List Item Level 1 Last (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bl1p</span></td>
+<td>Bulleted List Item Level 1 Paragraph (Subpoint)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bl1pl</span></td>
+<td>Bulleted List Item Level 1 Paragraph (Subpoint) Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">bl1s</span></td>
+<td>Bulleted List Item Level 1 Stand-Alone (Subpoint)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-sidebar">Sidebar</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The sbh style is for individual instances of sidebar heads."><span class="scml">sbh</span></span></td>
+<td>Sidebar Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The sbt style should be used for repeating sidebar titles. For example, some books might have many sidebars that begin with “For Your Information . . .”"><span class="scml">sbt</span></span></td>
+<td>Sidebar Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbah</span></td>
+<td>Sidebar A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbahaft</span></td>
+<td>Sidebar A-Head after Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbbh</span></td>
+<td>Sidebar B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbbhaft</span></td>
+<td>Sidebar B-Head after A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Sidebar paragraphs include many variations, following the same patterns as main-level ScML styles, including heads, lists, and senselines. The sidebar styles encompass things such as “box text” that may appear within your main text area. When composing, use the different sidebar levels to organize the different kinds of boxed text that appear in your project."><span class="scml">sb</span></span></td>
+<td>Sidebar Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbaft</span></td>
+<td>Sidebar Paragraph after Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbcon</span></td>
+<td>Sidebar Paragraph Continued</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbf</span></td>
+<td>Sidebar Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbl</span></td>
+<td>Sidebar Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbo</span></td>
+<td>Sidebar Only</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">sbs</span></td>
+<td>Sidebar Paragraph Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbbq</span></td>
+<td>Sidebar Block Quote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbbqaft</span></td>
+<td>Sidebar Block Quote after Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbbqf</span></td>
+<td>Sidebar Block Quote First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbbql</span></td>
+<td>Sidebar Block Quote Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbbqs</span></td>
+<td>Sidebar Block Quote Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl</span></td>
+<td>Sidebar Numbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl1</span></td>
+<td>Sidebar Numbered List Item Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl1f</span></td>
+<td>Sidebar Numbered List Item Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl1l</span></td>
+<td>Sidebar Numbered List Item Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl1p</span></td>
+<td>Sidebar Numbered List Item Level 1 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl1s</span></td>
+<td>Sidebar Numbered List Item Level 1 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl2</span></td>
+<td>Sidebar Numbered List Item Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl2f</span></td>
+<td>Sidebar Numbered List Item Level 2 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl2l</span></td>
+<td>Sidebar Numbered List Item Level 2 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl2p</span></td>
+<td>Sidebar Numbered List Item Level 2 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl2s</span></td>
+<td>Sidebar Numbered List Item Level 2 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl3</span></td>
+<td>Sidebar Numbered List Item Level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl3f</span></td>
+<td>Sidebar Numbered List Item Level 3 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl3l</span></td>
+<td>Sidebar Numbered List Item Level 3 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl4</span></td>
+<td>Sidebar Numbered List Item Level 4</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl4f</span></td>
+<td>Sidebar Numbered List Item Level 4 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl4l</span></td>
+<td>Sidebar Numbered List Item Level 4 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl5</span></td>
+<td>Sidebar Numbered List Item Level 5</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl5f</span></td>
+<td>Sidebar Numbered List Item Level 5 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnl5l</span></td>
+<td>Sidebar Numbered List Item Level 5 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnlf</span></td>
+<td>Sidebar Numbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnll</span></td>
+<td>Sidebar Numbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within a sidebar numbered list item. If a list item is more than one paragraph long, then the second paragraph should use this style, which will control the proper indentation."><span class="scml">sbnlp</span></span></td>
+<td>Sidebar Numbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbnls</span></td>
+<td>Sidebar Numbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl</span></td>
+<td>Sidebar Senseline</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl1</span></td>
+<td>Sidebar Senseline Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl1f</span></td>
+<td>Sidebar Senseline Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl1l</span></td>
+<td>Sidebar Senseline Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl1s</span></td>
+<td>Sidebar Senseline Level 1 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl2</span></td>
+<td>Sidebar Senseline Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl2f</span></td>
+<td>Sidebar Senseline Level 2 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl2l</span></td>
+<td>Sidebar Senseline Level 2 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl2s</span></td>
+<td>Sidebar Senseline Level 2 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl3</span></td>
+<td>Sidebar Senseline Level 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl3f</span></td>
+<td>Sidebar Senseline Level 3 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl3l</span></td>
+<td>Sidebar Senseline Level 3 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsl3s</span></td>
+<td>Sidebar Senseline Level 3 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbslf</span></td>
+<td>Sidebar Senseline First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsli</span></td>
+<td>Sidebar Senseline Indent</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbslif</span></td>
+<td>Sidebar Senseline Indent First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbslil</span></td>
+<td>Sidebar Senseline Indent Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsll</span></td>
+<td>Sidebar Senseline Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbsls</span></td>
+<td>Sidebar Senseline Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbslt</span></td>
+<td>Sidebar Senseline Tail</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul</span></td>
+<td>Sidebar Unnumbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul1</span></td>
+<td>Sidebar Unnumbered List Item Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul1f</span></td>
+<td>Sidebar Unnumbered List Item Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul1l</span></td>
+<td>Sidebar Unnumbered List Item Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul1p</span></td>
+<td>Sidebar Unnumbered List Item Level 1 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul1s</span></td>
+<td>Sidebar Unnumbered List Item Level 1 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul2</span></td>
+<td>Sidebar Unnumbered List Item Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul2f</span></td>
+<td>Sidebar Unnumbered List Item Level 2 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul2l</span></td>
+<td>Sidebar Unnumbered List Item Level 2 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul2p</span></td>
+<td>Sidebar Unnumbered List Item Level 2 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbul2s</span></td>
+<td>Sidebar Unnumbered List Item Level 2 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbulf</span></td>
+<td>Sidebar Unnumbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbull</span></td>
+<td>Sidebar Unnumbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within a sidebar unnumbered list item. If a list item is more than one paragraph long, then the second paragraph should use this style, which will control the proper indentation."><span class="scml">sbulp</span></span></td>
+<td>Sidebar Unnumbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sbuls</span></td>
+<td>Sidebar Unnumbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sb1h</span></td>
+<td>Sidebar Level 1 Head</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sb1t</span></td>
+<td>Sidebar Level 1 Title</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sb1</span></td>
+<td>Sidebar Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sb1f</span></td>
+<td>Sidebar Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sb1l</span></td>
+<td>Sidebar Level 1 Last</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-box">Box</h3>
+<p>Box styles are used when a specific difference needs to be maintained between parallel sidebar levels.</p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used when the box head is unique to that particular box."><span class="scml">bxh</span></span></td>
+<td>Box Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used for repeating box titles."><span class="scml">bxt</span></span></td>
+<td>Box Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxah</span></td>
+<td>Box A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxbh</span></td>
+<td>Box B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Unless specifically coordinated with the design, sidebar content should use the sb styles as a default. Box pagragraph styles include heads, numbered lists, unnumbered lists, block quotes, and senselines. Each box style has a Level 1 equivalent."><span class="scml">bx</span></span></td>
+<td>Box Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxaft</span></td>
+<td>Box Paragraph after Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxf</span></td>
+<td>Box Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxl</span></td>
+<td>Box Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxo</span></td>
+<td>Box Only</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Box text with space both above and below. This is needed only if the box text appears within the text flow, with the box itself placed behind the text. If the text is placed within the box, spacing can be controlled through the object's style sheet."><span class="scml">bxs</span></span></td>
+<td>Box Paragraph Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxau</span></td>
+<td>Box Author</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxau1</span></td>
+<td>Box Author 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxbq</span></td>
+<td>Box Block Quote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxbqf</span></td>
+<td>Box Block Quote First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxbql</span></td>
+<td>Box Block Quote Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxbqs</span></td>
+<td>Box Block Quote Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxcon</span></td>
+<td>Box Paragraph Continued</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxnl</span></td>
+<td>Box Numbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxnlf</span></td>
+<td>Box Numbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxnll</span></td>
+<td>Box Numbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxnlp</span></td>
+<td>Box Numbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxnls</span></td>
+<td>Box Numbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxsl</span></td>
+<td>Box Senseline</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxslf</span></td>
+<td>Box Senseline First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxsll</span></td>
+<td>Box Senseline Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxul</span></td>
+<td>Box Unnumbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxulf</span></td>
+<td>Box Unnumbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxull</span></td>
+<td>Box Unnumbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxulp</span></td>
+<td>Box Unnumbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bxuls</span></td>
+<td>Box Unnumbered List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1h</span></td>
+<td>Box Level 1 Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1t</span></td>
+<td>Box Level 1 Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1ah</span></td>
+<td>Box Level 1 A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1bh</span></td>
+<td>Box Level 1 B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1</span></td>
+<td>Box Level 1 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1aft</span></td>
+<td>Box Level 1 Paragraph after Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1con</span></td>
+<td>Box Level 1 Paragraph Continued</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1f</span></td>
+<td>Box Level 1 Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1l</span></td>
+<td>Box Level 1 Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1s</span></td>
+<td>Box Level 1 Paragraph Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1bq</span></td>
+<td>Box Level 1 Block Quote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1bqf</span></td>
+<td>Box Level 1 Block Quote First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1bql</span></td>
+<td>Box Level 1 Block Quote Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1bqs</span></td>
+<td>Box Level 1 Block Quote Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1nl</span></td>
+<td>Box Level 1 Numbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1nlf</span></td>
+<td>Box Level 1 Numbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1nll</span></td>
+<td>Box Level 1 Numbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1nlp</span></td>
+<td>Box Level 1 Numbered List Item Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1sl</span></td>
+<td>Box Level 1 Senseline</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1slf</span></td>
+<td>Box Level 1 Senseline First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1sll</span></td>
+<td>Box Level 1 Senseline Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1ul</span></td>
+<td>Box Level 1 Unnumbered List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1ulf</span></td>
+<td>Box Level 1 Unnumbered List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1ull</span></td>
+<td>Box Level 1 Unnumbered List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bx1ulp</span></td>
+<td>Box Level 1 Unnumbered List Item Paragraph</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-story">Story</h3>
+<h4 id="anchor-stagedirectionscreenplay">Stage Direction (Screenplay)</h4>
+<p>Story tags are specifically for offset narratives in workbooks, if there is a need to distinguish these from standard sidebars. They are also to be used for Screenplay styles (slugline, action, character, text).</p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">sth</span></td>
+<td>Story Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sth1</span></td>
+<td>Story Head Level 1</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">sth2</span></td>
+<td>Story Head Level 2</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">st</span></td>
+<td>Story Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">stf</span></td>
+<td>Story Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">stl</span></td>
+<td>Story Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sts</span></td>
+<td>Story Paragraph Stand-Alone</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-formalletter">Formal Letter</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">lt</span></td>
+<td>Letter Paragraph</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">ltf</span></td>
+<td>Letter Paragraph First</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used when a body paragraph is the last paragraph in a letter group. Use lt if it is followed by letter closing content(signatures, postscripts, etc."><span class="scml">ltl</span></span></td>
+<td>Letter Paragraph Last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">lto</span></td>
+<td>Letter Paragraph Only</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Be careful not to confuse this with lps, which is the Letter Postscript style."><span class="scml">lts</span></span></td>
+<td>Letter Paragraph Stand-Alone</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Be careful not to confuse this with lts, which is the Letter Paragraph Stand-Alone style."><span class="scml">lps</span></span></td>
+<td>Letter Postscript</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The letter address refers to the physical address of the recipient, not how you address another person."><span class="scml">lta</span></span></td>
+<td>Letter Address</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ltaf</span></td>
+<td>Letter Address First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="“Sincerely . . .”"><span class="scml">ltc</span></span></td>
+<td>Letter Complimentary Close</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ltd</span></td>
+<td>Letter Date</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This is the first line of the letter date, often right aligned. If the date runs more than one line (perhaps the year is on a different line), the ltdf style would be applied to the first line, followed by ltd for the rest."><span class="scml">ltdf</span></span></td>
+<td>Letter Date First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="“Dear So-and-So . . .”"><span class="scml">ltg</span></span></td>
+<td>Letter Greeting</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ltsig</span></td>
+<td>Letter Signature</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ltsigf</span></td>
+<td>Letter Signature First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ltsigl</span></td>
+<td>Letter Signature Last</td>
+<td>February 16, 2012</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-writtenlanguage">Written Language</h3>
+<h4 id="anchor-writtencommunication">Written Communication</h4>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">wlh</span></td>
+<td>Written Language Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wlh1</span></td>
+<td>Written Language Subhead</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Written language styles are for faxes, e-mails, memos, and other forms of written communication that might need special treatment. Formal letters should use the styles for letters."><span class="scml">wl</span></span></td>
+<td>Written Language Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wlf</span></td>
+<td>Written Language Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wll</span></td>
+<td>Written Language Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wls</span></td>
+<td>Written Language Paragraph Stand-Alone</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">wl1h</span></td>
+<td>Written Language Level 1 Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl1h1</span></td>
+<td>Written Language Level 1 Subhead</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl2h</span></td>
+<td>Written Language Level 2 Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl2h1</span></td>
+<td>Written Language Level 2  Subhead</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl3h</span></td>
+<td>Written Language Level 3 Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl3h1</span></td>
+<td>Written Language Level 3 Subhead</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl1</span></td>
+<td>Written Language Level 1 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl1f</span></td>
+<td>Written Language Level 1 Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl1l</span></td>
+<td>Written Language Level 1 Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl1s</span></td>
+<td>Written Language Level 1 Paragraph Stand-Alone</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">wl2</span></td>
+<td>Written Language Level 2 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl2f</span></td>
+<td>Written Language Level 2 Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl2l</span></td>
+<td>Written Language Level 2 Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl2s</span></td>
+<td>Written Language Level 2 Paragraph Stand-Alone</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">wl3</span></td>
+<td>Written Language Level 3 Paragraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl3f</span></td>
+<td>Written Language Level 3 Paragraph First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl3l</span></td>
+<td>Written Language Level 3 Paragraph Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">wl3s</span></td>
+<td>Written Language Level 3 Paragraph Stand-Alone</td>
+<td>February 16, 2012</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-codelines">Codelines</h3>
+<h4 id="anchor-computercoding">Computer Coding</h4>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">cl</span></td>
+<td>Codeline</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">clf</span></td>
+<td>Codeline first</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cll</span></td>
+<td>Codeline last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cls</span></td>
+<td>Codeline standalone</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl1</span></td>
+<td>Codeline Level 1</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl1f</span></td>
+<td>Codeline Level 1 first</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl1l</span></td>
+<td>Codeline Level 1 last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl1s</span></td>
+<td>Codeline Level 1 standalone</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl2</span></td>
+<td>Codeline Level 2</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl2f</span></td>
+<td>Codeline Level 2 first</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl2l</span></td>
+<td>Codeline Level 2 last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl2s</span></td>
+<td>Codeline Level 2 standalone</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl3</span></td>
+<td>Codeline Level 3</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl3f</span></td>
+<td>Codeline Level 3 first</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl3l</span></td>
+<td>Codeline Level 3 last</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">cl3s</span></td>
+<td>Codeline Level 3 standalone</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-questionandanswer">Question and Answer</h3>
+<h4 id="anchor-interviewformat">Interview Format</h4>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">quh</span></td>
+<td>Question Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ans</span></td>
+<td>Answer</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ansf</span></td>
+<td>Answer First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">qu</span></td>
+<td>Question</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">quf</span></td>
+<td>Question First</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-callouts">Callouts</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="To be used for pull quotes."><span class="scml">quot</span></span></td>
+<td>Quote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">quotf</span></td>
+<td>Quote First</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">quotl</span></td>
+<td>Quote Last</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">quots</span></td>
+<td>Quote Stand-Alone</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The speaker of the pull quote."><span class="scml">quott</span></span></td>
+<td>Quote Tail</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">call</span></td>
+<td>Callout (Pull Quote)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-commentary">Commentary</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">com</span></td>
+<td>Commentary</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-table">Table</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For column heads in tables."><span class="scml">tch</span></span></td>
+<td>Table Column Head</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">tch1</span></td>
+<td>Table Column Head Level 1</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">tch2</span></td>
+<td>Table Column Head Level 2</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This is the table's title. It typically includes the table number as well. If the table head is only the number, this paragraph style still applies. The th text should match the text in a List of Tables, if the book includes such a list in the front matter."><span class="scml">th</span></span></td>
+<td>Table Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For column heads, use tch styles"><span class="scml">th1</span></span></td>
+<td>Table Head Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">th2</span></td>
+<td>Table Head Level 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The source, or attribution credit line, for a table. This is often rendered slightly differently than a table footnote, so it should be identified by the tatr tag specifically."><span class="scml">tatr</span></span></td>
+<td>Table Credit/Attribution</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Used with regular data or paragraphs within a table."><span class="scml">td</span></span></td>
+<td>Table Data</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="It is unnecessary to differentiate first and last paragraphs if the typesetter will be using InDesign's table feature to control spacing and rules."><span class="scml">tdf</span></span></td>
+<td>Table Data First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="It is unnecessary to differentiate first and last paragraphs if the typesetter will be using InDesign's table feature to control spacing and rules."><span class="scml">tdl</span></span></td>
+<td>Table Data Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For numbered list items within a table cell"><span class="scml">tdnl</span></span></td>
+<td>Table Data Numbered List Item</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="A new paragraph within a table data cell, so you can apply a first line indent to the subsequent paragraphs after the main td."><span class="scml">tdp</span></span></td>
+<td>Table Data New Paragraph</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For unnumbered list items within a table cell"><span class="scml">tdul</span></span></td>
+<td>Table Data Unnumbered List Item</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Footnote text for a table."><span class="scml">tn</span></span></td>
+<td>Table Note</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-rubric">Rubric</h3>
+<p>A rubric is a rule for conduct of a liturgical service.</p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">rb</span></td>
+<td>Rubric</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rbc</span></td>
+<td>Rubric Command</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rbi</span></td>
+<td>Rubric Instruction</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">opt</span></td>
+<td>Optional Rubric</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-recipes">Recipes</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">rph</span></td>
+<td>Recipe Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rph1</span></td>
+<td>Recipe Subhead or Level 1 Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpt</span></td>
+<td>Recipe Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpt1</span></td>
+<td>Recipe Subtitle or Level 1 Title</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpah</span></td>
+<td>Recipe A-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpbh</span></td>
+<td>Recipe B-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpch</span></td>
+<td>Recipe C-Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rphn</span></td>
+<td>Recipe Head Note</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpvh</span></td>
+<td>Recipe Variation Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rp</span></td>
+<td>Recipe Procedure</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpf</span></td>
+<td>Recipe Procedure First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpl</span></td>
+<td>Recipe Procedure Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpg</span></td>
+<td>Recipe Garnish</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpg1</span></td>
+<td>Recipe Garnish Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpil</span></td>
+<td>Recipe Ingredient List Item</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpil1</span></td>
+<td>Recipe Ingredient List Item Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpil1f</span></td>
+<td>Recipe Ingredient List Item Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpil1l</span></td>
+<td>Recipe Ingredient List Item Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpil1s</span></td>
+<td>Recipe Ingredient List Item Level 1 Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpilf</span></td>
+<td>Recipe Ingredient List Item First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpill</span></td>
+<td>Recipe Ingredient List Item Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpils</span></td>
+<td>Recipe Ingredient List Item Stand-Alone</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpn</span></td>
+<td>Recipe Note</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpn1</span></td>
+<td>Recipe Note Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpnut</span></td>
+<td>Recipe Nutritional Information</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpnut1</span></td>
+<td>Recipe Nutritional Information Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpv</span></td>
+<td>Recipe Variation</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpvf</span></td>
+<td>Recipe Variation First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpvl</span></td>
+<td>Recipe Variation Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpy</span></td>
+<td>Recipe Yield</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpv1h</span></td>
+<td>Recipe Variation Level 1 Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rp1</span></td>
+<td>Recipe Procedure Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rp1f</span></td>
+<td>Recipe Procedure Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rp1l</span></td>
+<td>Recipe Procedure Level 1 Last</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rp1y</span></td>
+<td>Recipe Yield Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpv1</span></td>
+<td>Recipe Variation Level 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpv1f</span></td>
+<td>Recipe Variation Level 1 First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rpv1l</span></td>
+<td>Recipe Variation Level 1 Last</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-page">Page</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This running head paragraph style can apply to either a verso or a recto page, when the settings are the same for both. It can also be used for running feet. The content of a running head does not need to be composed in Word unless specific running heads are required due to lengthy chapter titles that InDesign's text variables feature would not be able to generate automatically."><span class="scml">rh</span></span></td>
+<td>Running Head</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="On a regular body page, the recto running head is most commonly the chapter title. It can also be set to use a-heads or b-heads (or something altogether different) if the design calls for it. Typically, front matter and back matter use the same content for both the rhv and the rhr."><span class="scml">rhr</span></span></td>
+<td>Running Head Recto</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="On a regular body page, the verso running head is most commonly the book title, author name, or chapter title. It can also be set to use a-heads or b-heads (or something altogether different) if the design calls for it. Typically, front matter and back matter use the same content for both the rhv and the rhr."><span class="scml">rhv</span></span></td>
+<td>Running Head Verso</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If a design calls for the page number to be separate from the rh, rhv, or rhr paragraph style, the folio style can be applied in InDesign."><span class="scml">folio</span></span></td>
+<td>Folio</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="anchor-characterstyles">Character Styles</h2>
+<h3 id="anchor-mainstyles">Main Styles</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">b</span></td>
+<td>Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">bi</span></td>
+<td>Bold-Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The reverse of the base font. If the base font of a paragraph is italic, then the i style would be used to render letters as a roman font."><span class="scml">i</span></span></td>
+<td>Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">iu</span></td>
+<td>Italic Underline</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="An uppercase letter in the small caps character style is the same as an uppercase letter in a normal font. A lowercase letter in the small caps character style is what gives you the small caps you want. Very frequently, this comes up with B.C., B.C.E., A.D., and C.E., which need to be b.c., b.c.e., a.d., and c.e. to appear in small caps. Caps-small-caps text should be typed in title case."><span class="scml">sm</span></span></td>
+<td>Small Caps</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sm-i</span></td>
+<td>Small Caps Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">u</span></td>
+<td>Underline</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-referencescrossreferences">References/Cross-References</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The number within the endnote paragraph."><span class="scml">ennum</span></span></td>
+<td>Endnote Number</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">enref</span></td>
+<td>Endnote Reference</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The number within the footnote paragraph."><span class="scml">fnnum</span></span></td>
+<td>Footnote Number</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">fnref</span></td>
+<td>Footnote Reference</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">idx</span></td>
+<td>Index</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">pnum</span></td>
+<td>Paragraph Number</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">tel</span></td>
+<td>Telephone Number</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">url</span></td>
+<td>URL</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">xbk</span></td>
+<td>External Reference</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">xref</span></td>
+<td>Cross-Reference</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">xref-i</span></td>
+<td>Cross-Reference Italic</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-superscriptandsubscript">Superscript and Subscript</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">sub</span></td>
+<td>Subscript</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sub-b</span></td>
+<td>Subscript Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sub-i</span></td>
+<td>Subscript Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sup</span></td>
+<td>Superscript</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sup-b</span></td>
+<td>Superscript Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sup-i</span></td>
+<td>Superscript Italic</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-paragraphcharacterstylepairs">Paragraph/Character Style Pairs</h3>
+<p>These character styles are used in a specific type of paragraph (for example, fighn, figure head number, is used in figh, figure head paragraph).</p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">dispk</span></td>
+<td>Dialogue Speaker</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">fighn</span></td>
+<td>Figure Head Number</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The glossary term appearing in the glo paragraph."><span class="scml">gt</span></span></td>
+<td>Glossary Term</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="The glossary term appearing in the text."><span class="scml">gtref</span></span></td>
+<td>Glossary Reference</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">thn</span></td>
+<td>Table Head Number</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">trh</span></td>
+<td>Table Row Head</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">trh-i</span></td>
+<td>Table Row Head Italic</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-embeddedheads">Embedded Heads</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">chemb</span></td>
+<td>Embedded C-Head</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">hemb</span></td>
+<td>Embedded Head</td>
+<td>February 16, 2012</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-symbolsfractionsandcodes">Symbols, Fractions, and Codes</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="Character style for computer code within paragraphs other than cl paragraphs."><span class="scml">code</span></span></td>
+<td>Code</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">code-b</span></td>
+<td>Code Bold</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">code-bi</span></td>
+<td>Code Bold-Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">code-i</span></td>
+<td>Code Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">frac</span></td>
+<td>Fraction</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">symb</span></td>
+<td>Symbol</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Expanded Set Definition</strong></p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">osf</span></td>
+<td>Old-Style Figures</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">osf-b</span></td>
+<td>Old-Style Figures Bold</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">osf-bi</span></td>
+<td>Old-Style Figures Bold Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">osf-i</span></td>
+<td>Old-Style Figures Italic</td>
+<td>February 16, 2012</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-miscellaneous">Miscellaneous</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">abbr</span></td>
+<td>Abbreviation</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ac</span></td>
+<td>All Caps</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="First word or phrase of a paragraph; used if you want to stylize the first word(s) (usually handled through InDesign nested styles, rather than composing this feature in Word)."><span class="scml">first</span></span></td>
+<td>First</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">first-i</span></td>
+<td>First Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This wraps around image information."><span class="scml">img</span></span></td>
+<td>Image</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">strk</span></td>
+<td>Strikethrough</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-language">Language</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="For diacriticals not associated with one specific language, like a vowel with a macron above it."><span class="scml">dcrit</span></span></td>
+<td>Diacritic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">dcrit-b</span></td>
+<td>Diacritic Bold</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">dcrit-bi</span></td>
+<td>Diacritic Bold-Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">dcrit-i</span></td>
+<td>Diacritic Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">grc</span></td>
+<td>Greek</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">grc-b</span></td>
+<td>Greek Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">grc-bi</span></td>
+<td>Greek Bold-Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">grc-i</span></td>
+<td>Greek Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">grc-u</span></td>
+<td>Greek Underline</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">heb</span></td>
+<td>Hebrew</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">heb-b</span></td>
+<td>Hebrew Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">heb-bi</span></td>
+<td>Hebrew Bold-Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">heb-i</span></td>
+<td>Hebrew Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">heb-u</span></td>
+<td>Hebrew Underline</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">l-chi</span></td>
+<td>Chinese</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-chi-b</span></td>
+<td>Chinese Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-chi-bi</span></td>
+<td>Chinese Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-chi-i</span></td>
+<td>Chinese Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-fre</span></td>
+<td>French</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-fre-b</span></td>
+<td>French Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-fre-bi</span></td>
+<td>French Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-fre-i</span></td>
+<td>French Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ger</span></td>
+<td>German</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ger-b</span></td>
+<td>German Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ger-bi</span></td>
+<td>German Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ger-i</span></td>
+<td>German Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ita</span></td>
+<td>Italian</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ita-b</span></td>
+<td>Italian Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ita-bi</span></td>
+<td>Italian Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-ita-i</span></td>
+<td>Italian Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-jpn</span></td>
+<td>Japanese</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-jpn-b</span></td>
+<td>Japanese Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-jpn-bi</span></td>
+<td>Japanese Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-jpn-i</span></td>
+<td>Japanese Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-kor</span></td>
+<td>Korean</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-kor-b</span></td>
+<td>Korean Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-kor-bi</span></td>
+<td>Korean Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-kor-i</span></td>
+<td>Korean Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-lat</span></td>
+<td>Latin</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-lat-b</span></td>
+<td>Latin Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-lat-bi</span></td>
+<td>Latin Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-lat-i</span></td>
+<td>Latin Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-rus</span></td>
+<td>Russian</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-rus-b</span></td>
+<td>Russian Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-rus-bi</span></td>
+<td>Russian Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-rus-i</span></td>
+<td>Russian Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-spa</span></td>
+<td>Spanish</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-spa-b</span></td>
+<td>Spanish Bold</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-spa-bi</span></td>
+<td>Spanish Bold-Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">l-spa-i</span></td>
+<td>Spanish Italic</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If you have non-English language and wish to identify it. ISO 639 codes are used for language identification."><span class="scml">lang</span></span></td>
+<td>Language</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">lang-b</span></td>
+<td>Language Bold</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">lang-bi</span></td>
+<td>Language Bold-Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">lang-i</span></td>
+<td>Language Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">tgrc</span></td>
+<td>Transliterated Greek</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">tgrc-b</span></td>
+<td>Transliterated Greek Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">tgrc-bi</span></td>
+<td>Transliterated Greek Bold-Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">tgrc-i</span></td>
+<td>Transliterated Greek Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">theb</span></td>
+<td>Transliterated Hebrew</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">theb-i</span></td>
+<td>Transliterated Hebrew Italic</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-taxonomy">Taxonomy</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">taxclass</span></td>
+<td>Taxonomy Class</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">taxfamily</span></td>
+<td>Taxonomy Family</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">taxgenus</span></td>
+<td>Taxonomy Genus</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">taxkingdom</span></td>
+<td>Taxonomy Kingdom</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">taxorder</span></td>
+<td>Taxonomy Order</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">taxphylum</span></td>
+<td>Taxonomy Phylum</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">taxspecies</span></td>
+<td>Taxonomy Species</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-biblicalandreligiouscharacterstyles">Biblical and Religious Character Styles</h3>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">red</span></td>
+<td>Red Letter Text</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">tetr</span></td>
+<td>Tetragrammaton</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">tetr-b</span></td>
+<td>Tetragrammaton Bold</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">tetr-i</span></td>
+<td>Tetragrammaton Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">ver</span></td>
+<td>Verse</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="anchor-expandedlistofcharacterstyles">Expanded List of Character Styles</h3>
+<p>Most of these styles are not available in the Scribe Word template, but they are in the ScML DTD. This is because a typesetter has to address certain font considerations that do not need to be worried about at the composition stage (e.g., if the italic for an a-head or chapter title is a different font from the italic for a base paragraph). What do need to be handled during composition are character style combinations, such as superscript italic (sup-i; see the main list above). If only “sup” or only “i” were used, the proper character style would not be retained. Typesetters and designers should note the naming pattern. For example, “-i” is always the last part of the name. When adding character styles, this pattern must be maintained.</p>
+<div class="callout callout-warning callout-no-header"><p>These character styles are not all available in the Word template but are in the ScML DTD for use in typesetting.</p></div>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">ccust1</span></td>
+<td>Character Custom 1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ccust2</span></td>
+<td>Character Custom 2</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">ccust3</span></td>
+<td>Character Custom 3</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">fol</span></td>
+<td>Folio character</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">gt-i</span></td>
+<td>Glossary Term Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">gtref-i</span></td>
+<td>Glossary Reference Italic</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">page</span></td>
+<td>Page</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">red-b</span></td>
+<td>Red Letter Text Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">red-i</span></td>
+<td>Red Letter Text Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">rh-i</span></td>
+<td>Running Head Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If a typesetter wants to pull text from a character style for use in running heads, rhref can be applied to that text as a reference point."><span class="scml">rhref</span></span></td>
+<td>Running Head Reference</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="If a typesetter wants to pull text from an additional character style for use in running heads, rhref1 can be applied to that text as a reference point."><span class="scml">rhref1</span></span></td>
+<td>Running Head Reference Level 1</td>
+<td>February 16, 2012</td>
+</tr>
+<tr>
+<td><span class="scml">sm-b</span></td>
+<td>Small Caps Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sm-bi</span></td>
+<td>Small Caps Bold-Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sub-bi</span></td>
+<td>Subscript Bold-Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sup-bi</span></td>
+<td>Superscript Bold-Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">symb-b</span></td>
+<td>Symbol Bold</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">symb-i</span></td>
+<td>Symbol Italic</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This style can be applied to the page number listed in the table of contents. It will be removed when converting files back to .scml for an e-book."><span class="scml">tocnum</span></span></td>
+<td>TOC Number (Page Number Listed in TOC)</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This gets applied to any typed-in hyphens that are included only to force a word to break in a particular spot or to spaces added to the typeset to prevent text crashes. Any content that is added to the typeset to handle something exclusively in the print version should be identified with tso style. Anything identified with the tso character style will be deleted automatically in the Digital Hub."><span class="scml">tso</span></span></td>
+<td>Typesetter Only</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="anchor-structuralelements">Structural Elements</h2>
+<p>Structural elements are designed to imply structures needed for electronic publishing that aren't required for traditional print publishing.</p>
+<table class="table table-condensed table-docs-scml table-striped">
+<thead>
+<tr>
+<th width="18%">Tag</th>
+<th width="57%">Definition</th>
+<th width="25%">Revision Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="scml">blockquote</span></td>
+<td>Blockquote</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">book</span></td>
+<td>Book</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">box</span></td>
+<td>Box</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">chapter</span></td>
+<td>Chapter</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">codeline</span></td>
+<td>Codeline</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">dialogue</span></td>
+<td>Dialogue</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">division</span></td>
+<td>Division</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">epigraph</span></td>
+<td>Epigraph</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">equation</span></td>
+<td>Equation</td>
+<td>July 5, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">exercise</span></td>
+<td>Exercise</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">figure</span></td>
+<td>Figure</td>
+<td>July 5, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">glossary</span></td>
+<td>Glossary</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">index</span></td>
+<td>Index</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">letter</span></td>
+<td>Letter</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">list</span></td>
+<td>List</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">notes</span></td>
+<td>Notes</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">pullquote</span></td>
+<td>Pullquote</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">question</span></td>
+<td>Question</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">recipe</span></td>
+<td>Recipe</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">references</span></td>
+<td>References</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sam</span></td>
+<td>Scribe Markup Language Root</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">scml</span></td>
+<td>Scribe Markup Language Root</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">senseline</span></td>
+<td>Senseline</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">sidebar</span></td>
+<td>Sidebar</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="scml">story</span></td>
+<td>Story</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="tooltipie" data-toggle="tooltip" title="This is not a paragraph style for use on live text. It is used, like the fig style, in conjunction with a note indicating groups of elements. For example, if a sidebar is interrupted by a figure, the structure comments would be applied to indicate that it is one sidebar that contains a figure, rather than being three distinct groups (a sidebar, a figure, and another sidebar)."><span class="scml">structure</span></span></td>
+<td>Structure</td>
+<td>March 8, 2013</td>
+</tr>
+<tr>
+<td><span class="scml">written</span></td>
+<td>Written Language</td>
+<td>March 8, 2013</td>
+</tr>
+</tbody>
+</table>
