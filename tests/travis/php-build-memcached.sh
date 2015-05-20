@@ -1,7 +1,7 @@
 #!/bin/sh
 
-sudo apt-get remove php5-memcached
-sudo apt-get install libjson-c2 php5-json
+sudo apt-get remove --purge -y php5-memcached
+sudo apt-get install -qq -y --verbose-versions --reinstall libjson-c2 php5-json
 
 mkdir -p build/pecl/ && cd build/pecl/
 wget http://pecl.php.net/get/memcached-2.2.0.tgz
