@@ -48,6 +48,9 @@ ICONS
     orm
     dependencies
     data
+    url
+    code
+    label
   )
 
   def initialize(tag, file = nil)
@@ -93,8 +96,9 @@ ICONS
       DROP_KEYS.each do |d|
         icon.delete(d)
       end
-      icon['aliases'] ||= Array.new
-      icon['attributes'] = Array.new
+      icon['aliases'] ||= 'null'
+      icon['attributes'] = 'null'
+      icon['families'] = ['@IconFamily?slug=fa']
       HEADER['Icon']['data'][ind + 1] = icon
     end
   end

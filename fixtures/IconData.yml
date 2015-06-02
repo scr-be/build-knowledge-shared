@@ -27,8 +27,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: glass
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         2:
             name: Music
@@ -36,8 +38,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: music
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         3:
             name: Search
@@ -45,8 +49,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: search
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         4:
             name: Envelope Outlined
@@ -54,8 +60,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: envelope-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         5:
             name: Heart
@@ -64,8 +72,10 @@ Icon:
                 - Web Application Icons
                 - Medical Icons
             slug: heart
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         6:
             name: Star
@@ -73,8 +83,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: star
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         7:
             name: Star Outlined
@@ -82,8 +94,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: star-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         8:
             name: User
@@ -91,8 +105,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: user
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         9:
             name: Film
@@ -100,8 +116,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: film
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         10:
             name: th-large
@@ -109,8 +127,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: th-large
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         11:
             name: th
@@ -118,8 +138,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: th
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         12:
             name: th-list
@@ -127,8 +149,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: th-list
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         13:
             name: Check
@@ -136,8 +160,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: check
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         14:
             name: Times
@@ -148,7 +174,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: times
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         15:
             name: Search Plus
@@ -156,8 +184,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: search-plus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         16:
             name: Search Minus
@@ -165,8 +195,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: search-minus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         17:
             name: Power Off
@@ -174,8 +206,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: power-off
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         18:
             name: signal
@@ -183,8 +217,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: signal
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         19:
             name: cog
@@ -195,7 +231,9 @@ Icon:
                 - Web Application Icons
                 - Spinner Icons
             slug: cog
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         20:
             name: Trash Outlined
@@ -203,8 +241,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: trash-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         21:
             name: home
@@ -212,8 +252,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: home
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         22:
             name: File Outlined
@@ -222,8 +264,10 @@ Icon:
                 - Text Editor Icons
                 - File Type Icons
             slug: file-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         23:
             name: Clock Outlined
@@ -231,8 +275,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: clock-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         24:
             name: road
@@ -240,8 +286,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: road
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         25:
             name: Download
@@ -249,8 +297,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: download
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         26:
             name: Arrow Circle Outlined Down
@@ -258,8 +308,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-o-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         27:
             name: Arrow Circle Outlined Up
@@ -267,8 +319,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-o-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         28:
             name: inbox
@@ -276,8 +330,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: inbox
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         29:
             name: Play Circle Outlined
@@ -285,8 +341,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: play-circle-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         30:
             name: Repeat
@@ -296,7 +354,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: repeat
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         31:
             name: refresh
@@ -305,8 +365,10 @@ Icon:
                 - Web Application Icons
                 - Spinner Icons
             slug: refresh
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         32:
             name: list-alt
@@ -314,8 +376,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: list-alt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         33:
             name: lock
@@ -323,8 +387,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: lock
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         34:
             name: flag
@@ -332,8 +398,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: flag
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         35:
             name: headphones
@@ -341,8 +409,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: headphones
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         36:
             name: volume-off
@@ -350,8 +420,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: volume-off
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         37:
             name: volume-down
@@ -359,8 +431,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: volume-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         38:
             name: volume-up
@@ -368,8 +442,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: volume-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         39:
             name: qrcode
@@ -377,8 +453,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: qrcode
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         40:
             name: barcode
@@ -386,8 +464,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: barcode
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         41:
             name: tag
@@ -395,8 +475,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tag
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         42:
             name: tags
@@ -404,8 +486,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tags
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         43:
             name: book
@@ -413,8 +497,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: book
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         44:
             name: bookmark
@@ -422,8 +508,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bookmark
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         45:
             name: print
@@ -431,8 +519,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: print
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         46:
             name: camera
@@ -440,8 +530,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: camera
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         47:
             name: font
@@ -449,8 +541,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: font
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         48:
             name: bold
@@ -458,8 +552,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: bold
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         49:
             name: italic
@@ -467,8 +563,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: italic
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         50:
             name: text-height
@@ -476,8 +574,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: text-height
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         51:
             name: text-width
@@ -485,8 +585,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: text-width
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         52:
             name: align-left
@@ -494,8 +596,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: align-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         53:
             name: align-center
@@ -503,8 +607,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: align-center
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         54:
             name: align-right
@@ -512,8 +618,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: align-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         55:
             name: align-justify
@@ -521,8 +629,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: align-justify
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         56:
             name: list
@@ -530,8 +640,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: list
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         57:
             name: Outdent
@@ -541,7 +653,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: outdent
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         58:
             name: Indent
@@ -549,8 +663,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: indent
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         59:
             name: Video Camera
@@ -558,8 +674,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: video-camera
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         60:
             name: Picture Outlined
@@ -570,7 +688,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: picture-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         61:
             name: pencil
@@ -578,8 +698,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: pencil
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         62:
             name: map-marker
@@ -587,8 +709,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: map-marker
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         63:
             name: adjust
@@ -596,8 +720,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: adjust
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         64:
             name: tint
@@ -605,8 +731,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tint
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         65:
             name: Pencil Square Outlined
@@ -616,7 +744,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: pencil-square-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         66:
             name: Share Square Outlined
@@ -624,8 +754,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: share-square-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         67:
             name: Check Square Outlined
@@ -634,8 +766,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: check-square-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         68:
             name: Arrows
@@ -644,8 +778,10 @@ Icon:
                 - Web Application Icons
                 - Directional Icons
             slug: arrows
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         69:
             name: step-backward
@@ -653,8 +789,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: step-backward
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         70:
             name: fast-backward
@@ -662,8 +800,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: fast-backward
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         71:
             name: backward
@@ -671,8 +811,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: backward
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         72:
             name: play
@@ -680,8 +822,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: play
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         73:
             name: pause
@@ -689,8 +833,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: pause
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         74:
             name: stop
@@ -698,8 +844,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: stop
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         75:
             name: forward
@@ -707,8 +855,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: forward
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         76:
             name: fast-forward
@@ -716,8 +866,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: fast-forward
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         77:
             name: step-forward
@@ -725,8 +877,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: step-forward
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         78:
             name: eject
@@ -734,8 +888,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: eject
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         79:
             name: chevron-left
@@ -743,8 +899,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         80:
             name: chevron-right
@@ -752,8 +910,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         81:
             name: Plus Circle
@@ -761,8 +921,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: plus-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         82:
             name: Minus Circle
@@ -770,8 +932,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: minus-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         83:
             name: Times Circle
@@ -779,8 +943,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: times-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         84:
             name: Check Circle
@@ -788,8 +954,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: check-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         85:
             name: Question Circle
@@ -797,8 +965,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: question-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         86:
             name: Info Circle
@@ -806,8 +976,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: info-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         87:
             name: Crosshairs
@@ -815,8 +987,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: crosshairs
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         88:
             name: Times Circle Outlined
@@ -824,8 +998,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: times-circle-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         89:
             name: Check Circle Outlined
@@ -833,8 +1009,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: check-circle-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         90:
             name: ban
@@ -842,8 +1020,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: ban
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         91:
             name: arrow-left
@@ -851,8 +1031,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         92:
             name: arrow-right
@@ -860,8 +1042,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         93:
             name: arrow-up
@@ -869,8 +1053,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         94:
             name: arrow-down
@@ -878,8 +1064,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         95:
             name: Share
@@ -889,7 +1077,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: share
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         96:
             name: Expand
@@ -897,8 +1087,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: expand
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         97:
             name: Compress
@@ -906,8 +1098,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: compress
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         98:
             name: plus
@@ -915,8 +1109,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: plus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         99:
             name: minus
@@ -924,8 +1120,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: minus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         100:
             name: asterisk
@@ -933,8 +1131,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: asterisk
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         101:
             name: Exclamation Circle
@@ -942,8 +1142,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: exclamation-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         102:
             name: gift
@@ -951,8 +1153,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: gift
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         103:
             name: leaf
@@ -960,8 +1164,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: leaf
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         104:
             name: fire
@@ -969,8 +1175,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: fire
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         105:
             name: Eye
@@ -978,8 +1186,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: eye
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         106:
             name: Eye Slash
@@ -987,8 +1197,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: eye-slash
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         107:
             name: Exclamation Triangle
@@ -998,7 +1210,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: exclamation-triangle
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         108:
             name: plane
@@ -1007,8 +1221,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: plane
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         109:
             name: calendar
@@ -1016,8 +1232,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: calendar
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         110:
             name: random
@@ -1025,8 +1243,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: random
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         111:
             name: comment
@@ -1034,8 +1254,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: comment
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         112:
             name: magnet
@@ -1043,8 +1265,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: magnet
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         113:
             name: chevron-up
@@ -1052,8 +1276,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         114:
             name: chevron-down
@@ -1061,8 +1287,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         115:
             name: retweet
@@ -1070,8 +1298,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: retweet
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         116:
             name: shopping-cart
@@ -1079,8 +1309,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: shopping-cart
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         117:
             name: Folder
@@ -1088,8 +1320,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: folder
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         118:
             name: Folder Open
@@ -1097,8 +1331,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: folder-open
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         119:
             name: Arrows Vertical
@@ -1107,8 +1343,10 @@ Icon:
                 - Web Application Icons
                 - Directional Icons
             slug: arrows-v
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         120:
             name: Arrows Horizontal
@@ -1117,8 +1355,10 @@ Icon:
                 - Web Application Icons
                 - Directional Icons
             slug: arrows-h
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         121:
             name: Bar Chart
@@ -1129,7 +1369,9 @@ Icon:
                 - Web Application Icons
                 - Chart Icons
             slug: bar-chart
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         122:
             name: Twitter Square
@@ -1137,8 +1379,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: twitter-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         123:
             name: Facebook Square
@@ -1146,8 +1390,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: facebook-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         124:
             name: camera-retro
@@ -1155,8 +1401,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: camera-retro
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         125:
             name: key
@@ -1164,8 +1412,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: key
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         126:
             name: cogs
@@ -1175,7 +1425,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cogs
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         127:
             name: comments
@@ -1183,8 +1435,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: comments
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         128:
             name: Thumbs Up Outlined
@@ -1192,8 +1446,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: thumbs-o-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         129:
             name: Thumbs Down Outlined
@@ -1201,8 +1457,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: thumbs-o-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         130:
             name: star-half
@@ -1210,8 +1468,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: star-half
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         131:
             name: Heart Outlined
@@ -1220,8 +1480,10 @@ Icon:
                 - Web Application Icons
                 - Medical Icons
             slug: heart-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         132:
             name: Sign Out
@@ -1229,8 +1491,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sign-out
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         133:
             name: LinkedIn Square
@@ -1238,8 +1502,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: linkedin-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         134:
             name: Thumb Tack
@@ -1247,8 +1513,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: thumb-tack
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         135:
             name: External Link
@@ -1256,8 +1524,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: external-link
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         136:
             name: Sign In
@@ -1265,8 +1535,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sign-in
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         137:
             name: trophy
@@ -1274,8 +1546,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: trophy
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         138:
             name: GitHub Square
@@ -1283,8 +1557,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: github-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         139:
             name: Upload
@@ -1292,8 +1568,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: upload
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         140:
             name: Lemon Outlined
@@ -1301,8 +1579,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: lemon-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         141:
             name: Phone
@@ -1310,8 +1590,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: phone
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         142:
             name: Square Outlined
@@ -1320,8 +1602,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: square-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         143:
             name: Bookmark Outlined
@@ -1329,8 +1613,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bookmark-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         144:
             name: Phone Square
@@ -1338,8 +1624,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: phone-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         145:
             name: Twitter
@@ -1347,8 +1635,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: twitter
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         146:
             name: Facebook
@@ -1358,7 +1648,9 @@ Icon:
             categories:
                 - Brand Icons
             slug: facebook
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         147:
             name: GitHub
@@ -1366,8 +1658,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: github
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         148:
             name: unlock
@@ -1375,8 +1669,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: unlock
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         149:
             name: credit-card
@@ -1385,8 +1681,10 @@ Icon:
                 - Web Application Icons
                 - Payment Icons
             slug: credit-card
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         150:
             name: rss
@@ -1394,8 +1692,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: rss
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         151:
             name: HDD
@@ -1403,8 +1703,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: hdd-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         152:
             name: bullhorn
@@ -1412,8 +1714,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bullhorn
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         153:
             name: bell
@@ -1421,8 +1725,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bell
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         154:
             name: certificate
@@ -1430,8 +1736,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: certificate
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         155:
             name: Hand Outlined Right
@@ -1439,8 +1747,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: hand-o-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         156:
             name: Hand Outlined Left
@@ -1448,8 +1758,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: hand-o-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         157:
             name: Hand Outlined Up
@@ -1457,8 +1769,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: hand-o-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         158:
             name: Hand Outlined Down
@@ -1466,8 +1780,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: hand-o-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         159:
             name: Arrow Circle Left
@@ -1475,8 +1791,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         160:
             name: Arrow Circle Right
@@ -1484,8 +1802,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         161:
             name: Arrow Circle Up
@@ -1493,8 +1813,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         162:
             name: Arrow Circle Down
@@ -1502,8 +1824,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         163:
             name: Globe
@@ -1511,8 +1835,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: globe
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         164:
             name: Wrench
@@ -1520,8 +1846,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: wrench
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         165:
             name: Tasks
@@ -1529,8 +1857,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tasks
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         166:
             name: Filter
@@ -1538,8 +1868,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: filter
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         167:
             name: Briefcase
@@ -1547,8 +1879,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: briefcase
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         168:
             name: Arrows Alt
@@ -1557,8 +1891,10 @@ Icon:
                 - Video Player Icons
                 - Directional Icons
             slug: arrows-alt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         169:
             name: Users
@@ -1568,7 +1904,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: users
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         170:
             name: Link
@@ -1578,7 +1916,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: link
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         171:
             name: Cloud
@@ -1586,8 +1926,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cloud
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         172:
             name: Flask
@@ -1595,8 +1937,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: flask
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         173:
             name: Scissors
@@ -1606,7 +1950,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: scissors
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         174:
             name: Files Outlined
@@ -1616,7 +1962,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: files-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         175:
             name: Paperclip
@@ -1624,8 +1972,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: paperclip
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         176:
             name: Floppy Outlined
@@ -1635,7 +1985,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: floppy-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         177:
             name: Square
@@ -1644,8 +1996,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         178:
             name: Bars
@@ -1656,7 +2010,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bars
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         179:
             name: list-ul
@@ -1664,8 +2020,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: list-ul
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         180:
             name: list-ol
@@ -1673,8 +2031,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: list-ol
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         181:
             name: Strikethrough
@@ -1682,8 +2042,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: strikethrough
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         182:
             name: Underline
@@ -1691,8 +2053,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: underline
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         183:
             name: table
@@ -1700,8 +2064,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: table
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         184:
             name: magic
@@ -1709,8 +2075,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: magic
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         185:
             name: truck
@@ -1719,8 +2087,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: truck
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         186:
             name: Pinterest
@@ -1728,8 +2098,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: pinterest
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         187:
             name: Pinterest Square
@@ -1737,8 +2109,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: pinterest-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         188:
             name: Google Plus Square
@@ -1746,8 +2120,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: google-plus-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         189:
             name: Google Plus
@@ -1755,8 +2131,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: google-plus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         190:
             name: Money
@@ -1765,8 +2143,10 @@ Icon:
                 - Web Application Icons
                 - Currency Icons
             slug: money
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         191:
             name: Caret Down
@@ -1774,8 +2154,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: caret-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         192:
             name: Caret Up
@@ -1783,8 +2165,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: caret-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         193:
             name: Caret Left
@@ -1792,8 +2176,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: caret-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         194:
             name: Caret Right
@@ -1801,8 +2187,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: caret-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         195:
             name: Columns
@@ -1810,8 +2198,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: columns
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         196:
             name: Sort
@@ -1821,7 +2211,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         197:
             name: Sort Descending
@@ -1831,7 +2223,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-desc
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         198:
             name: Sort Ascending
@@ -1841,7 +2235,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-asc
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         199:
             name: Envelope
@@ -1849,8 +2245,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: envelope
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         200:
             name: LinkedIn
@@ -1858,8 +2256,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: linkedin
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         201:
             name: Undo
@@ -1869,7 +2269,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: undo
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         202:
             name: Gavel
@@ -1883,7 +2285,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: gavel
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         203:
             name: Tachometer
@@ -1896,7 +2300,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tachometer
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         204:
             name: comment-o
@@ -1904,8 +2310,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: comment-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         205:
             name: comments-o
@@ -1913,8 +2321,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: comments-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         206:
             name: Lightning Bolt
@@ -1924,7 +2334,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bolt
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         207:
             name: Sitemap
@@ -1932,8 +2344,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sitemap
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         208:
             name: Umbrella
@@ -1941,8 +2355,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: umbrella
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         209:
             name: Clipboard
@@ -1952,7 +2368,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: clipboard
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         210:
             name: Lightbulb Outlined
@@ -1960,8 +2378,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: lightbulb-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         211:
             name: Exchange
@@ -1969,8 +2389,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: exchange
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         212:
             name: Cloud Download
@@ -1978,8 +2400,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cloud-download
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         213:
             name: Cloud Upload
@@ -1987,8 +2411,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cloud-upload
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         214:
             name: user-md
@@ -1996,8 +2422,10 @@ Icon:
             categories:
                 - Medical Icons
             slug: user-md
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         215:
             name: Stethoscope
@@ -2005,8 +2433,10 @@ Icon:
             categories:
                 - Medical Icons
             slug: stethoscope
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         216:
             name: Suitcase
@@ -2014,8 +2444,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: suitcase
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         217:
             name: Bell Outlined
@@ -2023,8 +2455,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bell-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         218:
             name: Coffee
@@ -2032,8 +2466,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: coffee
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         219:
             name: Cutlery
@@ -2041,8 +2477,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cutlery
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         220:
             name: File Text Outlined
@@ -2051,8 +2489,10 @@ Icon:
                 - Text Editor Icons
                 - File Type Icons
             slug: file-text-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         221:
             name: Building Outlined
@@ -2060,8 +2500,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: building-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         222:
             name: hospital Outlined
@@ -2069,8 +2511,10 @@ Icon:
             categories:
                 - Medical Icons
             slug: hospital-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         223:
             name: ambulance
@@ -2079,8 +2523,10 @@ Icon:
                 - Medical Icons
                 - Transportation Icons
             slug: ambulance
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         224:
             name: medkit
@@ -2088,8 +2534,10 @@ Icon:
             categories:
                 - Medical Icons
             slug: medkit
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         225:
             name: fighter-jet
@@ -2098,8 +2546,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: fighter-jet
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         226:
             name: beer
@@ -2107,8 +2557,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: beer
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         227:
             name: H Square
@@ -2116,8 +2568,10 @@ Icon:
             categories:
                 - Medical Icons
             slug: h-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         228:
             name: Plus Square
@@ -2127,8 +2581,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: plus-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         229:
             name: Angle Double Left
@@ -2136,8 +2592,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-double-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         230:
             name: Angle Double Right
@@ -2145,8 +2603,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-double-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         231:
             name: Angle Double Up
@@ -2154,8 +2614,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-double-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         232:
             name: Angle Double Down
@@ -2163,8 +2625,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-double-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         233:
             name: angle-left
@@ -2172,8 +2636,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         234:
             name: angle-right
@@ -2181,8 +2647,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         235:
             name: angle-up
@@ -2190,8 +2658,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         236:
             name: angle-down
@@ -2199,8 +2669,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: angle-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         237:
             name: Desktop
@@ -2208,8 +2680,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: desktop
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         238:
             name: Laptop
@@ -2217,8 +2691,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: laptop
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         239:
             name: tablet
@@ -2226,8 +2702,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tablet
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         240:
             name: Mobile Phone
@@ -2237,7 +2715,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: mobile
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         241:
             name: Circle Outlined
@@ -2246,8 +2726,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: circle-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         242:
             name: quote-left
@@ -2255,8 +2737,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: quote-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         243:
             name: quote-right
@@ -2264,8 +2748,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: quote-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         244:
             name: Spinner
@@ -2274,8 +2760,10 @@ Icon:
                 - Web Application Icons
                 - Spinner Icons
             slug: spinner
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         245:
             name: Circle
@@ -2284,8 +2772,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         246:
             name: Reply
@@ -2295,7 +2785,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: reply
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         247:
             name: GitHub Alt
@@ -2303,8 +2795,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: github-alt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         248:
             name: Folder Outlined
@@ -2312,8 +2806,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: folder-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         249:
             name: Folder Open Outlined
@@ -2321,8 +2817,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: folder-open-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         250:
             name: Smile Outlined
@@ -2330,8 +2828,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: smile-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         251:
             name: Frown Outlined
@@ -2339,8 +2839,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: frown-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         252:
             name: Meh Outlined
@@ -2348,8 +2850,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: meh-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         253:
             name: Gamepad
@@ -2357,8 +2861,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: gamepad
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         254:
             name: Keyboard Outlined
@@ -2366,8 +2872,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: keyboard-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         255:
             name: Flag Outlined
@@ -2375,8 +2883,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: flag-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         256:
             name: flag-checkered
@@ -2384,8 +2894,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: flag-checkered
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         257:
             name: Terminal
@@ -2393,8 +2905,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: terminal
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         258:
             name: Code
@@ -2402,8 +2916,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: code
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         259:
             name: reply-all
@@ -2413,7 +2929,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: reply-all
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         260:
             name: Star Half Outlined
@@ -2424,7 +2942,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: star-half-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         261:
             name: location-arrow
@@ -2432,8 +2952,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: location-arrow
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         262:
             name: crop
@@ -2441,8 +2963,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: crop
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         263:
             name: code-fork
@@ -2450,8 +2974,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: code-fork
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         264:
             name: Chain Broken
@@ -2461,7 +2987,9 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: chain-broken
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         265:
             name: Question
@@ -2469,8 +2997,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: question
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         266:
             name: Info
@@ -2478,8 +3008,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: info
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         267:
             name: exclamation
@@ -2487,8 +3019,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: exclamation
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         268:
             name: superscript
@@ -2496,8 +3030,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: superscript
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         269:
             name: subscript
@@ -2505,8 +3041,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: subscript
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         270:
             name: eraser
@@ -2515,8 +3053,10 @@ Icon:
                 - Text Editor Icons
                 - Web Application Icons
             slug: eraser
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         271:
             name: Puzzle Piece
@@ -2524,8 +3064,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: puzzle-piece
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         272:
             name: microphone
@@ -2533,8 +3075,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: microphone
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         273:
             name: Microphone Slash
@@ -2542,8 +3086,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: microphone-slash
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         274:
             name: shield
@@ -2551,8 +3097,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: shield
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         275:
             name: calendar-o
@@ -2560,8 +3108,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: calendar-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         276:
             name: fire-extinguisher
@@ -2569,8 +3119,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: fire-extinguisher
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         277:
             name: rocket
@@ -2579,8 +3131,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: rocket
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         278:
             name: MaxCDN
@@ -2588,8 +3142,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: maxcdn
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         279:
             name: Chevron Circle Left
@@ -2597,8 +3153,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-circle-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         280:
             name: Chevron Circle Right
@@ -2606,8 +3164,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-circle-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         281:
             name: Chevron Circle Up
@@ -2615,8 +3175,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-circle-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         282:
             name: Chevron Circle Down
@@ -2624,8 +3186,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: chevron-circle-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         283:
             name: HTML 5 Logo
@@ -2636,8 +3200,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: html5
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         284:
             name: CSS 3 Logo
@@ -2645,8 +3211,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: css3
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         285:
             name: Anchor
@@ -2654,8 +3222,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: anchor
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         286:
             name: Unlock Alt
@@ -2663,8 +3233,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: unlock-alt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         287:
             name: Bullseye
@@ -2672,8 +3244,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bullseye
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         288:
             name: Ellipsis Horizontal
@@ -2681,8 +3255,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: ellipsis-h
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         289:
             name: Ellipsis Vertical
@@ -2690,8 +3266,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: ellipsis-v
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         290:
             name: RSS Square
@@ -2699,8 +3277,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: rss-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         291:
             name: Play Circle
@@ -2708,8 +3288,10 @@ Icon:
             categories:
                 - Video Player Icons
             slug: play-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         292:
             name: Ticket
@@ -2717,8 +3299,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: ticket
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         293:
             name: Minus Square
@@ -2727,8 +3311,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: minus-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         294:
             name: Minus Square Outlined
@@ -2737,8 +3323,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: minus-square-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         295:
             name: Level Up
@@ -2746,8 +3334,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: level-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         296:
             name: Level Down
@@ -2755,8 +3345,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: level-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         297:
             name: Check Square
@@ -2765,8 +3357,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: check-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         298:
             name: Pencil Square
@@ -2774,8 +3368,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: pencil-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         299:
             name: External Link Square
@@ -2783,8 +3379,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: external-link-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         300:
             name: Share Square
@@ -2792,8 +3390,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: share-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         301:
             name: Compass
@@ -2801,8 +3401,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: compass
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         302:
             name: Caret Square Outlined Down
@@ -2813,7 +3415,9 @@ Icon:
                 - Web Application Icons
                 - Directional Icons
             slug: caret-square-o-down
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         303:
             name: Caret Square Outlined Up
@@ -2824,7 +3428,9 @@ Icon:
                 - Web Application Icons
                 - Directional Icons
             slug: caret-square-o-up
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         304:
             name: Caret Square Outlined Right
@@ -2835,7 +3441,9 @@ Icon:
                 - Web Application Icons
                 - Directional Icons
             slug: caret-square-o-right
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         305:
             name: Euro (EUR)
@@ -2845,7 +3453,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: eur
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         306:
             name: GBP
@@ -2853,8 +3463,10 @@ Icon:
             categories:
                 - Currency Icons
             slug: gbp
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         307:
             name: US Dollar
@@ -2864,7 +3476,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: usd
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         308:
             name: Indian Rupee (INR)
@@ -2874,7 +3488,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: inr
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         309:
             name: Japanese Yen (JPY)
@@ -2886,7 +3502,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: jpy
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         310:
             name: Russian Ruble (RUB)
@@ -2897,7 +3515,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: rub
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         311:
             name: Korean Won (KRW)
@@ -2907,7 +3527,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: krw
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         312:
             name: Bitcoin (BTC)
@@ -2918,7 +3540,9 @@ Icon:
                 - Currency Icons
                 - Brand Icons
             slug: btc
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         313:
             name: File
@@ -2927,8 +3551,10 @@ Icon:
                 - Text Editor Icons
                 - File Type Icons
             slug: file
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         314:
             name: File Text
@@ -2937,8 +3563,10 @@ Icon:
                 - Text Editor Icons
                 - File Type Icons
             slug: file-text
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         315:
             name: Sort Alpha Ascending
@@ -2946,8 +3574,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-alpha-asc
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         316:
             name: Sort Alpha Descending
@@ -2955,8 +3585,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-alpha-desc
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         317:
             name: Sort Amount Ascending
@@ -2964,8 +3596,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-amount-asc
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         318:
             name: Sort Amount Descending
@@ -2973,8 +3607,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-amount-desc
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         319:
             name: Sort Numeric Ascending
@@ -2982,8 +3618,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-numeric-asc
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         320:
             name: Sort Numeric Descending
@@ -2991,8 +3629,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sort-numeric-desc
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         321:
             name: thumbs-up
@@ -3000,8 +3640,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: thumbs-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         322:
             name: thumbs-down
@@ -3009,8 +3651,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: thumbs-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         323:
             name: YouTube Square
@@ -3018,8 +3662,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: youtube-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         324:
             name: YouTube
@@ -3027,8 +3673,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: youtube
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         325:
             name: Xing
@@ -3036,8 +3684,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: xing
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         326:
             name: Xing Square
@@ -3045,8 +3695,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: xing-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         327:
             name: YouTube Play
@@ -3055,8 +3707,10 @@ Icon:
                 - Brand Icons
                 - Video Player Icons
             slug: youtube-play
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         328:
             name: Dropbox
@@ -3064,8 +3718,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: dropbox
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         329:
             name: Stack Overflow
@@ -3073,8 +3729,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: stack-overflow
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         330:
             name: Instagram
@@ -3082,8 +3740,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: instagram
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         331:
             name: Flickr
@@ -3091,8 +3751,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: flickr
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         332:
             name: App.net
@@ -3100,8 +3762,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: adn
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         333:
             name: Bitbucket
@@ -3109,8 +3773,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: bitbucket
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         334:
             name: Bitbucket Square
@@ -3118,8 +3784,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: bitbucket-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         335:
             name: Tumblr
@@ -3127,8 +3795,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: tumblr
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         336:
             name: Tumblr Square
@@ -3136,8 +3806,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: tumblr-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         337:
             name: Long Arrow Down
@@ -3145,8 +3817,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: long-arrow-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         338:
             name: Long Arrow Up
@@ -3154,8 +3828,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: long-arrow-up
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         339:
             name: Long Arrow Left
@@ -3163,8 +3839,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: long-arrow-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         340:
             name: Long Arrow Right
@@ -3172,8 +3850,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: long-arrow-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         341:
             name: Apple
@@ -3181,8 +3861,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: apple
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         342:
             name: Windows
@@ -3190,8 +3872,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: windows
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         343:
             name: Android
@@ -3199,8 +3883,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: android
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         344:
             name: Linux
@@ -3208,8 +3894,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: linux
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         345:
             name: Dribbble
@@ -3217,8 +3905,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: dribbble
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         346:
             name: Skype
@@ -3226,8 +3916,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: skype
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         347:
             name: Foursquare
@@ -3235,8 +3927,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: foursquare
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         348:
             name: Trello
@@ -3244,8 +3938,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: trello
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         349:
             name: Female
@@ -3253,8 +3949,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: female
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         350:
             name: Male
@@ -3262,8 +3960,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: male
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         351:
             name: Gratipay (Gittip)
@@ -3273,7 +3973,9 @@ Icon:
             categories:
                 - Brand Icons
             slug: gratipay
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         352:
             name: Sun Outlined
@@ -3281,8 +3983,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sun-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         353:
             name: Moon Outlined
@@ -3290,8 +3994,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: moon-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         354:
             name: Archive
@@ -3299,8 +4005,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: archive
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         355:
             name: Bug
@@ -3308,8 +4016,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bug
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         356:
             name: VK
@@ -3317,8 +4027,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: vk
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         357:
             name: Weibo
@@ -3326,8 +4038,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: weibo
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         358:
             name: Renren
@@ -3335,8 +4049,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: renren
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         359:
             name: Pagelines
@@ -3344,8 +4060,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: pagelines
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         360:
             name: Stack Exchange
@@ -3353,8 +4071,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: stack-exchange
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         361:
             name: Arrow Circle Outlined Right
@@ -3362,8 +4082,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-o-right
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         362:
             name: Arrow Circle Outlined Left
@@ -3371,8 +4093,10 @@ Icon:
             categories:
                 - Directional Icons
             slug: arrow-circle-o-left
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         363:
             name: Caret Square Outlined Left
@@ -3383,7 +4107,9 @@ Icon:
                 - Web Application Icons
                 - Directional Icons
             slug: caret-square-o-left
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         364:
             name: Dot Circle Outlined
@@ -3392,8 +4118,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: dot-circle-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         365:
             name: Wheelchair
@@ -3403,8 +4131,10 @@ Icon:
                 - Medical Icons
                 - Transportation Icons
             slug: wheelchair
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         366:
             name: Vimeo Square
@@ -3412,8 +4142,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: vimeo-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         367:
             name: Turkish Lira (TRY)
@@ -3423,7 +4155,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: try
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         368:
             name: Plus Square Outlined
@@ -3432,8 +4166,10 @@ Icon:
                 - Web Application Icons
                 - Form Control Icons
             slug: plus-square-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         369:
             name: Space Shuttle
@@ -3442,8 +4178,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: space-shuttle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         370:
             name: Slack Logo
@@ -3451,8 +4189,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: slack
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         371:
             name: Envelope Square
@@ -3460,8 +4200,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: envelope-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         372:
             name: WordPress Logo
@@ -3469,8 +4211,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: wordpress
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         373:
             name: OpenID
@@ -3478,8 +4222,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: openid
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         374:
             name: University
@@ -3490,7 +4236,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: university
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         375:
             name: Graduation Cap
@@ -3500,7 +4248,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: graduation-cap
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         376:
             name: Yahoo Logo
@@ -3508,8 +4258,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: yahoo
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         377:
             name: Google Logo
@@ -3517,8 +4269,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: google
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         378:
             name: reddit Logo
@@ -3526,8 +4280,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: reddit
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         379:
             name: reddit Square
@@ -3535,8 +4291,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: reddit-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         380:
             name: StumbleUpon Circle
@@ -3544,8 +4302,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: stumbleupon-circle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         381:
             name: StumbleUpon Logo
@@ -3553,8 +4313,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: stumbleupon
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         382:
             name: Delicious Logo
@@ -3562,8 +4324,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: delicious
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         383:
             name: Digg Logo
@@ -3571,8 +4335,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: digg
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         384:
             name: Pied Piper Logo
@@ -3580,8 +4346,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: pied-piper
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         385:
             name: Pied Piper Alternate Logo
@@ -3589,8 +4357,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: pied-piper-alt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         386:
             name: Drupal Logo
@@ -3598,8 +4368,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: drupal
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         387:
             name: Joomla Logo
@@ -3607,8 +4379,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: joomla
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         388:
             name: Language
@@ -3616,8 +4390,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: language
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         389:
             name: Fax
@@ -3625,8 +4401,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: fax
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         390:
             name: Building
@@ -3634,8 +4412,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: building
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         391:
             name: Child
@@ -3643,8 +4423,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: child
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         392:
             name: Paw
@@ -3652,8 +4434,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: paw
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         393:
             name: spoon
@@ -3661,8 +4445,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: spoon
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         394:
             name: Cube
@@ -3670,8 +4456,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cube
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         395:
             name: Cubes
@@ -3679,8 +4467,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cubes
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         396:
             name: Behance
@@ -3688,8 +4478,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: behance
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         397:
             name: Behance Square
@@ -3697,8 +4489,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: behance-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         398:
             name: Steam
@@ -3706,8 +4500,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: steam
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         399:
             name: Steam Square
@@ -3715,8 +4511,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: steam-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         400:
             name: Recycle
@@ -3724,8 +4522,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: recycle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         401:
             name: Car
@@ -3736,7 +4536,9 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: car
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         402:
             name: Taxi
@@ -3747,7 +4549,9 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: taxi
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         403:
             name: Tree
@@ -3755,8 +4559,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tree
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         404:
             name: Spotify
@@ -3764,8 +4570,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: spotify
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         405:
             name: deviantART
@@ -3773,8 +4581,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: deviantart
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         406:
             name: SoundCloud
@@ -3782,8 +4592,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: soundcloud
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         407:
             name: Database
@@ -3791,8 +4603,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: database
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         408:
             name: PDF File Outlined
@@ -3801,8 +4615,10 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-pdf-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         409:
             name: Word File Outlined
@@ -3811,8 +4627,10 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-word-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         410:
             name: Excel File Outlined
@@ -3821,8 +4639,10 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-excel-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         411:
             name: Powerpoint File Outlined
@@ -3831,8 +4651,10 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-powerpoint-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         412:
             name: Image File Outlined
@@ -3844,7 +4666,9 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-image-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         413:
             name: Archive File Outlined
@@ -3855,7 +4679,9 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-archive-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         414:
             name: Audio File Outlined
@@ -3866,7 +4692,9 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-audio-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         415:
             name: Video File Outlined
@@ -3877,7 +4705,9 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-video-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         416:
             name: Code File Outlined
@@ -3886,8 +4716,10 @@ Icon:
                 - Web Application Icons
                 - File Type Icons
             slug: file-code-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         417:
             name: Vine
@@ -3895,8 +4727,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: vine
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         418:
             name: Codepen
@@ -3904,8 +4738,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: codepen
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         419:
             name: jsFiddle
@@ -3913,8 +4749,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: jsfiddle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         420:
             name: Life Ring
@@ -3927,7 +4765,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: life-ring
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         421:
             name: Circle Outlined Notched
@@ -3936,8 +4776,10 @@ Icon:
                 - Web Application Icons
                 - Spinner Icons
             slug: circle-o-notch
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         422:
             name: Rebel Alliance
@@ -3947,7 +4789,9 @@ Icon:
             categories:
                 - Brand Icons
             slug: rebel
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         423:
             name: Galactic Empire
@@ -3957,7 +4801,9 @@ Icon:
             categories:
                 - Brand Icons
             slug: empire
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         424:
             name: Git Square
@@ -3965,8 +4811,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: git-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         425:
             name: Git
@@ -3974,8 +4822,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: git
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         426:
             name: Hacker News
@@ -3983,8 +4833,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: hacker-news
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         427:
             name: Tencent Weibo
@@ -3992,8 +4844,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: tencent-weibo
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         428:
             name: QQ
@@ -4001,8 +4855,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: qq
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         429:
             name: Weixin (WeChat)
@@ -4012,7 +4868,9 @@ Icon:
             categories:
                 - Brand Icons
             slug: weixin
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         430:
             name: Paper Plane
@@ -4022,7 +4880,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: paper-plane
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         431:
             name: Paper Plane Outlined
@@ -4032,7 +4892,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: paper-plane-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         432:
             name: History
@@ -4040,8 +4902,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: history
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         433:
             name: Circle Outlined Thin
@@ -4052,7 +4916,9 @@ Icon:
                 - Web Application Icons
                 - Gender Icons
             slug: circle-thin
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         434:
             name: header
@@ -4060,8 +4926,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: header
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         435:
             name: paragraph
@@ -4069,8 +4937,10 @@ Icon:
             categories:
                 - Text Editor Icons
             slug: paragraph
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         436:
             name: Sliders
@@ -4078,8 +4948,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: sliders
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         437:
             name: Share Alt
@@ -4088,8 +4960,10 @@ Icon:
                 - Web Application Icons
                 - Brand Icons
             slug: share-alt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         438:
             name: Share Alt Square
@@ -4098,8 +4972,10 @@ Icon:
                 - Web Application Icons
                 - Brand Icons
             slug: share-alt-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         439:
             name: Bomb
@@ -4107,8 +4983,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bomb
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         440:
             name: Futbol Outlined
@@ -4118,7 +4996,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: futbol-o
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         441:
             name: TTY
@@ -4126,8 +5006,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: tty
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         442:
             name: Binoculars
@@ -4135,8 +5017,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: binoculars
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         443:
             name: Plug
@@ -4144,8 +5028,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: plug
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         444:
             name: Slideshare
@@ -4153,8 +5039,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: slideshare
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         445:
             name: Twitch
@@ -4162,8 +5050,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: twitch
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         446:
             name: Yelp
@@ -4171,8 +5061,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: yelp
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         447:
             name: Newspaper Outlined
@@ -4180,8 +5072,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: newspaper-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         448:
             name: WiFi
@@ -4189,8 +5083,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: wifi
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         449:
             name: Calculator
@@ -4198,8 +5094,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: calculator
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         450:
             name: Paypal
@@ -4208,8 +5106,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: paypal
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         451:
             name: Goole Wallet
@@ -4218,8 +5118,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: google-wallet
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         452:
             name: Visa Credit Card
@@ -4228,8 +5130,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: cc-visa
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         453:
             name: MasterCard Credit Card
@@ -4238,8 +5142,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: cc-mastercard
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         454:
             name: Discover Credit Card
@@ -4248,8 +5154,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: cc-discover
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         455:
             name: American Express Credit Card
@@ -4258,8 +5166,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: cc-amex
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         456:
             name: Paypal Credit Card
@@ -4268,8 +5178,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: cc-paypal
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         457:
             name: Stripe Credit Card
@@ -4278,8 +5190,10 @@ Icon:
                 - Brand Icons
                 - Payment Icons
             slug: cc-stripe
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         458:
             name: Bell Slash
@@ -4287,8 +5201,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bell-slash
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         459:
             name: Bell Slash Outlined
@@ -4296,8 +5212,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bell-slash-o
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         460:
             name: Trash
@@ -4305,8 +5223,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: trash
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         461:
             name: Copyright
@@ -4314,8 +5234,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: copyright
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         462:
             name: At
@@ -4323,8 +5245,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: at
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         463:
             name: Eyedropper
@@ -4332,8 +5256,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: eyedropper
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         464:
             name: Paint Brush
@@ -4341,8 +5267,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: paint-brush
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         465:
             name: Birthday Cake
@@ -4350,8 +5278,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: birthday-cake
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         466:
             name: Area Chart
@@ -4360,8 +5290,10 @@ Icon:
                 - Web Application Icons
                 - Chart Icons
             slug: area-chart
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         467:
             name: Pie Chart
@@ -4370,8 +5302,10 @@ Icon:
                 - Web Application Icons
                 - Chart Icons
             slug: pie-chart
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         468:
             name: Line Chart
@@ -4380,8 +5314,10 @@ Icon:
                 - Web Application Icons
                 - Chart Icons
             slug: line-chart
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         469:
             name: last.fm
@@ -4389,8 +5325,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: lastfm
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         470:
             name: last.fm Square
@@ -4398,8 +5336,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: lastfm-square
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         471:
             name: Toggle Off
@@ -4407,8 +5347,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: toggle-off
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         472:
             name: Toggle On
@@ -4416,8 +5358,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: toggle-on
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         473:
             name: Bicycle
@@ -4426,8 +5370,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: bicycle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         474:
             name: Bus
@@ -4436,8 +5382,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: bus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         475:
             name: ioxhost
@@ -4446,8 +5394,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: ioxhost
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         476:
             name: AngelList
@@ -4455,8 +5405,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: angellist
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         477:
             name: Closed Captions
@@ -4464,8 +5416,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cc
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         478:
             name: Shekel (ILS)
@@ -4476,7 +5430,9 @@ Icon:
             categories:
                 - Currency Icons
             slug: ils
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         479:
             name: meanpath
@@ -4485,8 +5441,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: meanpath
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         480:
             name: BuySellAds
@@ -4495,8 +5453,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: buysellads
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         481:
             name: Connect Develop
@@ -4505,8 +5465,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: connectdevelop
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         482:
             name: DashCube
@@ -4515,8 +5477,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: dashcube
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         483:
             name: Forumbee
@@ -4525,8 +5489,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: forumbee
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         484:
             name: Leanpub
@@ -4535,8 +5501,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: leanpub
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         485:
             name: Sellsy
@@ -4545,8 +5513,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: sellsy
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         486:
             name: Shirts in Bulk
@@ -4555,8 +5525,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: shirtsinbulk
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         487:
             name: SimplyBuilt
@@ -4565,8 +5537,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: simplybuilt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         488:
             name: skyatlas
@@ -4575,8 +5549,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: skyatlas
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         489:
             name: Add to Shopping Cart
@@ -4584,8 +5560,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cart-plus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         490:
             name: Shopping Cart Arrow Down
@@ -4593,8 +5571,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: cart-arrow-down
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         491:
             name: Diamond
@@ -4602,8 +5582,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: diamond
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         492:
             name: Ship
@@ -4612,8 +5594,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: ship
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         493:
             name: User Secret
@@ -4621,8 +5605,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: user-secret
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         494:
             name: Motorcycle
@@ -4631,8 +5617,10 @@ Icon:
                 - Web Application Icons
                 - Transportation Icons
             slug: motorcycle
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         495:
             name: Street View
@@ -4640,8 +5628,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: street-view
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         496:
             name: Heartbeat
@@ -4650,8 +5640,10 @@ Icon:
                 - Web Application Icons
                 - Medical Icons
             slug: heartbeat
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         497:
             name: Venus
@@ -4659,8 +5651,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: venus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         498:
             name: Mars
@@ -4668,8 +5662,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: mars
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         499:
             name: Mercury
@@ -4677,8 +5673,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: mercury
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         500:
             name: Transgender
@@ -4686,8 +5684,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: transgender
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         501:
             name: Transgender Alt
@@ -4695,8 +5695,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: transgender-alt
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         502:
             name: Venus Double
@@ -4704,8 +5706,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: venus-double
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         503:
             name: Mars Double
@@ -4713,8 +5717,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: mars-double
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         504:
             name: Venus Mars
@@ -4722,8 +5728,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: venus-mars
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         505:
             name: Mars Stroke
@@ -4731,8 +5739,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: mars-stroke
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         506:
             name: Mars Stroke Vertical
@@ -4740,8 +5750,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: mars-stroke-v
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         507:
             name: Mars Stroke Horizontal
@@ -4749,8 +5761,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: mars-stroke-h
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         508:
             name: Neuter
@@ -4758,8 +5772,10 @@ Icon:
             categories:
                 - Gender Icons
             slug: neuter
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         509:
             name: Facebook Official
@@ -4767,8 +5783,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: facebook-official
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         510:
             name: Pinterest P
@@ -4776,8 +5794,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: pinterest-p
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         511:
             name: What's App
@@ -4785,8 +5805,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: whatsapp
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         512:
             name: Server
@@ -4794,8 +5816,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: server
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         513:
             name: Add User
@@ -4803,8 +5827,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: user-plus
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         514:
             name: Remove User
@@ -4812,8 +5838,10 @@ Icon:
             categories:
                 - Web Application Icons
             slug: user-times
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         515:
             name: Bed
@@ -4823,7 +5851,9 @@ Icon:
             categories:
                 - Web Application Icons
             slug: bed
-            attributes: []
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         516:
             name: Viacoin
@@ -4832,8 +5862,10 @@ Icon:
             categories:
                 - Brand Icons
             slug: viacoin
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         517:
             name: Train
@@ -4841,8 +5873,10 @@ Icon:
             categories:
                 - Transportation Icons
             slug: train
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         518:
             name: Subway
@@ -4850,8 +5884,10 @@ Icon:
             categories:
                 - Transportation Icons
             slug: subway
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
 
         519:
             name: Medium
@@ -4859,5 +5895,7 @@ Icon:
             categories:
                 - Brand Icons
             slug: medium
-            aliases: []
-            attributes: []
+            aliases: null
+            attributes: null
+            families:
+                - "@IconFamily?slug=fa"
