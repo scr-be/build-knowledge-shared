@@ -36,6 +36,9 @@ ICONS
   DROP_KEYS = %w(
     filter
     created
+    url
+    code
+    label
   )
 
   ADDITIONS = {
@@ -48,9 +51,6 @@ ICONS
     orm
     dependencies
     data
-    url
-    code
-    label
   )
 
   def initialize(tag, file = nil)

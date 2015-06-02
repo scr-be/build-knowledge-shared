@@ -2276,10 +2276,6 @@ Icon:
         202:
             name: Gavel
             unicode: f0e3
-            label:
-                - judge
-                - lawyer
-                - opinion
             aliases:
                 - legal
             categories:
@@ -2292,9 +2288,6 @@ Icon:
         203:
             name: Tachometer
             unicode: f0e4
-            label:
-                - speedometer
-                - fast
             aliases:
                 - dashboard
             categories:
@@ -3194,9 +3187,6 @@ Icon:
         283:
             name: HTML 5 Logo
             unicode: f13b
-            code:
-                - code
-                - html5
             categories:
                 - Brand Icons
             slug: html5
@@ -5390,7 +5380,6 @@ Icon:
         475:
             name: ioxhost
             unicode: f208
-            url: ioxhost.co.uk
             categories:
                 - Brand Icons
             slug: ioxhost
@@ -5437,7 +5426,6 @@ Icon:
         479:
             name: meanpath
             unicode: f20c
-            url: meanpath.com
             categories:
                 - Brand Icons
             slug: meanpath
@@ -5449,7 +5437,6 @@ Icon:
         480:
             name: BuySellAds
             unicode: f20d
-            url: buysellads.com
             categories:
                 - Brand Icons
             slug: buysellads
@@ -5461,7 +5448,6 @@ Icon:
         481:
             name: Connect Develop
             unicode: f20e
-            url: connectdevelop.com
             categories:
                 - Brand Icons
             slug: connectdevelop
@@ -5473,7 +5459,6 @@ Icon:
         482:
             name: DashCube
             unicode: f210
-            url: dashcube.com
             categories:
                 - Brand Icons
             slug: dashcube
@@ -5485,7 +5470,6 @@ Icon:
         483:
             name: Forumbee
             unicode: f211
-            url: forumbee.com
             categories:
                 - Brand Icons
             slug: forumbee
@@ -5497,7 +5481,6 @@ Icon:
         484:
             name: Leanpub
             unicode: f212
-            url: leanpub.com
             categories:
                 - Brand Icons
             slug: leanpub
@@ -5509,7 +5492,6 @@ Icon:
         485:
             name: Sellsy
             unicode: f213
-            url: sellsy.com
             categories:
                 - Brand Icons
             slug: sellsy
@@ -5521,7 +5503,6 @@ Icon:
         486:
             name: Shirts in Bulk
             unicode: f214
-            url: shirtsinbulk.com
             categories:
                 - Brand Icons
             slug: shirtsinbulk
@@ -5533,7 +5514,6 @@ Icon:
         487:
             name: SimplyBuilt
             unicode: f215
-            url: simplybuilt.com
             categories:
                 - Brand Icons
             slug: simplybuilt
@@ -5545,7 +5525,6 @@ Icon:
         488:
             name: skyatlas
             unicode: f216
-            url: skyatlas.com
             categories:
                 - Brand Icons
             slug: skyatlas
@@ -5858,7 +5837,6 @@ Icon:
         516:
             name: Viacoin
             unicode: f237
-            url: viacoin.org
             categories:
                 - Brand Icons
             slug: viacoin
