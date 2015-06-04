@@ -28,7 +28,7 @@ IconTemplate:
             priority:    1
             engine:      'twig'
             template:    |
-                <span 
+                <span
                     class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
                     {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
                     {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
@@ -43,171 +43,22 @@ IconTemplate:
             engine:      'twig'
             template:    |
                 <i
-                    class="
-                        {% if family.hasRequiredClasses %}
-                            {{ family.getRequiredClassesFormatted }}
-                        {% endif %}
-                        {% if family.hasOptionalSelectedClasses %}
-                            {{ family.getOptionalSelectedClassesFormatted }}
-                        {% endif %}
-                        {{ family.getPrefix }}-{{ icon.getSlug }}
-                    "
-                    aria-hidden="
-                        {% if helper.isPresentationOnly %}true{% else %}flase{% endif %}
-                    "
-                    aria-label="
-                        {% if helper.hasAccessabilityText %}
-                            {{ helper.getAccessabilityText }}
-                        {% else %}
-                            Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[:1] }}){% endif %}
-                        {% endif %}
-                    "
-                >
+                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
+                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
+                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
                 </i>
 
         2:
-            slug:        'gl-basic'
-            description: 'Basic Glyphicons markup using span html tag.'
-            family:      '@IconFamily?slug=gl'
+            slug:        'md-basic'
+            description: 'Basic Material Design markup using ligatures.'
+            family:      '@IconFamily?slug=md'
             priority:    1
             engine:      'twig'
             template:    |
-                <span 
-                    class="
-                        {% if family.hasRequiredClasses %}
-                            {{ family.getRequiredClassesFormatted }}
-                        {% endif %}
-                        {% if family.hasOptionalSelectedClasses %}
-                            {{ family.getOptionalSelectedClassesFormatted }}
-                        {% endif %}
-                        {{ family.getPrefix }}-{{ icon.getSlug }}
-                    "
-                    aria-hidden="
-                        {% if helper.isPresentationOnly %}true{% else %}flase{% endif %}
-                    "
-                    aria-label="
-                        {% if helper.hasAccessabilityText %}
-                            {{ helper.getAccessabilityText }}
-                        {% else %}
-                            Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[:1] }}){% endif %}
-                        {% endif %}
-                    "
-                >
-                </span>
-
-        3:
-            slug:        'gl-basic-i'
-            description: 'Basic Glyphicons markup using span html tag.'
-            family:      '@IconFamily?slug=gl'
-            priority:    2
-            engine:      'twig'
-            template:    |
-                <i 
-                    class="
-                        {% if family.hasRequiredClasses %}
-                            {{ family.getRequiredClassesFormatted }}
-                        {% endif %}
-                        {% if family.hasOptionalSelectedClasses %}
-                            {{ family.getOptionalSelectedClassesFormatted }}
-                        {% endif %}
-                        {{ family.getPrefix }}-{{ icon.getSlug }}
-                    "
-                    aria-hidden="
-                        {% if helper.isPresentationOnly %}true{% else %}flase{% endif %}
-                    "
-                    aria-label="
-                        {% if helper.hasAccessabilityText %}
-                            {{ helper.getAccessabilityText }}
-                        {% else %}
-                            Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[:1] }}){% endif %}
-                        {% endif %}
-                    "
-                >
-                </i>
-
-        4:
-            slug:        'gm-basic-png-blk'
-            description: 'Basic Google Material (Black) markup using div html tag.'
-            family:      '@IconFamily?slug=gm-blk'
-            priority:    1
-            engine:      'twig'
-            template:    |
-                <div 
-                    class="
-                        {% if family.hasRequiredClasses %}
-                            {{ family.getRequiredClassesFormatted }}
-                        {% endif %}
-                        {% if family.hasOptionalSelectedClasses %}
-                            {{ family.getOptionalSelectedClassesFormatted }}
-                        {% endif %}
-                        {{ family.getPrefix }}-{{ icon.getSlug }}_{{ family.getAttribute('color') }}_{{ icon.getAttribute('size') }}{{ family.getAttribute('size_type') }}
-                    "
-                    aria-hidden="
-                        {% if helper.isPresentationOnly %}true{% else %}flase{% endif %}
-                    "
-                    aria-label="
-                        {% if helper.hasAccessabilityText %}
-                            {{ helper.getAccessabilityText }}
-                        {% else %}
-                            Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[:1] }}){% endif %}
-                        {% endif %}
-                    "
-                </div>
-
-        5:
-            slug:        'gm-basic-png-wht'
-            description: 'Basic Google Material (Black) markup using div html tag.'
-            family:      '@IconFamily?slug=gm-wht'
-            priority:    1
-            engine:      'twig'
-            template:    |
-                <div 
-                    class="
-                        {% if family.hasRequiredClasses %}
-                            {{ family.getRequiredClassesFormatted }}
-                        {% endif %}
-                        {% if family.hasOptionalSelectedClasses %}
-                            {{ family.getOptionalSelectedClassesFormatted }}
-                        {% endif %}
-                        {{ family.getPrefix }}-{{ icon.getSlug }}_{{ family.getAttribute('color') }}_{{ icon.getAttribute('size') }}{{ family.getAttribute('size_type') }}
-                    "
-                    aria-hidden="
-                        {% if helper.isPresentationOnly %}true{% else %}flase{% endif %}
-                    "
-                    aria-label="
-                        {% if helper.hasAccessabilityText %}
-                            {{ helper.getAccessabilityText }}
-                        {% else %}
-                            Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[:1] }}){% endif %}
-                        {% endif %}
-                    "
-                </div>
-
-        6:
-            slug:        'gm-basic-svg'
-            description: 'Basic Google Material (SVG) markup using div html tag.'
-            family:      '@IconFamily?slug=gm-svg'
-            priority:    1
-            engine:      'twig'
-            template:    |
-                <div 
-                    class="
-                        {% if family.hasRequiredClasses %}
-                            {{ family.getRequiredClassesFormatted }}
-                        {% endif %}
-                        {% if family.hasOptionalSelectedClasses %}
-                            {{ family.getOptionalSelectedClassesFormatted }}
-                        {% endif %}
-                        {{ family.getPrefix }}-{{ icon.getSlug }}_{{ icon.getAttribute('size') }}{{ family.getAttribute('size_type') }}
-                    "
-                    aria-hidden="
-                        {% if helper.isPresentationOnly %}true{% else %}flase{% endif %}
-                    "
-                    aria-label="
-                        {% if helper.hasAccessabilityText %}
-                            {{ helper.getAccessabilityText }}
-                        {% else %}
-                            Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[:1] }}){% endif %}
-                        {% endif %}
-                    "
-                </div>
+                <i
+                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %}"
+                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
+                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% endif %}"
+                >{{ icon.getSlug() }}</i>
