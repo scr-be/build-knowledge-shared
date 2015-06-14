@@ -1,0 +1,476 @@
+#!/bin/bash
+
+#
+# RECURSIVE PHP LINTER
+#
+# Author    : Rob Frawley 2nd <rmf@scr.be>
+# Copyright : 2015 Scribe Inc <http://scribenet.com/>
+# License   : MIT License     <http://scribe.mit-license.org/>
+#
+
+SCRIPT_CURR_PATH="$(pwd)"
+
+readonly SCRIPT_SELF_TIME="$(date +%s).$(date +%N)"
+readonly SCRIPT_SELF_PATH="${0}"
+readonly SCRIPT_SELF_BASE="$(basename ${0})"
+readonly SCRIPT_REAL_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly SCRIPT_SELF_VERS_NUMB="0.5.0@dev"
+readonly SCRIPT_SELF_VERS_NAME="Encapsulated Me (There is a \"main\" method!?)"
+
+ECHO_MODE=0
+ECHO_LONG=1
+ECHO_NL=1
+
+OPTS_ENGINES=("zend")
+OPTS_ENGINES_BIN=("/usr/bin/env php")
+OPTS_ENGINES_CLI=("-l")
+OPTS_EXTENSIONS=("php")
+LINT_USER_PATH=""
+LINT_REAL_PATH=""
+
+function echo_line()
+{
+    local unix=""
+    local mili=""
+
+    for line in "$@"
+    do
+        if [[ "${ECHO_MODE}" == "1" ]]
+        then
+            unix="$(date +%s | grep -o -P '[0-9]{5}$')"
+            mili="$(printf %04d $((($(date +%N|sed 's/^0*//') / 1000000))))"
+            echo -en " \e[0;35m[${unix}.${mili}]\e[0m"
+        fi
+
+        if [[ "${ECHO_MODE}" == "1" || "${ECHO_LONG}" == "1" ]]
+        then
+            echo -en " ${line}"
+        else
+            echo -en " ${line: 0:1}"
+        fi
+
+        test ${ECHO_NL} == "1" && echo_line_blank
+    done
+}
+
+function echo_line_verbose()
+{
+    test "${ECHO_MODE}" == "0" && return
+
+    echo_line "${@}"
+}
+
+function echo_line_verbose_empty()
+{
+    echo_line_verbose ""
+}
+
+function echo_line_tabbed()
+{
+    local line_tabbed=()
+
+    for line in "$@"; do line_tabbed+=("\t$line"); done
+
+    echo_line "${line_tabbed}"
+}
+
+function echo_line_blank()
+{
+    echo -en "\n"
+}
+
+function echo_line_empty()
+{
+    echo_line ""
+}
+
+function exit_now()
+{
+    local exit_code=0
+    local exit_message=""
+    local exec_time="0"
+
+    test ! -z "${1}" && exit_code="${1}"
+    test ! -z "${2}" && exit_message="${2}"
+
+    ECHO_MODE=1
+    ECHO_LONG=1
+
+    test ! -z "${exit_message}" && echo_line "${exit_message}" && echo_line_empty
+
+    exec_time=echo_execution_time
+    echo_line "\e[0;37m\e[0;105m  PROF  \e[0m \e[0;90m\e[47m Total execution took \e[0;97m\e[0;104m $(echo_execution_time) \e[0m\e[0;90m\e[47m seconds \e[0m"
+    echo_line_blank
+
+    exit ${exit_code}
+}
+
+function echo_execution_time()
+{
+    local script_self_stop="$(date +%s).$(date +%N)"
+    local script_self_time_total="$(printf "%.*f\n" 4 $(echo "${script_self_stop}-${SCRIPT_SELF_TIME}" | bc))"
+
+    test "${script_self_time_total}" == "0.0000" && script_self_time_total="<0.0001"
+
+    echo "${script_self_time_total}"
+}
+
+function exit_now_error()
+{
+    local exit_code=1
+    local exit_message="Script return code ${exit_code}"
+    local exit_message_more="An unknown fatal stop caused execution to halt"
+
+    test ! -z "${2}" && exit_code="${2}"
+    test ! -z "${1}" && exit_message_more="${1}"
+
+    ECHO_MODE=1
+    ECHO_LONG=1
+
+    echo_line "\e[1;97m\e[41m  STOP  \e[0m \e[40m\e[1;91m ${exit_message_more} \e[0m"
+    exit_now "${exit_code}" "\e[1;97m\e[41m  EXIT  \e[0m \e[40m\e[1;91m ${exit_message} \e[0m"
+}
+
+function echo_usage()
+{
+    ECHO_MODE=0
+    ECHO_LONG=1
+
+    echo_line "\e[40m     Usage     \e[0m"
+    echo_line "\t\e[1;97m./${SCRIPT_SELF_BASE} [-h|--help] [-v|--version] [--verbose] [--engines=zend,hhvm,hhvm:hack...] [--extensions=php,...] <dir/path>\e[0m"
+    echo_line_blank
+
+    test ! -z "${1}" && test "${1}" == "no-exit" && return
+    test ! -z "${1}" && echo_line_empty && exit_now_error "${1}" 2
+
+    exit_now
+}
+
+function echo_usage_verbose()
+{
+    echo_usage "no-exit"
+
+    echo_line "\e[40m  Description  \e[0m"
+    echo_line_tabbed "Simply, this script lints PHP files within a directory. Much more verbosely, this"
+    echo_line_tabbed "script handles recursively walking the user-provided directory path (filtering for"
+    echo_line_tabbed "supported files based on a set of customizable file extensions) and then handing"
+    echo_line_tabbed "off the filename to the respective binary (for the set of engines requested) and"
+    echo_line_tabbed "running it's native lint command-line parameter. The output and return code of the"
+    echo_line_tabbed "engine binary is captured and interpreted to then provide feedback to the user (in"
+    echo_line_tabbed "either a normal or verbose method, per the user-requested verbosity)."
+    echo_line_blank
+    echo_line "\e[40m  Parameters  \e[0m"
+    echo_line_tabbed "\e[1;97m-h | --help\e[0m"
+    echo_line_tabbed "\tDisplays the message you are currently seeing."
+    echo_line_blank
+    echo_line_tabbed "\e[1;97m-v | --version\e[0m"
+    echo_line_tabbed "\tOutputs the current version of this script."
+    echo_line_blank
+    echo_line_tabbed "\e[1;97m--engine=[zend,hhvm,...]\e[0m"
+    echo_line_tabbed "\tAllows for a selection of one or more engines to lint each file against. At this"
+    echo_line_tabbed "\tthere is only support for the native PHP VM (Zend Engine) and HHVM."
+    echo_line_blank
+    echo_line_tabbed "\e[1;97m--extensions=[php,...]\e[0m"
+    echo_line_tabbed "\tProvides a mechanism for linting PHP files that have non-standard extensions."
+    echo_line_blank
+    echo_line_tabbed "\e[1;97m/path/to/directory/to/parse\e[0m"
+    echo_line_tabbed "\tRequired: The path to scan for files to lint."
+    echo_line_blank
+    echo_line_blank
+
+    exit_now
+}
+
+function echo_version()
+{
+    ECHO_MODE=1
+    ECHO_LONG=1
+
+    echo_line "\e[0;37m\e[0;105m  INFO  \e[0m Version Num. : ${SCRIPT_SELF_VERS_NUMB}"
+    echo_line "\e[0;37m\e[0;105m  INFO  \e[0m Release Name : ${SCRIPT_SELF_VERS_NAME}"
+
+    if [[ "${SCRIPT_SELF_VERS_NUMB: -4}" == "@dev" ]]; then
+        echo_line_verbose "\e[0;37m\e[0;105m  INFO  \e[0m Release Type : Development"
+    else
+        echo_line_verbose "\e[0;37m\e[0;105m  INFO  \e[0m Release Type : Production"
+    fi
+
+    echo_line_blank
+
+    exit_now
+}
+
+function echo_welcome()
+{
+    ECHO_MODE=0
+    ECHO_LONG=1
+
+    echo_line_blank
+    echo_line "\e[0;107m\e[1;30m  [  RECURSIVE PHP LINTER  ]  \e[0m"
+    echo_line_blank
+    echo_line "Author    : Rob Frawley 2nd <rmf@scr.be>"
+    echo_line "Copyright : 2015 Scribe Inc <http://scribenet.com/>"
+    echo_line "License   : MIT License     <http://scribe.mit-license.org/>"
+    echo_line_blank
+}
+
+function opts_parser()
+{
+    local opt=""
+    local dash=0
+
+    test "$#" -lt 1 && echo_usage "You provided an invalid combination of parameters - you must provide a directory path argument"
+
+    for opt in "${@}"
+    do
+        dash=0
+        opt="$(echo ${opt} | sed -e 's/^[ \t]*//')";
+
+        test "${opt: 0:2}" == "--" && dash=1 && opt="${opt: 2}"
+        test "${opt: 0:1}" == "-"  && dash=1 && opt="${opt: 1}"
+
+        if [[ "${dash}" != "1" ]]
+        then
+            LINT_USER_PATH="${opt}"
+            LINT_REAL_PATH="$(realpath ${LINT_USER_PATH})"
+
+            test -z "${LINT_REAL_PATH}" && echo_usage "You provided an invalid combination of parameters - please review the usage or try --help" "5"
+
+        else
+            opts_parser_dash "${opt}"
+        fi
+    done
+
+    if [[ -z "${LINT_USER_PATH}" ]]; then
+        echo_usage "You provided an invalid combination of parameters - you must provide a directory path argument"
+    fi
+}
+
+function opts_parser_dash()
+{
+    local opt="${1}"
+
+    if [[ "${opt}" == "help" || "${opt}" == "h" ]]; then
+        echo_usage_verbose
+    elif [[ "${opt}" == 'version' || "${opt}" == "v" ]]; then
+        echo_version
+    elif [[ "${opt}" == 'verbose' ]]; then
+        ECHO_MODE=1
+    elif [[ "${opt: 0:7}" == 'engines' ]]; then
+        opts_parser_engines "${opt}"
+    elif [[ "${opt: 0:10}" == 'extensions' ]]; then
+        opts_parser_extensions "${opt}"
+    fi
+}
+
+function opts_parser_engines()
+{
+    local opt_engines_tmp=()
+    local opt_engines_str=""
+    local opt="${1: 8}"
+    OPTS_ENGINES=()
+    OPTS_ENGINES_BIN=()
+    OPTS_ENGINES_CLI=()
+
+    test -z "${opt}" && exit_now_error "You provided an invalid parameter value - no engines were supplied for the argument."
+
+    IFS=',' read -a opt_engines_tmp <<< "${opt}"
+
+    for engine in "${opt_engines_tmp[@]}"
+    do
+        if [[ "${engine}" != "zend" && "${engine}" != "hhvm" && "${engine}" != "hack" ]]; then
+            exit_now_error "You provided an invalid parameter value - the engine \"${engine}\" is not supported."
+        fi
+
+        opt_engines_str="${opt_engines_str}, \"${engine} resolved to $(get_bin_for_engine ${engine}) with opts $(get_bin_cli_opt_for_engine ${engine})\""
+        OPTS_ENGINES+=("${engine}")        
+        OPTS_ENGINES_BIN+=("$(get_bin_for_engine ${engine})")
+        OPTS_ENGINES_CLI+=("$(get_bin_cli_opt_for_engine ${engine})")
+    done
+}
+
+function opts_parser_extensions()
+{
+    local opt_exts_tmp=()
+    local opt_exts_str=""
+    local opt="${1: 11}"
+    OPTS_EXTENSIONS=()
+
+    test -z "${opt}" && exit_now_error "You provided an invalid parameter value - no extensions were supplied for the argument."
+
+    IFS=',' read -a opt_exts_tmp <<< "${opt}"
+
+    for ext in "${opt_exts_tmp[@]}"
+    do
+        OPTS_EXTENSIONS+=("${ext}")
+    done
+}
+
+function get_bin_for_engine()
+{
+    if [[ "${1}" == "zend" ]]; then
+        echo "$(which php || exit_now_error "Unable to find the binary for {Zend} (php)")"
+    elif [[ "${1}" == "hhvm" || "${1}" == "hack" ]]; then
+        echo "$(which hhvm || exit_now_error "Unable to find the binary for {HHVM} (hhvm)")"
+    else
+        exit_now_error
+    fi
+}
+
+function get_bin_cli_opt_for_engine()
+{
+    if [[ "${1}" == "zend" ]]; then
+        echo "-l"
+    elif [[ "${1}" == "hhvm" ]]; then
+        echo "-l"
+    elif [[ "${1}" == "hack" ]]; then
+        echo "-f"
+    else
+        exit_now_error
+    fi
+}
+
+function echo_runtime()
+{
+    local opts_extensions="$(declare -p OPTS_EXTENSIONS)"
+    local opts_engines_set="$(declare -p OPTS_ENGINES)"
+    local opts_engines_bin="$(declare -p OPTS_ENGINES_BIN)"
+    local opts_engines_cli="$(declare -p OPTS_ENGINES_CLI)"
+
+    echo_line_verbose "\e[40m  Runtime Configuration  \e[0m"
+    echo_line_verbose "\t- $(echo_runtime_pretty_variable "LINT_REAL_PATH=")$(echo_runtime_pretty_value_string "${LINT_REAL_PATH}")"
+    echo_line_verbose "\t- $(echo_runtime_pretty_variable "${opts_extensions: 11}")${opts_extensions: 27}"
+    echo_line_verbose "\t- $(echo_runtime_pretty_variable "${opts_engines_set: 11}")${opts_engines_set: 24}"
+    echo_line_verbose "\t- $(echo_runtime_pretty_variable "${opts_engines_bin: 11}")${opts_engines_bin: 28}"
+    echo_line_verbose "\t- $(echo_runtime_pretty_variable "${opts_engines_cli: 11}")${opts_engines_cli: 28}"
+    echo_line_verbose_empty
+}
+
+function echo_runtime_pretty_variable()
+{
+    echo "$(echo  ${1} | grep -o -P '^[^=\s]*' | sed -e :a -e 's/^.\{1,16\}$/& /;ta') = "
+}
+
+function echo_runtime_pretty_value_string()
+{
+    echo $(echo ${1} | grep -o -P '[^=\s]*$')
+}
+
+function exec_runtime()
+{
+    for engine_index in "${!OPTS_ENGINES[@]}"
+    do
+        exec_runtime_engine_index "${engine_index}"
+        echo_line
+    done
+}
+
+function exec_runtime_engine_file_loop()
+{
+    local engine=${OPTS_ENGINES[$engine_index]}
+    local engine_bin=${OPTS_ENGINES_BIN[$engine_index]}
+    local engine_cli=${OPTS_ENGINES_CLI[$engine_index]}
+
+    local file_list_tmp=""
+    local file_list=()
+    local ext=""
+    local result_error_count=0
+    local iteration=0
+    local iteration_max=70
+
+    for ext in "${OPTS_EXTENSIONS[@]}"; do
+        echo_line "\e[0;37m\e[0;105m  INIT  \e[0m \e[0;90m\e[47m Checking file extension \e[0;97m\e[0;104m ${ext} \e[0m\e[0;90m\e[47m against engine \e[0;97m\e[0;104m ${engine} \e[0m\e[0;90m\e[47m using binary \e[0;97m\e[0;104m ${engine_bin} \e[0m"
+        echo_line_empty
+
+        for file in `find "${LINT_REAL_PATH}" -iname "*.${ext}"`
+        do
+            if [[ "${iteration}" == "0" && "${ECHO_MODE}" == "0" ]]; then
+                echo -n " "
+            fi
+
+            file_ext="${file##*.}"
+
+            file_ret_error="$(${engine_bin} ${engine_cli} $file 2> /dev/null)"
+
+            if [ "$file_ret_error" != "No syntax errors detected in $file" ]
+            then
+                if [[ "${ECHO_MODE}" == "1" ]]; then
+                    echo_line_verbose "\e[1;97m\e[41m  FAIL  \e[0m \e[1;91m${file}\e[0m"
+                else
+                    echo -en "\e[1;91mE\e[0m"
+                fi
+                result_error_files[result_error_count]="${file}"
+                result_error_messages[result_error_count]="${file_ret_error}"
+                ((result_error_count++))
+            else
+                if [[ "${ECHO_MODE}" == "1" ]]; then
+                    echo_line_verbose "\e[40m  \e[0;37m\e[40mPASS  \e[0m ${file}"
+                else
+                    echo -en "\e[1;37m.\e[0m"
+                fi
+            fi
+
+            ((iteration++))
+
+            if [[ "${iteration}" -gt "${iteration_max}" && "${ECHO_MODE}" == "0" ]]; then
+                iteration=0
+                echo -en "\n"
+            fi
+        done
+    done
+
+    if [[ "${ECHO_MODE}" == "0" ]]; then
+        echo_line_blank
+    fi
+}
+
+function exec_runtime_engine_index()
+{
+    local engine=${OPTS_ENGINES[$engine_index]}
+    local engine_bin=${OPTS_ENGINES_BIN[$engine_index]}
+    local engine_cli=${OPTS_ENGINES_CLI[$engine_index]}
+
+    local result_error_count=0
+    local iteration=0
+    local iteration_max=70
+
+    exec_runtime_engine_file_loop
+
+    echo_line_empty
+
+    if [ "${result_error_count}" == "0" ]; then
+        echo_line "\e[0;102m\e[1;30m\e[1;97m\e[42m  DONE  \e[0m \e[0;90m\e[47m Found a total of \e[0;97m\e[0;104m 0 \e[0m\e[0;90m\e[47m errors during linting run against \e[0;97m\e[0;104m ${engine_bin} \e[0m\e[0;90m\e[47m\e[0m"
+        echo_line_empty
+        return
+    fi
+
+    if [ "${result_error_count}" != "0" ]
+    then
+        echo_line "\e[1;97m\e[41m  DONE  \e[0m \e[0;90m\e[47m Found a total of \e[0;97m\e[0;104m ${result_error_count} \e[0m\e[0;90m\e[47m errors during linting run against \e[0;97m\e[0;104m ${engine_bin} \e[0m\e[0;90m\e[47m\e[0m"
+        echo_line_empty
+
+        if [ "${result_error_count}" != "0" ]
+        then
+            for i in "${!result_error_files[@]}"
+            do
+                echo_line "\e[0;102m\e[1;30m\e[1;97m\e[43m   $(printf "%02d" $(((${i}+1))))   \e[0m \e[0;90m\e[47m A tokenizer/lexer error within \e[0;97m\e[0;104m $(basename ${result_error_files[${i}]}) \e[0m\e[0;90m\e[47m was encountered\e[0m\e[0;90m\e[47m\e[0m"
+                echo -e "\e[0;97m \e[0;101m"
+                echo "${result_error_messages[${i}]}"
+                echo -e "\e[0m\n"
+            done
+        fi
+    fi
+
+    echo_line_empty
+}
+
+function main()
+{
+    echo_welcome
+    opts_parser "${@}"
+    echo_runtime
+    exec_runtime
+    exit_now
+}
+
+main "${@}"
