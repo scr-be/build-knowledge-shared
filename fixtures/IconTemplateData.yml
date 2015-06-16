@@ -62,3 +62,19 @@ IconTemplate:
                     {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
                     aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% endif %}"
                 >{{ icon.getSlug() }}</i>
+
+        3:
+            slug:        'mdb-basic'
+            description: 'Basic Material Design markup using ligatures within block-level element.'
+            family:      '@IconFamily?slug=mdb'
+            priority:    1
+            engine:      'twig'
+            template:    |
+                <div class="md-box">
+                    <span
+                        class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %}"
+                        {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
+                        {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
+                        aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% endif %}"
+                    >{{ icon.getSlug() }}</span>
+                </div>

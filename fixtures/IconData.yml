@@ -5889,6 +5889,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         521:
             slug: access_alarm
@@ -5901,6 +5902,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         522:
             slug: access_alarms
@@ -5913,6 +5915,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         523:
             slug: access_time
@@ -5925,6 +5928,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         524:
             slug: accessibility
@@ -5936,6 +5940,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         525:
             slug: account_balance
@@ -5948,6 +5953,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         526:
             slug: account_balance_wallet
@@ -5960,6 +5966,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         527:
             slug: account_box
@@ -5972,6 +5979,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         528:
             slug: account_circle
@@ -5984,6 +5992,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         529:
             slug: adb
@@ -5995,6 +6004,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         530:
             slug: add
@@ -6006,6 +6016,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         531:
             slug: add_alarm
@@ -6018,6 +6029,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         532:
             slug: add_alert
@@ -6030,6 +6042,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         533:
             slug: add_box
@@ -6042,6 +6055,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         534:
             slug: add_circle
@@ -6054,6 +6068,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         535:
             slug: add_circle_outline
@@ -6066,6 +6081,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         536:
             slug: add_shopping_cart
@@ -6078,6 +6094,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         537:
             slug: add_to_photos
@@ -6090,6 +6107,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         538:
             slug: adjust
@@ -6101,6 +6119,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         539:
             slug: airline_seat_flat
@@ -6113,6 +6132,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         540:
             slug: airline_seat_flat_angled
@@ -6125,6 +6145,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         541:
             slug: airline_seat_individual_suite
@@ -6137,6 +6158,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         542:
             slug: airline_seat_legroom_extra
@@ -6149,6 +6171,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         543:
             slug: airline_seat_legroom_normal
@@ -6161,6 +6184,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         544:
             slug: airline_seat_legroom_reduced
@@ -6173,6 +6197,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         545:
             slug: airline_seat_recline_extra
@@ -6185,6 +6210,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         546:
             slug: airline_seat_recline_normal
@@ -6197,6 +6223,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         547:
             slug: airplanemode_active
@@ -6209,6 +6236,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         548:
             slug: airplanemode_inactive
@@ -6221,6 +6249,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         549:
             slug: airplay
@@ -6232,6 +6261,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         550:
             slug: alarm
@@ -6243,6 +6273,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         551:
             slug: alarm_add
@@ -6255,6 +6286,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         552:
             slug: alarm_off
@@ -6267,6 +6299,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         553:
             slug: alarm_on
@@ -6279,6 +6312,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         554:
             slug: album
@@ -6290,6 +6324,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         555:
             slug: android
@@ -6301,6 +6336,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         556:
             slug: announcement
@@ -6312,6 +6348,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         557:
             slug: apps
@@ -6323,6 +6360,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         558:
             slug: archive
@@ -6334,6 +6372,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         559:
             slug: arrow_back
@@ -6346,6 +6385,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         560:
             slug: arrow_drop_down
@@ -6358,6 +6398,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         561:
             slug: arrow_drop_down_circle
@@ -6370,6 +6411,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         562:
             slug: arrow_drop_up
@@ -6382,6 +6424,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         563:
             slug: arrow_forward
@@ -6394,6 +6437,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         564:
             slug: aspect_ratio
@@ -6406,6 +6450,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         565:
             slug: assessment
@@ -6417,6 +6462,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         566:
             slug: assignment
@@ -6428,6 +6474,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         567:
             slug: assignment_ind
@@ -6440,6 +6487,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         568:
             slug: assignment_late
@@ -6452,6 +6500,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         569:
             slug: assignment_return
@@ -6464,6 +6513,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         570:
             slug: assignment_returned
@@ -6476,6 +6526,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         571:
             slug: assignment_turned_in
@@ -6488,6 +6539,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         572:
             slug: assistant
@@ -6499,6 +6551,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         573:
             slug: assistant_photo
@@ -6511,6 +6564,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         574:
             slug: attach_file
@@ -6523,6 +6577,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         575:
             slug: attach_money
@@ -6535,6 +6590,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         576:
             slug: attachment
@@ -6546,6 +6602,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         577:
             slug: audiotrack
@@ -6557,6 +6614,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         578:
             slug: autorenew
@@ -6568,6 +6626,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         579:
             slug: av_timer
@@ -6580,6 +6639,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         580:
             slug: backspace
@@ -6591,6 +6651,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         581:
             slug: backup
@@ -6602,6 +6663,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         582:
             slug: battery_alert
@@ -6614,6 +6676,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         583:
             slug: battery_charging_full
@@ -6626,6 +6689,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         584:
             slug: battery_full
@@ -6638,6 +6702,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         585:
             slug: battery_std
@@ -6650,6 +6715,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         586:
             slug: battery_unknown
@@ -6662,6 +6728,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         587:
             slug: beenhere
@@ -6673,6 +6740,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         588:
             slug: block
@@ -6684,6 +6752,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         589:
             slug: bluetooth
@@ -6695,6 +6764,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         590:
             slug: bluetooth_audio
@@ -6707,6 +6777,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         591:
             slug: bluetooth_connected
@@ -6719,6 +6790,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         592:
             slug: bluetooth_disabled
@@ -6731,6 +6803,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         593:
             slug: bluetooth_searching
@@ -6743,6 +6816,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         594:
             slug: blur_circular
@@ -6755,6 +6829,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         595:
             slug: blur_linear
@@ -6767,6 +6842,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         596:
             slug: blur_off
@@ -6779,6 +6855,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         597:
             slug: blur_on
@@ -6791,6 +6868,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         598:
             slug: book
@@ -6802,6 +6880,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         599:
             slug: bookmark
@@ -6813,6 +6892,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         600:
             slug: bookmark_border
@@ -6825,6 +6905,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         601:
             slug: border_all
@@ -6837,6 +6918,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         602:
             slug: border_bottom
@@ -6849,6 +6931,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         603:
             slug: border_clear
@@ -6861,6 +6944,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         604:
             slug: border_color
@@ -6873,6 +6957,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         605:
             slug: border_horizontal
@@ -6885,6 +6970,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         606:
             slug: border_inner
@@ -6897,6 +6983,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         607:
             slug: border_left
@@ -6909,6 +6996,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         608:
             slug: border_outer
@@ -6921,6 +7009,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         609:
             slug: border_right
@@ -6933,6 +7022,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         610:
             slug: border_style
@@ -6945,6 +7035,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         611:
             slug: border_top
@@ -6957,6 +7048,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         612:
             slug: border_vertical
@@ -6969,6 +7061,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         613:
             slug: brightness_1
@@ -6981,6 +7074,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         614:
             slug: brightness_2
@@ -6993,6 +7087,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         615:
             slug: brightness_3
@@ -7005,6 +7100,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         616:
             slug: brightness_4
@@ -7017,6 +7113,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         617:
             slug: brightness_5
@@ -7029,6 +7126,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         618:
             slug: brightness_6
@@ -7041,6 +7139,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         619:
             slug: brightness_7
@@ -7053,6 +7152,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         620:
             slug: brightness_auto
@@ -7065,6 +7165,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         621:
             slug: brightness_high
@@ -7077,6 +7178,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         622:
             slug: brightness_low
@@ -7089,6 +7191,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         623:
             slug: brightness_medium
@@ -7101,6 +7204,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         624:
             slug: broken_image
@@ -7113,6 +7217,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         625:
             slug: brush
@@ -7124,6 +7229,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         626:
             slug: bug_report
@@ -7136,6 +7242,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         627:
             slug: build
@@ -7147,6 +7254,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         628:
             slug: business
@@ -7158,6 +7266,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         629:
             slug: cached
@@ -7169,6 +7278,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         630:
             slug: cake
@@ -7180,6 +7290,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         631:
             slug: call
@@ -7191,6 +7302,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         632:
             slug: call_end
@@ -7203,6 +7315,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         633:
             slug: call_made
@@ -7215,6 +7328,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         634:
             slug: call_merge
@@ -7227,6 +7341,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         635:
             slug: call_missed
@@ -7239,6 +7354,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         636:
             slug: call_received
@@ -7251,6 +7367,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         637:
             slug: call_split
@@ -7263,6 +7380,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         638:
             slug: camera
@@ -7274,6 +7392,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         639:
             slug: camera_alt
@@ -7286,6 +7405,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         640:
             slug: camera_enhance
@@ -7298,6 +7418,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         641:
             slug: camera_front
@@ -7310,6 +7431,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         642:
             slug: camera_rear
@@ -7322,6 +7444,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         643:
             slug: camera_roll
@@ -7334,6 +7457,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         644:
             slug: cancel
@@ -7345,6 +7469,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         645:
             slug: card_giftcard
@@ -7357,6 +7482,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         646:
             slug: card_membership
@@ -7369,6 +7495,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         647:
             slug: card_travel
@@ -7381,6 +7508,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         648:
             slug: cast
@@ -7392,6 +7520,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         649:
             slug: cast_connected
@@ -7404,6 +7533,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         650:
             slug: center_focus_strong
@@ -7416,6 +7546,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         651:
             slug: center_focus_weak
@@ -7428,6 +7559,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         652:
             slug: change_history
@@ -7440,6 +7572,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         653:
             slug: chat
@@ -7451,6 +7584,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         654:
             slug: chat_bubble
@@ -7463,6 +7597,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         655:
             slug: chat_bubble_outline
@@ -7475,6 +7610,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         656:
             slug: check
@@ -7486,6 +7622,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         657:
             slug: check_box
@@ -7498,6 +7635,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         658:
             slug: check_box_outline_blank
@@ -7510,6 +7648,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         659:
             slug: check_circle
@@ -7522,6 +7661,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         660:
             slug: chevron_left
@@ -7534,6 +7674,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         661:
             slug: chevron_right
@@ -7546,6 +7687,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         662:
             slug: chrome_reader_mode
@@ -7558,6 +7700,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         663:
             slug: class
@@ -7569,6 +7712,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         664:
             slug: clear
@@ -7580,6 +7724,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         665:
             slug: clear_all
@@ -7592,6 +7737,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         666:
             slug: close
@@ -7603,6 +7749,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         667:
             slug: closed_caption
@@ -7615,6 +7762,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         668:
             slug: cloud
@@ -7626,6 +7774,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         669:
             slug: cloud_circle
@@ -7638,6 +7787,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         670:
             slug: cloud_done
@@ -7650,6 +7800,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         671:
             slug: cloud_download
@@ -7662,6 +7813,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         672:
             slug: cloud_off
@@ -7674,6 +7826,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         673:
             slug: cloud_queue
@@ -7686,6 +7839,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         674:
             slug: cloud_upload
@@ -7698,6 +7852,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         675:
             slug: code
@@ -7709,6 +7864,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         676:
             slug: collections
@@ -7720,6 +7876,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         677:
             slug: collections_bookmark
@@ -7732,6 +7889,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         678:
             slug: color_lens
@@ -7744,6 +7902,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         679:
             slug: colorize
@@ -7755,6 +7914,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         680:
             slug: comment
@@ -7766,6 +7926,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         681:
             slug: compare
@@ -7777,6 +7938,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         682:
             slug: computer
@@ -7788,6 +7950,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         683:
             slug: confirmation_number
@@ -7800,6 +7963,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         684:
             slug: contact_phone
@@ -7812,6 +7976,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         685:
             slug: contacts
@@ -7823,6 +7988,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         686:
             slug: content_copy
@@ -7835,6 +8001,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         687:
             slug: content_cut
@@ -7847,6 +8014,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         688:
             slug: content_paste
@@ -7859,6 +8027,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         689:
             slug: control_point
@@ -7871,6 +8040,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         690:
             slug: control_point_duplicate
@@ -7883,6 +8053,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         691:
             slug: create
@@ -7894,6 +8065,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         692:
             slug: credit_card
@@ -7906,6 +8078,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         693:
             slug: crop
@@ -7917,6 +8090,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         694:
             slug: crop_16_9
@@ -7929,6 +8103,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         695:
             slug: crop_3_2
@@ -7941,6 +8116,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         696:
             slug: crop_5_4
@@ -7953,6 +8129,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         697:
             slug: crop_7_5
@@ -7965,6 +8142,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         698:
             slug: crop_din
@@ -7977,6 +8155,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         699:
             slug: crop_free
@@ -7989,6 +8168,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         700:
             slug: crop_landscape
@@ -8001,6 +8181,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         701:
             slug: crop_original
@@ -8013,6 +8194,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         702:
             slug: crop_portrait
@@ -8025,6 +8207,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         703:
             slug: crop_square
@@ -8037,6 +8220,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         704:
             slug: dashboard
@@ -8048,6 +8232,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         705:
             slug: data_usage
@@ -8060,6 +8245,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         706:
             slug: dehaze
@@ -8071,6 +8257,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         707:
             slug: delete
@@ -8082,6 +8269,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         708:
             slug: description
@@ -8093,6 +8281,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         709:
             slug: desktop_mac
@@ -8105,6 +8294,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         710:
             slug: desktop_windows
@@ -8117,6 +8307,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         711:
             slug: details
@@ -8128,6 +8319,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         712:
             slug: developer_board
@@ -8140,6 +8332,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         713:
             slug: developer_mode
@@ -8152,6 +8345,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         714:
             slug: device_hub
@@ -8164,6 +8358,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         715:
             slug: devices
@@ -8175,6 +8370,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         716:
             slug: dialer_sip
@@ -8187,6 +8383,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         717:
             slug: dialpad
@@ -8198,6 +8395,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         718:
             slug: directions
@@ -8209,6 +8407,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         719:
             slug: directions_bike
@@ -8221,6 +8420,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         720:
             slug: directions_boat
@@ -8233,6 +8433,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         721:
             slug: directions_bus
@@ -8245,6 +8446,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         722:
             slug: directions_car
@@ -8257,6 +8459,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         723:
             slug: directions_railway
@@ -8269,6 +8472,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         724:
             slug: directions_run
@@ -8281,6 +8485,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         725:
             slug: directions_subway
@@ -8293,6 +8498,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         726:
             slug: directions_transit
@@ -8305,6 +8511,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         727:
             slug: directions_walk
@@ -8317,6 +8524,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         728:
             slug: disc_full
@@ -8329,6 +8537,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         729:
             slug: dns
@@ -8340,6 +8549,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         730:
             slug: do_not_disturb
@@ -8352,6 +8562,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         731:
             slug: do_not_disturb_alt
@@ -8364,6 +8575,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         732:
             slug: dock
@@ -8375,6 +8587,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         733:
             slug: domain
@@ -8386,6 +8599,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         734:
             slug: done
@@ -8397,6 +8611,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         735:
             slug: done_all
@@ -8409,6 +8624,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         736:
             slug: drafts
@@ -8420,6 +8636,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         737:
             slug: drive_eta
@@ -8432,6 +8649,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         738:
             slug: dvr
@@ -8443,6 +8661,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         739:
             slug: edit
@@ -8454,6 +8673,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         740:
             slug: eject
@@ -8465,6 +8685,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         741:
             slug: email
@@ -8476,6 +8697,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         742:
             slug: equalizer
@@ -8487,6 +8709,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         743:
             slug: error
@@ -8498,6 +8721,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         744:
             slug: error_outline
@@ -8510,6 +8734,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         745:
             slug: event
@@ -8521,6 +8746,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         746:
             slug: event_available
@@ -8533,6 +8759,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         747:
             slug: event_busy
@@ -8545,6 +8772,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         748:
             slug: event_note
@@ -8557,6 +8785,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         749:
             slug: event_seat
@@ -8569,6 +8798,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         750:
             slug: exit_to_app
@@ -8581,6 +8811,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         751:
             slug: expand_less
@@ -8593,6 +8824,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         752:
             slug: expand_more
@@ -8605,6 +8837,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         753:
             slug: explicit
@@ -8616,6 +8849,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         754:
             slug: explore
@@ -8627,6 +8861,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         755:
             slug: exposure
@@ -8638,6 +8873,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         756:
             slug: exposure_neg_1
@@ -8650,6 +8886,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         757:
             slug: exposure_neg_2
@@ -8662,6 +8899,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         758:
             slug: exposure_plus_1
@@ -8674,6 +8912,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         759:
             slug: exposure_plus_2
@@ -8686,6 +8925,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         760:
             slug: exposure_zero
@@ -8698,6 +8938,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         761:
             slug: extension
@@ -8709,6 +8950,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         762:
             slug: face
@@ -8720,6 +8962,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         763:
             slug: fast_forward
@@ -8732,6 +8975,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         764:
             slug: fast_rewind
@@ -8744,6 +8988,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         765:
             slug: favorite
@@ -8755,6 +9000,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         766:
             slug: favorite_border
@@ -8767,6 +9013,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         767:
             slug: feedback
@@ -8778,6 +9025,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         768:
             slug: file_download
@@ -8790,6 +9038,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         769:
             slug: file_upload
@@ -8802,6 +9051,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         770:
             slug: filter
@@ -8813,6 +9063,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         771:
             slug: filter_1
@@ -8825,6 +9076,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         772:
             slug: filter_2
@@ -8837,6 +9089,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         773:
             slug: filter_3
@@ -8849,6 +9102,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         774:
             slug: filter_4
@@ -8861,6 +9115,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         775:
             slug: filter_5
@@ -8873,6 +9128,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         776:
             slug: filter_6
@@ -8885,6 +9141,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         777:
             slug: filter_7
@@ -8897,6 +9154,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         778:
             slug: filter_8
@@ -8909,6 +9167,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         779:
             slug: filter_9
@@ -8921,6 +9180,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         780:
             slug: filter_9_plus
@@ -8933,6 +9193,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         781:
             slug: filter_b_and_w
@@ -8945,6 +9206,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         782:
             slug: filter_center_focus
@@ -8957,6 +9219,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         783:
             slug: filter_drama
@@ -8969,6 +9232,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         784:
             slug: filter_frames
@@ -8981,6 +9245,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         785:
             slug: filter_hdr
@@ -8993,6 +9258,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         786:
             slug: filter_list
@@ -9005,6 +9271,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         787:
             slug: filter_none
@@ -9017,6 +9284,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         788:
             slug: filter_tilt_shift
@@ -9029,6 +9297,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         789:
             slug: filter_vintage
@@ -9041,6 +9310,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         790:
             slug: find_in_page
@@ -9053,6 +9323,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         791:
             slug: find_replace
@@ -9065,6 +9336,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         792:
             slug: flag
@@ -9076,6 +9348,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         793:
             slug: flare
@@ -9087,6 +9360,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         794:
             slug: flash_auto
@@ -9099,6 +9373,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         795:
             slug: flash_off
@@ -9111,6 +9386,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         796:
             slug: flash_on
@@ -9123,6 +9399,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         797:
             slug: flight
@@ -9134,6 +9411,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         798:
             slug: flight_land
@@ -9146,6 +9424,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         799:
             slug: flight_takeoff
@@ -9158,6 +9437,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         800:
             slug: flip
@@ -9169,6 +9449,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         801:
             slug: flip_to_back
@@ -9181,6 +9462,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         802:
             slug: flip_to_front
@@ -9193,6 +9475,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         803:
             slug: folder
@@ -9204,6 +9487,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         804:
             slug: folder_open
@@ -9216,6 +9500,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         805:
             slug: folder_shared
@@ -9228,6 +9513,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         806:
             slug: folder_special
@@ -9240,6 +9526,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         807:
             slug: font_download
@@ -9252,6 +9539,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         808:
             slug: format_align_center
@@ -9264,6 +9552,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         809:
             slug: format_align_justify
@@ -9276,6 +9565,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         810:
             slug: format_align_left
@@ -9288,6 +9578,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         811:
             slug: format_align_right
@@ -9300,6 +9591,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         812:
             slug: format_bold
@@ -9312,6 +9604,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         813:
             slug: format_clear
@@ -9324,6 +9617,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         814:
             slug: format_color_fill
@@ -9336,6 +9630,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         815:
             slug: format_color_reset
@@ -9348,6 +9643,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         816:
             slug: format_color_text
@@ -9360,6 +9656,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         817:
             slug: format_indent_decrease
@@ -9372,6 +9669,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         818:
             slug: format_indent_increase
@@ -9384,6 +9682,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         819:
             slug: format_italic
@@ -9396,6 +9695,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         820:
             slug: format_line_spacing
@@ -9408,6 +9708,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         821:
             slug: format_list_bulleted
@@ -9420,6 +9721,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         822:
             slug: format_list_numbered
@@ -9432,6 +9734,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         823:
             slug: format_paint
@@ -9444,6 +9747,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         824:
             slug: format_quote
@@ -9456,6 +9760,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         825:
             slug: format_size
@@ -9468,6 +9773,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         826:
             slug: format_strikethrough
@@ -9480,6 +9786,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         827:
             slug: format_textdirection_l_to_r
@@ -9492,6 +9799,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         828:
             slug: format_textdirection_r_to_l
@@ -9504,6 +9812,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         829:
             slug: format_underlined
@@ -9516,6 +9825,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         830:
             slug: forum
@@ -9527,6 +9837,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         831:
             slug: forward
@@ -9538,6 +9849,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         832:
             slug: forward_10
@@ -9550,6 +9862,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         833:
             slug: forward_30
@@ -9562,6 +9875,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         834:
             slug: forward_5
@@ -9574,6 +9888,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         835:
             slug: fullscreen
@@ -9585,6 +9900,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         836:
             slug: fullscreen_exit
@@ -9597,6 +9913,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         837:
             slug: functions
@@ -9608,6 +9925,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         838:
             slug: gamepad
@@ -9619,6 +9937,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         839:
             slug: games
@@ -9630,6 +9949,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         840:
             slug: gesture
@@ -9641,6 +9961,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         841:
             slug: get_app
@@ -9653,6 +9974,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         842:
             slug: gif
@@ -9664,6 +9986,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         843:
             slug: gps_fixed
@@ -9676,6 +9999,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         844:
             slug: gps_not_fixed
@@ -9688,6 +10012,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         845:
             slug: gps_off
@@ -9700,6 +10025,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         846:
             slug: grade
@@ -9711,6 +10037,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         847:
             slug: gradient
@@ -9722,6 +10049,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         848:
             slug: grain
@@ -9733,6 +10061,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         849:
             slug: graphic_eq
@@ -9745,6 +10074,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         850:
             slug: grid_off
@@ -9757,6 +10087,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         851:
             slug: grid_on
@@ -9769,6 +10100,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         852:
             slug: group
@@ -9780,6 +10112,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         853:
             slug: group_add
@@ -9792,6 +10125,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         854:
             slug: group_work
@@ -9804,6 +10138,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         855:
             slug: hd
@@ -9815,6 +10150,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         856:
             slug: hdr_off
@@ -9827,6 +10163,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         857:
             slug: hdr_on
@@ -9839,6 +10176,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         858:
             slug: hdr_strong
@@ -9851,6 +10189,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         859:
             slug: hdr_weak
@@ -9863,6 +10202,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         860:
             slug: headset
@@ -9874,6 +10214,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         861:
             slug: headset_mic
@@ -9886,6 +10227,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         862:
             slug: healing
@@ -9897,6 +10239,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         863:
             slug: hearing
@@ -9908,6 +10251,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         864:
             slug: help
@@ -9919,6 +10263,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         865:
             slug: help_outline
@@ -9931,6 +10276,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         866:
             slug: high_quality
@@ -9943,6 +10289,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         867:
             slug: highlight_off
@@ -9955,6 +10302,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         868:
             slug: history
@@ -9966,6 +10314,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         869:
             slug: home
@@ -9977,6 +10326,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         870:
             slug: hotel
@@ -9988,6 +10338,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         871:
             slug: hourglass_empty
@@ -10000,6 +10351,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         872:
             slug: hourglass_full
@@ -10012,6 +10364,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         873:
             slug: http
@@ -10023,6 +10376,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         874:
             slug: https
@@ -10034,6 +10388,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         875:
             slug: image
@@ -10045,6 +10400,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         876:
             slug: image_aspect_ratio
@@ -10057,6 +10413,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         877:
             slug: import_export
@@ -10069,6 +10426,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         878:
             slug: inbox
@@ -10080,6 +10438,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         879:
             slug: indeterminate_check_box
@@ -10092,6 +10451,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         880:
             slug: info
@@ -10103,6 +10463,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         881:
             slug: info_outline
@@ -10115,6 +10476,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         882:
             slug: input
@@ -10126,6 +10488,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         883:
             slug: insert_chart
@@ -10138,6 +10501,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         884:
             slug: insert_comment
@@ -10150,6 +10514,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         885:
             slug: insert_drive_file
@@ -10162,6 +10527,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         886:
             slug: insert_emoticon
@@ -10174,6 +10540,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         887:
             slug: insert_invitation
@@ -10186,6 +10553,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         888:
             slug: insert_link
@@ -10198,6 +10566,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         889:
             slug: insert_photo
@@ -10210,6 +10579,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         890:
             slug: invert_colors
@@ -10222,6 +10592,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         891:
             slug: invert_colors_off
@@ -10234,6 +10605,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         892:
             slug: iso
@@ -10245,6 +10617,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         893:
             slug: keyboard
@@ -10256,6 +10629,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         894:
             slug: keyboard_arrow_down
@@ -10268,6 +10642,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         895:
             slug: keyboard_arrow_left
@@ -10280,6 +10655,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         896:
             slug: keyboard_arrow_right
@@ -10292,6 +10668,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         897:
             slug: keyboard_arrow_up
@@ -10304,6 +10681,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         898:
             slug: keyboard_backspace
@@ -10316,6 +10694,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         899:
             slug: keyboard_capslock
@@ -10328,6 +10707,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         900:
             slug: keyboard_hide
@@ -10340,6 +10720,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         901:
             slug: keyboard_return
@@ -10352,6 +10733,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         902:
             slug: keyboard_tab
@@ -10364,6 +10746,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         903:
             slug: keyboard_voice
@@ -10376,6 +10759,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         904:
             slug: label
@@ -10387,6 +10771,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         905:
             slug: label_outline
@@ -10399,6 +10784,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         906:
             slug: landscape
@@ -10410,6 +10796,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         907:
             slug: language
@@ -10421,6 +10808,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         908:
             slug: laptop
@@ -10432,6 +10820,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         909:
             slug: laptop_chromebook
@@ -10444,6 +10833,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         910:
             slug: laptop_mac
@@ -10456,6 +10846,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         911:
             slug: laptop_windows
@@ -10468,6 +10859,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         912:
             slug: launch
@@ -10479,6 +10871,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         913:
             slug: layers
@@ -10490,6 +10883,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         914:
             slug: layers_clear
@@ -10502,6 +10896,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         915:
             slug: leak_add
@@ -10514,6 +10909,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         916:
             slug: leak_remove
@@ -10526,6 +10922,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         917:
             slug: lens
@@ -10537,6 +10934,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         918:
             slug: library_add
@@ -10549,6 +10947,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         919:
             slug: library_books
@@ -10561,6 +10960,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         920:
             slug: library_music
@@ -10573,6 +10973,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         921:
             slug: link
@@ -10584,6 +10985,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         922:
             slug: list
@@ -10595,6 +10997,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         923:
             slug: live_help
@@ -10607,6 +11010,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         924:
             slug: live_tv
@@ -10619,6 +11023,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         925:
             slug: local_activity
@@ -10631,6 +11036,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         926:
             slug: local_airport
@@ -10643,6 +11049,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         927:
             slug: local_atm
@@ -10655,6 +11062,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         928:
             slug: local_bar
@@ -10667,6 +11075,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         929:
             slug: local_cafe
@@ -10679,6 +11088,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         930:
             slug: local_car_wash
@@ -10691,6 +11101,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         931:
             slug: local_convenience_store
@@ -10703,6 +11114,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         932:
             slug: local_dining
@@ -10715,6 +11127,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         933:
             slug: local_drink
@@ -10727,6 +11140,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         934:
             slug: local_florist
@@ -10739,6 +11153,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         935:
             slug: local_gas_station
@@ -10751,6 +11166,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         936:
             slug: local_grocery_store
@@ -10763,6 +11179,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         937:
             slug: local_hospital
@@ -10775,6 +11192,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         938:
             slug: local_hotel
@@ -10787,6 +11205,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         939:
             slug: local_laundry_service
@@ -10799,6 +11218,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         940:
             slug: local_library
@@ -10811,6 +11231,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         941:
             slug: local_mall
@@ -10823,6 +11244,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         942:
             slug: local_movies
@@ -10835,6 +11257,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         943:
             slug: local_offer
@@ -10847,6 +11270,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         944:
             slug: local_parking
@@ -10859,6 +11283,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         945:
             slug: local_pharmacy
@@ -10871,6 +11296,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         946:
             slug: local_phone
@@ -10883,6 +11309,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         947:
             slug: local_pizza
@@ -10895,6 +11322,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         948:
             slug: local_play
@@ -10907,6 +11335,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         949:
             slug: local_post_office
@@ -10919,6 +11348,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         950:
             slug: local_printshop
@@ -10931,6 +11361,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         951:
             slug: local_see
@@ -10943,6 +11374,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         952:
             slug: local_shipping
@@ -10955,6 +11387,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         953:
             slug: local_taxi
@@ -10967,6 +11400,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         954:
             slug: location_city
@@ -10979,6 +11413,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         955:
             slug: location_disabled
@@ -10991,6 +11426,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         956:
             slug: location_off
@@ -11003,6 +11439,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         957:
             slug: location_on
@@ -11015,6 +11452,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         958:
             slug: location_searching
@@ -11027,6 +11465,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         959:
             slug: lock
@@ -11038,6 +11477,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         960:
             slug: lock_open
@@ -11050,6 +11490,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         961:
             slug: lock_outline
@@ -11062,6 +11503,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         962:
             slug: looks
@@ -11073,6 +11515,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         963:
             slug: looks_3
@@ -11085,6 +11528,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         964:
             slug: looks_4
@@ -11097,6 +11541,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         965:
             slug: looks_5
@@ -11109,6 +11554,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         966:
             slug: looks_6
@@ -11121,6 +11567,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         967:
             slug: looks_one
@@ -11133,6 +11580,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         968:
             slug: looks_two
@@ -11145,6 +11593,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         969:
             slug: loop
@@ -11156,6 +11605,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         970:
             slug: loupe
@@ -11167,6 +11617,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         971:
             slug: loyalty
@@ -11178,6 +11629,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         972:
             slug: mail
@@ -11189,6 +11641,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         973:
             slug: map
@@ -11200,6 +11653,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         974:
             slug: markunread
@@ -11211,6 +11665,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         975:
             slug: markunread_mailbox
@@ -11223,6 +11678,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         976:
             slug: memory
@@ -11234,6 +11690,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         977:
             slug: menu
@@ -11245,6 +11702,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         978:
             slug: merge_type
@@ -11257,6 +11715,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         979:
             slug: message
@@ -11268,6 +11727,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         980:
             slug: mic
@@ -11279,6 +11739,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         981:
             slug: mic_none
@@ -11291,6 +11752,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         982:
             slug: mic_off
@@ -11303,6 +11765,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         983:
             slug: mms
@@ -11314,6 +11777,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         984:
             slug: mode_comment
@@ -11326,6 +11790,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         985:
             slug: mode_edit
@@ -11338,6 +11803,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         986:
             slug: money_off
@@ -11350,6 +11816,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         987:
             slug: monochrome_photos
@@ -11362,6 +11829,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         988:
             slug: mood
@@ -11373,6 +11841,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         989:
             slug: mood_bad
@@ -11385,6 +11854,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         990:
             slug: more
@@ -11396,6 +11866,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         991:
             slug: more_horiz
@@ -11408,6 +11879,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         992:
             slug: more_vert
@@ -11420,6 +11892,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         993:
             slug: mouse
@@ -11431,6 +11904,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         994:
             slug: movie
@@ -11442,6 +11916,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         995:
             slug: movie_creation
@@ -11454,6 +11929,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         996:
             slug: music_note
@@ -11466,6 +11942,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         997:
             slug: my_location
@@ -11478,6 +11955,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         998:
             slug: nature
@@ -11489,6 +11967,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         999:
             slug: nature_people
@@ -11501,6 +11980,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1000:
             slug: navigate_before
@@ -11513,6 +11993,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1001:
             slug: navigate_next
@@ -11525,6 +12006,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1002:
             slug: navigation
@@ -11536,6 +12018,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1003:
             slug: network_cell
@@ -11548,6 +12031,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1004:
             slug: network_locked
@@ -11560,6 +12044,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1005:
             slug: network_wifi
@@ -11572,6 +12057,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1006:
             slug: new_releases
@@ -11584,6 +12070,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1007:
             slug: nfc
@@ -11595,6 +12082,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1008:
             slug: no_sim
@@ -11607,6 +12095,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1009:
             slug: not_interested
@@ -11619,6 +12108,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1010:
             slug: note_add
@@ -11631,6 +12121,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1011:
             slug: notifications
@@ -11642,6 +12133,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1012:
             slug: notifications_active
@@ -11654,6 +12146,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1013:
             slug: notifications_none
@@ -11666,6 +12159,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1014:
             slug: notifications_off
@@ -11678,6 +12172,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1015:
             slug: notifications_paused
@@ -11690,6 +12185,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1016:
             slug: offline_pin
@@ -11702,6 +12198,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1017:
             slug: ondemand_video
@@ -11714,6 +12211,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1018:
             slug: open_in_browser
@@ -11726,6 +12224,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1019:
             slug: open_in_new
@@ -11738,6 +12237,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1020:
             slug: open_with
@@ -11750,6 +12250,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1021:
             slug: pages
@@ -11761,6 +12262,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1022:
             slug: pageview
@@ -11772,6 +12274,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1023:
             slug: palette
@@ -11783,6 +12286,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1024:
             slug: panorama
@@ -11794,6 +12298,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1025:
             slug: panorama_fish_eye
@@ -11806,6 +12311,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1026:
             slug: panorama_horizontal
@@ -11818,6 +12324,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1027:
             slug: panorama_vertical
@@ -11830,6 +12337,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1028:
             slug: panorama_wide_angle
@@ -11842,6 +12350,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1029:
             slug: party_mode
@@ -11854,6 +12363,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1030:
             slug: pause
@@ -11865,6 +12375,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1031:
             slug: pause_circle_filled
@@ -11877,6 +12388,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1032:
             slug: pause_circle_outline
@@ -11889,6 +12401,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1033:
             slug: payment
@@ -11900,6 +12413,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1034:
             slug: people
@@ -11911,6 +12425,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1035:
             slug: people_outline
@@ -11923,6 +12438,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1036:
             slug: perm_camera_mic
@@ -11935,6 +12451,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1037:
             slug: perm_contact_calendar
@@ -11947,6 +12464,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1038:
             slug: perm_data_setting
@@ -11959,6 +12477,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1039:
             slug: perm_device_information
@@ -11971,6 +12490,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1040:
             slug: perm_identity
@@ -11983,6 +12503,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1041:
             slug: perm_media
@@ -11995,6 +12516,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1042:
             slug: perm_phone_msg
@@ -12007,6 +12529,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1043:
             slug: perm_scan_wifi
@@ -12019,6 +12542,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1044:
             slug: person
@@ -12030,6 +12554,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1045:
             slug: person_add
@@ -12042,6 +12567,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1046:
             slug: person_outline
@@ -12054,6 +12580,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1047:
             slug: person_pin
@@ -12066,6 +12593,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1048:
             slug: personal_video
@@ -12078,6 +12606,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1049:
             slug: phone
@@ -12089,6 +12618,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1050:
             slug: phone_android
@@ -12101,6 +12631,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1051:
             slug: phone_bluetooth_speaker
@@ -12113,6 +12644,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1052:
             slug: phone_forwarded
@@ -12125,6 +12657,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1053:
             slug: phone_in_talk
@@ -12137,6 +12670,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1054:
             slug: phone_iphone
@@ -12149,6 +12683,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1055:
             slug: phone_locked
@@ -12161,6 +12696,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1056:
             slug: phone_missed
@@ -12173,6 +12709,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1057:
             slug: phone_paused
@@ -12185,6 +12722,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1058:
             slug: phonelink
@@ -12196,6 +12734,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1059:
             slug: phonelink_erase
@@ -12208,6 +12747,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1060:
             slug: phonelink_lock
@@ -12220,6 +12760,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1061:
             slug: phonelink_off
@@ -12232,6 +12773,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1062:
             slug: phonelink_ring
@@ -12244,6 +12786,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1063:
             slug: phonelink_setup
@@ -12256,6 +12799,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1064:
             slug: photo
@@ -12267,6 +12811,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1065:
             slug: photo_album
@@ -12279,6 +12824,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1066:
             slug: photo_camera
@@ -12291,6 +12837,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1067:
             slug: photo_library
@@ -12303,6 +12850,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1068:
             slug: photo_size_select_actual
@@ -12315,6 +12863,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1069:
             slug: photo_size_select_large
@@ -12327,6 +12876,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1070:
             slug: photo_size_select_small
@@ -12339,6 +12889,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1071:
             slug: picture_as_pdf
@@ -12351,6 +12902,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1072:
             slug: picture_in_picture
@@ -12363,6 +12915,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1073:
             slug: pin_drop
@@ -12375,6 +12928,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1074:
             slug: place
@@ -12386,6 +12940,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1075:
             slug: play_arrow
@@ -12398,6 +12953,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1076:
             slug: play_circle_filled
@@ -12410,6 +12966,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1077:
             slug: play_circle_outline
@@ -12422,6 +12979,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1078:
             slug: play_for_work
@@ -12434,6 +12992,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1079:
             slug: playlist_add
@@ -12446,6 +13005,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1080:
             slug: plus_one
@@ -12458,6 +13018,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1081:
             slug: poll
@@ -12469,6 +13030,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1082:
             slug: polymer
@@ -12480,6 +13042,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1083:
             slug: portable_wifi_off
@@ -12492,6 +13055,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1084:
             slug: portrait
@@ -12503,6 +13067,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1085:
             slug: power
@@ -12514,6 +13079,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1086:
             slug: power_input
@@ -12526,6 +13092,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1087:
             slug: power_settings_new
@@ -12538,6 +13105,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1088:
             slug: present_to_all
@@ -12550,6 +13118,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1089:
             slug: print
@@ -12561,6 +13130,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1090:
             slug: public
@@ -12572,6 +13142,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1091:
             slug: publish
@@ -12583,6 +13154,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1092:
             slug: query_builder
@@ -12595,6 +13167,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1093:
             slug: question_answer
@@ -12607,6 +13180,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1094:
             slug: queue
@@ -12618,6 +13192,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1095:
             slug: queue_music
@@ -12630,6 +13205,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1096:
             slug: radio
@@ -12641,6 +13217,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1097:
             slug: radio_button_checked
@@ -12653,6 +13230,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1098:
             slug: radio_button_unchecked
@@ -12665,6 +13243,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1099:
             slug: rate_review
@@ -12677,6 +13256,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1100:
             slug: receipt
@@ -12688,6 +13268,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1101:
             slug: recent_actors
@@ -12700,6 +13281,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1102:
             slug: redeem
@@ -12711,6 +13293,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1103:
             slug: redo
@@ -12722,6 +13305,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1104:
             slug: refresh
@@ -12733,6 +13317,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1105:
             slug: remove
@@ -12744,6 +13329,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1106:
             slug: remove_circle
@@ -12756,6 +13342,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1107:
             slug: remove_circle_outline
@@ -12768,6 +13355,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1108:
             slug: remove_red_eye
@@ -12780,6 +13368,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1109:
             slug: reorder
@@ -12791,6 +13380,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1110:
             slug: repeat
@@ -12802,6 +13392,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1111:
             slug: repeat_one
@@ -12814,6 +13405,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1112:
             slug: replay
@@ -12825,6 +13417,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1113:
             slug: replay_10
@@ -12837,6 +13430,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1114:
             slug: replay_30
@@ -12849,6 +13443,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1115:
             slug: replay_5
@@ -12861,6 +13456,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1116:
             slug: reply
@@ -12872,6 +13468,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1117:
             slug: reply_all
@@ -12884,6 +13481,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1118:
             slug: report
@@ -12895,6 +13493,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1119:
             slug: report_problem
@@ -12907,6 +13506,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1120:
             slug: restaurant_menu
@@ -12919,6 +13519,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1121:
             slug: restore
@@ -12930,6 +13531,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1122:
             slug: ring_volume
@@ -12942,6 +13544,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1123:
             slug: room
@@ -12953,6 +13556,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1124:
             slug: rotate_90_degrees_ccw
@@ -12965,6 +13569,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1125:
             slug: rotate_left
@@ -12977,6 +13582,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1126:
             slug: rotate_right
@@ -12989,6 +13595,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1127:
             slug: router
@@ -13000,6 +13607,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1128:
             slug: satellite
@@ -13011,6 +13619,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1129:
             slug: save
@@ -13022,6 +13631,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1130:
             slug: scanner
@@ -13033,6 +13643,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1131:
             slug: schedule
@@ -13044,6 +13655,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1132:
             slug: school
@@ -13055,6 +13667,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1133:
             slug: screen_lock_landscape
@@ -13067,6 +13680,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1134:
             slug: screen_lock_portrait
@@ -13079,6 +13693,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1135:
             slug: screen_lock_rotation
@@ -13091,6 +13706,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1136:
             slug: screen_rotation
@@ -13103,6 +13719,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1137:
             slug: sd_card
@@ -13115,6 +13732,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1138:
             slug: sd_storage
@@ -13127,6 +13745,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1139:
             slug: search
@@ -13138,6 +13757,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1140:
             slug: security
@@ -13149,6 +13769,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1141:
             slug: select_all
@@ -13161,6 +13782,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1142:
             slug: send
@@ -13172,6 +13794,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1143:
             slug: settings
@@ -13183,6 +13806,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1144:
             slug: settings_applications
@@ -13195,6 +13819,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1145:
             slug: settings_backup_restore
@@ -13207,6 +13832,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1146:
             slug: settings_bluetooth
@@ -13219,6 +13845,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1147:
             slug: settings_brightness
@@ -13231,6 +13858,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1148:
             slug: settings_cell
@@ -13243,6 +13871,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1149:
             slug: settings_ethernet
@@ -13255,6 +13884,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1150:
             slug: settings_input_antenna
@@ -13267,6 +13897,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1151:
             slug: settings_input_component
@@ -13279,6 +13910,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1152:
             slug: settings_input_composite
@@ -13291,6 +13923,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1153:
             slug: settings_input_hdmi
@@ -13303,6 +13936,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1154:
             slug: settings_input_svideo
@@ -13315,6 +13949,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1155:
             slug: settings_overscan
@@ -13327,6 +13962,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1156:
             slug: settings_phone
@@ -13339,6 +13975,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1157:
             slug: settings_power
@@ -13351,6 +13988,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1158:
             slug: settings_remote
@@ -13363,6 +14001,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1159:
             slug: settings_system_daydream
@@ -13375,6 +14014,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1160:
             slug: settings_voice
@@ -13387,6 +14027,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1161:
             slug: share
@@ -13398,6 +14039,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1162:
             slug: shop
@@ -13409,6 +14051,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1163:
             slug: shop_two
@@ -13421,6 +14064,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1164:
             slug: shopping_basket
@@ -13433,6 +14077,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1165:
             slug: shopping_cart
@@ -13445,6 +14090,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1166:
             slug: shuffle
@@ -13456,6 +14102,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1167:
             slug: signal_cellular_4_bar
@@ -13468,6 +14115,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1168:
             slug: signal_cellular_connected_no_internet_4_bar
@@ -13480,6 +14128,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1169:
             slug: signal_cellular_no_sim
@@ -13492,6 +14141,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1170:
             slug: signal_cellular_null
@@ -13504,6 +14154,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1171:
             slug: signal_cellular_off
@@ -13516,6 +14167,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1172:
             slug: signal_wifi_4_bar
@@ -13528,6 +14180,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1173:
             slug: signal_wifi_4_bar_lock
@@ -13540,6 +14193,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1174:
             slug: signal_wifi_off
@@ -13552,6 +14206,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1175:
             slug: sim_card
@@ -13564,6 +14219,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1176:
             slug: sim_card_alert
@@ -13576,6 +14232,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1177:
             slug: skip_next
@@ -13588,6 +14245,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1178:
             slug: skip_previous
@@ -13600,6 +14258,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1179:
             slug: slideshow
@@ -13611,6 +14270,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1180:
             slug: smartphone
@@ -13622,6 +14282,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1181:
             slug: sms
@@ -13633,6 +14294,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1182:
             slug: sms_failed
@@ -13645,6 +14307,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1183:
             slug: snooze
@@ -13656,6 +14319,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1184:
             slug: sort
@@ -13667,6 +14331,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1185:
             slug: sort_by_alpha
@@ -13679,6 +14344,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1186:
             slug: space_bar
@@ -13691,6 +14357,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1187:
             slug: speaker
@@ -13702,6 +14369,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1188:
             slug: speaker_group
@@ -13714,6 +14382,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1189:
             slug: speaker_notes
@@ -13726,6 +14395,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1190:
             slug: speaker_phone
@@ -13738,6 +14408,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1191:
             slug: spellcheck
@@ -13749,6 +14420,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1192:
             slug: star
@@ -13760,6 +14432,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1193:
             slug: star_border
@@ -13772,6 +14445,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1194:
             slug: star_half
@@ -13784,6 +14458,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1195:
             slug: stars
@@ -13795,6 +14470,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1196:
             slug: stay_current_landscape
@@ -13807,6 +14483,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1197:
             slug: stay_current_portrait
@@ -13819,6 +14496,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1198:
             slug: stay_primary_landscape
@@ -13831,6 +14509,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1199:
             slug: stay_primary_portrait
@@ -13843,6 +14522,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1200:
             slug: stop
@@ -13854,6 +14534,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1201:
             slug: storage
@@ -13865,6 +14546,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1202:
             slug: store
@@ -13876,6 +14558,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1203:
             slug: store_mall_directory
@@ -13888,6 +14571,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1204:
             slug: straighten
@@ -13899,6 +14583,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1205:
             slug: strikethrough_s
@@ -13911,6 +14596,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1206:
             slug: style
@@ -13922,6 +14608,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1207:
             slug: subject
@@ -13933,6 +14620,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1208:
             slug: subtitles
@@ -13944,6 +14632,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1209:
             slug: supervisor_account
@@ -13956,6 +14645,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1210:
             slug: surround_sound
@@ -13968,6 +14658,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1211:
             slug: swap_calls
@@ -13980,6 +14671,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1212:
             slug: swap_horiz
@@ -13992,6 +14684,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1213:
             slug: swap_vert
@@ -14004,6 +14697,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1214:
             slug: swap_vertical_circle
@@ -14016,6 +14710,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1215:
             slug: switch_camera
@@ -14028,6 +14723,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1216:
             slug: switch_video
@@ -14040,6 +14736,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1217:
             slug: sync
@@ -14051,6 +14748,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1218:
             slug: sync_disabled
@@ -14063,6 +14761,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1219:
             slug: sync_problem
@@ -14075,6 +14774,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1220:
             slug: system_update
@@ -14087,6 +14787,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1221:
             slug: system_update_alt
@@ -14099,6 +14800,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1222:
             slug: tab
@@ -14110,6 +14812,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1223:
             slug: tab_unselected
@@ -14122,6 +14825,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1224:
             slug: tablet
@@ -14133,6 +14837,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1225:
             slug: tablet_android
@@ -14145,6 +14850,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1226:
             slug: tablet_mac
@@ -14157,6 +14863,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1227:
             slug: tag_faces
@@ -14169,6 +14876,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1228:
             slug: tap_and_play
@@ -14181,6 +14889,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1229:
             slug: terrain
@@ -14192,6 +14901,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1230:
             slug: text_format
@@ -14204,6 +14914,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1231:
             slug: textsms
@@ -14215,6 +14926,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1232:
             slug: texture
@@ -14226,6 +14938,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1233:
             slug: theaters
@@ -14237,6 +14950,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1234:
             slug: thumb_down
@@ -14249,6 +14963,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1235:
             slug: thumb_up
@@ -14261,6 +14976,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1236:
             slug: thumbs_up_down
@@ -14273,6 +14989,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1237:
             slug: time_to_leave
@@ -14285,6 +15002,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1238:
             slug: timelapse
@@ -14296,6 +15014,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1239:
             slug: timer
@@ -14307,6 +15026,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1240:
             slug: timer_10
@@ -14319,6 +15039,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1241:
             slug: timer_3
@@ -14331,6 +15052,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1242:
             slug: timer_off
@@ -14343,6 +15065,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1243:
             slug: toc
@@ -14354,6 +15077,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1244:
             slug: today
@@ -14365,6 +15089,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1245:
             slug: toll
@@ -14376,6 +15101,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1246:
             slug: tonality
@@ -14387,6 +15113,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1247:
             slug: toys
@@ -14398,6 +15125,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1248:
             slug: track_changes
@@ -14410,6 +15138,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1249:
             slug: traffic
@@ -14421,6 +15150,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1250:
             slug: transform
@@ -14432,6 +15162,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1251:
             slug: translate
@@ -14443,6 +15174,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1252:
             slug: trending_down
@@ -14455,6 +15187,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1253:
             slug: trending_flat
@@ -14467,6 +15200,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1254:
             slug: trending_up
@@ -14479,6 +15213,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1255:
             slug: tune
@@ -14490,6 +15225,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1256:
             slug: turned_in
@@ -14502,6 +15238,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1257:
             slug: turned_in_not
@@ -14514,6 +15251,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1258:
             slug: tv
@@ -14525,6 +15263,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1259:
             slug: undo
@@ -14536,6 +15275,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1260:
             slug: unfold_less
@@ -14548,6 +15288,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1261:
             slug: unfold_more
@@ -14560,6 +15301,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1262:
             slug: usb
@@ -14571,6 +15313,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1263:
             slug: verified_user
@@ -14583,6 +15326,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1264:
             slug: vertical_align_bottom
@@ -14595,6 +15339,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1265:
             slug: vertical_align_center
@@ -14607,6 +15352,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1266:
             slug: vertical_align_top
@@ -14619,6 +15365,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1267:
             slug: vibration
@@ -14630,6 +15377,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1268:
             slug: video_library
@@ -14642,6 +15390,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1269:
             slug: videocam
@@ -14653,6 +15402,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1270:
             slug: videocam_off
@@ -14665,6 +15415,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1271:
             slug: view_agenda
@@ -14677,6 +15428,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1272:
             slug: view_array
@@ -14689,6 +15441,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1273:
             slug: view_carousel
@@ -14701,6 +15454,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1274:
             slug: view_column
@@ -14713,6 +15467,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1275:
             slug: view_comfy
@@ -14725,6 +15480,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1276:
             slug: view_compact
@@ -14737,6 +15493,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1277:
             slug: view_day
@@ -14749,6 +15506,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1278:
             slug: view_headline
@@ -14761,6 +15519,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1279:
             slug: view_list
@@ -14773,6 +15532,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1280:
             slug: view_module
@@ -14785,6 +15545,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1281:
             slug: view_quilt
@@ -14797,6 +15558,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1282:
             slug: view_stream
@@ -14809,6 +15571,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1283:
             slug: view_week
@@ -14821,6 +15584,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1284:
             slug: vignette
@@ -14832,6 +15596,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1285:
             slug: visibility
@@ -14843,6 +15608,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1286:
             slug: visibility_off
@@ -14855,6 +15621,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1287:
             slug: voice_chat
@@ -14867,6 +15634,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1288:
             slug: voicemail
@@ -14878,6 +15646,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1289:
             slug: volume_down
@@ -14890,6 +15659,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1290:
             slug: volume_mute
@@ -14902,6 +15672,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1291:
             slug: volume_off
@@ -14914,6 +15685,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1292:
             slug: volume_up
@@ -14926,6 +15698,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1293:
             slug: vpn_key
@@ -14938,6 +15711,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1294:
             slug: vpn_lock
@@ -14950,6 +15724,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1295:
             slug: wallpaper
@@ -14961,6 +15736,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1296:
             slug: warning
@@ -14972,6 +15748,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1297:
             slug: watch
@@ -14983,6 +15760,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1298:
             slug: wb_auto
@@ -14995,6 +15773,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1299:
             slug: wb_cloudy
@@ -15007,6 +15786,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1300:
             slug: wb_incandescent
@@ -15019,6 +15799,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1301:
             slug: wb_iridescent
@@ -15031,6 +15812,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1302:
             slug: wb_sunny
@@ -15043,6 +15825,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1303:
             slug: wc
@@ -15054,6 +15837,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1304:
             slug: web
@@ -15065,6 +15849,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1305:
             slug: whatshot
@@ -15076,6 +15861,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1306:
             slug: widgets
@@ -15087,6 +15873,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1307:
             slug: wifi
@@ -15098,6 +15885,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1308:
             slug: wifi_lock
@@ -15110,6 +15898,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1309:
             slug: wifi_tethering
@@ -15122,6 +15911,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1310:
             slug: work
@@ -15133,6 +15923,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1311:
             slug: wrap_text
@@ -15145,6 +15936,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1312:
             slug: youtube_searched_for
@@ -15157,6 +15949,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1313:
             slug: zoom_in
@@ -15169,6 +15962,7 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"
 
         1314:
             slug: zoom_out
@@ -15181,3 +15975,4 @@ Icon:
             attributes: null
             families:
                 - "@IconFamily?slug=md"
+                - "@IconFamily?slug=mdb"

@@ -81,3 +81,32 @@ IconFamily:
                 - 'md-danger'
                 - 'md-primary'
             attributes: null
+
+        2:
+            slug:    'mdb'
+            name:    'Google Material Design Icons Within Block-Level Elements'
+            version: '50c4d857c61443b763344b7958326e68d20f6934'
+            url:     'https://github.com/google/material-design-icons'
+            prefix:  'md'
+            requiredClasses:
+                - 'material-icons'
+            optionalClasses:
+                - 'md-18'
+                - 'md-24'
+                - 'md-36'
+                - 'md-48'
+                - 'md-72'
+                - 'md-96'
+                - 'md-128'
+                - 'md-256'
+                - 'md-512'
+                - 'md-dark'
+                - 'md-light'
+                - 'md-inactive'
+                - 'md-info'
+                - 'md-success'
+                - 'md-warning'
+                - 'md-danger'
+                - 'md-primary'
+            attributes:
+                box_class: 'md-box'
