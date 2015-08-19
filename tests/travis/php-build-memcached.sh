@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo apt-get remove --purge -y php5-memcached
 sudo apt-get install -qq -y --verbose-versions --reinstall libjson-c2 php5-json
@@ -9,7 +9,7 @@ tar xzf memcached-2.2.0.tgz
 cd memcached-2.2.0/
 
 phpize
-./configure --enable-memcached-igbinary --enable-memcached-json
+./configure --enable-memcached-igbinary --enable-memcached-json --enable-memcached-msgpack
 
 make
 make install

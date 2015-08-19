@@ -102,7 +102,7 @@ function resolveIconObjects($sprites)
             'aliases' => null,
             'categories' => null,
             'attributes' => null,
-            'families' => ['@IconFamily?slug=md']
+            'families' => ['@IconFamily?slug=md', '@IconFamily?slug=mdb']
         ];
 
         $name = ucwords(str_replace('_', ' ', $slug));
