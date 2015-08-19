@@ -1,0 +1,121 @@
+---
+LocaleLanguageFamily:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 0
+        mode       : truncate
+        entity     : s.mantle.locale_language_family.entity.class
+        repository : s.mantle.locale_language_family.repo
+
+    data:
+
+        1:
+            slug : afro-asiatic
+            name : Afro-Asiatic
+
+        2:
+            slug : algonquian
+            name : Algonquian
+
+        3:
+            slug : austroasiatic
+            name : Austroasiatic
+
+        4:
+            slug : austronesian
+            name : Austronesian
+
+        5:
+            slug : austronesian-languages
+            name : Austronesian Languages
+
+        6:
+            slug : aymaran
+            name : Aymaran
+
+        7:
+            slug : constructed
+            name : Constructed
+
+        8:
+            slug : creole
+            name : Creole
+
+        9:
+            slug : dene-yeniseian
+            name : Dené–Yeniseian
+
+        10:
+            slug : dravidian
+            name : Dravidian
+
+        11:
+            slug : eskimo-aleut
+            name : Eskimo–Aleut
+
+        12:
+            slug : indo-european
+            name : Indo-European
+
+        13:
+            slug : japonic
+            name : Japonic
+
+        14:
+            slug : koreanic
+            name : Koreanic
+
+        15:
+            slug : language-isolate
+            name : Language isolate
+
+        16:
+            slug : mongolic
+            name : Mongolic
+
+        17:
+            slug : niger-congo
+            name : Niger–Congo
+
+        18:
+            slug : nilo-saharan
+            name : Nilo-Saharan
+
+        19:
+            slug : northeast-caucasian
+            name : Northeast Caucasian
+
+        20:
+            slug : quechuan
+            name : Quechuan
+
+        21:
+            slug : sino-tibetan
+            name : Sino-Tibetan
+
+        22:
+            slug : south-caucasian
+            name : South Caucasian
+
+        23:
+            slug : tai-kadai
+            name : Tai–Kadai
+
+        24:
+            slug : tupian
+            name : Tupian
+
+        25:
+            slug : turkic
+            name : Turkic
+
+        26:
+            slug : uralic
+            name : Uralic
+...

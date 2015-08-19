@@ -1,0 +1,1505 @@
+---
+LocaleCountry:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 0
+        mode       : truncate
+        entity     : s.mantle.locale_country.entity.class
+        repository : s.mantle.locale_country.repo
+
+    data:
+
+        1:
+            name        : Afghanistan
+            code        : AF
+            codeAlpha3  : AFG
+            codeNumeric : 4
+
+        2:
+            name        : "Aland Islands"
+            code        : AX
+            codeAlpha3  : ALA
+            codeNumeric : 248
+
+        3:
+            name        : Albania
+            code        : AL
+            codeAlpha3  : ALB
+            codeNumeric : 8
+
+        4:
+            name        : Algeria
+            code        : DZ
+            codeAlpha3  : DZA
+            codeNumeric : 12
+
+        5:
+            name        : "American Samoa"
+            code        : AS
+            codeAlpha3  : ASM
+            codeNumeric : 16
+
+        6:
+            name        : Andorra
+            code        : AD
+            codeAlpha3  : AND
+            codeNumeric : 20
+
+        7:
+            name        : Angola
+            code        : AO
+            codeAlpha3  : AGO
+            codeNumeric : 24
+
+        8:
+            name        : Anguilla
+            code        : AI
+            codeAlpha3  : AIA
+            codeNumeric : 660
+
+        9:
+            name        : Antarctica
+            code        : AQ
+            codeAlpha3  : ATA
+            codeNumeric : 10
+
+        10:
+            name        : "Antigua and Barbuda"
+            code        : AG
+            codeAlpha3  : ATG
+            codeNumeric : 28
+
+        11:
+            name        : Argentina
+            code        : AR
+            codeAlpha3  : ARG
+            codeNumeric : 32
+
+        12:
+            name        : Armenia
+            code        : AM
+            codeAlpha3  : ARM
+            codeNumeric : 51
+
+        13:
+            name        : Aruba
+            code        : AW
+            codeAlpha3  : ABW
+            codeNumeric : 533
+
+        14:
+            name        : Australia
+            code        : AU
+            codeAlpha3  : AUS
+            codeNumeric : 36
+
+        15:
+            name        : Austria
+            code        : AT
+            codeAlpha3  : AUT
+            codeNumeric : 40
+
+        16:
+            name        : Azerbaijan
+            code        : AZ
+            codeAlpha3  : AZE
+            codeNumeric : 31
+
+        17:
+            name        : Bahamas
+            code        : BS
+            codeAlpha3  : BHS
+            codeNumeric : 44
+
+        18:
+            name        : Bahrain
+            code        : BH
+            codeAlpha3  : BHR
+            codeNumeric : 48
+
+        19:
+            name        : Bangladesh
+            code        : BD
+            codeAlpha3  : BGD
+            codeNumeric : 50
+
+        20:
+            name        : Barbados
+            code        : BB
+            codeAlpha3  : BRB
+            codeNumeric : 52
+
+        21:
+            name        : Belarus
+            code        : BY
+            codeAlpha3  : BLR
+            codeNumeric : 112
+
+        22:
+            name        : Belgium
+            code        : BE
+            codeAlpha3  : BEL
+            codeNumeric : 56
+
+        23:
+            name        : Belize
+            code        : BZ
+            codeAlpha3  : BLZ
+            codeNumeric : 84
+
+        24:
+            name        : Benin
+            code        : BJ
+            codeAlpha3  : BEN
+            codeNumeric : 204
+
+        25:
+            name        : Bermuda
+            code        : BM
+            codeAlpha3  : BMU
+            codeNumeric : 60
+
+        26:
+            name        : Bhutan
+            code        : BT
+            codeAlpha3  : BTN
+            codeNumeric : 64
+
+        27:
+            name        : "Bolivia, Plurinational State of"
+            code        : BO
+            codeAlpha3  : BOL
+            codeNumeric : 68
+
+        28:
+            name        : "Bonaire, Saint Eustatius and Saba"
+            code        : BQ
+            codeAlpha3  : BES
+            codeNumeric : 535
+
+        29:
+            name        : "Bosnia and Herzegovina"
+            code        : BA
+            codeAlpha3  : BIH
+            codeNumeric : 70
+
+        30:
+            name        : Botswana
+            code        : BW
+            codeAlpha3  : BWA
+            codeNumeric : 72
+
+        31:
+            name        : "Bouvet Island"
+            code        : BV
+            codeAlpha3  : BVT
+            codeNumeric : 74
+
+        32:
+            name        : Brazil
+            code        : BR
+            codeAlpha3  : BRA
+            codeNumeric : 76
+
+        33:
+            name        : "British Indian Ocean Territory"
+            code        : IO
+            codeAlpha3  : IOT
+            codeNumeric : 86
+
+        34:
+            name        : "Brunei Darussalam"
+            code        : BN
+            codeAlpha3  : BRN
+            codeNumeric : 96
+
+        35:
+            name        : Bulgaria
+            code        : BG
+            codeAlpha3  : BGR
+            codeNumeric : 100
+
+        36:
+            name        : "Burkina Faso"
+            code        : BF
+            codeAlpha3  : BFA
+            codeNumeric : 854
+
+        37:
+            name        : Burundi
+            code        : BI
+            codeAlpha3  : BDI
+            codeNumeric : 108
+
+        38:
+            name        : Cambodia
+            code        : KH
+            codeAlpha3  : KHM
+            codeNumeric : 116
+
+        39:
+            name        : Cameroon
+            code        : CM
+            codeAlpha3  : CMR
+            codeNumeric : 120
+
+        40:
+            name        : Canada
+            code        : CA
+            codeAlpha3  : CAN
+            codeNumeric : 124
+
+        41:
+            name        : "Cape Verde"
+            code        : CV
+            codeAlpha3  : CPV
+            codeNumeric : 132
+
+        42:
+            name        : "Cayman Islands"
+            code        : KY
+            codeAlpha3  : CYM
+            codeNumeric : 136
+
+        43:
+            name        : "Central African Republic"
+            code        : CF
+            codeAlpha3  : CAF
+            codeNumeric : 140
+
+        44:
+            name        : Chad
+            code        : TD
+            codeAlpha3  : TCD
+            codeNumeric : 148
+
+        45:
+            name        : Chile
+            code        : CL
+            codeAlpha3  : CHL
+            codeNumeric : 152
+
+        46:
+            name        : China
+            code        : CN
+            codeAlpha3  : CHN
+            codeNumeric : 156
+
+        47:
+            name        : "Christmas Island"
+            code        : CX
+            codeAlpha3  : CXR
+            codeNumeric : 162
+
+        48:
+            name        : "Cocos (Keeling) Islands"
+            code        : CC
+            codeAlpha3  : CCK
+            codeNumeric : 166
+
+        49:
+            name        : Colombia
+            code        : CO
+            codeAlpha3  : COL
+            codeNumeric : 170
+
+        50:
+            name        : Comoros
+            code        : KM
+            codeAlpha3  : COM
+            codeNumeric : 174
+
+        51:
+            name        : Congo
+            code        : CG
+            codeAlpha3  : COG
+            codeNumeric : 178
+
+        52:
+            name        : "Congo, The Democratic Republic of the"
+            code        : CD
+            codeAlpha3  : COD
+            codeNumeric : 180
+
+        53:
+            name        : "Cook Islands"
+            code        : CK
+            codeAlpha3  : COK
+            codeNumeric : 184
+
+        54:
+            name        : "Costa Rica"
+            code        : CR
+            codeAlpha3  : CRI
+            codeNumeric : 188
+
+        55:
+            name        : "Cote d'Ivoire"
+            code        : CI
+            codeAlpha3  : CIV
+            codeNumeric : 384
+
+        56:
+            name        : Croatia
+            code        : HR
+            codeAlpha3  : HRV
+            codeNumeric : 191
+
+        57:
+            name        : Cuba
+            code        : CU
+            codeAlpha3  : CUB
+            codeNumeric : 192
+
+        58:
+            name        : Curacao
+            code        : CW
+            codeAlpha3  : CUW
+            codeNumeric : 531
+
+        59:
+            name        : Cyprus
+            code        : CY
+            codeAlpha3  : CYP
+            codeNumeric : 196
+
+        60:
+            name        : "Czech Republic"
+            code        : CZ
+            codeAlpha3  : CZE
+            codeNumeric : 203
+
+        61:
+            name        : Denmark
+            code        : DK
+            codeAlpha3  : DNK
+            codeNumeric : 208
+
+        62:
+            name        : Djibouti
+            code        : DJ
+            codeAlpha3  : DJI
+            codeNumeric : 262
+
+        63:
+            name        : Dominica
+            code        : DM
+            codeAlpha3  : DMA
+            codeNumeric : 212
+
+        64:
+            name        : "Dominican Republic"
+            code        : DO
+            codeAlpha3  : DOM
+            codeNumeric : 214
+
+        65:
+            name        : Ecuador
+            code        : EC
+            codeAlpha3  : ECU
+            codeNumeric : 218
+
+        66:
+            name        : Egypt
+            code        : EG
+            codeAlpha3  : EGY
+            codeNumeric : 818
+
+        67:
+            name        : "El Salvador"
+            code        : SV
+            codeAlpha3  : SLV
+            codeNumeric : 222
+
+        68:
+            name        : "Equatorial Guinea"
+            code        : GQ
+            codeAlpha3  : GNQ
+            codeNumeric : 226
+
+        69:
+            name        : Eritrea
+            code        : ER
+            codeAlpha3  : ERI
+            codeNumeric : 232
+
+        70:
+            name        : Estonia
+            code        : EE
+            codeAlpha3  : EST
+            codeNumeric : 233
+
+        71:
+            name        : Ethiopia
+            code        : ET
+            codeAlpha3  : ETH
+            codeNumeric : 231
+
+        72:
+            name        : "Falkland Islands (Malvinas)"
+            code        : FK
+            codeAlpha3  : FLK
+            codeNumeric : 238
+
+        73:
+            name        : "Faroe Islands"
+            code        : FO
+            codeAlpha3  : "534"
+            codeNumeric : 703
+
+        74:
+            name        : Fiji
+            code        : FJ
+            codeAlpha3  : FJI
+            codeNumeric : 242
+
+        75:
+            name        : Finland
+            code        : FI
+            codeAlpha3  : FIN
+            codeNumeric : 246
+
+        76:
+            name        : France
+            code        : FR
+            codeAlpha3  : FRA
+            codeNumeric : 250
+
+        77:
+            name        : "French Guiana"
+            code        : GF
+            codeAlpha3  : GUF
+            codeNumeric : 254
+
+        78:
+            name        : "French Polynesia"
+            code        : PF
+            codeAlpha3  : PYF
+            codeNumeric : 258
+
+        79:
+            name        : "French Southern Territories"
+            code        : TF
+            codeAlpha3  : ATF
+            codeNumeric : 260
+
+        80:
+            name        : Gabon
+            code        : GA
+            codeAlpha3  : GAB
+            codeNumeric : 266
+
+        81:
+            name        : Gambia
+            code        : GM
+            codeAlpha3  : GMB
+            codeNumeric : 270
+
+        82:
+            name        : Georgia
+            code        : GE
+            codeAlpha3  : GEO
+            codeNumeric : 268
+
+        83:
+            name        : Germany
+            code        : DE
+            codeAlpha3  : DEU
+            codeNumeric : 276
+
+        84:
+            name        : Ghana
+            code        : GH
+            codeAlpha3  : GHA
+            codeNumeric : 288
+
+        85:
+            name        : Gibraltar
+            code        : GI
+            codeAlpha3  : GIB
+            codeNumeric : 292
+
+        86:
+            name        : Greece
+            code        : GR
+            codeAlpha3  : GRC
+            codeNumeric : 300
+
+        87:
+            name        : Greenland
+            code        : GL
+            codeAlpha3  : GRL
+            codeNumeric : 304
+
+        88:
+            name        : Grenada
+            code        : GD
+            codeAlpha3  : GRD
+            codeNumeric : 308
+
+        89:
+            name        : Guadeloupe
+            code        : GP
+            codeAlpha3  : GLP
+            codeNumeric : 312
+
+        90:
+            name        : Guam
+            code        : GU
+            codeAlpha3  : GUM
+            codeNumeric : 316
+
+        91:
+            name        : Guatemala
+            code        : GT
+            codeAlpha3  : GTM
+            codeNumeric : 320
+
+        92:
+            name        : Guernsey
+            code        : GG
+            codeAlpha3  : GGY
+            codeNumeric : 831
+
+        93:
+            name        : Guinea
+            code        : GN
+            codeAlpha3  : GIN
+            codeNumeric : 324
+
+        94:
+            name        : Guinea-Bissau
+            code        : GW
+            codeAlpha3  : GNB
+            codeNumeric : 624
+
+        95:
+            name        : Guyana
+            code        : GY
+            codeAlpha3  : GUY
+            codeNumeric : 328
+
+        96:
+            name        : Haiti
+            code        : HT
+            codeAlpha3  : HTI
+            codeNumeric : 332
+
+        97:
+            name        : "Heard Island and McDonald Islands"
+            code        : HM
+            codeAlpha3  : HMD
+            codeNumeric : 334
+
+        98:
+            name        : "Holy See (Vatican City State)"
+            code        : VA
+            codeAlpha3  : VAT
+            codeNumeric : 336
+
+        99:
+            name        : Honduras
+            code        : HN
+            codeAlpha3  : HND
+            codeNumeric : 340
+
+        100:
+            name        : "Hong Kong"
+            code        : HK
+            codeAlpha3  : HKG
+            codeNumeric : 344
+
+        101:
+            name        : Hungary
+            code        : HU
+            codeAlpha3  : HUN
+            codeNumeric : 348
+
+        102:
+            name        : Iceland
+            code        : IS
+            codeAlpha3  : ISL
+            codeNumeric : 352
+
+        103:
+            name        : India
+            code        : IN
+            codeAlpha3  : IND
+            codeNumeric : 356
+
+        104:
+            name        : Indonesia
+            code        : ID
+            codeAlpha3  : IDN
+            codeNumeric : 360
+
+        105:
+            name        : "Iran, Islamic Republic of"
+            code        : IR
+            codeAlpha3  : IRN
+            codeNumeric : 364
+
+        106:
+            name        : Iraq
+            code        : IQ
+            codeAlpha3  : IRQ
+            codeNumeric : 368
+
+        107:
+            name        : Ireland
+            code        : IE
+            codeAlpha3  : IRL
+            codeNumeric : 372
+
+        108:
+            name        : "Isle of Man"
+            code        : IM
+            codeAlpha3  : IMN
+            codeNumeric : 833
+
+        109:
+            name        : Israel
+            code        : IL
+            codeAlpha3  : ISR
+            codeNumeric : 376
+
+        110:
+            name        : Italy
+            code        : IT
+            codeAlpha3  : ITA
+            codeNumeric : 380
+
+        111:
+            name        : Jamaica
+            code        : JM
+            codeAlpha3  : JAM
+            codeNumeric : 388
+
+        112:
+            name        : Japan
+            code        : JP
+            codeAlpha3  : JPN
+            codeNumeric : 392
+
+        113:
+            name        : Jersey
+            code        : JE
+            codeAlpha3  : JEY
+            codeNumeric : 832
+
+        114:
+            name        : Jordan
+            code        : JO
+            codeAlpha3  : JOR
+            codeNumeric : 400
+
+        115:
+            name        : Kazakhstan
+            code        : KZ
+            codeAlpha3  : KAZ
+            codeNumeric : 398
+
+        116:
+            name        : Kenya
+            code        : KE
+            codeAlpha3  : KEN
+            codeNumeric : 404
+
+        117:
+            name        : Kiribati
+            code        : KI
+            codeAlpha3  : KIR
+            codeNumeric : 296
+
+        118:
+            name        : "Korea, Democratic People's Republic of"
+            code        : KP
+            codeAlpha3  : PRK
+            codeNumeric : 408
+
+        119:
+            name        : "Korea, Republic of"
+            code        : KR
+            codeAlpha3  : KOR
+            codeNumeric : 410
+
+        120:
+            name        : Kuwait
+            code        : KW
+            codeAlpha3  : KWT
+            codeNumeric : 414
+
+        121:
+            name        : Kyrgyzstan
+            code        : KG
+            codeAlpha3  : KGZ
+            codeNumeric : 417
+
+        122:
+            name        : "Lao People's Democratic Republic"
+            code        : LA
+            codeAlpha3  : LAO
+            codeNumeric : 418
+
+        123:
+            name        : Latvia
+            code        : LV
+            codeAlpha3  : LVA
+            codeNumeric : 428
+
+        124:
+            name        : Lebanon
+            code        : LB
+            codeAlpha3  : LBN
+            codeNumeric : 422
+
+        125:
+            name        : Lesotho
+            code        : LS
+            codeAlpha3  : LSO
+            codeNumeric : 426
+
+        126:
+            name        : Liberia
+            code        : LR
+            codeAlpha3  : LBR
+            codeNumeric : 430
+
+        127:
+            name        : "Libyan Arab Jamahiriya"
+            code        : LY
+            codeAlpha3  : LBY
+            codeNumeric : 434
+
+        128:
+            name        : Liechtenstein
+            code        : LI
+            codeAlpha3  : LIE
+            codeNumeric : 438
+
+        129:
+            name        : Lithuania
+            code        : LT
+            codeAlpha3  : LTU
+            codeNumeric : 440
+
+        130:
+            name        : Luxembourg
+            code        : LU
+            codeAlpha3  : LUX
+            codeNumeric : 442
+
+        131:
+            name        : Macao
+            code        : MO
+            codeAlpha3  : MAC
+            codeNumeric : 446
+
+        132:
+            name        : "Macedonia, The Former Yugoslav Republic of"
+            code        : MK
+            codeAlpha3  : MKD
+            codeNumeric : 807
+
+        133:
+            name        : Madagascar
+            code        : MG
+            codeAlpha3  : MDG
+            codeNumeric : 450
+
+        134:
+            name        : Malawi
+            code        : MW
+            codeAlpha3  : MWI
+            codeNumeric : 454
+
+        135:
+            name        : Malaysia
+            code        : MY
+            codeAlpha3  : MYS
+            codeNumeric : 458
+
+        136:
+            name        : Maldives
+            code        : MV
+            codeAlpha3  : MDV
+            codeNumeric : 462
+
+        137:
+            name        : Mali
+            code        : ML
+            codeAlpha3  : MLI
+            codeNumeric : 466
+
+        138:
+            name        : Malta
+            code        : MT
+            codeAlpha3  : MLT
+            codeNumeric : 470
+
+        139:
+            name        : "Marshall Islands"
+            code        : MH
+            codeAlpha3  : MHL
+            codeNumeric : 584
+
+        140:
+            name        : Martinique
+            code        : MQ
+            codeAlpha3  : MTQ
+            codeNumeric : 474
+
+        141:
+            name        : Mauritania
+            code        : MR
+            codeAlpha3  : MRT
+            codeNumeric : 478
+
+        142:
+            name        : Mauritius
+            code        : MU
+            codeAlpha3  : MUS
+            codeNumeric : 480
+
+        143:
+            name        : Mayotte
+            code        : YT
+            codeAlpha3  : MYT
+            codeNumeric : 175
+
+        144:
+            name        : Mexico
+            code        : MX
+            codeAlpha3  : MEX
+            codeNumeric : 484
+
+        145:
+            name        : "Micronesia, Federated States of"
+            code        : FM
+            codeAlpha3  : FSM
+            codeNumeric : 583
+
+        146:
+            name        : "Moldova, Republic of"
+            code        : MD
+            codeAlpha3  : MDA
+            codeNumeric : 498
+
+        147:
+            name        : Monaco
+            code        : MC
+            codeAlpha3  : MCO
+            codeNumeric : 492
+
+        148:
+            name        : Mongolia
+            code        : MN
+            codeAlpha3  : MNG
+            codeNumeric : 496
+
+        149:
+            name        : Montenegro
+            code        : ME
+            codeAlpha3  : MNE
+            codeNumeric : 499
+
+        150:
+            name        : Montserrat
+            code        : MS
+            codeAlpha3  : MSR
+            codeNumeric : 500
+
+        151:
+            name        : Morocco
+            code        : MA
+            codeAlpha3  : MAR
+            codeNumeric : 504
+
+        152:
+            name        : Mozambique
+            code        : MZ
+            codeAlpha3  : MOZ
+            codeNumeric : 508
+
+        153:
+            name        : Myanmar
+            code        : MM
+            codeAlpha3  : MMR
+            codeNumeric : 104
+
+        154:
+            name        : Namibia
+            code        : NA
+            codeAlpha3  : NAM
+            codeNumeric : 516
+
+        155:
+            name        : Nauru
+            code        : NR
+            codeAlpha3  : NRU
+            codeNumeric : 520
+
+        156:
+            name        : Nepal
+            code        : NP
+            codeAlpha3  : NPL
+            codeNumeric : 524
+
+        157:
+            name        : Netherlands
+            code        : NL
+            codeAlpha3  : NLD
+            codeNumeric : 528
+
+        158:
+            name        : "New Caledonia"
+            code        : NC
+            codeAlpha3  : NCL
+            codeNumeric : 540
+
+        159:
+            name        : "New Zealand"
+            code        : NZ
+            codeAlpha3  : NZL
+            codeNumeric : 554
+
+        160:
+            name        : Nicaragua
+            code        : NI
+            codeAlpha3  : NIC
+            codeNumeric : 558
+
+        161:
+            name        : Niger
+            code        : NE
+            codeAlpha3  : NER
+            codeNumeric : 562
+
+        162:
+            name        : Nigeria
+            code        : NG
+            codeAlpha3  : NGA
+            codeNumeric : 566
+
+        163:
+            name        : Niue
+            code        : NU
+            codeAlpha3  : NIU
+            codeNumeric : 570
+
+        164:
+            name        : "Norfolk Island"
+            code        : NF
+            codeAlpha3  : NFK
+            codeNumeric : 574
+
+        165:
+            name        : "Northern Mariana Islands"
+            code        : MP
+            codeAlpha3  : MNP
+            codeNumeric : 580
+
+        166:
+            name        : Norway
+            code        : NO
+            codeAlpha3  : NOR
+            codeNumeric : 578
+
+        167:
+            name        : "Occupied Palestinian Territory"
+            code        : PS
+            codeAlpha3  : PSE
+            codeNumeric : 275
+
+        168:
+            name        : Oman
+            code        : OM
+            codeAlpha3  : OMN
+            codeNumeric : 512
+
+        169:
+            name        : Pakistan
+            code        : PK
+            codeAlpha3  : PAK
+            codeNumeric : 586
+
+        170:
+            name        : Palau
+            code        : PW
+            codeAlpha3  : PLW
+            codeNumeric : 585
+
+        171:
+            name        : Panama
+            code        : PA
+            codeAlpha3  : PAN
+            codeNumeric : 591
+
+        172:
+            name        : "Papua New Guinea"
+            code        : PG
+            codeAlpha3  : PNG
+            codeNumeric : 598
+
+        173:
+            name        : Paraguay
+            code        : PY
+            codeAlpha3  : PRY
+            codeNumeric : 600
+
+        174:
+            name        : Peru
+            code        : PE
+            codeAlpha3  : PER
+            codeNumeric : 604
+
+        175:
+            name        : Philippines
+            code        : PH
+            codeAlpha3  : PHL
+            codeNumeric : 608
+
+        176:
+            name        : Pitcairn
+            code        : PN
+            codeAlpha3  : PCN
+            codeNumeric : 612
+
+        177:
+            name        : Poland
+            code        : PL
+            codeAlpha3  : POL
+            codeNumeric : 616
+
+        178:
+            name        : Portugal
+            code        : PT
+            codeAlpha3  : PRT
+            codeNumeric : 620
+
+        179:
+            name        : "Puerto Rico"
+            code        : PR
+            codeAlpha3  : PRI
+            codeNumeric : 630
+
+        180:
+            name        : Qatar
+            code        : QA
+            codeAlpha3  : QAT
+            codeNumeric : 634
+
+        181:
+            name        : Reunion
+            code        : RE
+            codeAlpha3  : REU
+            codeNumeric : 638
+
+        182:
+            name        : Romania
+            code        : RO
+            codeAlpha3  : ROU
+            codeNumeric : 642
+
+        183:
+            name        : "Russian Federation"
+            code        : RU
+            codeAlpha3  : RUS
+            codeNumeric : 643
+
+        184:
+            name        : Rwanda
+            code        : RW
+            codeAlpha3  : RWA
+            codeNumeric : 646
+
+        185:
+            name        : "Saint Barthelemy"
+            code        : BL
+            codeAlpha3  : "534"
+            codeNumeric : 703
+
+        186:
+            name        : "Saint Helena, Ascension and Tristan da Cunha"
+            code        : SH
+            codeAlpha3  : SHN
+            codeNumeric : 654
+
+        187:
+            name        : "Saint Kitts and Nevis"
+            code        : KN
+            codeAlpha3  : KNA
+            codeNumeric : 659
+
+        188:
+            name        : "Saint Lucia"
+            code        : LC
+            codeAlpha3  : LCA
+            codeNumeric : 662
+
+        189:
+            name        : "Saint Martin (French part)"
+            code        : MF
+            codeAlpha3  : MAF
+            codeNumeric : 663
+
+        190:
+            name        : "Saint Pierre and Miquelon"
+            code        : PM
+            codeAlpha3  : SPM
+            codeNumeric : 666
+
+        191:
+            name        : "Saint Vincent and The Grenadines"
+            code        : VC
+            codeAlpha3  : VCT
+            codeNumeric : 670
+
+        192:
+            name        : Samoa
+            code        : WS
+            codeAlpha3  : WSM
+            codeNumeric : 882
+
+        193:
+            name        : "San Marino"
+            code        : SM
+            codeAlpha3  : SMR
+            codeNumeric : 674
+
+        194:
+            name        : "Sao Tome and Principe"
+            code        : ST
+            codeAlpha3  : STP
+            codeNumeric : 678
+
+        195:
+            name        : "Saudi Arabia"
+            code        : SA
+            codeAlpha3  : SAU
+            codeNumeric : 682
+
+        196:
+            name        : Senegal
+            code        : SN
+            codeAlpha3  : SEN
+            codeNumeric : 686
+
+        197:
+            name        : Serbia
+            code        : RS
+            codeAlpha3  : SRB
+            codeNumeric : 688
+
+        198:
+            name        : Seychelles
+            code        : SC
+            codeAlpha3  : SYC
+            codeNumeric : 690
+
+        199:
+            name        : "Sierra Leone"
+            code        : SL
+            codeAlpha3  : SLE
+            codeNumeric : 694
+
+        200:
+            name        : Singapore
+            code        : SG
+            codeAlpha3  : SGP
+            codeNumeric : 702
+
+        201:
+            name        : "Sint Maarten (Dutch part)"
+            code        : SX
+            codeAlpha3  : SXM
+            codeNumeric : 534
+
+        202:
+            name        : Slovakia
+            code        : SK
+            codeAlpha3  : SVK
+            codeNumeric : 703
+
+        203:
+            name        : Slovenia
+            code        : SI
+            codeAlpha3  : SVN
+            codeNumeric : 705
+
+        204:
+            name        : "Solomon Islands"
+            code        : SB
+            codeAlpha3  : SLB
+            codeNumeric : 90
+
+        205:
+            name        : Somalia
+            code        : SO
+            codeAlpha3  : SOM
+            codeNumeric : 706
+
+        206:
+            name        : "South Africa"
+            code        : ZA
+            codeAlpha3  : ZAF
+            codeNumeric : 710
+
+        207:
+            name        : "South Georgia and the South Sandwich Islands"
+            code        : GS
+            codeAlpha3  : SGS
+            codeNumeric : 239
+
+        208:
+            name        : Spain
+            code        : ES
+            codeAlpha3  : ESP
+            codeNumeric : 724
+
+        209:
+            name        : "Sri Lanka"
+            code        : LK
+            codeAlpha3  : LKA
+            codeNumeric : 144
+
+        210:
+            name        : Sudan
+            code        : SD
+            codeAlpha3  : SDN
+            codeNumeric : 736
+
+        211:
+            name        : Suriname
+            code        : SR
+            codeAlpha3  : SUR
+            codeNumeric : 740
+
+        212:
+            name        : "Svalbard and Jan Mayen"
+            code        : SJ
+            codeAlpha3  : "534"
+            codeNumeric : 703
+
+        213:
+            name        : Swaziland
+            code        : SZ
+            codeAlpha3  : SWZ
+            codeNumeric : 748
+
+        214:
+            name        : Sweden
+            code        : SE
+            codeAlpha3  : SWE
+            codeNumeric : 752
+
+        215:
+            name        : Switzerland
+            code        : CH
+            codeAlpha3  : CHE
+            codeNumeric : 756
+
+        216:
+            name        : "Syrian Arab Republic"
+            code        : SY
+            codeAlpha3  : SYR
+            codeNumeric : 760
+
+        217:
+            name        : "Taiwan, Province of China"
+            code        : TW
+            codeAlpha3  : TWN
+            codeNumeric : 158
+
+        218:
+            name        : Tajikistan
+            code        : TJ
+            codeAlpha3  : TJK
+            codeNumeric : 762
+
+        219:
+            name        : "Tanzania, United Republic of"
+            code        : TZ
+            codeAlpha3  : TZA
+            codeNumeric : 834
+
+        220:
+            name        : Thailand
+            code        : TH
+            codeAlpha3  : THA
+            codeNumeric : 764
+
+        221:
+            name        : Timor-Leste
+            code        : TL
+            codeAlpha3  : TLS
+            codeNumeric : 626
+
+        222:
+            name        : Togo
+            code        : TG
+            codeAlpha3  : TGO
+            codeNumeric : 768
+
+        223:
+            name        : Tokelau
+            code        : TK
+            codeAlpha3  : TKL
+            codeNumeric : 772
+
+        224:
+            name        : Tonga
+            code        : TO
+            codeAlpha3  : TON
+            codeNumeric : 776
+
+        225:
+            name        : "Trinidad and Tobago"
+            code        : TT
+            codeAlpha3  : TTO
+            codeNumeric : 780
+
+        226:
+            name        : Tunisia
+            code        : TN
+            codeAlpha3  : TUN
+            codeNumeric : 788
+
+        227:
+            name        : Turkey
+            code        : TR
+            codeAlpha3  : TUR
+            codeNumeric : 792
+
+        228:
+            name        : Turkmenistan
+            code        : TM
+            codeAlpha3  : TKM
+            codeNumeric : 795
+
+        229:
+            name        : "Turks and Caicos Islands"
+            code        : TC
+            codeAlpha3  : TCA
+            codeNumeric : 796
+
+        230:
+            name        : Tuvalu
+            code        : TV
+            codeAlpha3  : TUV
+            codeNumeric : 798
+
+        231:
+            name        : Uganda
+            code        : UG
+            codeAlpha3  : UGA
+            codeNumeric : 800
+
+        232:
+            name        : Ukraine
+            code        : UA
+            codeAlpha3  : UKR
+            codeNumeric : 804
+
+        233:
+            name        : "United Arab Emirates"
+            code        : AE
+            codeAlpha3  : ARE
+            codeNumeric : 784
+
+        234:
+            name        : "United Kingdom"
+            code        : GB
+            codeAlpha3  : GBR
+            codeNumeric : 826
+
+        235:
+            name        : "United States"
+            code        : US
+            codeAlpha3  : USA
+            codeNumeric : 840
+
+        236:
+            name        : "United States Minor Outlying Islands"
+            code        : UM
+            codeAlpha3  : UMI
+            codeNumeric : 581
+
+        237:
+            name        : Uruguay
+            code        : UY
+            codeAlpha3  : URY
+            codeNumeric : 858
+
+        238:
+            name        : Uzbekistan
+            code        : UZ
+            codeAlpha3  : UZB
+            codeNumeric : 860
+
+        239:
+            name        : Vanuatu
+            code        : VU
+            codeAlpha3  : VUT
+            codeNumeric : 548
+
+        240:
+            name        : "Venezuela, Bolivarian Republic of"
+            code        : VE
+            codeAlpha3  : VEN
+            codeNumeric : 862
+
+        241:
+            name        : "Viet Nam"
+            code        : VN
+            codeAlpha3  : VNM
+            codeNumeric : 704
+
+        242:
+            name        : "Virgin Islands, British"
+            code        : VG
+            codeAlpha3  : VGB
+            codeNumeric : 92
+
+        243:
+            name        : "Virgin Islands, U.S."
+            code        : VI
+            codeAlpha3  : VIR
+            codeNumeric : 850
+
+        244:
+            name        : "Wallis and Futuna"
+            code        : WF
+            codeAlpha3  : WLF
+            codeNumeric : 876
+
+        245:
+            name        : "Western Sahara"
+            code        : EH
+            codeAlpha3  : ESH
+            codeNumeric : 732
+
+        246:
+            name        : Yemen
+            code        : YE
+            codeAlpha3  : YEM
+            codeNumeric : 887
+
+        247:
+            name        : Zambia
+            code        : ZM
+            codeAlpha3  : ZMB
+            codeNumeric : 894
+
+        248:
+            name        : Zimbabwe
+            code        : ZW
+            codeAlpha3  : ZWE
+            codeNumeric : 716
+...
