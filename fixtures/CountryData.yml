@@ -1,0 +1,1015 @@
+---
+Country:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 20
+        mode       : truncate
+        entity     : s.mantle.locale_country.entity.class
+        repository : s.mantle.locale_country.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            name        : "Afghanistan"
+            code        : "AF"
+
+        2:
+            name        : "Aland Islands"
+            code        : "AX"
+
+        3:
+            name        : "Albania"
+            code        : "AL"
+
+        4:
+            name        : "Algeria"
+            code        : "DZ"
+
+        5:
+            name        : "American Samoa"
+            code        : "AS"
+
+        6:
+            name        : "Andorra"
+            code        : "AD"
+
+        7:
+            name        : "Angola"
+            code        : "AO"
+
+        8:
+            name        : "Anguilla"
+            code        : "AI"
+
+        9:
+            name        : "Antarctica"
+            code        : "AQ"
+
+        10:
+            name        : "Antigua and Barbuda"
+            code        : "AG"
+
+        11:
+            name        : "Argentina"
+            code        : "AR"
+
+        12:
+            name        : "Armenia"
+            code        : "AM"
+
+        13:
+            name        : "Aruba"
+            code        : "AW"
+
+        14:
+            name        : "Australia"
+            code        : "AU"
+
+        15:
+            name        : "Austria"
+            code        : "AT"
+
+        16:
+            name        : "Azerbaijan"
+            code        : "AZ"
+
+        17:
+            name        : "Bahamas"
+            code        : "BS"
+
+        18:
+            name        : "Bahrain"
+            code        : "BH"
+
+        19:
+            name        : "Bangladesh"
+            code        : "BD"
+
+        20:
+            name        : "Barbados"
+            code        : "BB"
+
+        21:
+            name        : "Belarus"
+            code        : "BY"
+
+        22:
+            name        : "Belgium"
+            code        : "BE"
+
+        23:
+            name        : "Belize"
+            code        : "BZ"
+
+        24:
+            name        : "Benin"
+            code        : "BJ"
+
+        25:
+            name        : "Bermuda"
+            code        : "BM"
+
+        26:
+            name        : "Bhutan"
+            code        : "BT"
+
+        27:
+            name        : "Bolivia, Plurinational State of"
+            code        : "BO"
+
+        28:
+            name        : "Bonaire, Saint Eustatius and Saba"
+            code        : "BQ"
+
+        29:
+            name        : "Bosnia and Herzegovina"
+            code        : "BA"
+
+        30:
+            name        : "Botswana"
+            code        : "BW"
+
+        31:
+            name        : "Bouvet Island"
+            code        : "BV"
+
+        32:
+            name        : "Brazil"
+            code        : "BR"
+
+        33:
+            name        : "British Indian Ocean Territory"
+            code        : "IO"
+
+        34:
+            name        : "Brunei Darussalam"
+            code        : "BN"
+
+        35:
+            name        : "Bulgaria"
+            code        : "BG"
+
+        36:
+            name        : "Burkina Faso"
+            code        : "BF"
+
+        37:
+            name        : "Burundi"
+            code        : "BI"
+
+        38:
+            name        : "Cambodia"
+            code        : "KH"
+
+        39:
+            name        : "Cameroon"
+            code        : "CM"
+
+        40:
+            name        : "Canada"
+            code        : "CA"
+
+        41:
+            name        : "Cape Verde"
+            code        : "CV"
+
+        42:
+            name        : "Cayman Islands"
+            code        : "KY"
+
+        43:
+            name        : "Central African Republic"
+            code        : "CF"
+
+        44:
+            name        : "Chad"
+            code        : "TD"
+
+        45:
+            name        : "Chile"
+            code        : "CL"
+
+        46:
+            name        : "China"
+            code        : "CN"
+
+        47:
+            name        : "Christmas Island"
+            code        : "CX"
+
+        48:
+            name        : "Cocos (Keeling) Islands"
+            code        : "CC"
+
+        49:
+            name        : "Colombia"
+            code        : "CO"
+
+        50:
+            name        : "Comoros"
+            code        : "KM"
+
+        51:
+            name        : "Congo"
+            code        : "CG"
+
+        52:
+            name        : "Congo, The Democratic Republic of the"
+            code        : "CD"
+
+        53:
+            name        : "Cook Islands"
+            code        : "CK"
+
+        54:
+            name        : "Costa Rica"
+            code        : "CR"
+
+        55:
+            name        : "Cote d'Ivoire"
+            code        : "CI"
+
+        56:
+            name        : "Croatia"
+            code        : "HR"
+
+        57:
+            name        : "Cuba"
+            code        : "CU"
+
+        58:
+            name        : "Curacao"
+            code        : "CW"
+
+        59:
+            name        : "Cyprus"
+            code        : "CY"
+
+        60:
+            name        : "Czech Republic"
+            code        : "CZ"
+
+        61:
+            name        : "Denmark"
+            code        : "DK"
+
+        62:
+            name        : "Djibouti"
+            code        : "DJ"
+
+        63:
+            name        : "Dominica"
+            code        : "DM"
+
+        64:
+            name        : "Dominican Republic"
+            code        : "DO"
+
+        65:
+            name        : "Ecuador"
+            code        : "EC"
+
+        66:
+            name        : "Egypt"
+            code        : "EG"
+
+        67:
+            name        : "El Salvador"
+            code        : "SV"
+
+        68:
+            name        : "Equatorial Guinea"
+            code        : "GQ"
+
+        69:
+            name        : "Eritrea"
+            code        : "ER"
+
+        70:
+            name        : "Estonia"
+            code        : "EE"
+
+        71:
+            name        : "Ethiopia"
+            code        : "ET"
+
+        72:
+            name        : "Falkland Islands (Malvinas)"
+            code        : "FK"
+
+        73:
+            name        : "Faroe Islands"
+            code        : "FO"
+
+        74:
+            name        : "Fiji"
+            code        : "FJ"
+
+        75:
+            name        : "Finland"
+            code        : "FI"
+
+        76:
+            name        : "France"
+            code        : "FR"
+
+        77:
+            name        : "French Guiana"
+            code        : "GF"
+
+        78:
+            name        : "French Polynesia"
+            code        : "PF"
+
+        79:
+            name        : "French Southern Territories"
+            code        : "TF"
+
+        80:
+            name        : "Gabon"
+            code        : "GA"
+
+        81:
+            name        : "Gambia"
+            code        : "GM"
+
+        82:
+            name        : "Georgia"
+            code        : "GE"
+
+        83:
+            name        : "Germany"
+            code        : "DE"
+
+        84:
+            name        : "Ghana"
+            code        : "GH"
+
+        85:
+            name        : "Gibraltar"
+            code        : "GI"
+
+        86:
+            name        : "Greece"
+            code        : "GR"
+
+        87:
+            name        : "Greenland"
+            code        : "GL"
+
+        88:
+            name        : "Grenada"
+            code        : "GD"
+
+        89:
+            name        : "Guadeloupe"
+            code        : "GP"
+
+        90:
+            name        : "Guam"
+            code        : "GU"
+
+        91:
+            name        : "Guatemala"
+            code        : "GT"
+
+        92:
+            name        : "Guernsey"
+            code        : "GG"
+
+        93:
+            name        : "Guinea"
+            code        : "GN"
+
+        94:
+            name        : "Guinea-Bissau"
+            code        : "GW"
+
+        95:
+            name        : "Guyana"
+            code        : "GY"
+
+        96:
+            name        : "Haiti"
+            code        : "HT"
+
+        97:
+            name        : "Heard Island and McDonald Islands"
+            code        : "HM"
+
+        98:
+            name        : "Holy See (Vatican City State)"
+            code        : "VA"
+
+        99:
+            name        : "Honduras"
+            code        : "HN"
+
+        100:
+            name        : "Hong Kong"
+            code        : "HK"
+
+        101:
+            name        : "Hungary"
+            code        : "HU"
+
+        102:
+            name        : "Iceland"
+            code        : "IS"
+
+        103:
+            name        : "India"
+            code        : "IN"
+
+        104:
+            name        : "Indonesia"
+            code        : "ID"
+
+        105:
+            name        : "Iran, Islamic Republic of"
+            code        : "IR"
+
+        106:
+            name        : "Iraq"
+            code        : "IQ"
+
+        107:
+            name        : "Ireland"
+            code        : "IE"
+
+        108:
+            name        : "Isle of Man"
+            code        : "IM"
+
+        109:
+            name        : "Israel"
+            code        : "IL"
+
+        110:
+            name        : "Italy"
+            code        : "IT"
+
+        111:
+            name        : "Jamaica"
+            code        : "JM"
+
+        112:
+            name        : "Japan"
+            code        : "JP"
+
+        113:
+            name        : "Jersey"
+            code        : "JE"
+
+        114:
+            name        : "Jordan"
+            code        : "JO"
+
+        115:
+            name        : "Kazakhstan"
+            code        : "KZ"
+
+        116:
+            name        : "Kenya"
+            code        : "KE"
+
+        117:
+            name        : "Kiribati"
+            code        : "KI"
+
+        118:
+            name        : "Korea, Democratic People's Republic of"
+            code        : "KP"
+
+        119:
+            name        : "Korea, Republic of"
+            code        : "KR"
+
+        120:
+            name        : "Kuwait"
+            code        : "KW"
+
+        121:
+            name        : "Kyrgyzstan"
+            code        : "KG"
+
+        122:
+            name        : "Lao People's Democratic Republic"
+            code        : "LA"
+
+        123:
+            name        : "Latvia"
+            code        : "LV"
+
+        124:
+            name        : "Lebanon"
+            code        : "LB"
+
+        125:
+            name        : "Lesotho"
+            code        : "LS"
+
+        126:
+            name        : "Liberia"
+            code        : "LR"
+
+        127:
+            name        : "Libyan Arab Jamahiriya"
+            code        : "LY"
+
+        128:
+            name        : "Liechtenstein"
+            code        : "LI"
+
+        129:
+            name        : "Lithuania"
+            code        : "LT"
+
+        130:
+            name        : "Luxembourg"
+            code        : "LU"
+
+        131:
+            name        : "Macao"
+            code        : "MO"
+
+        132:
+            name        : "Macedonia, The Former Yugoslav Republic of"
+            code        : "MK"
+
+        133:
+            name        : "Madagascar"
+            code        : "MG"
+
+        134:
+            name        : "Malawi"
+            code        : "MW"
+
+        135:
+            name        : "Malaysia"
+            code        : "MY"
+
+        136:
+            name        : "Maldives"
+            code        : "MV"
+
+        137:
+            name        : "Mali"
+            code        : "ML"
+
+        138:
+            name        : "Malta"
+            code        : "MT"
+
+        139:
+            name        : "Marshall Islands"
+            code        : "MH"
+
+        140:
+            name        : "Martinique"
+            code        : "MQ"
+
+        141:
+            name        : "Mauritania"
+            code        : "MR"
+
+        142:
+            name        : "Mauritius"
+            code        : "MU"
+
+        143:
+            name        : "Mayotte"
+            code        : "YT"
+
+        144:
+            name        : "Mexico"
+            code        : "MX"
+
+        145:
+            name        : "Micronesia, Federated States of"
+            code        : "FM"
+
+        146:
+            name        : "Moldova, Republic of"
+            code        : "MD"
+
+        147:
+            name        : "Monaco"
+            code        : "MC"
+
+        148:
+            name        : "Mongolia"
+            code        : "MN"
+
+        149:
+            name        : "Montenegro"
+            code        : "ME"
+
+        150:
+            name        : "Montserrat"
+            code        : "MS"
+
+        151:
+            name        : "Morocco"
+            code        : "MA"
+
+        152:
+            name        : "Mozambique"
+            code        : "MZ"
+
+        153:
+            name        : "Myanmar"
+            code        : "MM"
+
+        154:
+            name        : "Namibia"
+            code        : "NA"
+
+        155:
+            name        : "Nauru"
+            code        : "NR"
+
+        156:
+            name        : "Nepal"
+            code        : "NP"
+
+        157:
+            name        : "Netherlands"
+            code        : "NL"
+
+        158:
+            name        : "New Caledonia"
+            code        : "NC"
+
+        159:
+            name        : "New Zealand"
+            code        : "NZ"
+
+        160:
+            name        : "Nicaragua"
+            code        : "NI"
+
+        161:
+            name        : "Niger"
+            code        : "NE"
+
+        162:
+            name        : "Nigeria"
+            code        : "NG"
+
+        163:
+            name        : "Niue"
+            code        : "NU"
+
+        164:
+            name        : "Norfolk Island"
+            code        : "NF"
+
+        165:
+            name        : "Northern Mariana Islands"
+            code        : "MP"
+
+        166:
+            name        : "Norway"
+            code        : "NO"
+
+        167:
+            name        : "Occupied Palestinian Territory"
+            code        : "PS"
+
+        168:
+            name        : "Oman"
+            code        : "OM"
+
+        169:
+            name        : "Pakistan"
+            code        : "PK"
+
+        170:
+            name        : "Palau"
+            code        : "PW"
+
+        171:
+            name        : "Panama"
+            code        : "PA"
+
+        172:
+            name        : "Papua New Guinea"
+            code        : "PG"
+
+        173:
+            name        : "Paraguay"
+            code        : "PY"
+
+        174:
+            name        : "Peru"
+            code        : "PE"
+
+        175:
+            name        : "Philippines"
+            code        : "PH"
+
+        176:
+            name        : "Pitcairn"
+            code        : "PN"
+
+        177:
+            name        : "Poland"
+            code        : "PL"
+
+        178:
+            name        : "Portugal"
+            code        : "PT"
+
+        179:
+            name        : "Puerto Rico"
+            code        : "PR"
+
+        180:
+            name        : "Qatar"
+            code        : "QA"
+
+        181:
+            name        : "Reunion"
+            code        : "RE"
+
+        182:
+            name        : "Romania"
+            code        : "RO"
+
+        183:
+            name        : "Russian Federation"
+            code        : "RU"
+
+        184:
+            name        : "Rwanda"
+            code        : "RW"
+
+        185:
+            name        : "Saint Barthelemy"
+            code        : "BL"
+
+        186:
+            name        : "Saint Helena, Ascension and Tristan da Cunha"
+            code        : "SH"
+
+        187:
+            name        : "Saint Kitts and Nevis"
+            code        : "KN"
+
+        188:
+            name        : "Saint Lucia"
+            code        : "LC"
+
+        189:
+            name        : "Saint Martin (French part)"
+            code        : "MF"
+
+        190:
+            name        : "Saint Pierre and Miquelon"
+            code        : "PM"
+
+        191:
+            name        : "Saint Vincent and The Grenadines"
+            code        : "VC"
+
+        192:
+            name        : "Samoa"
+            code        : "WS"
+
+        193:
+            name        : "San Marino"
+            code        : "SM"
+
+        194:
+            name        : "Sao Tome and Principe"
+            code        : "ST"
+
+        195:
+            name        : "Saudi Arabia"
+            code        : "SA"
+
+        196:
+            name        : "Senegal"
+            code        : "SN"
+
+        197:
+            name        : "Serbia"
+            code        : "RS"
+
+        198:
+            name        : "Seychelles"
+            code        : "SC"
+
+        199:
+            name        : "Sierra Leone"
+            code        : "SL"
+
+        200:
+            name        : "Singapore"
+            code        : "SG"
+
+        201:
+            name        : "Sint Maarten (Dutch part)"
+            code        : "SX"
+
+        202:
+            name        : "Slovakia"
+            code        : "SK"
+
+        203:
+            name        : "Slovenia"
+            code        : "SI"
+
+        204:
+            name        : "Solomon Islands"
+            code        : "SB"
+
+        205:
+            name        : "Somalia"
+            code        : "SO"
+
+        206:
+            name        : "South Africa"
+            code        : "ZA"
+
+        207:
+            name        : "South Georgia and the South Sandwich Islands"
+            code        : "GS"
+
+        208:
+            name        : "Spain"
+            code        : "ES"
+
+        209:
+            name        : "Sri Lanka"
+            code        : "LK"
+
+        210:
+            name        : "Sudan"
+            code        : "SD"
+
+        211:
+            name        : "Suriname"
+            code        : "SR"
+
+        212:
+            name        : "Svalbard and Jan Mayen"
+            code        : "SJ"
+
+        213:
+            name        : "Swaziland"
+            code        : "SZ"
+
+        214:
+            name        : "Sweden"
+            code        : "SE"
+
+        215:
+            name        : "Switzerland"
+            code        : "CH"
+
+        216:
+            name        : "Syrian Arab Republic"
+            code        : "SY"
+
+        217:
+            name        : "Taiwan, Province of China"
+            code        : "TW"
+
+        218:
+            name        : "Tajikistan"
+            code        : "TJ"
+
+        219:
+            name        : "Tanzania, United Republic of"
+            code        : "TZ"
+
+        220:
+            name        : "Thailand"
+            code        : "TH"
+
+        221:
+            name        : "Timor-Leste"
+            code        : "TL"
+
+        222:
+            name        : "Togo"
+            code        : "TG"
+
+        223:
+            name        : "Tokelau"
+            code        : "TK"
+
+        224:
+            name        : "Tonga"
+            code        : "TO"
+
+        225:
+            name        : "Trinidad and Tobago"
+            code        : "TT"
+
+        226:
+            name        : "Tunisia"
+            code        : "TN"
+
+        227:
+            name        : "Turkey"
+            code        : "TR"
+
+        228:
+            name        : "Turkmenistan"
+            code        : "TM"
+
+        229:
+            name        : "Turks and Caicos Islands"
+            code        : "TC"
+
+        230:
+            name        : "Tuvalu"
+            code        : "TV"
+
+        231:
+            name        : "Uganda"
+            code        : "UG"
+
+        232:
+            name        : "Ukraine"
+            code        : "UA"
+
+        233:
+            name        : "United Arab Emirates"
+            code        : "AE"
+
+        234:
+            name        : "United Kingdom"
+            code        : "GB"
+
+        235:
+            name        : "United States"
+            code        : "US"
+
+        236:
+            name        : "United States Minor Outlying Islands"
+            code        : "UM"
+
+        237:
+            name        : "Uruguay"
+            code        : "UY"
+
+        238:
+            name        : "Uzbekistan"
+            code        : "UZ"
+
+        239:
+            name        : "Vanuatu"
+            code        : "VU"
+
+        240:
+            name        : "Venezuela, Bolivarian Republic of"
+            code        : "VE"
+
+        241:
+            name        : "Viet Nam"
+            code        : "VN"
+
+        242:
+            name        : "Virgin Islands, British"
+            code        : "VG"
+
+        243:
+            name        : "Virgin Islands, U.S."
+            code        : "VI"
+
+        244:
+            name        : "Wallis and Futuna"
+            code        : "WF"
+
+        245:
+            name        : "Western Sahara"
+            code        : "EH"
+
+        246:
+            name        : "Yemen"
+            code        : "YE"
+
+        247:
+            name        : "Zambia"
+            code        : "ZM"
+
+        248:
+            name        : "Zimbabwe"
+            code        : "ZW"
+
+        249:
+            name        : "South Sudan"
+            code        : "SS"
+...

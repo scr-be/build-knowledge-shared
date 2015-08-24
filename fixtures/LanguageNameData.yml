@@ -1,0 +1,1603 @@
+---
+LanguageName:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 21
+        mode       : truncate
+        entity     : s.mantle.locale_language_name.entity.class
+        repository : s.mantle.locale_language_name.repo
+
+    dependencies:
+
+        LanguageFamily:
+            entity     : s.mantle.locale_language_family.entity.class
+            repository : s.mantle.locale_language_family.repo
+
+    data:
+
+        1:
+            name   : Abkhaz
+            code   : ab
+            codeA3 : abk
+            family : "@LanguageFamily?slug=northwest-caucasian"
+            nativeNames :
+                - "аҧсуа бызшәа"
+                - "аҧсшәа"
+
+        2:
+            name   : Afar
+            code   : aa
+            codeA3 : aar
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "Afaraf"
+
+        3:
+            name   : Afrikaans
+            code   : af
+            codeA3 : afr
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Afrikaans"
+
+        4:
+            name   : Akan
+            code   : ak
+            codeA3 : aka
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Akan"
+
+        5:
+            name   : Albanian
+            code   : sq
+            codeA3 : sqi
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Shqip"
+
+        6:
+            name   : Amharic
+            code   : am
+            codeA3 : amh
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "አማርኛ"
+
+        7:
+            name   : Arabic
+            code   : ar
+            codeA3 : ara
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "العربية"
+
+        8:
+            name   : Aragonese
+            code   : an
+            codeA3 : arg
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "aragonés"
+
+        9:
+            name   : Armenian
+            code   : hy
+            codeA3 : hye
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Հայերեն"
+
+        10:
+            name   : Assamese
+            code   : as
+            codeA3 : asm
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "অসমীয়া"
+
+        11:
+            name   : Avaric
+            code   : av
+            codeA3 : ava
+            family : "@LanguageFamily?slug=northeast-caucasian"
+            nativeNames :
+                - "авар мацӀ"
+                - "магӀарул мацӀ"
+
+        12:
+            name   : Avestan
+            code   : ae
+            codeA3 : ave
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "avesta"
+
+        13:
+            name   : Aymara
+            code   : ay
+            codeA3 : aym
+            family : "@LanguageFamily?slug=aymaran"
+            nativeNames :
+                - "aymar aru"
+
+        14:
+            name   : Azerbaijani
+            code   : az
+            codeA3 : aze
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "azərbaycan dili"
+
+        15:
+            name   : Bambara
+            code   : bm
+            codeA3 : bam
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "bamanankan"
+
+        16:
+            name   : Bashkir
+            code   : ba
+            codeA3 : bak
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "башҡорт теле"
+
+        17:
+            name   : Basque
+            code   : eu
+            codeA3 : eus
+            family : "@LanguageFamily?slug=language-isolate"
+            nativeNames :
+                - "euskara"
+                - "euskera"
+
+        18:
+            name   : Belarusian
+            code   : be
+            codeA3 : bel
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "беларуская мова"
+
+        19:
+            name   : Bangla
+            code   : bn
+            codeA3 : ben
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "বাংলা"
+            aka :
+                - "Bengali"
+
+        20:
+            name   : Bihari
+            code   : bh
+            codeA3 : bih
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "भोजपुरी"
+
+        21:
+            name   : Bislama
+            code   : bi
+            codeA3 : bis
+            family : "@LanguageFamily?slug=creole"
+            nativeNames :
+                - "Bislama"
+
+        22:
+            name   : Bosnian
+            code   : bs
+            codeA3 : bos
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "bosanski jezik"
+
+        23:
+            name   : Breton
+            code   : br
+            codeA3 : bre
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "brezhoneg"
+
+        24:
+            name   : Bulgarian
+            code   : bg
+            codeA3 : bul
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "български език"
+
+        25:
+            name   : Burmese
+            code   : my
+            codeA3 : mya
+            family : "@LanguageFamily?slug=sino-tibetan"
+            nativeNames :
+                - "ဗမာစာ"
+
+        26:
+            name   : Catalan
+            code   : ca
+            codeA3 : cat
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "català"
+
+        27:
+            name   : Chamorro
+            code   : ch
+            codeA3 : cha
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Chamoru"
+
+        28:
+            name   : Chechen
+            code   : ce
+            codeA3 : che
+            family : "@LanguageFamily?slug=northeast-caucasian"
+            nativeNames :
+                - "нохчийн мотт"
+
+        29:
+            name   : Chichewa
+            code   : ny
+            codeA3 : nya
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "chiCheŵa"
+                - "chinyanja"
+            aka :
+                - "Chewa"
+                - "Nyanja"
+
+        30:
+            name   : Chinese
+            code   : zh
+            codeA3 : zho
+            family : "@LanguageFamily?slug=sino-tibetan"
+            nativeNames :
+                - "中文 (Zhōngwén)"
+                - "汉语"
+                - "漢語"
+
+        31:
+            name   : Chuvash
+            code   : cv
+            codeA3 : chv
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "чӑваш чӗлхи"
+
+        32:
+            name   : Cornish
+            code   : kw
+            codeA3 : cor
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Kernewek"
+
+        33:
+            name   : Corsican
+            code   : co
+            codeA3 : cos
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "corsu"
+                - "lingua corsa"
+
+        34:
+            name   : Cree
+            code   : cr
+            codeA3 : cre
+            family : "@LanguageFamily?slug=algonquian"
+            nativeNames :
+                - "ᓀᐦᐃᔭᐍᐏᐣ"
+
+        35:
+            name   : Croatian
+            code   : hr
+            codeA3 : hrv
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "hrvatski jezik"
+
+        36:
+            name   : Czech
+            code   : cs
+            codeA3 : ces
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "čeština"
+                - "český jazyk"
+
+        37:
+            name   : Danish
+            code   : da
+            codeA3 : dan
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "dansk"
+
+        38:
+            name   : Divehi
+            code   : dv
+            codeA3 : div
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ދިވެހި"
+            aka :
+                - "Dhivehi"
+                - "Maldivian"
+
+        39:
+            name   : Dutch
+            code   : nl
+            codeA3 : nld
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Nederlands"
+                - "Vlaams"
+
+        40:
+            name   : Dzongkha
+            code   : dz
+            codeA3 : dzo
+            family : "@LanguageFamily?slug=sino-tibetan"
+            nativeNames :
+                - "རྫོང་ཁ"
+
+        41:
+            name   : English
+            code   : en
+            codeA3 : eng
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "English"
+
+        42:
+            name   : Esperanto
+            code   : eo
+            codeA3 : epo
+            family : "@LanguageFamily?slug=constructed"
+            nativeNames :
+                - "Esperanto"
+
+        43:
+            name   : Estonian
+            code   : et
+            codeA3 : est
+            family : "@LanguageFamily?slug=uralic"
+            nativeNames :
+                - "eesti"
+                - "eesti keel"
+
+        44:
+            name   : Ewe
+            code   : ee
+            codeA3 : ewe
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Eʋegbe"
+
+        45:
+            name   : Faroese
+            code   : fo
+            codeA3 : fao
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "føroyskt"
+
+        46:
+            name   : Fijian
+            code   : fj
+            codeA3 : fij
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "vosa Vakaviti"
+
+        47:
+            name   : Finnish
+            code   : fi
+            codeA3 : fin
+            family : "@LanguageFamily?slug=uralic"
+            nativeNames :
+                - "suomi"
+                - "suomen kieli"
+
+        48:
+            name   : French
+            code   : fr
+            codeA3 : fra
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "français"
+                - "langue française"
+
+        49:
+            name   : Fula
+            code   : ff
+            codeA3 : ful
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Fulfulde"
+                - "Pulaar"
+                - "Pular"
+            aka :
+                - "Fulah"
+                - "Pulaar"
+                - "Pular"
+
+        50:
+            name   : Galician
+            code   : gl
+            codeA3 : glg
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "galego"
+
+        51:
+            name   : Georgian
+            code   : ka
+            codeA3 : kat
+            family : "@LanguageFamily?slug=south-caucasian"
+            nativeNames :
+                - "ქართული"
+
+        52:
+            name   : German
+            code   : de
+            codeA3 : deu
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Deutsch"
+
+        53:
+            name   : Greek (modern)
+            code   : el
+            codeA3 : ell
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ελληνικά"
+
+        54:
+            name   : Guaraní
+            code   : gn
+            codeA3 : grn
+            family : "@LanguageFamily?slug=tupian"
+            nativeNames :
+                - "Avañe'ẽ"
+
+        55:
+            name   : Gujarati
+            code   : gu
+            codeA3 : guj
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ગુજરાતી"
+
+        56:
+            name   : Haitian
+            code   : ht
+            codeA3 : hat
+            family : "@LanguageFamily?slug=creole"
+            nativeNames :
+                - "Kreyòl ayisyen"
+            aka :
+                - "Haitian Creole"
+
+        57:
+            name   : Hausa
+            code   : ha
+            codeA3 : hau
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "(Hausa) هَوُسَ"
+
+        58:
+            name   : Hebrew (modern)
+            code   : he
+            codeA3 : heb
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "עברית"
+
+        59:
+            name   : Herero
+            code   : hz
+            codeA3 : her
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Otjiherero"
+
+        60:
+            name   : Hindi
+            code   : hi
+            codeA3 : hin
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "हिन्दी"
+                - "हिंदी"
+
+        61:
+            name   : Hiri Motu
+            code   : ho
+            codeA3 : hmo
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Hiri Motu"
+
+        62:
+            name   : Hungarian
+            code   : hu
+            codeA3 : hun
+            family : "@LanguageFamily?slug=uralic"
+            nativeNames :
+                - "magyar"
+
+        63:
+            name   : Interlingua
+            code   : ia
+            codeA3 : ina
+            family : "@LanguageFamily?slug=constructed"
+            nativeNames :
+                - "Interlingua"
+
+        64:
+            name   : Indonesian
+            code   : id
+            codeA3 : ind
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Bahasa Indonesia"
+
+        65:
+            name   : Interlingue
+            code   : ie
+            codeA3 : ile
+            family : "@LanguageFamily?slug=constructed"
+            nativeNames :
+                - "Interlingue"
+            aka :
+                - "Occidental"
+
+        66:
+            name   : Irish
+            code   : ga
+            codeA3 : gle
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Gaeilge"
+
+        67:
+            name   : Igbo
+            code   : ig
+            codeA3 : ibo
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Asụsụ Igbo"
+
+        68:
+            name   : Inupiaq
+            code   : ik
+            codeA3 : ipk
+            family : "@LanguageFamily?slug=eskimo-aleut"
+            nativeNames :
+                - "Iñupiaq"
+                - "Iñupiatun"
+
+        69:
+            name   : Ido
+            code   : io
+            codeA3 : ido
+            family : "@LanguageFamily?slug=constructed"
+            nativeNames :
+                - "Ido"
+
+        70:
+            name   : Icelandic
+            code   : is
+            codeA3 : isl
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Íslenska"
+
+        71:
+            name   : Italian
+            code   : it
+            codeA3 : ita
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "italiano"
+
+        72:
+            name   : Inuktitut
+            code   : iu
+            codeA3 : iku
+            family : "@LanguageFamily?slug=eskimo-aleut"
+            nativeNames :
+                - "ᐃᓄᒃᑎᑐᑦ"
+
+        73:
+            name   : Japanese
+            code   : ja
+            codeA3 : jpn
+            family : "@LanguageFamily?slug=japonic"
+            nativeNames :
+                - "日本語"
+                - "にほんご"
+
+        74:
+            name   : Javanese
+            code   : jv
+            codeA3 : jav
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "basa Jawa"
+
+        75:
+            name   : Greenlandic
+            code   : kl
+            codeA3 : kal
+            family : "@LanguageFamily?slug=eskimo-aleut"
+            nativeNames :
+                - "kalaallisut"
+                - "kalaallit oqaasii"
+            aka :
+                - "Kalaallisut"
+
+        76:
+            name   : Kannada
+            code   : kn
+            codeA3 : kan
+            family : "@LanguageFamily?slug=dravidian"
+            nativeNames :
+                - "ಕನ್ನಡ"
+
+        77:
+            name   : Kanuri
+            code   : kr
+            codeA3 : kau
+            family : "@LanguageFamily?slug=nilo-saharan"
+            nativeNames :
+                - "Kanuri"
+
+        78:
+            name   : Kashmiri
+            code   : ks
+            codeA3 : kas
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "कश्मीरी"
+                - "كشميري"
+
+        79:
+            name   : Kazakh
+            code   : kk
+            codeA3 : kaz
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "қазақ тілі"
+
+        80:
+            name   : Khmer
+            code   : km
+            codeA3 : khm
+            family : "@LanguageFamily?slug=austroasiatic"
+            nativeNames :
+                - "ខ្មែរ"
+                - "ខេមរភាសា"
+                - "ភាសាខ្មែរ"
+
+        81:
+            name   : Kikuyu
+            code   : ki
+            codeA3 : kik
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Gĩkũyũ"
+            aka :
+                - "Gikuyu"
+
+        82:
+            name   : Kinyarwanda
+            code   : rw
+            codeA3 : kin
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Ikinyarwanda"
+
+        83:
+            name   : Kyrgyz
+            code   : ky
+            codeA3 : kir
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "Кыргызча"
+                - "Кыргыз тили"
+
+        84:
+            name   : Komi
+            code   : kv
+            codeA3 : kom
+            family : "@LanguageFamily?slug=uralic"
+            nativeNames :
+                - "коми кыв"
+
+        85:
+            name   : Kongo
+            code   : kg
+            codeA3 : kon
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Kikongo"
+
+        86:
+            name   : Korean
+            code   : ko
+            codeA3 : kor
+            family : "@LanguageFamily?slug=koreanic"
+            nativeNames :
+                - "한국어"
+                - "조선어"
+
+        87:
+            name   : Kurdish
+            code   : ku
+            codeA3 : kur
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Kurdî"
+                - "كوردی"
+
+        88:
+            name   : Kwanyama
+            code   : kj
+            codeA3 : kua
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Kuanyama"
+            aka :
+                - "Kuanyama"
+
+        89:
+            name   : Latin
+            code   : la
+            codeA3 : lat
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "latine"
+                - "lingua latina"
+
+        90:
+            name   : Letzeburgesch
+            code   : lb
+            codeA3 : ltz
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Lëtzebuergesch"
+            aka :
+                - "Luxembourgish"
+
+        91:
+            name   : Ganda
+            code   : lg
+            codeA3 : lug
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Luganda"
+            aka :
+                - "Luganda"
+
+        92:
+            name   : Limburgish
+            code   : li
+            codeA3 : lim
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Limburgs"
+            aka :
+                - "Limburgan"
+                - "Limburger"
+
+        93:
+            name   : Lingala
+            code   : ln
+            codeA3 : lin
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Lingála"
+
+        94:
+            name   : Lao
+            code   : lo
+            codeA3 : lao
+            family : "@LanguageFamily?slug=tai-kadai"
+            nativeNames :
+                - "ພາສາລາວ"
+
+        95:
+            name   : Lithuanian
+            code   : lt
+            codeA3 : lit
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "lietuvių kalba"
+
+        96:
+            name   : Tshiluba
+            code   : lu
+            codeA3 : lub
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Tshiluba"
+
+        97:
+            name   : Latvian
+            code   : lv
+            codeA3 : lav
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "latviešu valoda"
+
+        98:
+            name   : Manx
+            code   : gv
+            codeA3 : glv
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Gaelg"
+                - "Gailck"
+
+        99:
+            name   : Macedonian
+            code   : mk
+            codeA3 : mkd
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "македонски јазик"
+
+        100:
+            name   : Malagasy
+            code   : mg
+            codeA3 : mlg
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "fiteny malagasy"
+
+        101:
+            name   : Malay
+            code   : ms
+            codeA3 : msa
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "bahasa Melayu"
+                - "بهاس ملايو"
+
+        102:
+            name   : Malayalam
+            code   : ml
+            codeA3 : mal
+            family : "@LanguageFamily?slug=dravidian"
+            nativeNames :
+                - "മലയാളം"
+
+        103:
+            name   : Maltese
+            code   : mt
+            codeA3 : mlt
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "Malti"
+
+        104:
+            name   : Māori
+            code   : mi
+            codeA3 : mri
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "te reo Māori"
+
+        105:
+            name   : Marathi (Marāṭhī)
+            code   : mr
+            codeA3 : mar
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "मराठी"
+
+        106:
+            name   : Marshallese
+            code   : mh
+            codeA3 : mah
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Kajin M̧ajeļ"
+
+        107:
+            name   : Mongolian
+            code   : mn
+            codeA3 : mon
+            family : "@LanguageFamily?slug=mongolic"
+            nativeNames :
+                - "монгол"
+
+        108:
+            name   : Nauru
+            code   : na
+            codeA3 : nau
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Ekakairũ Naoero"
+            aka :
+                - "Nauruan"
+
+        109:
+            name   : Navaho
+            code   : nv
+            codeA3 : nav
+            family : "@LanguageFamily?slug=dene-yeniseian"
+            nativeNames :
+                - "Diné bizaad"
+            aka :
+                - "Navajo"
+
+        110:
+            name   : Northern Ndebele
+            code   : nd
+            codeA3 : nde
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "isiNdebele"
+
+        111:
+            name   : Nepali
+            code   : ne
+            codeA3 : nep
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "नेपाली"
+
+        112:
+            name   : Ndonga
+            code   : ng
+            codeA3 : ndo
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Owambo"
+
+        113:
+            name   : Norwegian Bokmål
+            code   : nb
+            codeA3 : nob
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Norsk bokmål"
+            aka :
+                - "Bokmål"
+
+        114:
+            name   : Norwegian Nynorsk
+            code   : nn
+            codeA3 : nno
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Norsk nynorsk"
+            aka :
+                - "Nynorsk"
+
+        115:
+            name   : Norwegian
+            code   : no
+            codeA3 : nor
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Norsk"
+
+        116:
+            name   : Nuosu
+            code   : ii
+            codeA3 : iii
+            family : "@LanguageFamily?slug=sino-tibetan"
+            nativeNames :
+                - "ꆈꌠ꒿ Nuosuhxop"
+
+        117:
+            name   : Southern Ndebele
+            code   : nr
+            codeA3 : nbl
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "isiNdebele"
+
+        118:
+            name   : Occitan
+            code   : oc
+            codeA3 : oci
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "occitan"
+                - "lenga d'òc"
+
+        119:
+            name   : Ojibwa
+            code   : oj
+            codeA3 : oji
+            family : "@LanguageFamily?slug=algonquian"
+            nativeNames :
+                - "ᐊᓂᔑᓈᐯᒧᐎᓐ"
+            aka :
+                - "Ojibwe"
+
+        120:
+            name   : Old Church Slavonic
+            code   : cu
+            codeA3 : chu
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ѩзыкъ словѣньскъ"
+            aka :
+                - "Church Slavonic"
+                - "Old Bulgarian"
+
+        121:
+            name   : Oromo
+            code   : om
+            codeA3 : orm
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "Afaan Oromoo"
+
+        122:
+            name   : Oriya
+            code   : or
+            codeA3 : ori
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ଓଡ଼ିଆ"
+
+        123:
+            name   : Ossetian
+            code   : os
+            codeA3 : oss
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ирон æвзаг"
+            aka :
+                - "Ossetic"
+
+        124:
+            name   : Panjabi
+            code   : pa
+            codeA3 : pan
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ਪੰਜਾਬੀ"
+                - "پنجابی"
+
+        125:
+            name   : Pāli
+            code   : pi
+            codeA3 : pli
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "पाऴि"
+
+        126:
+            name   : Persian (Farsi)
+            code   : fa
+            codeA3 : fas
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "فارسی"
+
+        127:
+            name   : Polish
+            code   : pl
+            codeA3 : pol
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "język polski"
+                - "polszczyzna"
+
+        128:
+            name   : Pushto
+            code   : ps
+            codeA3 : pus
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "پښتو"
+            aka :
+                - "Pashto"
+
+        129:
+            name   : Portuguese
+            code   : pt
+            codeA3 : por
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "português"
+
+        130:
+            name   : Quechua
+            code   : qu
+            codeA3 : que
+            family : "@LanguageFamily?slug=quechuan"
+            nativeNames :
+                - "Runa Simi"
+                - "Kichwa"
+
+        131:
+            name   : Romansh
+            code   : rm
+            codeA3 : roh
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "rumantsch grischun"
+
+        132:
+            name   : Kirundi
+            code   : rn
+            codeA3 : run
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Ikirundi"
+
+        133:
+            name   : Romanian
+            code   : ro
+            codeA3 : ron
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "limba română"
+
+        134:
+            name   : Russian
+            code   : ru
+            codeA3 : rus
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Русский"
+
+        135:
+            name   : Sanskrit (Saṁskṛta)
+            code   : sa
+            codeA3 : san
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "संस्कृतम्"
+
+        136:
+            name   : Sardinian
+            code   : sc
+            codeA3 : srd
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "sardu"
+
+        137:
+            name   : Sindhi
+            code   : sd
+            codeA3 : snd
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "सिन्धी"
+                - "سنڌي، سندھی"
+
+        138:
+            name   : Northern Sami
+            code   : se
+            codeA3 : sme
+            family : "@LanguageFamily?slug=uralic"
+            nativeNames :
+                - "Davvisámegiella"
+
+        139:
+            name   : Samoan
+            code   : sm
+            codeA3 : smo
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "gagana fa'a Samoa"
+
+        140:
+            name   : Sango
+            code   : sg
+            codeA3 : sag
+            family : "@LanguageFamily?slug=creole"
+            nativeNames :
+                - "yângâ tî sängö"
+
+        141:
+            name   : Serbian
+            code   : sr
+            codeA3 : srp
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "српски језик"
+
+        142:
+            name   : Gaelic
+            code   : gd
+            codeA3 : gla
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Gàidhlig"
+            aka :
+                - "Scottish Gaelic"
+
+        143:
+            name   : Shona
+            code   : sn
+            codeA3 : sna
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "chiShona"
+
+        144:
+            name   : Sinhalese
+            code   : si
+            codeA3 : sin
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "සිංහල"
+            aka :
+                - "Sinhala"
+
+        145:
+            name   : Slovak
+            code   : sk
+            codeA3 : slk
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "slovenčina"
+                - "slovenský jazyk"
+
+        146:
+            name   : Slovene
+            code   : sl
+            codeA3 : slv
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "slovenski jezik"
+                - "slovenščina"
+
+        147:
+            name   : Somali
+            code   : so
+            codeA3 : som
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "Soomaaliga"
+                - "af Soomaali"
+
+        148:
+            name   : Southern Sotho
+            code   : st
+            codeA3 : sot
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Sesotho"
+            aka :
+                - "Sotho"
+
+        149:
+            name   : Spanish
+            code   : es
+            codeA3 : spa
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "español"
+
+        150:
+            name   : Sundanese
+            code   : su
+            codeA3 : sun
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Basa Sunda"
+
+        151:
+            name   : Swahili
+            code   : sw
+            codeA3 : swa
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Kiswahili"
+
+        152:
+            name   : Swati
+            code   : ss
+            codeA3 : ssw
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "SiSwati"
+
+        153:
+            name   : Swedish
+            code   : sv
+            codeA3 : swe
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "svenska"
+
+        154:
+            name   : Tamil
+            code   : ta
+            codeA3 : tam
+            family : "@LanguageFamily?slug=dravidian"
+            nativeNames :
+                - "தமிழ்"
+
+        155:
+            name   : Telugu
+            code   : te
+            codeA3 : tel
+            family : "@LanguageFamily?slug=dravidian"
+            nativeNames :
+                - "తెలుగు"
+
+        156:
+            name   : Tajik
+            code   : tg
+            codeA3 : tgk
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "тоҷикӣ"
+                - "toçikī"
+                - "تاجیکی"
+
+        157:
+            name   : Thai
+            code   : th
+            codeA3 : tha
+            family : "@LanguageFamily?slug=tai-kadai"
+            nativeNames :
+                - "ไทย"
+
+        158:
+            name   : Tigrinya
+            code   : ti
+            codeA3 : tir
+            family : "@LanguageFamily?slug=afro-asiatic"
+            nativeNames :
+                - "ትግርኛ"
+
+        159:
+            name   : Tibetan Standard
+            code   : bo
+            codeA3 : bod
+            family : "@LanguageFamily?slug=sino-tibetan"
+            nativeNames :
+                - "བོད་ཡིག"
+            aka :
+                - "Standard Tibetan"
+                - "Tibetan"
+                - "Central"
+
+        160:
+            name   : Turkmen
+            code   : tk
+            codeA3 : tuk
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "Türkmen"
+                - "Түркмен"
+
+        161:
+            name   : Tagalog
+            code   : tl
+            codeA3 : tgl
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Wikang Tagalog"
+                - "ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔"
+
+        162:
+            name   : Tswana
+            code   : tn
+            codeA3 : tsn
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Setswana"
+
+        163:
+            name   : Tonga (Tonga Islands)
+            code   : to
+            codeA3 : ton
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "faka Tonga"
+            aka :
+                - "Tongan"
+
+        164:
+            name   : Turkish
+            code   : tr
+            codeA3 : tur
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "Türkçe"
+
+        165:
+            name   : Tsonga
+            code   : ts
+            codeA3 : tso
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Xitsonga"
+
+        166:
+            name   : tt-Cyrl
+            code   : tt
+            codeA3 : tat
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "tatar tele"
+            aka :
+                - "Tatar"
+
+        167:
+            name   : Twi
+            code   : tw
+            codeA3 : twi
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Twi"
+
+        168:
+            name   : Tahitian
+            code   : ty
+            codeA3 : tah
+            family : "@LanguageFamily?slug=austronesian"
+            nativeNames :
+                - "Reo Tahiti"
+
+        169:
+            name   : ug-Arab
+            code   : ug
+            codeA3 : uig
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "Uyghurche"
+            aka :
+                - "Uyghur"
+
+        170:
+            name   : Ukrainian
+            code   : uk
+            codeA3 : ukr
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "українська мова"
+
+        171:
+            name   : Urdu
+            code   : ur
+            codeA3 : urd
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "اردو"
+
+        172:
+            name   : Uzbek
+            code   : uz
+            codeA3 : uzb
+            family : "@LanguageFamily?slug=turkic"
+            nativeNames :
+                - "Oʻzbek"
+                - "Ўзбек"
+                - "أۇزبېك"
+
+        173:
+            name   : Venda
+            code   : ve
+            codeA3 : ven
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Tshivenḓa"
+
+        174:
+            name   : Vietnamese
+            code   : vi
+            codeA3 : vie
+            family : "@LanguageFamily?slug=austroasiatic"
+            nativeNames :
+                - "Việt Nam"
+
+        175:
+            name   : Volapük
+            code   : vo
+            codeA3 : vol
+            family : "@LanguageFamily?slug=constructed"
+            nativeNames :
+                - "Volapük"
+
+        176:
+            name   : Walloon
+            code   : wa
+            codeA3 : wln
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "walon"
+
+        177:
+            name   : Welsh
+            code   : cy
+            codeA3 : cym
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Cymraeg"
+
+        178:
+            name   : Wolof
+            code   : wo
+            codeA3 : wol
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Wollof"
+
+        179:
+            name   : Western Frisian
+            code   : fy
+            codeA3 : fry
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "Frysk"
+            aka :
+                - "West Frisian"
+
+        180:
+            name   : Xhosa
+            code   : xh
+            codeA3 : xho
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "isiXhosa"
+
+        181:
+            name   : Yiddish
+            code   : yi
+            codeA3 : yid
+            family : "@LanguageFamily?slug=indo-european"
+            nativeNames :
+                - "ייִדיש"
+
+        182:
+            name   : Yoruba
+            code   : yo
+            codeA3 : yor
+            family : "@LanguageFamily?slug=niger-congo"
+            nativeNames :
+                - "Yorùbá"
+
+        183:
+            name   : Chuang
+            code   : za
+            codeA3 : zha
+            family : "@LanguageFamily?slug=tai-kadai"
+            nativeNames :
+                - "Saɯ cueŋƅ"
+                - "Saw cuengh"
+            aka :
+                - "Zhuang"
+
+        184:
+            name   : Zulu
+            nativeNames :
+                - "isiZulu"
+            code   : zu
+            codeA3 : zul
+            family: "@LanguageFamily?slug=niger-congo"
+...
