@@ -1,0 +1,80 @@
+---
+RuntimeController:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 10
+        mode       : truncate
+        entity     : s.mantle.state_runtime_controller.entity.class
+        repository : s.mantle.state_runtime_controller.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            name : "blog"
+
+        2:
+            name : "book"
+
+        3:
+            name : "default"
+
+        4:
+            name : "search"
+
+        5:
+            name : "create"
+
+        6:
+            name : "docs"
+
+        7:
+            name : "project"
+
+        8:
+            name : "public"
+
+        9:
+            name : "browser"
+
+        10:
+            name : "about"
+
+        11:
+            name : "services"
+
+        12:
+            name : "organizations"
+
+        13:
+            name : "roles"
+
+        14:
+            name : "security"
+
+        15:
+            name : "settings"
+
+        16:
+            name : "users"
+
+        17:
+            name : "toc"
+
+        18:
+            name : "issues"
+
+        19:
+            name : "notices"
+
+        20:
+            name : "systems"
+
+...

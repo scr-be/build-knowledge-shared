@@ -1,0 +1,35 @@
+---
+RuntimeAction:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 10
+        mode       : truncate
+        entity     : s.mantle.state_runtime_action.entity.class
+        repository : s.mantle.state_runtime_action.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            name : "index"
+
+        2:
+            name : "landing"
+
+        3:
+            name : "dashboard"
+
+        4:
+            name : "list"
+
+        5:
+            name : "view"
+
+...

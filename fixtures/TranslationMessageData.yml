@@ -1,5 +1,5 @@
 ---
-Translation:
+TranslationMessage:
 
     version:
 
@@ -10,8 +10,8 @@ Translation:
 
         priority   : 300
         mode       : truncate
-        entity     : s.mantle.translation.entity.class
-        repository : s.mantle.translation.repo
+        entity     : s.mantle.translation_message.entity.class
+        repository : s.mantle.translation_message.repo
 
     dependencies: null
 
