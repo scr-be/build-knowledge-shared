@@ -43,7 +43,7 @@ ICONS
 
   ADDITIONS = {
     'attributes' => Array.new,
-    'families' => ['@IconFamily?slug=fa']
+    'familyCollection' => ['@IconFamily?slug=fa']
   }
 
   WS_WRAPPERS = %w(
@@ -78,8 +78,8 @@ ICONS
     yaml.gsub!(/(^ +[0-9]+:)/, "\n\\1")
     yaml.gsub!(/\n\n\n/, "\n\n")
     yaml.gsub!(/'null'/, 'null')
-    yaml.gsub!(/families: &1/, 'families:')
-    yaml.gsub!(/families: \*1/, "families:\n                - \"@IconFamily?slug=fa\"")
+    yaml.gsub!(/familyCollection: &1/, 'familyCollection:')
+    yaml.gsub!(/familyCollection: \*1/, "familyCollection:\n                - \"@IconFamily?slug=fa\"")
     yaml
   end
 
@@ -98,7 +98,7 @@ ICONS
       end
       icon['aliases'] ||= 'null'
       icon['attributes'] = 'null'
-      icon['families'] = ['@IconFamily?slug=fa']
+      icon['familyCollection'] = ['@IconFamily?slug=fa']
       HEADER['Icon']['data'][ind + 1] = icon
     end
   end

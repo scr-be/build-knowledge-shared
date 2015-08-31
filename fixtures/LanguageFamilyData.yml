@@ -58,7 +58,7 @@ LanguageFamily:
                 The name Austroasiatic comes from the Latin words for "south" and "Asia", hence "South Asia". Of these languages,
                 only Khmer, Vietnamese, and Mon have a long-established recorded history, and only Vietnamese and Khmer have
                 official status (in Vietnam and Cambodia, respectively). The rest of the languages are spoken by minority groups.
-                Ethnologue identifies 168 Austroasiatic languages. These form thirteen established families (plus perhaps Shompen,
+                Ethnologue identifies 168 Austroasiatic languages. These form thirteen established familyCollection (plus perhaps Shompen,
                 which is poorly attested, as a fourteenth), which have traditionally been grouped into two, as Mon–Khmer and Munda.
                 However, one recent classification posits three groups (Munda, Nuclear Mon-Khmer and Khasi-Khmuic) while another
                 has abandoned Mon–Khmer as a taxon altogether, making it synonymous with the larger family.
@@ -71,7 +71,7 @@ LanguageFamily:
                 The Austronesian languages is a language family that is widely dispersed throughout Maritime Southeast Asia,
                 Madagascar and the islands of the Pacific Ocean, with a few members on continental Asia. Austronesian languages
                 are spoken by about 386 million people. It is on par with Indo-European, Niger–Congo, Afroasiatic and Uralic as
-                one of the best-established language families. Otto Dempwolff was the first researcher to extensively explore
+                one of the best-established language familyCollection. Otto Dempwolff was the first researcher to extensively explore
                 Austronesian using the comparative method. Another German, Wilhelm Schmidt, coined the German word austronesisch
                 which comes from Latin auster "south wind" plus Greek nêsos "island". The name Austronesian was formed from the
                 same roots. The family is aptly named, as the vast majority of Austronesian languages are spoken on islands: only
@@ -86,7 +86,7 @@ LanguageFamily:
             name        : "Aymaran Languages"
             src         : "https://en.wikipedia.org/wiki/Aymaran_languages"
             description : |
-                Aymaran (also Jaqi, Aru, Jaqui, Aimara, Haki) is one of the two dominant language families of the central Andes,
+                Aymaran (also Jaqi, Aru, Jaqui, Aimara, Haki) is one of the two dominant language familyCollection of the central Andes,
                 along with Quechuan. Hardman (1978) proposed the name Jaqi for the family of languages (1978), Alfredo Torero Aru
                 'to speak', and Rodolfo Cerrón Palomino Aymaran, with two branches, Southern (or Altiplano) Aymaran and Central
                 Aymaran (Jaqaru and Kawki). Quechuan languages, especially those of the south, share a large amount of vocabulary
@@ -130,7 +130,7 @@ LanguageFamily:
             description : |
                 Dené–Yeniseian is a proposed language family consisting of the Yeniseian languages of central Siberia and the
                 Na-Dené languages of northwestern North America. It has been called "the first demonstration of a genealogical
-                link between Old World and New World language families that meets the standards of traditional comparative-historical
+                link between Old World and New World language familyCollection that meets the standards of traditional comparative-historical
                 linguistics". If valid, it would be the second linguistic connection between the Old and New Worlds, with the
                 first being the Yupik languages.
 
@@ -206,7 +206,7 @@ LanguageFamily:
             description : |
                 A language isolate, in the absolute sense, is a natural language with no demonstrable genealogical (or
                 "genetic") relationship with other languages, one that has not been demonstrated to descend from an ancestor
-                common with any other language. Language isolates are in effect language families consisting of a single
+                common with any other language. Language isolates are in effect language familyCollection consisting of a single
                 language. Commonly cited examples include Basque, Korean, Ainu, Sumerian and Burushaski, though in each case
                 a small minority of linguists claim to have demonstrated a relationship with other languages. Some sources use
                 the term "language isolate" to indicate a branch of a larger family with only one surviving daughter. For
@@ -233,7 +233,7 @@ LanguageFamily:
             name        : "Niger–Congo Languages"
             src         : "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages"
             description : |
-                The Niger–Congo languages constitute one of the world's major language families, and Africa's largest in terms
+                The Niger–Congo languages constitute one of the world's major language familyCollection, and Africa's largest in terms
                 of geographical area, number of speakers, and number of distinct languages. They may constitute the world's
                 largest language family in terms of distinct languages, although this question is complicated by ambiguity
                 about what constitutes a distinct language. A characteristic common to most Niger–Congo languages is the use of
@@ -305,7 +305,7 @@ LanguageFamily:
                 are a language family indigenous to the Caucasus and spoken primarily in Georgia, with large groups of native
                 speakers in Russia, Iran, the United States, the European Union, Israel, and northeastern parts of Turkey.
                 There are approximately 5.2 million speakers of Kartvelian languages worldwide. It is not known to be related
-                to any other language family, making it one of the world's primary language families. The first literary
+                to any other language family, making it one of the world's primary language familyCollection. The first literary
                 source in a Kartvelian language is the Georgian language inscription of Bir El Qutt, written in ancient
                 Georgian Asomtavruli script at the Georgian monastery near Bethlehem, which dates back to c. 430 AD.
 

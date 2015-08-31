@@ -122,13 +122,13 @@ MetaTitle:
             action     : "@RuntimeAction?name=dashboard"
 
         15:
-            title      : "Status Systems"
+            title      : "Status SystemName"
             locale     : "@Locale?name=en_US"
             bundle     : "@RuntimeBundle?name=status"
             controller : "@RuntimeController?name=systems"
 
         16:
-            title      : "Status Systems"
+            title      : "Status SystemName"
             locale     : "@Locale?name=en_US"
             bundle     : "@RuntimeBundle?name=status"
             controller : "@RuntimeController?name=systems"

@@ -15,6 +15,13 @@ Route:
 
     dependencies:   null
 
+    references:
+
+        usingId: false
+
+        usingColumns:
+            - slug
+
     data:
 
         1:
@@ -95,22 +102,17 @@ Route:
         16:
             slug:        scribe_status_systems
             name:        scribe_status_systems
-            description: Systems status
+            description: SystemName status
 
         17:
-            slug:        scribe_status_issues
-            name:        scribe_status_issues
+            slug:        scribe_status_reports
+            name:        scribe_status_reports
             description: Status reports and issues
 
         18:
-            slug:        scribe_status_notices
-            name:        scribe_status_notices
+            slug:        scribe_status_updates
+            name:        scribe_status_updates
             description: Status updates
-
-        19:
-            slug:        scribe_status_logs
-            name:        scribe_status_logs
-            description: Status logs
 
         20:
             slug:        scribe_status_admin
@@ -190,113 +192,92 @@ Route:
         34:
             slug:        security_user_account
             name:        security_user_account
-            description:
 
         35:
             slug:        security_profile
             name:        security_profile
-            description:
 
         36:
             slug:        security_user_admin
             name:        security_user_admin
-            description:
 
         37:
             slug:        security_organizations_list
             name:        security_organizations_list
-            description:
 
         38:
             slug:        security_roles_list
             name:        security_roles_list
-            description:
 
         39:
             slug:        security_user_session
             name:        security_user_session
-            description:
 
         40:
             slug:        security_switch_user_exit
             name:        security_switch_user_exit
-            description:
 
         41:
             slug:        security_switch_user_redirect
             name:        security_switch_user_redirect
-            description:
 
         42:
             slug:        logout
             name:        logout
-            description:
 
         43:
             slug:        scribe_blog_add
             name:        scribe_blog_add
-            description:
 
         44:
             slug:        scribe_blog_author
             name:        scribe_blog_author
-            description:
 
         45:
             slug:        scribe_blog_author_add
             name:        scribe_blog_author_add
-            description:
 
         46:
             slug:        scribe_blog_author_list
             name:        scribe_blog_author_list
-            description:
 
         47:
             slug:        scribe_book_ch_add
             name:        scribe_book_ch_add
-            description:
 
         48:
             slug:        scribe_org
             name:        scribe_org
-            description:
 
         49:
             slug:        security_organizations_view
             name:        security_organizations_view
-            description:
             parameters:
                 id:      '%Organization.Id%'
 
         50:
             slug:        security_users_list
             name:        security_users_list
-            description:
             parameters:
                 orgid:   '%Organization.Id%'
 
         51:
             slug:        security_users_account
             name:        security_users_account
-            description:
 
         52:
             slug:        security_users_edit
             name:        security_users_edit
-            description:
             parameters:
                 id:      '%User.Id%'
 
         53:
             slug:        security_org_manager
             name:        security_org_manager
-            description:
 
         54:
             slug:        security_users_create
             name:        security_users_create
-            description:
             parameters:
                 orgid:   '%Organization.Id%'
 
@@ -304,76 +285,62 @@ Route:
         55:
             slug:        security_organizations_edit
             name:        security_organizations_edit
-            description:
             parameters:
                 id:      '%Organization.Id%'
 
         56:
             slug:        security_org_admin
             name:        security_org_admin
-            description:
 
 
         57:
             slug:        security_organizations_create
             name:        security_organizations_create
-            description:
 
 
         58:
             slug:        security_roles_create
             name:        security_roles_create
-            description:
 
         59:
             slug:        security_users_view
             name:        security_users_view
-            description:
             parameters:
                 id:      '%User.Id%'
 
         60:
             slug:        status_syslog_list
             name:        status_syslog_list
-            description:
 
         61:
             slug:        status_syslog_search
             name:        status_syslog_search
-            description:
 
         62:
             slug:        status_firewall_list
             name:        status_firewall_list
-            description:
 
         63:
             slug:        status_firewall_byip
             name:        status_firewall_byip
-            description:
 
         64:
-            slug:        status_issues_add
-            name:        status_issues_add
-            description:
+            slug:        status_reports_add
+            name:        status_reports_add
 
         65:
             slug:        status_systems_add
             name:        status_systems_add
-            description:
 
         66:
-            slug:        status_notices_add
-            name:        status_notices_add
-            description:
+            slug:        status_updates_add
+            name:        status_updates_add
 
         67:
             slug:        status_ftp_list
             name:        status_ftp_list
-            description:
 
         68:
             slug:        status_ftp_search
             name:        status_ftp_search
-            description:
 

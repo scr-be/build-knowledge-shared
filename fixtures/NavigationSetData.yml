@@ -13,6 +13,13 @@ NavigationSet:
         entity:     s.mantle.navigation_set.entity.class
         repository: s.mantle.navigation_set.repo
 
+    references:
+
+        usingId: false
+
+        usingColumns:
+            - slug
+
     dependencies: null
 
     data:

@@ -13,6 +13,13 @@ LanguageName:
         entity     : s.mantle.locale_language_name.entity.class
         repository : s.mantle.locale_language_name.repo
 
+    references:
+
+        usingId: false
+
+        usingColumns:
+            - code
+
     dependencies:
 
         LanguageFamily:

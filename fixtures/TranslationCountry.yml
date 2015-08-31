@@ -1,1755 +1,1771 @@
 ---
-TranslationCountry:
+Country:
 
     version:
 
-        structure: 1.0.0
-        data     : 1.0.0
+        structure : 1.0.0
+        data      : 1.0.0
 
     orm:
 
-        priority  : 0
-        mode      : truncate
-        entity    : s.mantle.translation_country.entity.class
-        repository: s.mantle.translation_country.repo
+        priority   : 20
+        mode       : truncate
+
+        entity     : s.mantle.locale_country.entity.class
+        repository : s.mantle.locale_country.repo
+
+    references:
+
+        usingId: false
+
+        usingColumns:
+            - code
+
+    dependencies: null
 
     data:
 
         1:
             name       : "Afghanistan"
             nameProper : "Afghanistan"
-            codeAlpha2 : "AF"
+            code       : "AF"
             codeAlpha3 : "AFG"
             codeNumeric: 4
 
         2:
             name       : "Aland Islands"
             nameProper : "Aland Islands"
-            codeAlpha2 : "AX"
+            code       : "AX"
             codeAlpha3 : "ALA"
             codeNumeric: 248
 
         3:
             name       : "Albania"
             nameProper : "Albania"
-            codeAlpha2 : "AL"
+            code       : "AL"
             codeAlpha3 : "ALB"
             codeNumeric: 8
 
         4:
             name       : "Algeria"
             nameProper : "Algeria"
-            codeAlpha2 : "DZ"
+            code       : "DZ"
             codeAlpha3 : "DZA"
             codeNumeric: 12
 
         5:
             name       : "American Samoa"
             nameProper : "American Samoa"
-            codeAlpha2 : "AS"
+            code       : "AS"
             codeAlpha3 : "ASM"
             codeNumeric: 16
 
         6:
             name       : "Andorra"
             nameProper : "Andorra"
-            codeAlpha2 : "AD"
+            code       : "AD"
             codeAlpha3 : "AND"
             codeNumeric: 20
 
         7:
             name       : "Angola"
             nameProper : "Angola"
-            codeAlpha2 : "AO"
+            code       : "AO"
             codeAlpha3 : "AGO"
             codeNumeric: 24
 
         8:
             name       : "Anguilla"
             nameProper : "Anguilla"
-            codeAlpha2 : "AI"
+            code       : "AI"
             codeAlpha3 : "AIA"
             codeNumeric: 660
 
         9:
             name       : "Antarctica"
             nameProper : "Antarctica"
-            codeAlpha2 : "AQ"
+            code       : "AQ"
             codeAlpha3 : "ATA"
             codeNumeric: 10
 
         10:
             name       : "Antigua and Barbuda"
             nameProper : "Antigua and Barbuda"
-            codeAlpha2 : "AG"
+            code       : "AG"
             codeAlpha3 : "ATG"
             codeNumeric: 28
 
         11:
             name       : "Argentina"
             nameProper : "Argentina"
-            codeAlpha2 : "AR"
+            code       : "AR"
             codeAlpha3 : "ARG"
             codeNumeric: 32
 
         12:
             name       : "Armenia"
             nameProper : "Armenia"
-            codeAlpha2 : "AM"
+            code       : "AM"
             codeAlpha3 : "ARM"
             codeNumeric: 51
 
         13:
             name       : "Aruba"
             nameProper : "Aruba"
-            codeAlpha2 : "AW"
+            code       : "AW"
             codeAlpha3 : "ABW"
             codeNumeric: 533
 
         14:
             name       : "Australia"
             nameProper : "Australia"
-            codeAlpha2 : "AU"
+            code       : "AU"
             codeAlpha3 : "AUS"
             codeNumeric: 36
 
         15:
             name       : "Austria"
             nameProper : "Austria"
-            codeAlpha2 : "AT"
+            code       : "AT"
             codeAlpha3 : "AUT"
             codeNumeric: 40
 
         16:
             name       : "Azerbaijan"
             nameProper : "Azerbaijan"
-            codeAlpha2 : "AZ"
+            code       : "AZ"
             codeAlpha3 : "AZE"
             codeNumeric: 31
 
         17:
             name       : "Bahamas"
             nameProper : "Bahamas"
-            codeAlpha2 : "BS"
+            code       : "BS"
             codeAlpha3 : "BHS"
             codeNumeric: 44
 
         18:
             name       : "Bahrain"
             nameProper : "Bahrain"
-            codeAlpha2 : "BH"
+            code       : "BH"
             codeAlpha3 : "BHR"
             codeNumeric: 48
 
         19:
             name       : "Bangladesh"
             nameProper : "Bangladesh"
-            codeAlpha2 : "BD"
+            code       : "BD"
             codeAlpha3 : "BGD"
             codeNumeric: 50
 
         20:
             name       : "Barbados"
             nameProper : "Barbados"
-            codeAlpha2 : "BB"
+            code       : "BB"
             codeAlpha3 : "BRB"
             codeNumeric: 52
 
         21:
             name       : "Belarus"
             nameProper : "Belarus"
-            codeAlpha2 : "BY"
+            code       : "BY"
             codeAlpha3 : "BLR"
             codeNumeric: 112
 
         22:
             name       : "Belgium"
             nameProper : "Belgium"
-            codeAlpha2 : "BE"
+            code       : "BE"
             codeAlpha3 : "BEL"
             codeNumeric: 56
 
         23:
             name       : "Belize"
             nameProper : "Belize"
-            codeAlpha2 : "BZ"
+            code       : "BZ"
             codeAlpha3 : "BLZ"
             codeNumeric: 84
 
         24:
             name       : "Benin"
             nameProper : "Benin"
-            codeAlpha2 : "BJ"
+            code       : "BJ"
             codeAlpha3 : "BEN"
             codeNumeric: 204
 
         25:
             name       : "Bermuda"
             nameProper : "Bermuda"
-            codeAlpha2 : "BM"
+            code       : "BM"
             codeAlpha3 : "BMU"
             codeNumeric: 60
 
         26:
             name       : "Bhutan"
             nameProper : "Bhutan"
-            codeAlpha2 : "BT"
+            code       : "BT"
             codeAlpha3 : "BTN"
             codeNumeric: 64
 
         27:
             name       : "Bolivia, Plurinational State of"
             nameProper : "Plurinational State of Bolivia"
-            codeAlpha2 : "BO"
+            code       : "BO"
             codeAlpha3 : "BOL"
             codeNumeric: 68
 
         28:
             name       : "Bonaire, Saint Eustatius and Saba"
             nameProper : "Bonaire, Saint Eustatius and Saba"
-            codeAlpha2 : "BQ"
+            code       : "BQ"
             codeAlpha3 : "BES"
             codeNumeric: 535
 
         29:
             name       : "Bosnia and Herzegovina"
             nameProper : "Bosnia and Herzegovina"
-            codeAlpha2 : "BA"
+            code       : "BA"
             codeAlpha3 : "BIH"
             codeNumeric: 70
 
         30:
             name       : "Botswana"
             nameProper : "Botswana"
-            codeAlpha2 : "BW"
+            code       : "BW"
             codeAlpha3 : "BWA"
             codeNumeric: 72
 
         31:
             name       : "Bouvet Island"
             nameProper : "Bouvet Island"
-            codeAlpha2 : "BV"
+            code       : "BV"
             codeAlpha3 : "BVT"
             codeNumeric: 74
 
         32:
             name       : "Brazil"
             nameProper : "Brazil"
-            codeAlpha2 : "BR"
+            code       : "BR"
             codeAlpha3 : "BRA"
             codeNumeric: 76
 
         33:
             name       : "British Indian Ocean Territory"
             nameProper : "British Indian Ocean Territory"
-            codeAlpha2 : "IO"
+            code       : "IO"
             codeAlpha3 : "IOT"
             codeNumeric: 86
 
         34:
             name       : "Brunei Darussalam"
             nameProper : "Brunei Darussalam"
-            codeAlpha2 : "BN"
+            code       : "BN"
             codeAlpha3 : "BRN"
             codeNumeric: 96
 
         35:
             name       : "Bulgaria"
             nameProper : "Bulgaria"
-            codeAlpha2 : "BG"
+            code       : "BG"
             codeAlpha3 : "BGR"
             codeNumeric: 100
 
         36:
             name       : "Burkina Faso"
             nameProper : "Burkina Faso"
-            codeAlpha2 : "BF"
+            code       : "BF"
             codeAlpha3 : "BFA"
             codeNumeric: 854
 
         37:
             name       : "Burundi"
             nameProper : "Burundi"
-            codeAlpha2 : "BI"
+            code       : "BI"
             codeAlpha3 : "BDI"
             codeNumeric: 108
 
         38:
             name       : "Cambodia"
             nameProper : "Cambodia"
-            codeAlpha2 : "KH"
+            code       : "KH"
             codeAlpha3 : "KHM"
             codeNumeric: 116
 
         39:
             name       : "Cameroon"
             nameProper : "Cameroon"
-            codeAlpha2 : "CM"
+            code       : "CM"
             codeAlpha3 : "CMR"
             codeNumeric: 120
 
         40:
             name       : "Canada"
             nameProper : "Canada"
-            codeAlpha2 : "CA"
+            code       : "CA"
             codeAlpha3 : "CAN"
             codeNumeric: 124
 
         41:
             name       : "Cape Verde"
             nameProper : "Cape Verde"
-            codeAlpha2 : "CV"
+            code       : "CV"
             codeAlpha3 : "CPV"
             codeNumeric: 132
 
         42:
             name       : "Cayman Islands"
             nameProper : "Cayman Islands"
-            codeAlpha2 : "KY"
+            code       : "KY"
             codeAlpha3 : "CYM"
             codeNumeric: 136
 
         43:
             name       : "Central African Republic"
             nameProper : "Central African Republic"
-            codeAlpha2 : "CF"
+            code       : "CF"
             codeAlpha3 : "CAF"
             codeNumeric: 140
 
         44:
             name       : "Chad"
             nameProper : "Chad"
-            codeAlpha2 : "TD"
+            code       : "TD"
             codeAlpha3 : "TCD"
             codeNumeric: 148
 
         45:
             name       : "Chile"
             nameProper : "Chile"
-            codeAlpha2 : "CL"
+            code       : "CL"
             codeAlpha3 : "CHL"
             codeNumeric: 152
 
         46:
             name       : "China"
             nameProper : "China"
-            codeAlpha2 : "CN"
+            code       : "CN"
             codeAlpha3 : "CHN"
             codeNumeric: 156
 
         47:
             name       : "Christmas Island"
             nameProper : "Christmas Island"
-            codeAlpha2 : "CX"
+            code       : "CX"
             codeAlpha3 : "CXR"
             codeNumeric: 162
 
         48:
             name       : "Cocos (Keeling) Islands"
             nameProper : "Cocos (Keeling) Islands"
-            codeAlpha2 : "CC"
+            code       : "CC"
             codeAlpha3 : "CCK"
             codeNumeric: 166
 
         49:
             name       : "Colombia"
             nameProper : "Colombia"
-            codeAlpha2 : "CO"
+            code       : "CO"
             codeAlpha3 : "COL"
             codeNumeric: 170
 
         50:
             name       : "Comoros"
             nameProper : "Comoros"
-            codeAlpha2 : "KM"
+            code       : "KM"
             codeAlpha3 : "COM"
             codeNumeric: 174
 
         51:
             name       : "Congo"
             nameProper : "Congo"
-            codeAlpha2 : "CG"
+            code       : "CG"
             codeAlpha3 : "COG"
             codeNumeric: 178
 
         52:
             name       : "Congo, The Democratic Republic of the"
             nameProper : "The Democratic Republic of the Congo"
-            codeAlpha2 : "CD"
+            code       : "CD"
             codeAlpha3 : "COD"
             codeNumeric: 180
 
         53:
             name       : "Cook Islands"
             nameProper : "Cook Islands"
-            codeAlpha2 : "CK"
+            code       : "CK"
             codeAlpha3 : "COK"
             codeNumeric: 184
 
         54:
             name       : "Costa Rica"
             nameProper : "Costa Rica"
-            codeAlpha2 : "CR"
+            code       : "CR"
             codeAlpha3 : "CRI"
             codeNumeric: 188
 
         55:
             name       : "Cote d'Ivoire"
             nameProper : "Cote d'Ivoire"
-            codeAlpha2 : "CI"
+            code       : "CI"
             codeAlpha3 : "CIV"
             codeNumeric: 384
 
         56:
             name       : "Croatia"
             nameProper : "Croatia"
-            codeAlpha2 : "HR"
+            code       : "HR"
             codeAlpha3 : "HRV"
             codeNumeric: 191
 
         57:
             name       : "Cuba"
             nameProper : "Cuba"
-            codeAlpha2 : "CU"
+            code       : "CU"
             codeAlpha3 : "CUB"
             codeNumeric: 192
 
         58:
             name       : "Curacao"
             nameProper : "Curacao"
-            codeAlpha2 : "CW"
+            code       : "CW"
             codeAlpha3 : "CUW"
             codeNumeric: 531
 
         59:
             name       : "Cyprus"
             nameProper : "Cyprus"
-            codeAlpha2 : "CY"
+            code       : "CY"
             codeAlpha3 : "CYP"
             codeNumeric: 196
 
         60:
             name       : "Czech Republic"
             nameProper : "Czech Republic"
-            codeAlpha2 : "CZ"
+            code       : "CZ"
             codeAlpha3 : "CZE"
             codeNumeric: 203
 
         61:
             name       : "Denmark"
             nameProper : "Denmark"
-            codeAlpha2 : "DK"
+            code       : "DK"
             codeAlpha3 : "DNK"
             codeNumeric: 208
 
         62:
             name       : "Djibouti"
             nameProper : "Djibouti"
-            codeAlpha2 : "DJ"
+            code       : "DJ"
             codeAlpha3 : "DJI"
             codeNumeric: 262
 
         63:
             name       : "Dominica"
             nameProper : "Dominica"
-            codeAlpha2 : "DM"
+            code       : "DM"
             codeAlpha3 : "DMA"
             codeNumeric: 212
 
         64:
             name       : "Dominican Republic"
             nameProper : "Dominican Republic"
-            codeAlpha2 : "DO"
+            code       : "DO"
             codeAlpha3 : "DOM"
             codeNumeric: 214
 
         65:
             name       : "Ecuador"
             nameProper : "Ecuador"
-            codeAlpha2 : "EC"
+            code       : "EC"
             codeAlpha3 : "ECU"
             codeNumeric: 218
 
         66:
             name       : "Egypt"
             nameProper : "Egypt"
-            codeAlpha2 : "EG"
+            code       : "EG"
             codeAlpha3 : "EGY"
             codeNumeric: 818
 
         67:
             name       : "El Salvador"
             nameProper : "El Salvador"
-            codeAlpha2 : "SV"
+            code       : "SV"
             codeAlpha3 : "SLV"
             codeNumeric: 222
 
         68:
             name       : "Equatorial Guinea"
             nameProper : "Equatorial Guinea"
-            codeAlpha2 : "GQ"
+            code       : "GQ"
             codeAlpha3 : "GNQ"
             codeNumeric: 226
 
         69:
             name       : "Eritrea"
             nameProper : "Eritrea"
-            codeAlpha2 : "ER"
+            code       : "ER"
             codeAlpha3 : "ERI"
             codeNumeric: 232
 
         70:
             name       : "Estonia"
             nameProper : "Estonia"
-            codeAlpha2 : "EE"
+            code       : "EE"
             codeAlpha3 : "EST"
             codeNumeric: 233
 
         71:
             name       : "Ethiopia"
             nameProper : "Ethiopia"
-            codeAlpha2 : "ET"
+            code       : "ET"
             codeAlpha3 : "ETH"
             codeNumeric: 231
 
         72:
             name       : "Falkland Islands (Malvinas)"
             nameProper : "Falkland Islands (Malvinas)"
-            codeAlpha2 : "FK"
+            code       : "FK"
             codeAlpha3 : "FLK"
             codeNumeric: 238
 
         73:
             name       : "Faroe Islands"
             nameProper : "Faroe Islands"
-            codeAlpha2 : "FO"
+            code       : "FO"
             codeAlpha3 : "534"
             codeNumeric: 703
 
         74:
             name       : "Fiji"
             nameProper : "Fiji"
-            codeAlpha2 : "FJ"
+            code       : "FJ"
             codeAlpha3 : "FJI"
             codeNumeric: 242
 
         75:
             name       : "Finland"
             nameProper : "Finland"
-            codeAlpha2 : "FI"
+            code       : "FI"
             codeAlpha3 : "FIN"
             codeNumeric: 246
 
         76:
             name       : "France"
             nameProper : "France"
-            codeAlpha2 : "FR"
+            code       : "FR"
             codeAlpha3 : "FRA"
             codeNumeric: 250
 
         77:
             name       : "French Guiana"
             nameProper : "French Guiana"
-            codeAlpha2 : "GF"
+            code       : "GF"
             codeAlpha3 : "GUF"
             codeNumeric: 254
 
         78:
             name       : "French Polynesia"
             nameProper : "French Polynesia"
-            codeAlpha2 : "PF"
+            code       : "PF"
             codeAlpha3 : "PYF"
             codeNumeric: 258
 
         79:
             name       : "French Southern Territories"
             nameProper : "French Southern Territories"
-            codeAlpha2 : "TF"
+            code       : "TF"
             codeAlpha3 : "ATF"
             codeNumeric: 260
 
         80:
             name       : "Gabon"
             nameProper : "Gabon"
-            codeAlpha2 : "GA"
+            code       : "GA"
             codeAlpha3 : "GAB"
             codeNumeric: 266
 
         81:
             name       : "Gambia"
             nameProper : "Gambia"
-            codeAlpha2 : "GM"
+            code       : "GM"
             codeAlpha3 : "GMB"
             codeNumeric: 270
 
         82:
             name       : "Georgia"
             nameProper : "Georgia"
-            codeAlpha2 : "GE"
+            code       : "GE"
             codeAlpha3 : "GEO"
             codeNumeric: 268
 
         83:
             name       : "Germany"
             nameProper : "Germany"
-            codeAlpha2 : "DE"
+            code       : "DE"
             codeAlpha3 : "DEU"
             codeNumeric: 276
 
         84:
             name       : "Ghana"
             nameProper : "Ghana"
-            codeAlpha2 : "GH"
+            code       : "GH"
             codeAlpha3 : "GHA"
             codeNumeric: 288
 
         85:
             name       : "Gibraltar"
             nameProper : "Gibraltar"
-            codeAlpha2 : "GI"
+            code       : "GI"
             codeAlpha3 : "GIB"
             codeNumeric: 292
 
         86:
             name       : "Greece"
             nameProper : "Greece"
-            codeAlpha2 : "GR"
+            code       : "GR"
             codeAlpha3 : "GRC"
             codeNumeric: 300
 
         87:
             name       : "Greenland"
             nameProper : "Greenland"
-            codeAlpha2 : "GL"
+            code       : "GL"
             codeAlpha3 : "GRL"
             codeNumeric: 304
 
         88:
             name       : "Grenada"
             nameProper : "Grenada"
-            codeAlpha2 : "GD"
+            code       : "GD"
             codeAlpha3 : "GRD"
             codeNumeric: 308
 
         89:
             name       : "Guadeloupe"
             nameProper : "Guadeloupe"
-            codeAlpha2 : "GP"
+            code       : "GP"
             codeAlpha3 : "GLP"
             codeNumeric: 312
 
         90:
             name       : "Guam"
             nameProper : "Guam"
-            codeAlpha2 : "GU"
+            code       : "GU"
             codeAlpha3 : "GUM"
             codeNumeric: 316
 
         91:
             name       : "Guatemala"
             nameProper : "Guatemala"
-            codeAlpha2 : "GT"
+            code       : "GT"
             codeAlpha3 : "GTM"
             codeNumeric: 320
 
         92:
             name       : "Guernsey"
             nameProper : "Guernsey"
-            codeAlpha2 : "GG"
+            code       : "GG"
             codeAlpha3 : "GGY"
             codeNumeric: 831
 
         93:
             name       : "Guinea"
             nameProper : "Guinea"
-            codeAlpha2 : "GN"
+            code       : "GN"
             codeAlpha3 : "GIN"
             codeNumeric: 324
 
         94:
             name       : "Guinea-Bissau"
             nameProper : "Guinea-Bissau"
-            codeAlpha2 : "GW"
+            code       : "GW"
             codeAlpha3 : "GNB"
             codeNumeric: 624
 
         95:
             name       : "Guyana"
             nameProper : "Guyana"
-            codeAlpha2 : "GY"
+            code       : "GY"
             codeAlpha3 : "GUY"
             codeNumeric: 328
 
         96:
             name       : "Haiti"
             nameProper : "Haiti"
-            codeAlpha2 : "HT"
+            code       : "HT"
             codeAlpha3 : "HTI"
             codeNumeric: 332
 
         97:
             name       : "Heard Island and McDonald Islands"
             nameProper : "Heard Island and McDonald Islands"
-            codeAlpha2 : "HM"
+            code       : "HM"
             codeAlpha3 : "HMD"
             codeNumeric: 334
 
         98:
             name       : "Holy See (Vatican City State)"
             nameProper : "Holy See (Vatican City State)"
-            codeAlpha2 : "VA"
+            code       : "VA"
             codeAlpha3 : "VAT"
             codeNumeric: 336
 
         99:
             name       : "Honduras"
             nameProper : "Honduras"
-            codeAlpha2 : "HN"
+            code       : "HN"
             codeAlpha3 : "HND"
             codeNumeric: 340
 
         100:
             name       : "Hong Kong"
             nameProper : "Hong Kong"
-            codeAlpha2 : "HK"
+            code       : "HK"
             codeAlpha3 : "HKG"
             codeNumeric: 344
 
         101:
             name       : "Hungary"
             nameProper : "Hungary"
-            codeAlpha2 : "HU"
+            code       : "HU"
             codeAlpha3 : "HUN"
             codeNumeric: 348
 
         102:
             name       : "Iceland"
             nameProper : "Iceland"
-            codeAlpha2 : "IS"
+            code       : "IS"
             codeAlpha3 : "ISL"
             codeNumeric: 352
 
         103:
             name       : "India"
             nameProper : "India"
-            codeAlpha2 : "IN"
+            code       : "IN"
             codeAlpha3 : "IND"
             codeNumeric: 356
 
         104:
             name       : "Indonesia"
             nameProper : "Indonesia"
-            codeAlpha2 : "ID"
+            code       : "ID"
             codeAlpha3 : "IDN"
             codeNumeric: 360
 
         105:
             name       : "Iran, Islamic Republic of"
             nameProper : "Islamic Republic of Iran"
-            codeAlpha2 : "IR"
+            code       : "IR"
             codeAlpha3 : "IRN"
             codeNumeric: 364
 
         106:
             name       : "Iraq"
             nameProper : "Iraq"
-            codeAlpha2 : "IQ"
+            code       : "IQ"
             codeAlpha3 : "IRQ"
             codeNumeric: 368
 
         107:
             name       : "Ireland"
             nameProper : "Ireland"
-            codeAlpha2 : "IE"
+            code       : "IE"
             codeAlpha3 : "IRL"
             codeNumeric: 372
 
         108:
             name       : "Isle of Man"
             nameProper : "Isle of Man"
-            codeAlpha2 : "IM"
+            code       : "IM"
             codeAlpha3 : "IMN"
             codeNumeric: 833
 
         109:
             name       : "Israel"
             nameProper : "Israel"
-            codeAlpha2 : "IL"
+            code       : "IL"
             codeAlpha3 : "ISR"
             codeNumeric: 376
 
         110:
             name       : "Italy"
             nameProper : "Italy"
-            codeAlpha2 : "IT"
+            code       : "IT"
             codeAlpha3 : "ITA"
             codeNumeric: 380
 
         111:
             name       : "Jamaica"
             nameProper : "Jamaica"
-            codeAlpha2 : "JM"
+            code       : "JM"
             codeAlpha3 : "JAM"
             codeNumeric: 388
 
         112:
             name       : "Japan"
             nameProper : "Japan"
-            codeAlpha2 : "JP"
+            code       : "JP"
             codeAlpha3 : "JPN"
             codeNumeric: 392
 
         113:
             name       : "Jersey"
             nameProper : "Jersey"
-            codeAlpha2 : "JE"
+            code       : "JE"
             codeAlpha3 : "JEY"
             codeNumeric: 832
 
         114:
             name       : "Jordan"
             nameProper : "Jordan"
-            codeAlpha2 : "JO"
+            code       : "JO"
             codeAlpha3 : "JOR"
             codeNumeric: 400
 
         115:
             name       : "Kazakhstan"
             nameProper : "Kazakhstan"
-            codeAlpha2 : "KZ"
+            code       : "KZ"
             codeAlpha3 : "KAZ"
             codeNumeric: 398
 
         116:
             name       : "Kenya"
             nameProper : "Kenya"
-            codeAlpha2 : "KE"
+            code       : "KE"
             codeAlpha3 : "KEN"
             codeNumeric: 404
 
         117:
             name       : "Kiribati"
             nameProper : "Kiribati"
-            codeAlpha2 : "KI"
+            code       : "KI"
             codeAlpha3 : "KIR"
             codeNumeric: 296
 
         118:
             name       : "Korea, Democratic People's Republic of"
             nameProper : "Democratic People's Republic of Korea"
-            codeAlpha2 : "KP"
+            code       : "KP"
             codeAlpha3 : "PRK"
             codeNumeric: 408
 
         119:
             name       : "Korea, Republic of"
             nameProper : "Republic of Korea"
-            codeAlpha2 : "KR"
+            code       : "KR"
             codeAlpha3 : "KOR"
             codeNumeric: 410
 
         120:
             name       : "Kuwait"
             nameProper : "Kuwait"
-            codeAlpha2 : "KW"
+            code       : "KW"
             codeAlpha3 : "KWT"
             codeNumeric: 414
 
         121:
             name       : "Kyrgyzstan"
             nameProper : "Kyrgyzstan"
-            codeAlpha2 : "KG"
+            code       : "KG"
             codeAlpha3 : "KGZ"
             codeNumeric: 417
 
         122:
             name       : "Lao People's Democratic Republic"
             nameProper : "Lao People's Democratic Republic"
-            codeAlpha2 : "LA"
+            code       : "LA"
             codeAlpha3 : "LAO"
             codeNumeric: 418
 
         123:
             name       : "Latvia"
             nameProper : "Latvia"
-            codeAlpha2 : "LV"
+            code       : "LV"
             codeAlpha3 : "LVA"
             codeNumeric: 428
 
         124:
             name       : "Lebanon"
             nameProper : "Lebanon"
-            codeAlpha2 : "LB"
+            code       : "LB"
             codeAlpha3 : "LBN"
             codeNumeric: 422
 
         125:
             name       : "Lesotho"
             nameProper : "Lesotho"
-            codeAlpha2 : "LS"
+            code       : "LS"
             codeAlpha3 : "LSO"
             codeNumeric: 426
 
         126:
             name       : "Liberia"
             nameProper : "Liberia"
-            codeAlpha2 : "LR"
+            code       : "LR"
             codeAlpha3 : "LBR"
             codeNumeric: 430
 
         127:
             name       : "Libyan Arab Jamahiriya"
             nameProper : "Libyan Arab Jamahiriya"
-            codeAlpha2 : "LY"
+            code       : "LY"
             codeAlpha3 : "LBY"
             codeNumeric: 434
 
         128:
             name       : "Liechtenstein"
             nameProper : "Liechtenstein"
-            codeAlpha2 : "LI"
+            code       : "LI"
             codeAlpha3 : "LIE"
             codeNumeric: 438
 
         129:
             name       : "Lithuania"
             nameProper : "Lithuania"
-            codeAlpha2 : "LT"
+            code       : "LT"
             codeAlpha3 : "LTU"
             codeNumeric: 440
 
         130:
             name       : "Luxembourg"
             nameProper : "Luxembourg"
-            codeAlpha2 : "LU"
+            code       : "LU"
             codeAlpha3 : "LUX"
             codeNumeric: 442
 
         131:
             name       : "Macao"
             nameProper : "Macao"
-            codeAlpha2 : "MO"
+            code       : "MO"
             codeAlpha3 : "MAC"
             codeNumeric: 446
 
         132:
             name       : "Macedonia, The Former Yugoslav Republic of"
             nameProper : "The Former Yugoslav Republic of Macedonia"
-            codeAlpha2 : "MK"
+            code       : "MK"
             codeAlpha3 : "MKD"
             codeNumeric: 807
 
         133:
             name       : "Madagascar"
             nameProper : "Madagascar"
-            codeAlpha2 : "MG"
+            code       : "MG"
             codeAlpha3 : "MDG"
             codeNumeric: 450
 
         134:
             name       : "Malawi"
             nameProper : "Malawi"
-            codeAlpha2 : "MW"
+            code       : "MW"
             codeAlpha3 : "MWI"
             codeNumeric: 454
 
         135:
             name       : "Malaysia"
             nameProper : "Malaysia"
-            codeAlpha2 : "MY"
+            code       : "MY"
             codeAlpha3 : "MYS"
             codeNumeric: 458
 
         136:
             name       : "Maldives"
             nameProper : "Maldives"
-            codeAlpha2 : "MV"
+            code       : "MV"
             codeAlpha3 : "MDV"
             codeNumeric: 462
 
         137:
             name       : "Mali"
             nameProper : "Mali"
-            codeAlpha2 : "ML"
+            code       : "ML"
             codeAlpha3 : "MLI"
             codeNumeric: 466
 
         138:
             name       : "Malta"
             nameProper : "Malta"
-            codeAlpha2 : "MT"
+            code       : "MT"
             codeAlpha3 : "MLT"
             codeNumeric: 470
 
         139:
             name       : "Marshall Islands"
             nameProper : "Marshall Islands"
-            codeAlpha2 : "MH"
+            code       : "MH"
             codeAlpha3 : "MHL"
             codeNumeric: 584
 
         140:
             name       : "Martinique"
             nameProper : "Martinique"
-            codeAlpha2 : "MQ"
+            code       : "MQ"
             codeAlpha3 : "MTQ"
             codeNumeric: 474
 
         141:
             name       : "Mauritania"
             nameProper : "Mauritania"
-            codeAlpha2 : "MR"
+            code       : "MR"
             codeAlpha3 : "MRT"
             codeNumeric: 478
 
         142:
             name       : "Mauritius"
             nameProper : "Mauritius"
-            codeAlpha2 : "MU"
+            code       : "MU"
             codeAlpha3 : "MUS"
             codeNumeric: 480
 
         143:
             name       : "Mayotte"
             nameProper : "Mayotte"
-            codeAlpha2 : "YT"
+            code       : "YT"
             codeAlpha3 : "MYT"
             codeNumeric: 175
 
         144:
             name       : "Mexico"
             nameProper : "Mexico"
-            codeAlpha2 : "MX"
+            code       : "MX"
             codeAlpha3 : "MEX"
             codeNumeric: 484
 
         145:
             name       : "Micronesia, Federated States of"
             nameProper : "Federated States of Micronesia"
-            codeAlpha2 : "FM"
+            code       : "FM"
             codeAlpha3 : "FSM"
             codeNumeric: 583
 
         146:
             name       : "Moldova, Republic of"
             nameProper : "Republic of Moldova"
-            codeAlpha2 : "MD"
+            code       : "MD"
             codeAlpha3 : "MDA"
             codeNumeric: 498
 
         147:
             name       : "Monaco"
             nameProper : "Monaco"
-            codeAlpha2 : "MC"
+            code       : "MC"
             codeAlpha3 : "MCO"
             codeNumeric: 492
 
         148:
             name       : "Mongolia"
             nameProper : "Mongolia"
-            codeAlpha2 : "MN"
+            code       : "MN"
             codeAlpha3 : "MNG"
             codeNumeric: 496
 
         149:
             name       : "Montenegro"
             nameProper : "Montenegro"
-            codeAlpha2 : "ME"
+            code       : "ME"
             codeAlpha3 : "MNE"
             codeNumeric: 499
 
         150:
             name       : "Montserrat"
             nameProper : "Montserrat"
-            codeAlpha2 : "MS"
+            code       : "MS"
             codeAlpha3 : "MSR"
             codeNumeric: 500
 
         151:
             name       : "Morocco"
             nameProper : "Morocco"
-            codeAlpha2 : "MA"
+            code       : "MA"
             codeAlpha3 : "MAR"
             codeNumeric: 504
 
         152:
             name       : "Mozambique"
             nameProper : "Mozambique"
-            codeAlpha2 : "MZ"
+            code       : "MZ"
             codeAlpha3 : "MOZ"
             codeNumeric: 508
 
         153:
             name       : "Myanmar"
             nameProper : "Myanmar"
-            codeAlpha2 : "MM"
+            code       : "MM"
             codeAlpha3 : "MMR"
             codeNumeric: 104
 
         154:
             name       : "Namibia"
             nameProper : "Namibia"
-            codeAlpha2 : "NA"
+            code       : "NA"
             codeAlpha3 : "NAM"
             codeNumeric: 516
 
         155:
             name       : "Nauru"
             nameProper : "Nauru"
-            codeAlpha2 : "NR"
+            code       : "NR"
             codeAlpha3 : "NRU"
             codeNumeric: 520
 
         156:
             name       : "Nepal"
             nameProper : "Nepal"
-            codeAlpha2 : "NP"
+            code       : "NP"
             codeAlpha3 : "NPL"
             codeNumeric: 524
 
         157:
             name       : "Netherlands"
             nameProper : "Netherlands"
-            codeAlpha2 : "NL"
+            code       : "NL"
             codeAlpha3 : "NLD"
             codeNumeric: 528
 
         158:
             name       : "New Caledonia"
             nameProper : "New Caledonia"
-            codeAlpha2 : "NC"
+            code       : "NC"
             codeAlpha3 : "NCL"
             codeNumeric: 540
 
         159:
             name       : "New Zealand"
             nameProper : "New Zealand"
-            codeAlpha2 : "NZ"
+            code       : "NZ"
             codeAlpha3 : "NZL"
             codeNumeric: 554
 
         160:
             name       : "Nicaragua"
             nameProper : "Nicaragua"
-            codeAlpha2 : "NI"
+            code       : "NI"
             codeAlpha3 : "NIC"
             codeNumeric: 558
 
         161:
             name       : "Niger"
             nameProper : "Niger"
-            codeAlpha2 : "NE"
+            code       : "NE"
             codeAlpha3 : "NER"
             codeNumeric: 562
 
         162:
             name       : "Nigeria"
             nameProper : "Nigeria"
-            codeAlpha2 : "NG"
+            code       : "NG"
             codeAlpha3 : "NGA"
             codeNumeric: 566
 
         163:
             name       : "Niue"
             nameProper : "Niue"
-            codeAlpha2 : "NU"
+            code       : "NU"
             codeAlpha3 : "NIU"
             codeNumeric: 570
 
         164:
             name       : "Norfolk Island"
             nameProper : "Norfolk Island"
-            codeAlpha2 : "NF"
+            code       : "NF"
             codeAlpha3 : "NFK"
             codeNumeric: 574
 
         165:
             name       : "Northern Mariana Islands"
             nameProper : "Northern Mariana Islands"
-            codeAlpha2 : "MP"
+            code       : "MP"
             codeAlpha3 : "MNP"
             codeNumeric: 580
 
         166:
             name       : "Norway"
             nameProper : "Norway"
-            codeAlpha2 : "NO"
+            code       : "NO"
             codeAlpha3 : "NOR"
             codeNumeric: 578
 
         167:
             name       : "Occupied Palestinian Territory"
             nameProper : "Occupied Palestinian Territory"
-            codeAlpha2 : "PS"
+            code       : "PS"
             codeAlpha3 : "PSE"
             codeNumeric: 275
 
         168:
             name       : "Oman"
             nameProper : "Oman"
-            codeAlpha2 : "OM"
+            code       : "OM"
             codeAlpha3 : "OMN"
             codeNumeric: 512
 
         169:
             name       : "Pakistan"
             nameProper : "Pakistan"
-            codeAlpha2 : "PK"
+            code       : "PK"
             codeAlpha3 : "PAK"
             codeNumeric: 586
 
         170:
             name       : "Palau"
             nameProper : "Palau"
-            codeAlpha2 : "PW"
+            code       : "PW"
             codeAlpha3 : "PLW"
             codeNumeric: 585
 
         171:
             name       : "Panama"
             nameProper : "Panama"
-            codeAlpha2 : "PA"
+            code       : "PA"
             codeAlpha3 : "PAN"
             codeNumeric: 591
 
         172:
             name       : "Papua New Guinea"
             nameProper : "Papua New Guinea"
-            codeAlpha2 : "PG"
+            code       : "PG"
             codeAlpha3 : "PNG"
             codeNumeric: 598
 
         173:
             name       : "Paraguay"
             nameProper : "Paraguay"
-            codeAlpha2 : "PY"
+            code       : "PY"
             codeAlpha3 : "PRY"
             codeNumeric: 600
 
         174:
             name       : "Peru"
             nameProper : "Peru"
-            codeAlpha2 : "PE"
+            code       : "PE"
             codeAlpha3 : "PER"
             codeNumeric: 604
 
         175:
             name       : "Philippines"
             nameProper : "Philippines"
-            codeAlpha2 : "PH"
+            code       : "PH"
             codeAlpha3 : "PHL"
             codeNumeric: 608
 
         176:
             name       : "Pitcairn"
             nameProper : "Pitcairn"
-            codeAlpha2 : "PN"
+            code       : "PN"
             codeAlpha3 : "PCN"
             codeNumeric: 612
 
         177:
             name       : "Poland"
             nameProper : "Poland"
-            codeAlpha2 : "PL"
+            code       : "PL"
             codeAlpha3 : "POL"
             codeNumeric: 616
 
         178:
             name       : "Portugal"
             nameProper : "Portugal"
-            codeAlpha2 : "PT"
+            code       : "PT"
             codeAlpha3 : "PRT"
             codeNumeric: 620
 
         179:
             name       : "Puerto Rico"
             nameProper : "Puerto Rico"
-            codeAlpha2 : "PR"
+            code       : "PR"
             codeAlpha3 : "PRI"
             codeNumeric: 630
 
         180:
             name       : "Qatar"
             nameProper : "Qatar"
-            codeAlpha2 : "QA"
+            code       : "QA"
             codeAlpha3 : "QAT"
             codeNumeric: 634
 
         181:
             name       : "Reunion"
             nameProper : "Reunion"
-            codeAlpha2 : "RE"
+            code       : "RE"
             codeAlpha3 : "REU"
             codeNumeric: 638
 
         182:
             name       : "Romania"
             nameProper : "Romania"
-            codeAlpha2 : "RO"
+            code       : "RO"
             codeAlpha3 : "ROU"
             codeNumeric: 642
 
         183:
             name       : "Russian Federation"
             nameProper : "Russian Federation"
-            codeAlpha2 : "RU"
+            code       : "RU"
             codeAlpha3 : "RUS"
             codeNumeric: 643
 
         184:
             name       : "Rwanda"
             nameProper : "Rwanda"
-            codeAlpha2 : "RW"
+            code       : "RW"
             codeAlpha3 : "RWA"
             codeNumeric: 646
 
         185:
             name       : "Saint Barthelemy"
             nameProper : "Saint Barthelemy"
-            codeAlpha2 : "BL"
+            code       : "BL"
             codeAlpha3 : "534"
             codeNumeric: 703
 
         186:
             name       : "Saint Helena, Ascension and Tristan da Cunha"
             nameProper : "Saint Helena, Ascension and Tristan da Cunha"
-            codeAlpha2 : "SH"
+            code       : "SH"
             codeAlpha3 : "SHN"
             codeNumeric: 654
 
         187:
             name       : "Saint Kitts and Nevis"
             nameProper : "Saint Kitts and Nevis"
-            codeAlpha2 : "KN"
+            code       : "KN"
             codeAlpha3 : "KNA"
             codeNumeric: 659
 
         188:
             name       : "Saint Lucia"
             nameProper : "Saint Lucia"
-            codeAlpha2 : "LC"
+            code       : "LC"
             codeAlpha3 : "LCA"
             codeNumeric: 662
 
         189:
             name       : "Saint Martin (French part)"
             nameProper : "Saint Martin (French part)"
-            codeAlpha2 : "MF"
+            code       : "MF"
             codeAlpha3 : "MAF"
             codeNumeric: 663
 
         190:
             name       : "Saint Pierre and Miquelon"
             nameProper : "Saint Pierre and Miquelon"
-            codeAlpha2 : "PM"
+            code       : "PM"
             codeAlpha3 : "SPM"
             codeNumeric: 666
 
         191:
             name       : "Saint Vincent and The Grenadines"
             nameProper : "Saint Vincent and The Grenadines"
-            codeAlpha2 : "VC"
+            code       : "VC"
             codeAlpha3 : "VCT"
             codeNumeric: 670
 
         192:
             name       : "Samoa"
             nameProper : "Samoa"
-            codeAlpha2 : "WS"
+            code       : "WS"
             codeAlpha3 : "WSM"
             codeNumeric: 882
 
         193:
             name       : "San Marino"
             nameProper : "San Marino"
-            codeAlpha2 : "SM"
+            code       : "SM"
             codeAlpha3 : "SMR"
             codeNumeric: 674
 
         194:
             name       : "Sao Tome and Principe"
             nameProper : "Sao Tome and Principe"
-            codeAlpha2 : "ST"
+            code       : "ST"
             codeAlpha3 : "STP"
             codeNumeric: 678
 
         195:
             name       : "Saudi Arabia"
             nameProper : "Saudi Arabia"
-            codeAlpha2 : "SA"
+            code       : "SA"
             codeAlpha3 : "SAU"
             codeNumeric: 682
 
         196:
             name       : "Senegal"
             nameProper : "Senegal"
-            codeAlpha2 : "SN"
+            code       : "SN"
             codeAlpha3 : "SEN"
             codeNumeric: 686
 
         197:
             name       : "Serbia"
             nameProper : "Serbia"
-            codeAlpha2 : "RS"
+            code       : "RS"
             codeAlpha3 : "SRB"
             codeNumeric: 688
 
         198:
             name       : "Seychelles"
             nameProper : "Seychelles"
-            codeAlpha2 : "SC"
+            code       : "SC"
             codeAlpha3 : "SYC"
             codeNumeric: 690
 
         199:
             name       : "Sierra Leone"
             nameProper : "Sierra Leone"
-            codeAlpha2 : "SL"
+            code       : "SL"
             codeAlpha3 : "SLE"
             codeNumeric: 694
 
         200:
             name       : "Singapore"
             nameProper : "Singapore"
-            codeAlpha2 : "SG"
+            code       : "SG"
             codeAlpha3 : "SGP"
             codeNumeric: 702
 
         201:
             name       : "Sint Maarten (Dutch part)"
             nameProper : "Sint Maarten (Dutch part)"
-            codeAlpha2 : "SX"
+            code       : "SX"
             codeAlpha3 : "SXM"
             codeNumeric: 534
 
         202:
             name       : "Slovakia"
             nameProper : "Slovakia"
-            codeAlpha2 : "SK"
+            code       : "SK"
             codeAlpha3 : "SVK"
             codeNumeric: 703
 
         203:
             name       : "Slovenia"
             nameProper : "Slovenia"
-            codeAlpha2 : "SI"
+            code       : "SI"
             codeAlpha3 : "SVN"
             codeNumeric: 705
 
         204:
             name       : "Solomon Islands"
             nameProper : "Solomon Islands"
-            codeAlpha2 : "SB"
+            code       : "SB"
             codeAlpha3 : "SLB"
             codeNumeric: 90
 
         205:
             name       : "Somalia"
             nameProper : "Somalia"
-            codeAlpha2 : "SO"
+            code       : "SO"
             codeAlpha3 : "SOM"
             codeNumeric: 706
 
         206:
             name       : "South Africa"
             nameProper : "South Africa"
-            codeAlpha2 : "ZA"
+            code       : "ZA"
             codeAlpha3 : "ZAF"
             codeNumeric: 710
 
         207:
             name       : "South Georgia and the South Sandwich Islands"
             nameProper : "South Georgia and the South Sandwich Islands"
-            codeAlpha2 : "GS"
+            code       : "GS"
             codeAlpha3 : "SGS"
             codeNumeric: 239
 
         208:
+            name       : "South Sudan, Republic of"
+            nameProper : "Republic of South Sudan"
+            code       : "SS"
+            codeAlpha3 : "SSD"
+            codeNumeric: 728
+
+        209:
             name       : "Spain"
             nameProper : "Spain"
-            codeAlpha2 : "ES"
+            code       : "ES"
             codeAlpha3 : "ESP"
             codeNumeric: 724
 
-        209:
+        210:
             name       : "Sri Lanka"
             nameProper : "Sri Lanka"
-            codeAlpha2 : "LK"
+            code       : "LK"
             codeAlpha3 : "LKA"
             codeNumeric: 144
 
-        210:
+        211:
             name       : "Sudan"
             nameProper : "Sudan"
-            codeAlpha2 : "SD"
+            code       : "SD"
             codeAlpha3 : "SDN"
-            codeNumeric: 736
+            codeNumeric: 729
 
-        211:
+        212:
             name       : "Suriname"
             nameProper : "Suriname"
-            codeAlpha2 : "SR"
+            code       : "SR"
             codeAlpha3 : "SUR"
             codeNumeric: 740
 
-        212:
+        213:
             name       : "Svalbard and Jan Mayen"
             nameProper : "Svalbard and Jan Mayen"
-            codeAlpha2 : "SJ"
+            code       : "SJ"
             codeAlpha3 : "534"
             codeNumeric: 703
 
-        213:
+        214:
             name       : "Swaziland"
             nameProper : "Swaziland"
-            codeAlpha2 : "SZ"
+            code       : "SZ"
             codeAlpha3 : "SWZ"
             codeNumeric: 748
 
-        214:
+        215:
             name       : "Sweden"
             nameProper : "Sweden"
-            codeAlpha2 : "SE"
+            code       : "SE"
             codeAlpha3 : "SWE"
             codeNumeric: 752
 
-        215:
+        216:
             name       : "Switzerland"
             nameProper : "Switzerland"
-            codeAlpha2 : "CH"
+            code       : "CH"
             codeAlpha3 : "CHE"
             codeNumeric: 756
 
-        216:
+        217:
             name       : "Syrian Arab Republic"
             nameProper : "Syrian Arab Republic"
-            codeAlpha2 : "SY"
+            code       : "SY"
             codeAlpha3 : "SYR"
             codeNumeric: 760
 
-        217:
+        218:
             name       : "Taiwan, Province of China"
             nameProper : "Taiwan, Province of China"
-            codeAlpha2 : "TW"
+            code       : "TW"
             codeAlpha3 : "TWN"
             codeNumeric: 158
 
-        218:
+        219:
             name       : "Tajikistan"
             nameProper : "Tajikistan"
-            codeAlpha2 : "TJ"
+            code       : "TJ"
             codeAlpha3 : "TJK"
             codeNumeric: 762
 
-        219:
+        220:
             name       : "Tanzania, United Republic of"
             nameProper : "United Republic of Tanzania"
-            codeAlpha2 : "TZ"
+            code       : "TZ"
             codeAlpha3 : "TZA"
             codeNumeric: 834
 
-        220:
+        221:
             name       : "Thailand"
             nameProper : "Thailand"
-            codeAlpha2 : "TH"
+            code       : "TH"
             codeAlpha3 : "THA"
             codeNumeric: 764
 
-        221:
+        222:
             name       : "Timor-Leste"
             nameProper : "Timor-Leste"
-            codeAlpha2 : "TL"
+            code       : "TL"
             codeAlpha3 : "TLS"
             codeNumeric: 626
 
-        222:
+        223:
             name       : "Togo"
             nameProper : "Togo"
-            codeAlpha2 : "TG"
+            code       : "TG"
             codeAlpha3 : "TGO"
             codeNumeric: 768
 
-        223:
+        224:
             name       : "Tokelau"
             nameProper : "Tokelau"
-            codeAlpha2 : "TK"
+            code       : "TK"
             codeAlpha3 : "TKL"
             codeNumeric: 772
 
-        224:
+        225:
             name       : "Tonga"
             nameProper : "Tonga"
-            codeAlpha2 : "TO"
+            code       : "TO"
             codeAlpha3 : "TON"
             codeNumeric: 776
 
-        225:
+        226:
             name       : "Trinidad and Tobago"
             nameProper : "Trinidad and Tobago"
-            codeAlpha2 : "TT"
+            code       : "TT"
             codeAlpha3 : "TTO"
             codeNumeric: 780
 
-        226:
+        227:
             name       : "Tunisia"
             nameProper : "Tunisia"
-            codeAlpha2 : "TN"
+            code       : "TN"
             codeAlpha3 : "TUN"
             codeNumeric: 788
 
-        227:
+        228:
             name       : "Turkey"
             nameProper : "Turkey"
-            codeAlpha2 : "TR"
+            code       : "TR"
             codeAlpha3 : "TUR"
             codeNumeric: 792
 
-        228:
+        229:
             name       : "Turkmenistan"
             nameProper : "Turkmenistan"
-            codeAlpha2 : "TM"
+            code       : "TM"
             codeAlpha3 : "TKM"
             codeNumeric: 795
 
-        229:
+        230:
             name       : "Turks and Caicos Islands"
             nameProper : "Turks and Caicos Islands"
-            codeAlpha2 : "TC"
+            code       : "TC"
             codeAlpha3 : "TCA"
             codeNumeric: 796
 
-        230:
+        231:
             name       : "Tuvalu"
             nameProper : "Tuvalu"
-            codeAlpha2 : "TV"
+            code       : "TV"
             codeAlpha3 : "TUV"
             codeNumeric: 798
 
-        231:
+        232:
             name       : "Uganda"
             nameProper : "Uganda"
-            codeAlpha2 : "UG"
+            code       : "UG"
             codeAlpha3 : "UGA"
             codeNumeric: 800
 
-        232:
+        233:
             name       : "Ukraine"
             nameProper : "Ukraine"
-            codeAlpha2 : "UA"
+            code       : "UA"
             codeAlpha3 : "UKR"
             codeNumeric: 804
 
-        233:
+        234:
             name       : "United Arab Emirates"
             nameProper : "United Arab Emirates"
-            codeAlpha2 : "AE"
+            code       : "AE"
             codeAlpha3 : "ARE"
             codeNumeric: 784
 
-        234:
+        235:
             name       : "United Kingdom"
             nameProper : "United Kingdom"
-            codeAlpha2 : "GB"
+            code       : "GB"
             codeAlpha3 : "GBR"
             codeNumeric: 826
 
-        235:
+        236:
             name       : "United States"
             nameProper : "United States"
-            codeAlpha2 : "US"
+            code       : "US"
             codeAlpha3 : "USA"
             codeNumeric: 840
 
-        236:
+        237:
             name       : "United States Minor Outlying Islands"
             nameProper : "United States Minor Outlying Islands"
-            codeAlpha2 : "UM"
+            code       : "UM"
             codeAlpha3 : "UMI"
             codeNumeric: 581
 
-        237:
+        238:
             name       : "Uruguay"
             nameProper : "Uruguay"
-            codeAlpha2 : "UY"
+            code       : "UY"
             codeAlpha3 : "URY"
             codeNumeric: 858
 
-        238:
+        239:
             name       : "Uzbekistan"
             nameProper : "Uzbekistan"
-            codeAlpha2 : "UZ"
+            code       : "UZ"
             codeAlpha3 : "UZB"
             codeNumeric: 860
 
-        239:
+        240:
             name       : "Vanuatu"
             nameProper : "Vanuatu"
-            codeAlpha2 : "VU"
+            code       : "VU"
             codeAlpha3 : "VUT"
             codeNumeric: 548
 
-        240:
+        241:
             name       : "Venezuela, Bolivarian Republic of"
             nameProper : "Bolivarian Republic of Venezuela"
-            codeAlpha2 : "VE"
+            code       : "VE"
             codeAlpha3 : "VEN"
             codeNumeric: 862
 
-        241:
+        242:
             name       : "Viet Nam"
             nameProper : "Viet Nam"
-            codeAlpha2 : "VN"
+            code       : "VN"
             codeAlpha3 : "VNM"
             codeNumeric: 704
 
-        242:
+        243:
             name       : "Virgin Islands, British"
             nameProper : "British Virgin Islands"
-            codeAlpha2 : "VG"
+            code       : "VG"
             codeAlpha3 : "VGB"
             codeNumeric: 92
 
-        243:
+        244:
             name       : "Virgin Islands, U.S."
             nameProper : "U.S. Virgin Islands"
-            codeAlpha2 : "VI"
+            code       : "VI"
             codeAlpha3 : "VIR"
             codeNumeric: 850
 
-        244:
+        245:
             name       : "Wallis and Futuna"
             nameProper : "Wallis and Futuna"
-            codeAlpha2 : "WF"
+            code       : "WF"
             codeAlpha3 : "WLF"
             codeNumeric: 876
 
-        245:
+        246:
             name       : "Western Sahara"
             nameProper : "Western Sahara"
-            codeAlpha2 : "EH"
+            code       : "EH"
             codeAlpha3 : "ESH"
             codeNumeric: 732
 
-        246:
+        247:
             name       : "Yemen"
             nameProper : "Yemen"
-            codeAlpha2 : "YE"
+            code       : "YE"
             codeAlpha3 : "YEM"
             codeNumeric: 887
 
-        247:
+        248:
             name       : "Zambia"
             nameProper : "Zambia"
-            codeAlpha2 : "ZM"
+            code       : "ZM"
             codeAlpha3 : "ZMB"
             codeNumeric: 894
 
-        248:
+        249:
             name       : "Zimbabwe"
             nameProper : "Zimbabwe"
-            codeAlpha2 : "ZW"
+            code       : "ZW"
             codeAlpha3 : "ZWE"
             codeNumeric: 716
-
 
 ...
