@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 mkdir -p build/pecl/ && cd build/pecl/
 git clone https://github.com/twigphp/Twig.git twig

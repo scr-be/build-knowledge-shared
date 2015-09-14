@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 pecl install channel://pecl.php.net/msgpack-0.5.6
 

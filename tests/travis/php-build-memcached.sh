@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 sudo apt-get remove --purge -y php5-memcached
 sudo apt-get install -qq -y --verbose-versions --reinstall libjson-c2 php5-json

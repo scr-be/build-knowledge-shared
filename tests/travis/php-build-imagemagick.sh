@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 sudo apt-get remove --purge -y php5-imagick
 sudo apt-get install -qq -y --verbose-versions --reinstall imagemagick libmagick++-dev

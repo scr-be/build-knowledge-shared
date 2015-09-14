@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 pecl install channel://pecl.php.net/sundown-0.3.8
 
