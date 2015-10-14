@@ -2,13 +2,13 @@
 
 #
 # Include some additional commands in your path that can be called against your git tree.
-# For example: 
+# For example:
 # - `git php-lint`
 # - `git large-files`
 # - etc...
 #
 # Additional scripts are available as well, include ones not applicable to calling via `git`.
-# This script 
+# This script
 # Intended to be included via your ~/.bashrc file.
 #
 
@@ -21,7 +21,14 @@ GIT_PATH_SEARCHES=()
 USR_PATH_SEARCH_METHOD="absolute"
 USR_PATH_SEARCH=""
 
-function locate_closest_git_root_under()
+function ol()
+{
+    echo -en "[$(date +%s | tail -c 5).$(date +%N | tail -c 3) "
+    echo -en "$(basename ${SRC_PUBLIC_CONFIG_SCRIPTS_ABSOLUTE_PATH} .bash)]"
+    echo -en " ${1}\n"
+}
+
+function do__search_for_closest_gitroot_near_cwd()
 {
 	local srch_depth=20
 	local path_decmt="$(readlink -f ${SCR_PUBLIC_CONFIG_SCRIPTS_ABSOLUTE_PATH})"
@@ -42,10 +49,15 @@ function locate_closest_git_root_under()
 		path_decmt="$(readlink -f $path_decmt/..)"
 	done
 
-	GIT_PATH_SEARCHES=("${path_steps[@]}") 
+	GIT_PATH_SEARCHES=("${path_steps[@]}")
 }
 
-function locate_possible_gitmodules_file_and_check_path()
+function do__ensure_the_gitroot_returne_is_valid()
+{
+    [[ -z "${GIT_PATH_ROOT}" ]] && exit 1
+}
+
+function do__search_for_gitmods_files_in_gitroot()
 {
 	local path_relative=""
 
@@ -74,13 +86,9 @@ function main()
 {
 	cd "${SCR_PUBLIC_CONFIG_SCRIPTS_ABSOLUTE_PATH}"
 
-	locate_closest_git_root_under
-
-	if [[ -z "${GIT_PATH_ROOT}" ]]; then
-		exit 1
-	fi
-
-	locate_possible_gitmodules_file_and_check_path
+	do__search_for_closest_gitroot_near_cwd || exit 1
+	do__ensure_the_gitroot_returne_is_valid || exit 1
+	do__search_for_gitmods_files_in_gitroot || exit 1
 }
 
 main

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir -p build/pecl/ && cd build/pecl/
+mkdir -p build/pecl/ && cd build/pecl/ && rm -fr igbinary
 
 git clone -b php7-dev-playground1 https://github.com/igbinary/igbinary.git igbinary && cd igbinary
 
