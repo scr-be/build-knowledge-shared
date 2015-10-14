@@ -39,5 +39,5 @@ if [ $(which phpenv) ]; then
     echo "extension=${PHP_MODULE}.so" | tee -a ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 else
     echo "Auto-enabling extensions is only supported in phpenv environments."
-    echo "You need to add \"extension=${PHP_MODULE}\" to enable the extension."
+    echo "You need to add \"extension=${PHP_MODULE}.so\" to enable the extension."
 fi
