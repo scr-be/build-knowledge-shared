@@ -8,10 +8,10 @@ readonly PHP_MODULE="$(basename ${SCRIPT_SELF_BASE:14} .sh)"
 
 if [ ${TRAVIS} ]; then
     RUN_ENV="Travis-CI"
-    CMD_PRE=""
+    export CMD_PRE=""
 else
     RUN_ENV="Local"
-    CMD_PRE="sudo "
+    export CMD_PRE="sudo "
 fi
 
 echo "Enviornment  : ${RUN_ENV}"
@@ -37,4 +37,7 @@ fi
 if [ $(which phpenv) ]; then
     echo "Writing extension=${PHP_MODULE} to PHPENV INI file"
     echo "extension=${PHP_MODULE}.so" | tee -a ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+else
+    echo "Auto-enabling extensions is only supported in phpenv environments."
+    echo "You need to add \"extension=${PHP_MODULE}\" to enable the extension."
 fi
