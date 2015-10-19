@@ -1,0 +1,38 @@
+---
+TranslationDomain:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 300
+        mode       : truncate
+        entity     : s.mantle.translation_domain.entity.class
+        repository : s.mantle.translation_domain.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            name        : "messages"
+            description : |
+                Translations within this domain are for general purpose messages, such as providing users with
+                confirmation dialoges and other such items.
+
+        2:
+            name        : "validation"
+            description : |
+                Translations within this domain are used to automatically translate form errors into the specific
+                strings provided.
+
+        3:
+            name        : "admin"
+            description : |
+                Translations within this domain are for admin-level messages, such as editing node content
+                and other ROLE_ROOT features.
+
+...

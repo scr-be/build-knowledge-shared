@@ -1,0 +1,44 @@
+---
+RuntimeBundle:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 10
+        mode       : truncate
+        entity     : s.mantle.state_runtime_bundle.entity.class
+        repository : s.mantle.state_runtime_bundle.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            name : "blog"
+
+        2:
+            name : "digitalhub"
+
+        3:
+            name : "docs"
+
+        4:
+            name : "file"
+
+        5:
+            name : "public"
+
+        6:
+            name : "security"
+
+        7:
+            name : "shared"
+
+        8:
+            name : "status"
+
+...

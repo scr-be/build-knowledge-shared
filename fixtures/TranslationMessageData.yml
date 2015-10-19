@@ -1,0 +1,20 @@
+---
+TranslationMessage:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 300
+        mode       : truncate
+        entity     : s.mantle.translation_message.entity.class
+        repository : s.mantle.translation_message.repo
+
+    dependencies: null
+
+    data: []
+
+...

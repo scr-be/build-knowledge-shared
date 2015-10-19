@@ -1,0 +1,356 @@
+---
+LanguageFamily:
+
+    comment: |
+        Last updated based on ISO-639-1 found on Wikipedia at
+        https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+        The descriptive information was taken from the pages
+        for each family's respective Wikipedia family.
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 20
+        mode       : truncate
+        entity     : s.mantle.locale_language_family.entity.class
+        repository : s.mantle.locale_language_family.repo
+
+    dependencies: null
+
+    data:
+
+        1:
+            slug        : "afro-asiatic"
+            name        : "Afro-Asiatic Languages"
+            src         : "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+            description : |
+                Afroasiatic (Afro-Asiatic), also known as Afrasian and traditionally as Hamito-Semitic (Chamito-Semitic),
+                is a large language family of several hundred related languages and dialects. It comprises about 300 or
+                so living languages and dialects, according to the 2009 Ethnologue estimate. It includes languages
+                spoken predominantly in the Middle East, North Africa, the Horn of Africa, and parts of the Sahel. The
+                Afroasiatic family is significant to the field of historical linguistics as possessing the longest recorded
+                history of any language family.
+
+        2:
+            slug        : "algonquian"
+            name        : "Algonquian Languages"
+            src         : "https://en.wikipedia.org/wiki/Algonquian_languages"
+            description: |
+                The Algonquian languages (/ælˈɡɒŋkwiən/ or /ælˈɡɒŋkiən/; also Algonkian) are a subfamily of Native American
+                languages which includes most of the languages in the Algic language family. The name of the Algonquian
+                language family is distinguished from the orthographically similar Algonquin dialect of the indigenous Ojibwe
+                language (Chippewa), which is a senior member of the Algonquian language family. The term "Algonquin" has
+                been suggested to derive from the Maliseet word elakómkwik (pronounced [ɛlæˈɡomoɡwik]), "they are our
+                relatives/allies". A number of Algonquian languages, like many of the Iroquoian languages of the hereditary
+                enemies of the Algonquian peoples, have already become extinct.
+
+        3:
+            slug        : "austroasiatic"
+            name        : "Austroasiatic Languages"
+            src         : "https://en.wikipedia.org/wiki/Austroasiatic_languages"
+            description : |
+                The Austroasiatic languages, in recent classifications synonymous with Mon–Khmer, are a large language family
+                of continental Southeast Asia, also scattered throughout India, Bangladesh, and the southern border of China.
+                The name Austroasiatic comes from the Latin words for "south" and "Asia", hence "South Asia". Of these languages,
+                only Khmer, Vietnamese, and Mon have a long-established recorded history, and only Vietnamese and Khmer have
+                official status (in Vietnam and Cambodia, respectively). The rest of the languages are spoken by minority groups.
+                Ethnologue identifies 168 Austroasiatic languages. These form thirteen established familyCollection (plus perhaps Shompen,
+                which is poorly attested, as a fourteenth), which have traditionally been grouped into two, as Mon–Khmer and Munda.
+                However, one recent classification posits three groups (Munda, Nuclear Mon-Khmer and Khasi-Khmuic) while another
+                has abandoned Mon–Khmer as a taxon altogether, making it synonymous with the larger family.
+
+        4:
+            slug        : "austronesian"
+            name        : "Austronesian Languages"
+            src         : "https://en.wikipedia.org/wiki/Austronesian_languages"
+            description : |
+                The Austronesian languages is a language family that is widely dispersed throughout Maritime Southeast Asia,
+                Madagascar and the islands of the Pacific Ocean, with a few members on continental Asia. Austronesian languages
+                are spoken by about 386 million people. It is on par with Indo-European, Niger–Congo, Afroasiatic and Uralic as
+                one of the best-established language familyCollection. Otto Dempwolff was the first researcher to extensively explore
+                Austronesian using the comparative method. Another German, Wilhelm Schmidt, coined the German word austronesisch
+                which comes from Latin auster "south wind" plus Greek nêsos "island". The name Austronesian was formed from the
+                same roots. The family is aptly named, as the vast majority of Austronesian languages are spoken on islands: only
+                a few languages, such as Malay and the Chamic languages, are indigenous to mainland Asia. Many Austronesian languages
+                have very few speakers, but the major Austronesian languages are spoken by tens of millions of people and one
+                Austronesian language, Malay, is spoken by 250 million people, making it the 8th most spoken language in the world.
+                Twenty or so Austronesian languages are official in their respective countries (see the list of major and official
+                Austronesian languages).
+
+        5:
+            slug        : "aymaran"
+            name        : "Aymaran Languages"
+            src         : "https://en.wikipedia.org/wiki/Aymaran_languages"
+            description : |
+                Aymaran (also Jaqi, Aru, Jaqui, Aimara, Haki) is one of the two dominant language familyCollection of the central Andes,
+                along with Quechuan. Hardman (1978) proposed the name Jaqi for the family of languages (1978), Alfredo Torero Aru
+                'to speak', and Rodolfo Cerrón Palomino Aymaran, with two branches, Southern (or Altiplano) Aymaran and Central
+                Aymaran (Jaqaru and Kawki). Quechuan languages, especially those of the south, share a large amount of vocabulary
+                with Aymara, and the languages have often been grouped together as Quechumaran. This proposal is controversial,
+                however; the shared vocabulary may be better explained as intensive borrowing due to long-term contact.
+
+        6:
+            slug        : "constructed"
+            name        : "Constructed Languages"
+            src         : "https://en.wikipedia.org/wiki/Constructed_language"
+            description : |
+                A planned or constructed language (sometimes called a conlang) is a language whose phonology, grammar, and
+                vocabulary have been consciously devised for human or human-like communication, instead of having developed
+                naturally. It is also referred to as an artificial or invented language. There are many possible reasons
+                to create a constructed language, such as: to ease human communication (see international auxiliary language
+                and code), to give fiction or an associated constructed world an added layer of realism during worldbuilding,
+                for experimentation in the fields of linguistics, cognitive science, and machine learning, for artistic creation,
+                and for language games.
+
+        7:
+            slug        : "creole"
+            name        : "Creole Languages"
+            src         : "https://en.wikipedia.org/wiki/Creole_language"
+            description : |
+                A creole language, or simply creole, is a stable natural language that has developed from a pidgin, i.e. a
+                simplified version of a language. Creoles differ from pidgins because creoles have been nativized by children
+                as their primary language, with the result that they have features of natural languages that are normally
+                missing from pidgins, which are not anyone's first language. The precise number of creoles is not known,
+                particularly as these are poorly attested, but about one hundred creole languages have arisen since 1500,
+                predominantly based on European languages, due to the Age of Discovery and the Atlantic slave trade, though
+                there are creoles based on other languages, including Arabic, Chinese, and Malay. The creole with the largest
+                number of speakers is Haitian Creole, with about ten million native speakers. The lexicon of a creole language
+                is largely supplied by the parent languages, particularly that of the most dominant group in the social context
+                of the creole's construction, though there are often clear phonetic and semantic shifts. On the other hand, the
+                grammar often has original features that may differ substantially from those of the parent languages.
+
+        8:
+            slug        : "dene-yeniseian"
+            name        : "Dené–Yeniseian Languages"
+            src         : "https://en.wikipedia.org/wiki/Den%C3%A9%E2%80%93Yeniseian_languages"
+            description : |
+                Dené–Yeniseian is a proposed language family consisting of the Yeniseian languages of central Siberia and the
+                Na-Dené languages of northwestern North America. It has been called "the first demonstration of a genealogical
+                link between Old World and New World language familyCollection that meets the standards of traditional comparative-historical
+                linguistics". If valid, it would be the second linguistic connection between the Old and New Worlds, with the
+                first being the Yupik languages.
+
+        9:
+            slug        : "dravidian"
+            name        : "Dravidian Languages"
+            src         : "https://en.wikipedia.org/wiki/Dravidian_languages"
+            description : |
+                The Dravidian languages are a language family spoken mainly in southern India and parts of eastern and central
+                India as well as in northeastern Sri Lanka, Pakistan, Nepal, Bangladesh, and overseas in other countries such
+                as Malaysia and Singapore. The Dravidian languages with the most speakers are Kannada, Tamil, Telugu and Malayalam.
+                There are also small groups of Dravidian-speaking scheduled tribes, who live beyond the mainstream communities,
+                such as the Kurukh and Gond tribes. It is often considered that Dravidian languages are native to India.
+                Epigraphically the Dravidian languages have been attested since the 2nd century BCE. Only two Dravidian languages
+                are exclusively spoken outside India, Brahui in Pakistan and Dhangar, a dialect of Kurukh, in Nepal.
+
+        10:
+            slug        : "eskimo-aleut"
+            name        : "Eskimo–Aleut Languages"
+            src         : "https://en.wikipedia.org/wiki/Eskimo%E2%80%93Aleut_languages"
+            description : |
+                Eskimo–Aleut or Eskaleut is a language family native to Alaska, the Canadian Arctic, Nunavik, Nunatsiavut,
+                Greenland, and the Chukchi Peninsula on the eastern tip of Siberia. It is also known as Eskaleutian, Eskaleutic,
+                 or Inuit–Yupik-Unangan. The Eskimo–Aleut language family is divided into two branches, the Eskimo languages and
+                 the Aleut language. The Aleut language family consists of a single language, Aleut, spoken in the Aleutian
+                 Islands and the Pribilof Islands. Aleut is divided into several dialects. The Eskimo languages are divided into
+                 two branches, the Yupik languages, spoken in western and southwestern Alaska and in easternmost Siberia, and the
+                 Inuit languages, spoken in northern Alaska, in Canada, and in Greenland. Inuit, which covers a huge range of
+                 territory, is divided into several varieties. Neighbouring varieties are quite similar, although those at the
+                 farthest distances from the centre in the Diomede Islands and East Greenland are quite divergent.
+
+        11:
+            slug        : "indo-european"
+            name        : "Indo-European Languages"
+            src         : "https://en.wikipedia.org/wiki/Indo-European_languages"
+            description : |
+                The Indo-European languages are a family of several hundred related languages and dialects. There are about 445
+                Indo-European languages, according to the estimate by Ethnologue, with over two-thirds (313) of them belonging to
+                the Indo-Iranian branch alone. The Indo-European family includes most major current languages of South Asia,
+                Europe, and parts of Western and Central Asia. It was also predominant in ancient Anatolia (present-day Turkey),
+                and the ancient Tarim Basin (present-day Northwest China). With written attestations appearing since the Bronze
+                Age in the form of the Anatolian languages and Mycenaean Greek, the Indo-European family is significant to the
+                field of historical linguistics as possessing the second-longest recorded history, after the Afroasiatic family.
+
+        12:
+            slug        : "japonic"
+            name        : "Japonic Languages"
+            src         : "https://en.wikipedia.org/wiki/Japonic_languages"
+            description : |
+                The Japonic language family includes the Japanese language spoken on the main islands of Japan as well as the
+                Ryukyuan languages spoken in the Ryukyu Islands. The family is widely accepted by linguists, and the term
+                "Japonic languages" was coined by Leon Serafim. The common ancestral language is known as Proto-Japonic. The
+                essential feature of this classification is that the first split in the family resulted in the separation of all
+                dialects of Japanese from all varieties of Ryukyuan. According to Shiro Hattori, this separation occurred during
+                the Yamato period (250–710).
+
+        13:
+            slug        : "koreanic"
+            name        : "Koreanic Languages"
+            src         : "https://en.wikipedia.org/wiki/Koreanic_languages"
+            description : |
+                The Koreanic languages is a language family consisting of the modern Korean language together with extinct
+                ancient relatives closer to it than to any proposed links with Mongolic, Turkic, Tungusic, or Japanese. Among
+                extant languages, Korean is considered by most linguists to be a language isolate, and by others as part of
+                the widely rejected Altaic family. The Jeju language of Jeju Island, considered by some as a dialect of modern
+                Korean, is distinct enough to be considered a language in its own right by other authorities. Some consider that
+                rather than being a language isolate, Korean forms a small language family together with Jeju.
+
+        14:
+            slug        : "language-isolate"
+            name        : "Language isolate Languages"
+            src         : "https://en.wikipedia.org/wiki/Language_isolate"
+            description : |
+                A language isolate, in the absolute sense, is a natural language with no demonstrable genealogical (or
+                "genetic") relationship with other languages, one that has not been demonstrated to descend from an ancestor
+                common with any other language. Language isolates are in effect language familyCollection consisting of a single
+                language. Commonly cited examples include Basque, Korean, Ainu, Sumerian and Burushaski, though in each case
+                a small minority of linguists claim to have demonstrated a relationship with other languages. Some sources use
+                the term "language isolate" to indicate a branch of a larger family with only one surviving daughter. For
+                instance, Albanian, Armenian and Greek are commonly called Indo-European isolates. While part of the Indo-European
+                family, they do not belong to any established branch (like the Romance, Indo-Iranian, Slavic or Germanic branches),
+                but instead form independent branches of their own. Similarly, within the Romance languages, Sardinian is a
+                relative isolate. However, without a qualifier, isolate is understood to be in the absolute sense of having no
+                demonstrable genetic relationship to any other known language.
+
+        15:
+            slug        : "mongolic"
+            name        : "Mongolic Languages"
+            src         : "https://en.wikipedia.org/wiki/Mongolic_languages"
+            description : |
+                The Mongolic languages are a group of languages spoken in East-Central Asia, mostly in Mongolia and surrounding
+                areas plus in Kalmykia. The best-known member of this language family, Mongolian, is the primary language of
+                most of the residents of Mongolia and the Mongolian residents of Inner Mongolia, China with an estimated 5.7+
+                million speakers. The closest relative of the Mongolic languages appears to be the extinct language Khitan.
+                Some linguists have grouped Mongolic with Turkic, Tungusic, and possibly Koreanic and Japonic as part of a
+                larger Altaic family, but this has been widely discredited.
+
+        16:
+            slug        : "niger-congo"
+            name        : "Niger–Congo Languages"
+            src         : "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages"
+            description : |
+                The Niger–Congo languages constitute one of the world's major language familyCollection, and Africa's largest in terms
+                of geographical area, number of speakers, and number of distinct languages. They may constitute the world's
+                largest language family in terms of distinct languages, although this question is complicated by ambiguity
+                about what constitutes a distinct language. A characteristic common to most Niger–Congo languages is the use of
+                a noun class system. The most widely spoken Niger–Congo languages by number of native speakers are Yoruba, Igbo,
+                Fula, Shona and Zulu. The most widely spoken by total number of speakers is Swahili. Some scholars have doubted
+                whether Niger–Congo is a valid genetic unit or rather a typological grouping, but most specialists today consider
+                it to be a valid family, although there is no consensus on the subclassification.
+
+
+        17:
+            slug        : "nilo-saharan"
+            name        : "Nilo-Saharan Languages"
+            src         : "https://en.wikipedia.org/wiki/Nilo-Saharan_languages"
+            description : |
+                The Nilo-Saharan languages are a proposed family of African languages spoken by some 50–60 million Nilotic
+                people, mainly in the upper parts of the Chari and Nile rivers, including historic Nubia, north of where the
+                two tributaries of the Nile meet. The languages extend through 17 nations in the northern half of Africa: from
+                Algeria to Benin in west; from Libya to the Democratic Republic of the Congo in the center; and from Egypt to
+                Tanzania in the east.
+
+        18:
+            slug        : "northeast-caucasian"
+            name        : "Northeast Caucasian Languages"
+            src         : "https://en.wikipedia.org/wiki/Northeast_Caucasian_languages"
+            description : |
+                The Northeast Caucasian, East Caucasian, Dagestanian (Daghestanian), or Nakho-Dagestanian languages are a
+                language family spoken in the Russian republics of Dagestan, Chechnya, and Ingushetia, in northern Azerbaijan
+                and northeastern Georgia, as well as in diaspora populations in Russia, Turkey, and the Middle East. They are
+                occasionally called Caspian, as opposed to Pontic for the Northwest Caucasian languages.
+
+        19:
+            slug        : "northwest-caucasian"
+            name        : "Northwest Caucasian Languages"
+            src         : "https://en.wikipedia.org/wiki/Northwest_Caucasian_languages"
+            description : |
+                The Northwest Caucasian languages, also called West Caucasian, Abkhazo-Adyghean, or sometimes Pontic (as
+                opposed to Caspian for the Northeast Caucasian languages), are a group of languages spoken in the northwestern
+                Caucasus region, chiefly in three Russian republics (Adygea, Kabardino-Balkaria, Karachay–Cherkessia), the
+                disputed territory of Abkhazia (whose sovereignty is claimed by Georgia), and Turkey, with smaller communities
+                scattered throughout the Middle East.
+
+        20:
+            slug        : "quechuan"
+            name        : "Quechuan Languages"
+            src         : "https://en.wikipedia.org/wiki/Quechuan_languages"
+            description : |
+                Quechuan /ˈkɛtʃwən/, also known as runa simi ("people's language"), is a Native American language family spoken
+                primarily in the Andes region of South America, derived from a common ancestral language. It is the most widely
+                spoken language family of the indigenous peoples of the Americas, with a total of probably some 8 million to
+                10 million speakers.
+
+        21:
+            slug        : "sino-tibetan"
+            name        : "Sino-Tibetan Languages"
+            src         : "https://en.wikipedia.org/wiki/Sino-Tibetan_languages"
+            description : |
+                The Sino-Tibetan languages are a family of more than 400 languages spoken in East Asia, Southeast Asia and
+                parts of South Asia. The family is second only to the Indo-European languages in terms of the number of
+                native speakers. The Sino-Tibetan languages with the most native speakers are the varieties of Chinese
+                (1.2 billion speakers), Burmese (33 million) and the Tibetic languages (8 million). Many Sino-Tibetan languages
+                are spoken by small communities in remote mountain areas and are poorly documented.
+
+        22:
+            slug        : "south-caucasian"
+            name        : "South Caucasian Languages"
+            src         : "https://en.wikipedia.org/wiki/Kartvelian_languages"
+            description : |
+                The Kartvelian languages (Georgian: ქართველური ენები) (also known as Iberian and formerly South Caucasian)
+                are a language family indigenous to the Caucasus and spoken primarily in Georgia, with large groups of native
+                speakers in Russia, Iran, the United States, the European Union, Israel, and northeastern parts of Turkey.
+                There are approximately 5.2 million speakers of Kartvelian languages worldwide. It is not known to be related
+                to any other language family, making it one of the world's primary language familyCollection. The first literary
+                source in a Kartvelian language is the Georgian language inscription of Bir El Qutt, written in ancient
+                Georgian Asomtavruli script at the Georgian monastery near Bethlehem, which dates back to c. 430 AD.
+
+        23:
+            slug        : "tai-kadai"
+            name        : "Tai–Kadai Languages"
+            src         : "https://en.wikipedia.org/wiki/Tai%E2%80%93Kadai_languages"
+            description : |
+                The Tai–Kadai languages, also known as Daic, Kadai, Kradai, or Kra–Dai, are a language family of highly
+                tonal languages found in southern China and Southeast Asia. They include Thai and Lao, the national
+                languages of Thailand and Laos respectively. There are nearly 100 million speakers of these languages
+                in the world. Ethnologue lists 95 languages in this family, with 62 of these being in the Tai branch.
+                The diversity of the Tai–Kadai languages in southeastern China, especially in Guizhou and Hainan, suggests
+                that this is close to their homeland. The Tai branch moved south into Southeast Asia only about a thousand
+                years ago, founding the nations that later became Thailand and Laos in what had been Austroasiatic territory.
+
+        24:
+            slug        : "tupian"
+            name        : "Tupian Languages"
+            src         : "https://en.wikipedia.org/wiki/Tupian_languages"
+            description : |
+                The Tupi or Tupian language family comprises some 70 languages spoken in South America, of which the best
+                known are Tupi proper and Guarani.
+
+        25:
+            slug        : "turkic"
+            name        : "Turkic Languages"
+            src         : "https://en.wikipedia.org/wiki/Turkic_languages"
+            description : |
+                The Turkic languages are a language family of at least thirty-five languages, spoken by Turkic peoples
+                from Southeastern Europe and the Mediterranean to Siberia and Western China, and are proposed to be part
+                of the controversial Altaic language family. Turkic languages are spoken as a native language by some 170
+                million people and the total number of Turkic speakers, including second-language speakers, is over 200
+                million. The Turkic language with the greatest number of speakers is Turkish proper, spoken mainly in
+                Anatolia and the Balkans, the native speakers of which account for about 40% of all Turkic speakers.
+
+        26:
+            slug        : "uralic"
+            name        : "Uralic Languages"
+            src         : "https://en.wikipedia.org/wiki/Uralic_languages"
+            description : |
+                The Uralic languages /jʊˈrælɨk/ (sometimes called Uralian /jʊˈreɪliən/ languages) constitute a language
+                family of some 38 languages spoken by approximately 25 million people. The Uralic languages with
+                the most native speakers are Hungarian, Finnish, and Estonian, which are official languages of Hungary,
+                Finland, and Estonia, respectively, and of the European Union. Other Uralic languages with significant
+                numbers of speakers are Erzya, Moksha, Mari, Udmurt, and Komi, which are officially recognized languages
+                in various regions of Russia.
+...

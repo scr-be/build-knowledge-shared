@@ -1,0 +1,66 @@
+---
+ApplicationPosition:
+
+    version:
+
+        structure : 1.0.0
+        data      : 1.0.0
+
+    orm:
+
+        priority   : 39
+        mode       : truncate
+        entity     : s.public.application_position.entity.class
+        repository : s.public.application_position.repo
+
+    dependencies:
+
+        ApplicationLocation:
+            entity     : s.public.application_location.entity.class
+            repository : s.public.application_location.repo
+
+    data:
+
+        1:
+            name        : Digital Book Assistant (Book Publishing)
+            description : |-
+                #### Compensation
+                Starting salary is $24,000, plus 401k and health insurance.
+                #### Overview
+                As Scribe continues to grow, we are seeking additional Digital Book Production Assistants to work in our Dania Beach, Philadelphia, and Allentown offices. For those who are serious about a career in book publishing, we offer a learning environment where you can develop your skills and advance within Scribe. This position is the entry point to advance to several positions at Scribe, including editorial, production, and project management roles.
+                Initially, employees will learn the foundational elements in modern publishing. You will start performing data conversion, e-book development, XML tagging, and assisting with all aspects of book publishing. The employees will be trained in multi-purpose publishing (electronic and print) procedures, proper use of computer technology to assist in publishing, and project management. As skills are attained, employees will be assigned additional responsibilities in project management, editing, print production, and e-book development. Compensation grows with added skills and responsibilities.
+                #### Duties
+                - Data conversion
+                - Composition (applying structure to manuscripts and books)
+                - E-book production
+                - Desktop publishing
+                - Basic copy-editing
+                - XML development
+                - OCR and image scanning\n
+                Training will be provided for all of the above.
+                #### Qualifications
+                Candidates must exhibit a strong attention to detail and have excellent communication and time management skills. We seek focused, highly organized, independent employees who seek a career in the publishing industry. We expect all candidates to demonstrate a thorough mastery of the English language (grammar, syntax, vocabulary) and solid computer skills. Preference is given to those who have knowledge of HTML and are bilingual.
+                Scribe responds to each applicant. If you do not receive a response from Scribe, please feel free to follow up with us.
+            locationCollection:
+                - "@ApplicationLocation?slug=scr-dania"
+                - "@ApplicationLocation?slug=scr-philly"
+                - "@ApplicationLocation?slug=scr-allen"
+
+        2:
+            name        : Sales Representative (Book Publishing)
+            description : |-
+                #### Overview
+                Scribe seeks a dynamic, technically savvy salesperson to help promote our services and Well-Formed Document Workflow. The Sales Representative will be expected to generate opportunities for Scribe's value-focused approach within a highly commoditized industry. The position of Sales Representative can vary from full-time in-house staff to remote representative. Compensation will be based on sales success, but the structure is flexible. It is important that the Sales Representative brings a fresh method to sales that will enable her/him to generate business in the fiercely competitive publishing services sector.
+                The Sales Representative will be assisted by Scribe staff, especially the other sales staff, in carrying out of her/his responsibilities and to help maximize success.
+                #### Duties
+                - Represent Scribe to potential clients
+                - Identify and pursue new areas of potential business
+                - Coordinate with existing Scribe staff on activity reports, proposals, and demonstrations\n
+                #### Qualifications
+                Candidates must be self-directed and prefer an open collaborative relationship with clients. We seek candidates who have a high degree of personal integrity, enthusiasm for new developments, and a desire to serve the publishing industry. Knowledge of publishing technologies, and fluency in Spanish, is preferred.
+            locationCollection:
+                - "@ApplicationLocation?slug=scr-dania"
+                - "@ApplicationLocation?slug=scr-philly"
+                - "@ApplicationLocation?slug=scr-remote"
+
+...
