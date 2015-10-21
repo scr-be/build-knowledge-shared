@@ -13,6 +13,13 @@ IconFamily:
         entity:     s.mantle.icon_family.entity.class
         repository: s.mantle.icon_family.repo
 
+    references:
+
+        usingId: false
+
+        usingColumns:
+            - slug
+
     dependencies: null
 
     data:

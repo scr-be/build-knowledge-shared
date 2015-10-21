@@ -22,414 +22,414 @@ StateTerritory:
     data:
 
         1:
-            country : "@Country?code=US"
-            code    : "AL"
-            name    : "Alabama"
-            abbr    : "Ala."
-            capital : "Montgomery"
+            country : '++Country:US'
+            code    : 'AL'
+            name    : 'Alabama'
+            abbr    : 'Ala.'
+            capital : 'Montgomery'
 
         2:
-            country : "@Country?code=US"
-            code    : "AK"
-            name    : "Alaska"
-            abbr    : "Alaska"
-            capital : "Juneau"
+            country : '++Country:US'
+            code    : 'AK'
+            name    : 'Alaska'
+            abbr    : 'Alaska'
+            capital : 'Juneau'
 
         3:
-            country : "@Country?code=US"
-            code    : "AZ"
-            name    : "Arizona"
-            abbr    : "Ariz."
-            capital : "Phoenix"
+            country : '++Country:US'
+            code    : 'AZ'
+            name    : 'Arizona'
+            abbr    : 'Ariz.'
+            capital : 'Phoenix'
 
         4:
-            country : "@Country?code=US"
-            code    : "AR"
-            name    : "Arkansas"
-            abbr    : "Ark."
-            capital : "Little Rock"
+            country : '++Country:US'
+            code    : 'AR'
+            name    : 'Arkansas'
+            abbr    : 'Ark.'
+            capital : 'Little Rock'
 
         5:
-            country : "@Country?code=US"
-            code    : "CA"
-            name    : "California"
-            abbr    : "Calif."
-            capital : "Sacramento"
+            country : '++Country:US'
+            code    : 'CA'
+            name    : 'California'
+            abbr    : 'Calif.'
+            capital : 'Sacramento'
 
         6:
-            country : "@Country?code=US"
-            code    : "CO"
-            name    : "Colorado"
-            abbr    : "Colo."
-            capital : "Denver"
+            country : '++Country:US'
+            code    : 'CO'
+            name    : 'Colorado'
+            abbr    : 'Colo.'
+            capital : 'Denver'
 
         7:
-            country : "@Country?code=US"
-            code    : "CT"
-            name    : "Connecticut"
-            abbr    : "Conn."
-            capital : "Hartford"
+            country : '++Country:US'
+            code    : 'CT'
+            name    : 'Connecticut'
+            abbr    : 'Conn.'
+            capital : 'Hartford'
 
         8:
-            country : "@Country?code=US"
-            code    : "DE"
-            name    : "Delaware"
-            abbr    : "Del."
-            capital : "Dover"
+            country : '++Country:US'
+            code    : 'DE'
+            name    : 'Delaware'
+            abbr    : 'Del.'
+            capital : 'Dover'
 
         9:
-            country : "@Country?code=US"
-            code    : "FL"
-            name    : "Florida"
-            abbr    : "Fla."
-            capital : "Tallahassee"
+            country : '++Country:US'
+            code    : 'FL'
+            name    : 'Florida'
+            abbr    : 'Fla.'
+            capital : 'Tallahassee'
 
         10:
-            country : "@Country?code=US"
-            code    : "GA"
-            name    : "Georgia"
-            abbr    : "Ga."
-            capital : "Atlanta"
+            country : '++Country:US'
+            code    : 'GA'
+            name    : 'Georgia'
+            abbr    : 'Ga.'
+            capital : 'Atlanta'
 
         11:
-            country : "@Country?code=US"
-            code    : "HI"
-            name    : "Hawaii"
-            abbr    : "Hawaii"
-            capital : "Honolulu"
+            country : '++Country:US'
+            code    : 'HI'
+            name    : 'Hawaii'
+            abbr    : 'Hawaii'
+            capital : 'Honolulu'
 
         12:
-            country : "@Country?code=US"
-            code    : "ID"
-            name    : "Idaho"
-            abbr    : "Idaho"
-            capital : "Boise"
+            country : '++Country:US'
+            code    : 'ID'
+            name    : 'Idaho'
+            abbr    : 'Idaho'
+            capital : 'Boise'
 
         13:
-            country : "@Country?code=US"
-            code    : "IL"
-            name    : "Illinois"
-            abbr    : "Ill."
-            capital : "Springfield"
+            country : '++Country:US'
+            code    : 'IL'
+            name    : 'Illinois'
+            abbr    : 'Ill.'
+            capital : 'Springfield'
 
         14:
-            country : "@Country?code=US"
-            code    : "IN"
-            name    : "Indiana"
-            abbr    : "Ind."
-            capital : "Indianapolis"
+            country : '++Country:US'
+            code    : 'IN'
+            name    : 'Indiana'
+            abbr    : 'Ind.'
+            capital : 'Indianapolis'
 
         15:
-            country : "@Country?code=US"
-            code    : "IA"
-            name    : "Iowa"
-            abbr    : "Iowa"
-            capital : "Des Moines"
+            country : '++Country:US'
+            code    : 'IA'
+            name    : 'Iowa'
+            abbr    : 'Iowa'
+            capital : 'Des Moines'
 
         16:
-            country : "@Country?code=US"
-            code    : "KS"
-            name    : "Kansas"
-            abbr    : "Kans."
-            capital : "Topeka"
+            country : '++Country:US'
+            code    : 'KS'
+            name    : 'Kansas'
+            abbr    : 'Kans.'
+            capital : 'Topeka'
 
         17:
-            country : "@Country?code=US"
-            code    : "KY"
-            name    : "Kentucky"
-            abbr    : "Ky."
-            capital : "Frankfort"
+            country : '++Country:US'
+            code    : 'KY'
+            name    : 'Kentucky'
+            abbr    : 'Ky.'
+            capital : 'Frankfort'
 
         18:
-            country : "@Country?code=US"
-            code    : "LA"
-            name    : "Louisiana"
-            abbr    : "La."
-            capital : "Baton Rouge"
+            country : '++Country:US'
+            code    : 'LA'
+            name    : 'Louisiana'
+            abbr    : 'La.'
+            capital : 'Baton Rouge'
 
         19:
-            country : "@Country?code=US"
-            code    : "ME"
-            name    : "Maine"
-            abbr    : "Maine"
-            capital : "Augusta"
+            country : '++Country:US'
+            code    : 'ME'
+            name    : 'Maine'
+            abbr    : 'Maine'
+            capital : 'Augusta'
 
         20:
-            country : "@Country?code=US"
-            code    : "MD"
-            name    : "Maryland"
-            abbr    : "Md."
-            capital : "Annapolis"
+            country : '++Country:US'
+            code    : 'MD'
+            name    : 'Maryland'
+            abbr    : 'Md.'
+            capital : 'Annapolis'
 
         21:
-            country : "@Country?code=US"
-            code    : "MA"
-            name    : "Massachusetts"
-            abbr    : "Mass."
-            capital : "Boston"
+            country : '++Country:US'
+            code    : 'MA'
+            name    : 'Massachusetts'
+            abbr    : 'Mass.'
+            capital : 'Boston'
 
         22:
-            country : "@Country?code=US"
-            code    : "MI"
-            name    : "Michigan"
-            abbr    : "Mich."
-            capital : "Lansing"
+            country : '++Country:US'
+            code    : 'MI'
+            name    : 'Michigan'
+            abbr    : 'Mich.'
+            capital : 'Lansing'
 
         23:
-            country : "@Country?code=US"
-            code    : "MN"
-            name    : "Minnesota"
-            abbr    : "Minn."
-            capital : "St. Paul"
+            country : '++Country:US'
+            code    : 'MN'
+            name    : 'Minnesota'
+            abbr    : 'Minn.'
+            capital : 'St. Paul'
 
         24:
-            country : "@Country?code=US"
-            code    : "MS"
-            name    : "Mississippi"
-            abbr    : "Miss."
-            capital : "Jackson"
+            country : '++Country:US'
+            code    : 'MS'
+            name    : 'Mississippi'
+            abbr    : 'Miss.'
+            capital : 'Jackson'
 
         25:
-            country : "@Country?code=US"
-            code    : "MO"
-            name    : "Missouri"
-            abbr    : "Mo."
-            capital : "Jefferson City"
+            country : '++Country:US'
+            code    : 'MO'
+            name    : 'Missouri'
+            abbr    : 'Mo.'
+            capital : 'Jefferson City'
 
         26:
-            country : "@Country?code=US"
-            code    : "MT"
-            name    : "Montana"
-            abbr    : "Mont."
-            capital : "Helena"
+            country : '++Country:US'
+            code    : 'MT'
+            name    : 'Montana'
+            abbr    : 'Mont.'
+            capital : 'Helena'
 
         27:
-            country : "@Country?code=US"
-            code    : "NE"
-            name    : "Nebraska"
-            abbr    : "Nebr."
-            capital : "Lincoln"
+            country : '++Country:US'
+            code    : 'NE'
+            name    : 'Nebraska'
+            abbr    : 'Nebr.'
+            capital : 'Lincoln'
 
         28:
-            country : "@Country?code=US"
-            code    : "NV"
-            name    : "Nevada"
-            abbr    : "Nev."
-            capital : "Carson City"
+            country : '++Country:US'
+            code    : 'NV'
+            name    : 'Nevada'
+            abbr    : 'Nev.'
+            capital : 'Carson City'
 
         29:
-            country : "@Country?code=US"
-            code    : "NH"
-            name    : "New Hampshire"
-            abbr    : "N.H."
-            capital : "Concord"
+            country : '++Country:US'
+            code    : 'NH'
+            name    : 'New Hampshire'
+            abbr    : 'N.H.'
+            capital : 'Concord'
 
         30:
-            country : "@Country?code=US"
-            code    : "NJ"
-            name    : "New Jersey"
-            abbr    : "N.J."
-            capital : "Trenton"
+            country : '++Country:US'
+            code    : 'NJ'
+            name    : 'New Jersey'
+            abbr    : 'N.J.'
+            capital : 'Trenton'
 
         31:
-            country : "@Country?code=US"
-            code    : "NM"
-            name    : "New Mexico"
-            abbr    : "N.M."
-            capital : "Santa Fe"
+            country : '++Country:US'
+            code    : 'NM'
+            name    : 'New Mexico'
+            abbr    : 'N.M.'
+            capital : 'Santa Fe'
 
         32:
-            country : "@Country?code=US"
-            code    : "NY"
-            name    : "New York"
-            abbr    : "N.Y."
-            capital : "Albany"
+            country : '++Country:US'
+            code    : 'NY'
+            name    : 'New York'
+            abbr    : 'N.Y.'
+            capital : 'Albany'
 
         33:
-            country : "@Country?code=US"
-            code    : "NC"
-            name    : "North Carolina"
-            abbr    : "N.C."
-            capital : "Raleigh"
+            country : '++Country:US'
+            code    : 'NC'
+            name    : 'North Carolina'
+            abbr    : 'N.C.'
+            capital : 'Raleigh'
 
         34:
-            country : "@Country?code=US"
-            code    : "ND"
-            name    : "North Dakota"
-            abbr    : "N.D."
-            capital : "Bismarck"
+            country : '++Country:US'
+            code    : 'ND'
+            name    : 'North Dakota'
+            abbr    : 'N.D.'
+            capital : 'Bismarck'
 
         35:
-            country : "@Country?code=US"
-            code    : "OH"
-            name    : "Ohio"
-            abbr    : "Ohio"
-            capital : "Columbus"
+            country : '++Country:US'
+            code    : 'OH'
+            name    : 'Ohio'
+            abbr    : 'Ohio'
+            capital : 'Columbus'
 
         36:
-            country : "@Country?code=US"
-            code    : "OK"
-            name    : "Oklahoma"
-            abbr    : "Okla."
-            capital : "Oklahoma City"
+            country : '++Country:US'
+            code    : 'OK'
+            name    : 'Oklahoma'
+            abbr    : 'Okla.'
+            capital : 'Oklahoma City'
 
         37:
-            country : "@Country?code=US"
-            code    : "OR"
-            name    : "Oregon"
-            abbr    : "Ore."
-            capital : "Salem"
+            country : '++Country:US'
+            code    : 'OR'
+            name    : 'Oregon'
+            abbr    : 'Ore.'
+            capital : 'Salem'
 
         38:
-            country : "@Country?code=US"
-            code    : "PA"
-            name    : "Pennsylvania"
-            abbr    : "Pa."
-            capital : "Harrisburg"
+            country : '++Country:US'
+            code    : 'PA'
+            name    : 'Pennsylvania'
+            abbr    : 'Pa.'
+            capital : 'Harrisburg'
 
         39:
-            country : "@Country?code=US"
-            code    : "RI"
-            name    : "Rhode Island"
-            abbr    : "R.I."
-            capital : "Providence"
+            country : '++Country:US'
+            code    : 'RI'
+            name    : 'Rhode Island'
+            abbr    : 'R.I.'
+            capital : 'Providence'
 
         40:
-            country : "@Country?code=US"
-            code    : "SC"
-            name    : "South Carolina"
-            abbr    : "S.C."
-            capital : "Columbia"
+            country : '++Country:US'
+            code    : 'SC'
+            name    : 'South Carolina'
+            abbr    : 'S.C.'
+            capital : 'Columbia'
 
         41:
-            country : "@Country?code=US"
-            code    : "SD"
-            name    : "South Dakota"
-            abbr    : "S.D."
-            capital : "Pierre"
+            country : '++Country:US'
+            code    : 'SD'
+            name    : 'South Dakota'
+            abbr    : 'S.D.'
+            capital : 'Pierre'
 
         42:
-            country : "@Country?code=US"
-            code    : "TN"
-            name    : "Tennessee"
-            abbr    : "Tenn."
-            capital : "Nashville"
+            country : '++Country:US'
+            code    : 'TN'
+            name    : 'Tennessee'
+            abbr    : 'Tenn.'
+            capital : 'Nashville'
 
         43:
-            country : "@Country?code=US"
-            code    : "TX"
-            name    : "Texas"
-            abbr    : "Tex."
-            capital : "Austin"
+            country : '++Country:US'
+            code    : 'TX'
+            name    : 'Texas'
+            abbr    : 'Tex.'
+            capital : 'Austin'
 
         44:
-            country : "@Country?code=US"
-            code    : "UT"
-            name    : "Utah"
-            abbr    : "Utah"
-            capital : "Salt Lake City"
+            country : '++Country:US'
+            code    : 'UT'
+            name    : 'Utah'
+            abbr    : 'Utah'
+            capital : 'Salt Lake City'
 
         45:
-            country : "@Country?code=US"
-            code    : "VT"
-            name    : "Vermont"
-            abbr    : "Vt."
-            capital : "Montpelier"
+            country : '++Country:US'
+            code    : 'VT'
+            name    : 'Vermont'
+            abbr    : 'Vt.'
+            capital : 'Montpelier'
 
         46:
-            country : "@Country?code=US"
-            code    : "VA"
-            name    : "Virginia"
-            abbr    : "Va."
-            capital : "Richmond"
+            country : '++Country:US'
+            code    : 'VA'
+            name    : 'Virginia'
+            abbr    : 'Va.'
+            capital : 'Richmond'
 
         47:
-            country : "@Country?code=US"
-            code    : "WA"
-            name    : "Washington"
-            abbr    : "Wash."
-            capital : "Olympia"
+            country : '++Country:US'
+            code    : 'WA'
+            name    : 'Washington'
+            abbr    : 'Wash.'
+            capital : 'Olympia'
 
         48:
-            country : "@Country?code=US"
-            code    : "WV"
-            name    : "West Virginia"
-            abbr    : "W.Va."
-            capital : "Charleston"
+            country : '++Country:US'
+            code    : 'WV'
+            name    : 'West Virginia'
+            abbr    : 'W.Va.'
+            capital : 'Charleston'
 
         49:
-            country : "@Country?code=US"
-            code    : "WI"
-            name    : "Wisconsin"
-            abbr    : "Wis."
-            capital : "Madison"
+            country : '++Country:US'
+            code    : 'WI'
+            name    : 'Wisconsin'
+            abbr    : 'Wis.'
+            capital : 'Madison'
 
         50:
-            country : "@Country?code=US"
-            code    : "WY"
-            name    : "Wyoming"
-            abbr    : "Wyo."
-            capital : "Cheyenne"
+            country : '++Country:US'
+            code    : 'WY'
+            name    : 'Wyoming'
+            abbr    : 'Wyo.'
+            capital : 'Cheyenne'
 
         51:
-            country : "@Country?code=US"
-            code    : "AS"
-            name    : "American Samoa"
+            country : '++Country:US'
+            code    : 'AS'
+            name    : 'American Samoa'
             abbr    : null
-            capital : "Pago Pago"
+            capital : 'Pago Pago'
 
         52:
-            country : "@Country?code=US"
-            code    : "DC"
-            name    : "District of Columbia"
-            abbr    : "D.C."
-            capital : "Washington"
+            country : '++Country:US'
+            code    : 'DC'
+            name    : 'District of Columbia'
+            abbr    : 'D.C.'
+            capital : 'Washington'
 
         53:
-            country : "@Country?code=US"
-            code    : "FM"
-            name    : "Federated States of Micronesia"
-            abbr    : "FSM"
-            capital : "Palikir"
+            country : '++Country:US'
+            code    : 'FM'
+            name    : 'Federated States of Micronesia'
+            abbr    : 'FSM'
+            capital : 'Palikir'
 
         54:
-            country : "@Country?code=US"
-            code    : "GU"
-            name    : "Guam"
-            abbr    : "Guam"
-            capital : "Hagatna"
+            country : '++Country:US'
+            code    : 'GU'
+            name    : 'Guam'
+            abbr    : 'Guam'
+            capital : 'Hagatna'
 
         55:
-            country : "@Country?code=US"
-            code    : "MH"
-            name    : "Marshall Islands"
+            country : '++Country:US'
+            code    : 'MH'
+            name    : 'Marshall Islands'
             abbr    : null
-            capital : "Majuro"
+            capital : 'Majuro'
 
         56:
-            country : "@Country?code=US"
-            code    : "MP"
-            name    : "Northern Mariana Islands"
+            country : '++Country:US'
+            code    : 'MP'
+            name    : 'Northern Mariana Islands'
             abbr    : null
-            capital : "Saipan"
+            capital : 'Saipan'
 
         57:
-            country : "@Country?code=US"
-            code    : "PW"
-            name    : "Palau"
-            abbr    : "Palau"
-            capital : "Koror"
+            country : '++Country:US'
+            code    : 'PW'
+            name    : 'Palau'
+            abbr    : 'Palau'
+            capital : 'Koror'
 
         58:
-            country : "@Country?code=US"
-            code    : "PR"
-            name    : "Puerto Rico"
-            abbr    : "P.R."
-            capital : "San Juan"
+            country : '++Country:US'
+            code    : 'PR'
+            name    : 'Puerto Rico'
+            abbr    : 'P.R.'
+            capital : 'San Juan'
 
         59:
-            country : "@Country?code=US"
-            code    : "VI"
-            name    : "Virgin Islands"
-            abbr    : "V.I."
-            capital : "Charlotte Amalie"
+            country : '++Country:US'
+            code    : 'VI'
+            name    : 'Virgin Islands'
+            abbr    : 'V.I.'
+            capital : 'Charlotte Amalie'
