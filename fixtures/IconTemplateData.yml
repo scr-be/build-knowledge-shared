@@ -1,4 +1,5 @@
 ---
+
 IconTemplate:
 
     version:
@@ -24,7 +25,7 @@ IconTemplate:
         0:
             slug:        'fa-basic'
             description: 'Basic Font Awesome markup using span html tag.'
-            family:      '@IconFamily?slug=fa'
+            family:      '++IconFamily:fa'
             priority:    1
             engine:      'twig'
             template:    |
@@ -38,7 +39,7 @@ IconTemplate:
         1:
             slug:        'fa-basic-i'
             description: 'Basic Font Awesome markup using italic html tag.'
-            family:      '@IconFamily?slug=fa'
+            family:      '++IconFamily:fa'
             priority:    2
             engine:      'twig'
             template:    |
@@ -52,7 +53,7 @@ IconTemplate:
         2:
             slug:        'md-basic'
             description: 'Basic Material Design markup using ligatures.'
-            family:      '@IconFamily?slug=md'
+            family:      '++IconFamily:md'
             priority:    1
             engine:      'twig'
             template:    |
@@ -66,7 +67,7 @@ IconTemplate:
         3:
             slug:        'mdb-basic'
             description: 'Basic Material Design markup using ligatures within block-level element.'
-            family:      '@IconFamily?slug=mdb'
+            family:      '++IconFamily:mdb'
             priority:    1
             engine:      'twig'
             template:    |
@@ -78,3 +79,33 @@ IconTemplate:
                         aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% endif %}"
                     >{{ icon.getSlug() }}</span>
                 </div>
+
+        4:
+            slug:        'octi-basic'
+            description: 'Octicon markup using span html tag'
+            family:      '++IconFamily:octi'
+            priority:    1
+            engine:      'twig'
+            template:    |
+                <span
+                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
+                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
+                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
+                </span>
+
+        5:
+            slug:        'fi-basic'
+            description: 'Foundation icon markup using span html tag'
+            family:      '++IconFamily:fi'
+            priority:    1
+            engine:      'twig'
+            template:    |
+                <span
+                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
+                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
+                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
+                </span>
+
+...

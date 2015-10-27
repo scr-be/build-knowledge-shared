@@ -1,5 +1,10 @@
 ---
+
 IconFamily:
+
+    comment: |
+        Last updated 2015-10-24 14:00 -0400 with releases from FA, Google Material,
+        and GitHub Opticon.
 
     version:
 
@@ -12,6 +17,11 @@ IconFamily:
         mode:       truncate
         entity:     s.mantle.icon_family.entity.class
         repository: s.mantle.icon_family.repo
+
+    references:
+
+        usingIndex   : false
+        usingColumns : [ slug ]
 
     dependencies: null
 
@@ -110,3 +120,25 @@ IconFamily:
                 - 'md-primary'
             attributes:
                 box_class: 'md-box'
+
+        3:
+            slug:    'octi'
+            name:    'GitHub Octicons'
+            version: 'b01a7f596657e53ed8582fa87efeaef4e51709c2'
+            url:     'https://github.com/github/octicons'
+            prefix:  'octicon'
+            requiredClasses:
+                - 'octicon'
+            optionalClasses:
+                - 'mega-octicon'
+
+        4:
+            slug:    'fi'
+            name:    'Zurb Foundation Icons'
+            version: 'afed003521ff971bc614de68bba2676e16ce39f4'
+            url:     'https://github.com/zurb/foundation-icon-fonts'
+            prefix:  'fi'
+            requiredClasses:
+                - 'foundation'
+
+...

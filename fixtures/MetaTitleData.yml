@@ -27,158 +27,154 @@ MetaTitle:
             entity     : s.mantle.state_runtime_action.entity.class
             repository : s.mantle.state_runtime_action.repo
 
-        Locale:
-            entity     : s.mantle.locale.entity.class
-            repository : s.mantle.locale.repo
-
     data:
 
         1:
-            title      : "Scribe: Publishing, Well-Formed"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=public"
-            controller : "@RuntimeController?name=default"
-            action     : "@RuntimeAction?name=index"
+            title      : 'Scribe: Publishing, Well-Formed'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=public'
+            controller : '@RuntimeController?name=default'
+            action     : '@RuntimeAction?name=index'
 
         2:
-            title      : "Home"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=public"
+            title      : 'Home'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=public'
 
         3:
-            title      : "About"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=public"
-            controller : "@RuntimeController?name=about"
+            title      : 'About'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=public'
+            controller : '@RuntimeController?name=about'
 
         4:
-            title      : "Services"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=public"
-            controller : "@RuntimeController?name=services"
+            title      : 'Services'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=public'
+            controller : '@RuntimeController?name=services'
 
         5:
-            title      : "Articles & Book"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
+            title      : 'Articles & Book'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
 
         6:
-            title      : "Featured Article"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
-            controller : "@RuntimeController?name=default"
-            action     : "@RuntimeAction?name=landing"
+            title      : 'Featured Article'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
+            controller : '@RuntimeController?name=default'
+            action     : '@RuntimeAction?name=landing'
 
         7:
-            title      : "Articles"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
-            controller : "@RuntimeController?name=blog"
+            title      : 'Articles'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
+            controller : '@RuntimeController?name=blog'
 
         8:
-            title      : "Article Archive"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
-            controller : "@RuntimeController?name=blog"
-            action     : "@RuntimeAction?name=list"
+            title      : 'Article Archive'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
+            controller : '@RuntimeController?name=blog'
+            action     : '@RuntimeAction?name=list'
 
         9:
-            title      : "Article"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
-            controller : "@RuntimeController?name=blog"
-            action     : "@RuntimeAction?name=view"
+            title      : 'Article'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
+            controller : '@RuntimeController?name=blog'
+            action     : '@RuntimeAction?name=view'
 
         10:
-            title      : "WFDW Book"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
-            controller : "@RuntimeController?name=book"
+            title      : 'WFDW Book'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
+            controller : '@RuntimeController?name=book'
 
         11:
-            title      : "WFDW Chapters"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
-            controller : "@RuntimeController?name=book"
-            action     : "@RuntimeAction?name=list"
+            title      : 'WFDW Chapters'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
+            controller : '@RuntimeController?name=book'
+            action     : '@RuntimeAction?name=list'
 
         12:
-            title      : "WFDW Book Chapter"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=blog"
-            controller : "@RuntimeController?name=book"
-            action     : "@RuntimeAction?name=view"
+            title      : 'WFDW Book Chapter'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=blog'
+            controller : '@RuntimeController?name=book'
+            action     : '@RuntimeAction?name=view'
 
         13:
-            title      : "Status"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
+            title      : 'Status'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
 
         14:
-            title      : "Status Dashboard"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=default"
-            action     : "@RuntimeAction?name=dashboard"
+            title      : 'Status Dashboard'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=default'
+            action     : '@RuntimeAction?name=dashboard'
 
         15:
-            title      : "Status SystemName"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=systems"
+            title      : 'Status SystemName'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=systems'
 
         16:
-            title      : "Status SystemName"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=systems"
-            action     : "@RuntimeAction?name=list"
+            title      : 'Status SystemName'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=systems'
+            action     : '@RuntimeAction?name=list'
 
         17:
-            title      : "Status System Details"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=systems"
-            action     : "@RuntimeAction?name=view"
+            title      : 'Status System Details'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=systems'
+            action     : '@RuntimeAction?name=view'
 
         18:
-            title      : "Status Reports"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=issues"
+            title      : 'Status Reports'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=issues'
 
         19:
-            title      : "Status Reports"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=issues"
-            action     : "@RuntimeAction?name=list"
+            title      : 'Status Reports'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=issues'
+            action     : '@RuntimeAction?name=list'
 
         20:
-            title      : "Status Report Details"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=issues"
-            action     : "@RuntimeAction?name=view"
+            title      : 'Status Report Details'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=issues'
+            action     : '@RuntimeAction?name=view'
 
         21:
-            title      : "Status Updates"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=notices"
+            title      : 'Status Updates'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=notices'
 
         22:
-            title      : "Status Updates"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=notices"
-            action     : "@RuntimeAction?name=list"
+            title      : 'Status Updates'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=notices'
+            action     : '@RuntimeAction?name=list'
 
         23:
-            title      : "Status Update Details"
-            locale     : "@Locale?name=en_US"
-            bundle     : "@RuntimeBundle?name=status"
-            controller : "@RuntimeController?name=notices"
-            action     : "@RuntimeAction?name=view"
+            title      : 'Status Update Details'
+            locale     : '++Locale:en_US'
+            bundle     : '@RuntimeBundle?name=status'
+            controller : '@RuntimeController?name=notices'
+            action     : '@RuntimeAction?name=view'
 
 ...
