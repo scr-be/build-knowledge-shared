@@ -1,19 +1,18 @@
 ---
+
 RouteRedirect:
 
     version:
 
-        structure: 1.0.0
-        data:      1.0.0
+        structure : 1.0.0
+        data      : 1.0.0
 
     orm:
 
-        priority:   1
-        mode:       truncate
-        entity:     s.mantle.route_redirect.entity.class
-        repository: s.mantle.route_redirect.repo
-
-    dependencies: null
+        priority   : 0
+        mode       : truncate
+        entity     : s.mantle.route_redirect.entity.class
+        repository : s.mantle.route_redirect.repo
 
     data:
 
@@ -220,3 +219,5 @@ RouteRedirect:
         51:
             path:         '/node/2518'
             pathRedirect: '/ebook-project'
+
+...

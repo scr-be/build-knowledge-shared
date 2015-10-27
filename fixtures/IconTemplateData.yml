@@ -1,4 +1,5 @@
 ---
+
 IconTemplate:
 
     version:
@@ -78,3 +79,33 @@ IconTemplate:
                         aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% endif %}"
                     >{{ icon.getSlug() }}</span>
                 </div>
+
+        4:
+            slug:        'octi-basic'
+            description: 'Octicon markup using span html tag'
+            family:      '++IconFamily:octi'
+            priority:    1
+            engine:      'twig'
+            template:    |
+                <span
+                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
+                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
+                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
+                </span>
+
+        5:
+            slug:        'fi-basic'
+            description: 'Foundation icon markup using span html tag'
+            family:      '++IconFamily:fi'
+            priority:    1
+            engine:      'twig'
+            template:    |
+                <span
+                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
+                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
+                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
+                </span>
+
+...

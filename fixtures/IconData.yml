@@ -1,4 +1,5 @@
 ---
+
 Icon:
 
     version:
@@ -15976,3 +15977,2884 @@ Icon:
             familyCollection :
                 - '++IconFamily:md'
                 - '++IconFamily:mdb'
+
+        1315:
+            Name    : Alert
+            unicode : f02d
+            slug    : alert
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1316:
+            Name    : Arrow Down
+            unicode : f03f
+            slug    : arrow-down
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1317:
+            Name    : Arrow Left
+            unicode : f040
+            slug    : arrow-left
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1318:
+            Name    : Arrow Right
+            unicode : f03e
+            slug    : arrow-right
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1319:
+            Name    : Arrow Small Down
+            unicode : f0a0
+            slug    : arrow-small-down
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1320:
+            Name    : Arrow Small Left
+            unicode : f0a1
+            slug    : arrow-small-left
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1321:
+            Name    : Arrow Small Right
+            unicode : f071
+            slug    : arrow-small-right
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1322:
+            Name    : Arrow Small Up
+            unicode : f09f
+            slug    : arrow-small-up
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1323:
+            Name    : Arrow Up
+            unicode : f03d
+            slug    : arrow-up
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1324:
+            Name    : Beaker
+            unicode : f0dd
+            slug    : beaker
+            aliases : microscope
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1325:
+            Name    : Bell
+            unicode : f0de
+            slug    : bell
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1326:
+            Name    : Book
+            unicode : f007
+            slug    : book
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1327:
+            Name    : Bookmark
+            unicode : f07b
+            slug    : bookmark
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1328:
+            Name    : Briefcase
+            unicode : f0d3
+            slug    : briefcase
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1329:
+            Name    : Broadcast
+            unicode : f048
+            slug    : broadcast
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1330:
+            Name    : Browser
+            unicode : f0c5
+            slug    : browser
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1331:
+            Name    : Bug
+            unicode : f091
+            slug    : bug
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1332:
+            Name    : Calendar
+            unicode : f068
+            slug    : calendar
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1333:
+            Name    : Check
+            unicode : f03a
+            slug    : check
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1334:
+            Name    : Checklist
+            unicode : f076
+            slug    : checklist
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1335:
+            Name    : Chevron Down
+            unicode : f0a3
+            slug    : chevron-down
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1336:
+            Name    : Chevron Left
+            unicode : f0a4
+            slug    : chevron-left
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1337:
+            Name    : Chevron Right
+            unicode : f078
+            slug    : chevron-right
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1338:
+            Name    : Chevron Up
+            unicode : f0a2
+            slug    : chevron-up
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1339:
+            Name    : Circle Slash
+            unicode : f084
+            slug    : circle-slash
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1340:
+            Name    : Circuit Board
+            unicode : f0d6
+            slug    : circuit-board
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1341:
+            Name    : Clippy
+            unicode : f035
+            slug    : clippy
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1342:
+            Name    : Clock
+            unicode : f046
+            slug    : clock
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1343:
+            Name    : Cloud Download
+            unicode : f00b
+            slug    : cloud-download
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1344:
+            Name    : Cloud Upload
+            unicode : f00c
+            slug    : cloud-upload
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1345:
+            Name    : Code
+            unicode : f05f
+            slug    : code
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1346:
+            Name    : Color Mode
+            unicode : f065
+            slug    : color-mode
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1347:
+            Name    : Comment
+            unicode : f02b
+            slug    : comment
+            aliases :
+                - comment-add
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1348:
+            Name    : Comment Discussion
+            unicode : f04f
+            slug    : comment-discussion
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1349:
+            Name    : Credit Card
+            unicode : f045
+            slug    : credit-card
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1350:
+            Name    : Dash
+            unicode : f0ca
+            slug    : dash
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1351:
+            Name    : Dashboard
+            unicode : f07d
+            slug    : dashboard
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1352:
+            Name    : Database
+            unicode : f096
+            slug    : database
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1353:
+            Name    : Desktop Download
+            unicode : f0dc
+            slug    : desktop-download
+            aliases : clone
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1354:
+            Name    : Device Camera
+            unicode : f056
+            slug    : device-camera
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1355:
+            Name    : Device Camera Video
+            unicode : f057
+            slug    : device-camera-video
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1356:
+            Name    : Device Desktop
+            unicode : f27c
+            slug    : device-desktop
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1357:
+            Name    : Device Mobile
+            unicode : f038
+            slug    : device-mobile
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1358:
+            Name    : Diff
+            unicode : f04d
+            slug    : diff
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1359:
+            Name    : Diff Added
+            unicode : f06b
+            slug    : diff-added
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1360:
+            Name    : Diff Ignored
+            unicode : f099
+            slug    : diff-ignored
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1361:
+            Name    : Diff Modified
+            unicode : f06d
+            slug    : diff-modified
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1362:
+            Name    : Diff Removed
+            unicode : f06c
+            slug    : diff-removed
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1363:
+            Name    : Diff Renamed
+            unicode : f06e
+            slug    : diff-renamed
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1364:
+            Name    : Ellipsis
+            unicode : f09a
+            slug    : ellipsis
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1365:
+            Name    : Eye
+            unicode : f04e
+            slug    : eye
+            aliases :
+                - eye-unwatch
+                - eye-watch
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1366:
+            Name    : File Binary
+            unicode : f094
+            slug    : file-binary
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1367:
+            Name    : File Code
+            unicode : f010
+            slug    : file-code
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1368:
+            Name    : File Directory
+            unicode : f016
+            slug    : file-directory
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1369:
+            Name    : File Media
+            unicode : f012
+            slug    : file-media
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1370:
+            Name    : File Pdf
+            unicode : f014
+            slug    : file-pdf
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1371:
+            Name    : File Submodule
+            unicode : f017
+            slug    : file-submodule
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1372:
+            Name    : File Symlink Directory
+            unicode : f0b1
+            slug    : file-symlink-directory
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1373:
+            Name    : File Symlink File
+            unicode : f0b0
+            slug    : file-symlink-file
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1374:
+            Name    : File Text
+            unicode : f011
+            slug    : file-text
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1375:
+            Name    : File Zip
+            unicode : f013
+            slug    : file-zip
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1376:
+            Name    : Flame
+            unicode : f0d2
+            slug    : flame
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1377:
+            Name    : Fold
+            unicode : f0cc
+            slug    : fold
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1378:
+            Name    : Gear
+            unicode : f02f
+            slug    : gear
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1379:
+            Name    : Gift
+            unicode : f042
+            slug    : gift
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1380:
+            Name    : Gist
+            unicode : f00e
+            slug    : gist
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1381:
+            Name    : Gist Secret
+            unicode : f08c
+            slug    : gist-secret
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1382:
+            Name    : Git Branch
+            unicode : f020
+            slug    : git-branch
+            aliases :
+                - git-branch-create
+                - git-branch-delete
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1383:
+            Name    : Git Commit
+            unicode : f01f
+            slug    : git-commit
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1384:
+            Name    : Git Compare
+            unicode : f0ac
+            slug    : git-compare
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1385:
+            Name    : Git Merge
+            unicode : f023
+            slug    : git-merge
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1386:
+            Name    : Git Pull Request
+            unicode : f009
+            slug    : git-pull-request
+            aliases :
+                - git-pull-request-abandoned
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1387:
+            Name    : Globe
+            unicode : f0b6
+            slug    : globe
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1388:
+            Name    : Graph
+            unicode : f043
+            slug    : graph
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1389:
+            Name    : Heart
+            unicode : 2665
+            slug    : heart
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1390:
+            Name    : History
+            unicode : f07e
+            slug    : history
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1391:
+            Name    : Home
+            unicode : f08d
+            slug    : home
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1392:
+            Name    : Horizontal Rule
+            unicode : f070
+            slug    : horizontal-rule
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1393:
+            Name    : Hubot
+            unicode : f09d
+            slug    : hubot
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1394:
+            Name    : Inbox
+            unicode : f0cf
+            slug    : inbox
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1395:
+            Name    : Info
+            unicode : f059
+            slug    : info
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1396:
+            Name    : Issue Closed
+            unicode : f028
+            slug    : issue-closed
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1397:
+            Name    : Issue Opened
+            unicode : f026
+            slug    : issue-opened
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1398:
+            Name    : Issue Reopened
+            unicode : f027
+            slug    : issue-reopened
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1399:
+            Name    : Jersey
+            unicode : f019
+            slug    : jersey
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1400:
+            Name    : Key
+            unicode : f049
+            slug    : key
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1401:
+            Name    : Keyboard
+            unicode : f00d
+            slug    : keyboard
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1402:
+            Name    : Law
+            unicode : f0d8
+            slug    : law
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1403:
+            Name    : Light Bulb
+            unicode : f000
+            slug    : light-bulb
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1404:
+            Name    : Link
+            unicode : f05c
+            slug    : link
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1405:
+            Name    : Link External
+            unicode : f07f
+            slug    : link-external
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1406:
+            Name    : List Ordered
+            unicode : f062
+            slug    : list-ordered
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1407:
+            Name    : List Unordered
+            unicode : f061
+            slug    : list-unordered
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1408:
+            Name    : Location
+            unicode : f060
+            slug    : location
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1409:
+            Name    : Lock
+            unicode : f06a
+            slug    : lock
+            aliases :
+                - gist-private
+                - mirror-private
+                - git-fork-private
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1410:
+            Name    : Logo Github
+            unicode : f092
+            slug    : logo-github
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1411:
+            Name    : Mail
+            unicode : f03b
+            slug    : mail
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1412:
+            Name    : Mail Read
+            unicode : f03c
+            slug    : mail-read
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1413:
+            Name    : Mail Reply
+            unicode : f051
+            slug    : mail-reply
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1414:
+            Name    : Mark Github
+            unicode : f00a
+            slug    : mark-github
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1415:
+            Name    : Markdown
+            unicode : f0c9
+            slug    : markdown
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1416:
+            Name    : Megaphone
+            unicode : f077
+            slug    : megaphone
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1417:
+            Name    : Mention
+            unicode : f0be
+            slug    : mention
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1418:
+            Name    : Milestone
+            unicode : f075
+            slug    : milestone
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1419:
+            Name    : Mirror
+            unicode : f024
+            slug    : mirror
+            aliases :
+                - mirror-public
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1420:
+            Name    : Mortar Board
+            unicode : f0d7
+            slug    : mortar-board
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1421:
+            Name    : Mute
+            unicode : f080
+            slug    : mute
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1422:
+            Name    : No Newline
+            unicode : f09c
+            slug    : no-newline
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1423:
+            Name    : Octoface
+            unicode : f008
+            slug    : octoface
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1424:
+            Name    : Organization
+            unicode : f037
+            slug    : organization
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1425:
+            Name    : Package
+            unicode : f0c4
+            slug    : package
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1426:
+            Name    : Paintcan
+            unicode : f0d1
+            slug    : paintcan
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1427:
+            Name    : Pencil
+            unicode : f058
+            slug    : pencil
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1428:
+            Name    : Person
+            unicode : f018
+            slug    : person
+            aliases :
+                - person-add
+                - person-follow
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1429:
+            Name    : Pin
+            unicode : f041
+            slug    : pin
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1430:
+            Name    : Plug
+            unicode : f0d4
+            slug    : plug
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1431:
+            Name    : Plus
+            unicode : f05d
+            slug    : plus
+            aliases :
+                - repo-create
+                - gist-new
+                - file-directory-create
+                - file-add
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1432:
+            Name    : Primitive Dot
+            unicode : f052
+            slug    : primitive-dot
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1433:
+            Name    : Primitive Square
+            unicode : f053
+            slug    : primitive-square
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1434:
+            Name    : Pulse
+            unicode : f085
+            slug    : pulse
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1435:
+            Name    : Question
+            unicode : f02c
+            slug    : question
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1436:
+            Name    : Quote
+            unicode : f063
+            slug    : quote
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1437:
+            Name    : Radio Tower
+            unicode : f030
+            slug    : radio-tower
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1438:
+            Name    : Repo
+            unicode : f001
+            slug    : repo
+            aliases :
+                - repo-delete
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1439:
+            Name    : Repo Clone
+            unicode : f04c
+            slug    : repo-clone
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1440:
+            Name    : Repo Force Push
+            unicode : f04a
+            slug    : repo-force-push
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1441:
+            Name    : Repo Forked
+            unicode : f002
+            slug    : repo-forked
+            aliases :
+                - gist-fork
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1442:
+            Name    : Repo Pull
+            unicode : f006
+            slug    : repo-pull
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1443:
+            Name    : Repo Push
+            unicode : f005
+            slug    : repo-push
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1444:
+            Name    : Rocket
+            unicode : f033
+            slug    : rocket
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1445:
+            Name    : Rss
+            unicode : f034
+            slug    : rss
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1446:
+            Name    : Ruby
+            unicode : f047
+            slug    : ruby
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1447:
+            Name    : Screen Full
+            unicode : f066
+            slug    : screen-full
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1448:
+            Name    : Screen Normal
+            unicode : f067
+            slug    : screen-normal
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1449:
+            Name    : Search
+            unicode : f02e
+            slug    : search
+            aliases :
+                - search-save
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1450:
+            Name    : Server
+            unicode : f097
+            slug    : server
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1451:
+            Name    : Settings
+            unicode : f07c
+            slug    : settings
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1452:
+            Name    : Shield
+            unicode : f0e1
+            slug    : shield
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1453:
+            Name    : Sign In
+            unicode : f036
+            slug    : sign-in
+            aliases :
+                - log-in
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1454:
+            Name    : Sign Out
+            unicode : f032
+            slug    : sign-out
+            aliases :
+                - log-out
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1455:
+            Name    : Squirrel
+            unicode : f0b2
+            slug    : squirrel
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1456:
+            Name    : Star
+            unicode : f02a
+            slug    : star
+            aliases :
+                - star-add
+                - star-delete
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1457:
+            Name    : Stop
+            unicode : f08f
+            slug    : stop
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1458:
+            Name    : Sync
+            unicode : f087
+            slug    : sync
+            aliases :
+                - repo-sync
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1459:
+            Name    : Tag
+            unicode : f015
+            slug    : tag
+            aliases :
+                - tag-remove
+                - tag-add
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1460:
+            Name    : Telescope
+            unicode : f088
+            slug    : telescope
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1461:
+            Name    : Terminal
+            unicode : f0c8
+            slug    : terminal
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1462:
+            Name    : Three Bars
+            unicode : f05e
+            slug    : three-bars
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1463:
+            Name    : Thumbsdown
+            unicode : f0db
+            slug    : thumbsdown
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1464:
+            Name    : Thumbsup
+            unicode : f0da
+            slug    : thumbsup
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1465:
+            Name    : Tools
+            unicode : f031
+            slug    : tools
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1466:
+            Name    : Trashcan
+            unicode : f0d0
+            slug    : trashcan
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1467:
+            Name    : Triangle Down
+            unicode : f05b
+            slug    : triangle-down
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1468:
+            Name    : Triangle Left
+            unicode : f044
+            slug    : triangle-left
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1469:
+            Name    : Triangle Right
+            unicode : f05a
+            slug    : triangle-right
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1470:
+            Name    : Triangle Up
+            unicode : f0aa
+            slug    : triangle-up
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1471:
+            Name    : Unfold
+            unicode : f039
+            slug    : unfold
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1472:
+            Name    : Unmute
+            unicode : f0ba
+            slug    : unmute
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1473:
+            Name    : Versions
+            unicode : f064
+            slug    : versions
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1474:
+            Name    : Watch
+            unicode : f0e0
+            slug    : watch
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1475:
+            Name    : Remove / Close
+            unicode : f081
+            slug    : remove-close
+            aliases :
+                - x
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1476:
+            Name    : Zap
+            unicode : 26A1
+            slug    : zap
+            familyCollection :
+                - '++IconFamily:octi'
+
+        1477:
+            name    : Address Book
+            unicode : f100
+            slug    : address-book
+            familyCollection :
+                - '++IconFamily:fi'
+        1478:
+            name    : Alert
+            unicode : f101
+            slug    : alert
+            familyCollection :
+                - '++IconFamily:fi'
+        1479:
+            name    : Align Center
+            unicode : f102
+            slug    : align-center
+            familyCollection :
+                - '++IconFamily:fi'
+        1480:
+            name    : Align Justify
+            unicode : f103
+            slug    : align-justify
+            familyCollection :
+                - '++IconFamily:fi'
+        1481:
+            name    : Align Left
+            unicode : f104
+            slug    : align-left
+            familyCollection :
+                - '++IconFamily:fi'
+        1482:
+            name    : Align Right
+            unicode : f105
+            slug    : align-right
+            familyCollection :
+                - '++IconFamily:fi'
+        1483:
+            name    : Anchor
+            unicode : f106
+            slug    : anchor
+            familyCollection :
+                - '++IconFamily:fi'
+        1484:
+            name    : Annotate
+            unicode : f107
+            slug    : annotate
+            familyCollection :
+                - '++IconFamily:fi'
+        1485:
+            name    : Archive
+            unicode : f108
+            slug    : archive
+            familyCollection :
+                - '++IconFamily:fi'
+        1486:
+            name    : Arrow Down
+            unicode : f109
+            slug    : arrow-down
+            familyCollection :
+                - '++IconFamily:fi'
+        1487:
+            name    : Arrow Left
+            unicode : f10a
+            slug    : arrow-left
+            familyCollection :
+                - '++IconFamily:fi'
+        1488:
+            name    : Arrow Right
+            unicode : f10b
+            slug    : arrow-right
+            familyCollection :
+                - '++IconFamily:fi'
+        1489:
+            name    : Arrow Up
+            unicode : f10c
+            slug    : arrow-up
+            familyCollection :
+                - '++IconFamily:fi'
+        1490:
+            name    : Arrows Compress
+            unicode : f10d
+            slug    : arrows-compress
+            familyCollection :
+                - '++IconFamily:fi'
+        1491:
+            name    : Arrows Expand
+            unicode : f10e
+            slug    : arrows-expand
+            familyCollection :
+                - '++IconFamily:fi'
+        1492:
+            name    : Arrows In
+            unicode : f10f
+            slug    : arrows-in
+            familyCollection :
+                - '++IconFamily:fi'
+        1493:
+            name    : Arrows Out
+            unicode : f110
+            slug    : arrows-out
+            familyCollection :
+                - '++IconFamily:fi'
+        1494:
+            name    : Asl
+            unicode : f111
+            slug    : asl
+            familyCollection :
+                - '++IconFamily:fi'
+        1495:
+            name    : Asterisk
+            unicode : f112
+            slug    : asterisk
+            familyCollection :
+                - '++IconFamily:fi'
+        1496:
+            name    : At Sign
+            unicode : f113
+            slug    : at-sign
+            familyCollection :
+                - '++IconFamily:fi'
+        1497:
+            name    : Background Color
+            unicode : f114
+            slug    : background-color
+            familyCollection :
+                - '++IconFamily:fi'
+        1498:
+            name    : Battery Empty
+            unicode : f115
+            slug    : battery-empty
+            familyCollection :
+                - '++IconFamily:fi'
+        1499:
+            name    : Battery Full
+            unicode : f116
+            slug    : battery-full
+            familyCollection :
+                - '++IconFamily:fi'
+        1500:
+            name    : Battery Half
+            unicode : f117
+            slug    : battery-half
+            familyCollection :
+                - '++IconFamily:fi'
+        1501:
+            name    : Bitcoin Circle
+            unicode : f118
+            slug    : bitcoin-circle
+            familyCollection :
+                - '++IconFamily:fi'
+        1502:
+            name    : Bitcoin
+            unicode : f119
+            slug    : bitcoin
+            familyCollection :
+                - '++IconFamily:fi'
+        1503:
+            name    : Blind
+            unicode : f11a
+            slug    : blind
+            familyCollection :
+                - '++IconFamily:fi'
+        1504:
+            name    : Bluetooth
+            unicode : f11b
+            slug    : bluetooth
+            familyCollection :
+                - '++IconFamily:fi'
+        1505:
+            name    : Bold
+            unicode : f11c
+            slug    : bold
+            familyCollection :
+                - '++IconFamily:fi'
+        1506:
+            name    : Book Bookmark
+            unicode : f11d
+            slug    : book-bookmark
+            familyCollection :
+                - '++IconFamily:fi'
+        1507:
+            name    : Book
+            unicode : f11e
+            slug    : book
+            familyCollection :
+                - '++IconFamily:fi'
+        1508:
+            name    : Bookmark
+            unicode : f11f
+            slug    : bookmark
+            familyCollection :
+                - '++IconFamily:fi'
+        1509:
+            name    : Braille
+            unicode : f120
+            slug    : braille
+            familyCollection :
+                - '++IconFamily:fi'
+        1510:
+            name    : Burst New
+            unicode : f121
+            slug    : burst-new
+            familyCollection :
+                - '++IconFamily:fi'
+        1511:
+            name    : Burst Sale
+            unicode : f122
+            slug    : burst-sale
+            familyCollection :
+                - '++IconFamily:fi'
+        1512:
+            name    : Burst
+            unicode : f123
+            slug    : burst
+            familyCollection :
+                - '++IconFamily:fi'
+        1513:
+            name    : Calendar
+            unicode : f124
+            slug    : calendar
+            familyCollection :
+                - '++IconFamily:fi'
+        1514:
+            name    : Camera
+            unicode : f125
+            slug    : camera
+            familyCollection :
+                - '++IconFamily:fi'
+        1515:
+            name    : Check
+            unicode : f126
+            slug    : check
+            familyCollection :
+                - '++IconFamily:fi'
+        1516:
+            name    : Checkbox
+            unicode : f127
+            slug    : checkbox
+            familyCollection :
+                - '++IconFamily:fi'
+        1517:
+            name    : Clipboard Notes
+            unicode : f128
+            slug    : clipboard-notes
+            familyCollection :
+                - '++IconFamily:fi'
+        1518:
+            name    : Clipboard Pencil
+            unicode : f129
+            slug    : clipboard-pencil
+            familyCollection :
+                - '++IconFamily:fi'
+        1519:
+            name    : Clipboard
+            unicode : f12a
+            slug    : clipboard
+            familyCollection :
+                - '++IconFamily:fi'
+        1520:
+            name    : Clock
+            unicode : f12b
+            slug    : clock
+            familyCollection :
+                - '++IconFamily:fi'
+        1521:
+            name    : Closed Caption
+            unicode : f12c
+            slug    : closed-caption
+            familyCollection :
+                - '++IconFamily:fi'
+        1522:
+            name    : Cloud
+            unicode : f12d
+            slug    : cloud
+            familyCollection :
+                - '++IconFamily:fi'
+        1523:
+            name    : Comment Minus
+            unicode : f12e
+            slug    : comment-minus
+            familyCollection :
+                - '++IconFamily:fi'
+        1524:
+            name    : Comment Quotes
+            unicode : f12f
+            slug    : comment-quotes
+            familyCollection :
+                - '++IconFamily:fi'
+        1525:
+            name    : Comment Video
+            unicode : f130
+            slug    : comment-video
+            familyCollection :
+                - '++IconFamily:fi'
+        1526:
+            name    : Comment
+            unicode : f131
+            slug    : comment
+            familyCollection :
+                - '++IconFamily:fi'
+        1527:
+            name    : Comments
+            unicode : f132
+            slug    : comments
+            familyCollection :
+                - '++IconFamily:fi'
+        1528:
+            name    : Compass
+            unicode : f133
+            slug    : compass
+            familyCollection :
+                - '++IconFamily:fi'
+        1529:
+            name    : Contrast
+            unicode : f134
+            slug    : contrast
+            familyCollection :
+                - '++IconFamily:fi'
+        1530:
+            name    : Credit Card
+            unicode : f135
+            slug    : credit-card
+            familyCollection :
+                - '++IconFamily:fi'
+        1531:
+            name    : Crop
+            unicode : f136
+            slug    : crop
+            familyCollection :
+                - '++IconFamily:fi'
+        1532:
+            name    : Crown
+            unicode : f137
+            slug    : crown
+            familyCollection :
+                - '++IconFamily:fi'
+        1533:
+            name    : Css3
+            unicode : f138
+            slug    : css3
+            familyCollection :
+                - '++IconFamily:fi'
+        1534:
+            name    : Database
+            unicode : f139
+            slug    : database
+            familyCollection :
+                - '++IconFamily:fi'
+        1535:
+            name    : Die Five
+            unicode : f13a
+            slug    : die-five
+            familyCollection :
+                - '++IconFamily:fi'
+        1536:
+            name    : Die Four
+            unicode : f13b
+            slug    : die-four
+            familyCollection :
+                - '++IconFamily:fi'
+        1537:
+            name    : Die One
+            unicode : f13c
+            slug    : die-one
+            familyCollection :
+                - '++IconFamily:fi'
+        1538:
+            name    : Die Six
+            unicode : f13d
+            slug    : die-six
+            familyCollection :
+                - '++IconFamily:fi'
+        1539:
+            name    : Die Three
+            unicode : f13e
+            slug    : die-three
+            familyCollection :
+                - '++IconFamily:fi'
+        1540:
+            name    : Die Two
+            unicode : f13f
+            slug    : die-two
+            familyCollection :
+                - '++IconFamily:fi'
+        1541:
+            name    : Dislike
+            unicode : f140
+            slug    : dislike
+            familyCollection :
+                - '++IconFamily:fi'
+        1542:
+            name    : Dollar Bill
+            unicode : f141
+            slug    : dollar-bill
+            familyCollection :
+                - '++IconFamily:fi'
+        1543:
+            name    : Dollar
+            unicode : f142
+            slug    : dollar
+            familyCollection :
+                - '++IconFamily:fi'
+        1544:
+            name    : Download
+            unicode : f143
+            slug    : download
+            familyCollection :
+                - '++IconFamily:fi'
+        1545:
+            name    : Eject
+            unicode : f144
+            slug    : eject
+            familyCollection :
+                - '++IconFamily:fi'
+        1546:
+            name    : Elevator
+            unicode : f145
+            slug    : elevator
+            familyCollection :
+                - '++IconFamily:fi'
+        1547:
+            name    : Euro
+            unicode : f146
+            slug    : euro
+            familyCollection :
+                - '++IconFamily:fi'
+        1548:
+            name    : Eye
+            unicode : f147
+            slug    : eye
+            familyCollection :
+                - '++IconFamily:fi'
+        1549:
+            name    : Fast Forward
+            unicode : f148
+            slug    : fast-forward
+            familyCollection :
+                - '++IconFamily:fi'
+        1550:
+            name    : Female Symbol
+            unicode : f149
+            slug    : female-symbol
+            familyCollection :
+                - '++IconFamily:fi'
+        1551:
+            name    : Female
+            unicode : f14a
+            slug    : female
+            familyCollection :
+                - '++IconFamily:fi'
+        1552:
+            name    : Filter
+            unicode : f14b
+            slug    : filter
+            familyCollection :
+                - '++IconFamily:fi'
+        1553:
+            name    : First Aid
+            unicode : f14c
+            slug    : first-aid
+            familyCollection :
+                - '++IconFamily:fi'
+        1554:
+            name    : Flag
+            unicode : f14d
+            slug    : flag
+            familyCollection :
+                - '++IconFamily:fi'
+        1555:
+            name    : Folder Add
+            unicode : f14e
+            slug    : folder-add
+            familyCollection :
+                - '++IconFamily:fi'
+        1556:
+            name    : Folder Lock
+            unicode : f14f
+            slug    : folder-lock
+            familyCollection :
+                - '++IconFamily:fi'
+        1557:
+            name    : Folder
+            unicode : f150
+            slug    : folder
+            familyCollection :
+                - '++IconFamily:fi'
+        1558:
+            name    : Foot
+            unicode : f151
+            slug    : foot
+            familyCollection :
+                - '++IconFamily:fi'
+        1559:
+            name    : Foundation
+            unicode : f152
+            slug    : foundation
+            familyCollection :
+                - '++IconFamily:fi'
+        1560:
+            name    : Graph Bar
+            unicode : f153
+            slug    : graph-bar
+            familyCollection :
+                - '++IconFamily:fi'
+        1561:
+            name    : Graph Horizontal
+            unicode : f154
+            slug    : graph-horizontal
+            familyCollection :
+                - '++IconFamily:fi'
+        1562:
+            name    : Graph Pie
+            unicode : f155
+            slug    : graph-pie
+            familyCollection :
+                - '++IconFamily:fi'
+        1563:
+            name    : Graph Trend
+            unicode : f156
+            slug    : graph-trend
+            familyCollection :
+                - '++IconFamily:fi'
+        1564:
+            name    : Guide Dog
+            unicode : f157
+            slug    : guide-dog
+            familyCollection :
+                - '++IconFamily:fi'
+        1565:
+            name    : Hearing Aid
+            unicode : f158
+            slug    : hearing-aid
+            familyCollection :
+                - '++IconFamily:fi'
+        1566:
+            name    : Heart
+            unicode : f159
+            slug    : heart
+            familyCollection :
+                - '++IconFamily:fi'
+        1567:
+            name    : Home
+            unicode : f15a
+            slug    : home
+            familyCollection :
+                - '++IconFamily:fi'
+        1568:
+            name    : Html5
+            unicode : f15b
+            slug    : html5
+            familyCollection :
+                - '++IconFamily:fi'
+        1569:
+            name    : Indent Less
+            unicode : f15c
+            slug    : indent-less
+            familyCollection :
+                - '++IconFamily:fi'
+        1570:
+            name    : Indent More
+            unicode : f15d
+            slug    : indent-more
+            familyCollection :
+                - '++IconFamily:fi'
+        1571:
+            name    : Info
+            unicode : f15e
+            slug    : info
+            familyCollection :
+                - '++IconFamily:fi'
+        1572:
+            name    : Italic
+            unicode : f15f
+            slug    : italic
+            familyCollection :
+                - '++IconFamily:fi'
+        1573:
+            name    : Key
+            unicode : f160
+            slug    : key
+            familyCollection :
+                - '++IconFamily:fi'
+        1574:
+            name    : Laptop
+            unicode : f161
+            slug    : laptop
+            familyCollection :
+                - '++IconFamily:fi'
+        1575:
+            name    : Layout
+            unicode : f162
+            slug    : layout
+            familyCollection :
+                - '++IconFamily:fi'
+        1576:
+            name    : Lightbulb
+            unicode : f163
+            slug    : lightbulb
+            familyCollection :
+                - '++IconFamily:fi'
+        1577:
+            name    : Like
+            unicode : f164
+            slug    : like
+            familyCollection :
+                - '++IconFamily:fi'
+        1578:
+            name    : Link
+            unicode : f165
+            slug    : link
+            familyCollection :
+                - '++IconFamily:fi'
+        1579:
+            name    : List Bullet
+            unicode : f166
+            slug    : list-bullet
+            familyCollection :
+                - '++IconFamily:fi'
+        1580:
+            name    : List Number
+            unicode : f167
+            slug    : list-number
+            familyCollection :
+                - '++IconFamily:fi'
+        1581:
+            name    : List Thumbnails
+            unicode : f168
+            slug    : list-thumbnails
+            familyCollection :
+                - '++IconFamily:fi'
+        1582:
+            name    : List
+            unicode : f169
+            slug    : list
+            familyCollection :
+                - '++IconFamily:fi'
+        1583:
+            name    : Lock
+            unicode : f16a
+            slug    : lock
+            familyCollection :
+                - '++IconFamily:fi'
+        1584:
+            name    : Loop
+            unicode : f16b
+            slug    : loop
+            familyCollection :
+                - '++IconFamily:fi'
+        1585:
+            name    : Magnifying Glass
+            unicode : f16c
+            slug    : magnifying-glass
+            familyCollection :
+                - '++IconFamily:fi'
+        1586:
+            name    : Mail
+            unicode : f16d
+            slug    : mail
+            familyCollection :
+                - '++IconFamily:fi'
+        1587:
+            name    : Male Female
+            unicode : f16e
+            slug    : male-female
+            familyCollection :
+                - '++IconFamily:fi'
+        1588:
+            name    : Male Symbol
+            unicode : f16f
+            slug    : male-symbol
+            familyCollection :
+                - '++IconFamily:fi'
+        1589:
+            name    : Male
+            unicode : f170
+            slug    : male
+            familyCollection :
+                - '++IconFamily:fi'
+        1590:
+            name    : Map
+            unicode : f171
+            slug    : map
+            familyCollection :
+                - '++IconFamily:fi'
+        1591:
+            name    : Marker
+            unicode : f172
+            slug    : marker
+            familyCollection :
+                - '++IconFamily:fi'
+        1592:
+            name    : Megaphone
+            unicode : f173
+            slug    : megaphone
+            familyCollection :
+                - '++IconFamily:fi'
+        1593:
+            name    : Microphone
+            unicode : f174
+            slug    : microphone
+            familyCollection :
+                - '++IconFamily:fi'
+        1594:
+            name    : Minus Circle
+            unicode : f175
+            slug    : minus-circle
+            familyCollection :
+                - '++IconFamily:fi'
+        1595:
+            name    : Minus
+            unicode : f176
+            slug    : minus
+            familyCollection :
+                - '++IconFamily:fi'
+        1596:
+            name    : Mobile Signal
+            unicode : f177
+            slug    : mobile-signal
+            familyCollection :
+                - '++IconFamily:fi'
+        1597:
+            name    : Mobile
+            unicode : f178
+            slug    : mobile
+            familyCollection :
+                - '++IconFamily:fi'
+        1598:
+            name    : Monitor
+            unicode : f179
+            slug    : monitor
+            familyCollection :
+                - '++IconFamily:fi'
+        1599:
+            name    : Mountains
+            unicode : f17a
+            slug    : mountains
+            familyCollection :
+                - '++IconFamily:fi'
+        1600:
+            name    : Music
+            unicode : f17b
+            slug    : music
+            familyCollection :
+                - '++IconFamily:fi'
+        1601:
+            name    : Next
+            unicode : f17c
+            slug    : next
+            familyCollection :
+                - '++IconFamily:fi'
+        1602:
+            name    : No Dogs
+            unicode : f17d
+            slug    : no-dogs
+            familyCollection :
+                - '++IconFamily:fi'
+        1603:
+            name    : No Smoking
+            unicode : f17e
+            slug    : no-smoking
+            familyCollection :
+                - '++IconFamily:fi'
+        1604:
+            name    : Page Add
+            unicode : f17f
+            slug    : page-add
+            familyCollection :
+                - '++IconFamily:fi'
+        1605:
+            name    : Page Copy
+            unicode : f180
+            slug    : page-copy
+            familyCollection :
+                - '++IconFamily:fi'
+        1606:
+            name    : Page Csv
+            unicode : f181
+            slug    : page-csv
+            familyCollection :
+                - '++IconFamily:fi'
+        1607:
+            name    : Page Delete
+            unicode : f182
+            slug    : page-delete
+            familyCollection :
+                - '++IconFamily:fi'
+        1608:
+            name    : Page Doc
+            unicode : f183
+            slug    : page-doc
+            familyCollection :
+                - '++IconFamily:fi'
+        1609:
+            name    : Page Edit
+            unicode : f184
+            slug    : page-edit
+            familyCollection :
+                - '++IconFamily:fi'
+        1610:
+            name    : Page Export Csv
+            unicode : f185
+            slug    : page-export-csv
+            familyCollection :
+                - '++IconFamily:fi'
+        1611:
+            name    : Page Export Doc
+            unicode : f186
+            slug    : page-export-doc
+            familyCollection :
+                - '++IconFamily:fi'
+        1612:
+            name    : Page Export Pdf
+            unicode : f187
+            slug    : page-export-pdf
+            familyCollection :
+                - '++IconFamily:fi'
+        1613:
+            name    : Page Export
+            unicode : f188
+            slug    : page-export
+            familyCollection :
+                - '++IconFamily:fi'
+        1614:
+            name    : Page Filled
+            unicode : f189
+            slug    : page-filled
+            familyCollection :
+                - '++IconFamily:fi'
+        1615:
+            name    : Page Multiple
+            unicode : f18a
+            slug    : page-multiple
+            familyCollection :
+                - '++IconFamily:fi'
+        1616:
+            name    : Page Pdf
+            unicode : f18b
+            slug    : page-pdf
+            familyCollection :
+                - '++IconFamily:fi'
+        1617:
+            name    : Page Remove
+            unicode : f18c
+            slug    : page-remove
+            familyCollection :
+                - '++IconFamily:fi'
+        1618:
+            name    : Page Search
+            unicode : f18d
+            slug    : page-search
+            familyCollection :
+                - '++IconFamily:fi'
+        1619:
+            name    : Page
+            unicode : f18e
+            slug    : page
+            familyCollection :
+                - '++IconFamily:fi'
+        1620:
+            name    : Paint Bucket
+            unicode : f18f
+            slug    : paint-bucket
+            familyCollection :
+                - '++IconFamily:fi'
+        1621:
+            name    : Paperclip
+            unicode : f190
+            slug    : paperclip
+            familyCollection :
+                - '++IconFamily:fi'
+        1622:
+            name    : Pause
+            unicode : f191
+            slug    : pause
+            familyCollection :
+                - '++IconFamily:fi'
+        1623:
+            name    : Paw
+            unicode : f192
+            slug    : paw
+            familyCollection :
+                - '++IconFamily:fi'
+        1624:
+            name    : Paypal
+            unicode : f193
+            slug    : paypal
+            familyCollection :
+                - '++IconFamily:fi'
+        1625:
+            name    : Pencil
+            unicode : f194
+            slug    : pencil
+            familyCollection :
+                - '++IconFamily:fi'
+        1626:
+            name    : Photo
+            unicode : f195
+            slug    : photo
+            familyCollection :
+                - '++IconFamily:fi'
+        1627:
+            name    : Play Circle
+            unicode : f196
+            slug    : play-circle
+            familyCollection :
+                - '++IconFamily:fi'
+        1628:
+            name    : Play Video
+            unicode : f197
+            slug    : play-video
+            familyCollection :
+                - '++IconFamily:fi'
+        1629:
+            name    : Play
+            unicode : f198
+            slug    : play
+            familyCollection :
+                - '++IconFamily:fi'
+        1630:
+            name    : Plus
+            unicode : f199
+            slug    : plus
+            familyCollection :
+                - '++IconFamily:fi'
+        1631:
+            name    : Pound
+            unicode : f19a
+            slug    : pound
+            familyCollection :
+                - '++IconFamily:fi'
+        1632:
+            name    : Power
+            unicode : f19b
+            slug    : power
+            familyCollection :
+                - '++IconFamily:fi'
+        1633:
+            name    : Previous
+            unicode : f19c
+            slug    : previous
+            familyCollection :
+                - '++IconFamily:fi'
+        1634:
+            name    : Price Tag
+            unicode : f19d
+            slug    : price-tag
+            familyCollection :
+                - '++IconFamily:fi'
+        1635:
+            name    : Pricetag Multiple
+            unicode : f19e
+            slug    : pricetag-multiple
+            familyCollection :
+                - '++IconFamily:fi'
+        1636:
+            name    : Print
+            unicode : f19f
+            slug    : print
+            familyCollection :
+                - '++IconFamily:fi'
+        1637:
+            name    : Prohibited
+            unicode : f1a0
+            slug    : prohibited
+            familyCollection :
+                - '++IconFamily:fi'
+        1638:
+            name    : Projection Screen
+            unicode : f1a1
+            slug    : projection-screen
+            familyCollection :
+                - '++IconFamily:fi'
+        1639:
+            name    : Puzzle
+            unicode : f1a2
+            slug    : puzzle
+            familyCollection :
+                - '++IconFamily:fi'
+        1640:
+            name    : Quote
+            unicode : f1a3
+            slug    : quote
+            familyCollection :
+                - '++IconFamily:fi'
+        1641:
+            name    : Record
+            unicode : f1a4
+            slug    : record
+            familyCollection :
+                - '++IconFamily:fi'
+        1642:
+            name    : Refresh
+            unicode : f1a5
+            slug    : refresh
+            familyCollection :
+                - '++IconFamily:fi'
+        1643:
+            name    : Results Demographics
+            unicode : f1a6
+            slug    : results-demographics
+            familyCollection :
+                - '++IconFamily:fi'
+        1644:
+            name    : Results
+            unicode : f1a7
+            slug    : results
+            familyCollection :
+                - '++IconFamily:fi'
+        1645:
+            name    : Rewind Ten
+            unicode : f1a8
+            slug    : rewind-ten
+            familyCollection :
+                - '++IconFamily:fi'
+        1646:
+            name    : Rewind
+            unicode : f1a9
+            slug    : rewind
+            familyCollection :
+                - '++IconFamily:fi'
+        1647:
+            name    : Rss
+            unicode : f1aa
+            slug    : rss
+            familyCollection :
+                - '++IconFamily:fi'
+        1648:
+            name    : Safety Cone
+            unicode : f1ab
+            slug    : safety-cone
+            familyCollection :
+                - '++IconFamily:fi'
+        1649:
+            name    : Save
+            unicode : f1ac
+            slug    : save
+            familyCollection :
+                - '++IconFamily:fi'
+        1650:
+            name    : Share
+            unicode : f1ad
+            slug    : share
+            familyCollection :
+                - '++IconFamily:fi'
+        1651:
+            name    : Sheriff Badge
+            unicode : f1ae
+            slug    : sheriff-badge
+            familyCollection :
+                - '++IconFamily:fi'
+        1652:
+            name    : Shield
+            unicode : f1af
+            slug    : shield
+            familyCollection :
+                - '++IconFamily:fi'
+        1653:
+            name    : Shopping Bag
+            unicode : f1b0
+            slug    : shopping-bag
+            familyCollection :
+                - '++IconFamily:fi'
+        1654:
+            name    : Shopping Cart
+            unicode : f1b1
+            slug    : shopping-cart
+            familyCollection :
+                - '++IconFamily:fi'
+        1655:
+            name    : Shuffle
+            unicode : f1b2
+            slug    : shuffle
+            familyCollection :
+                - '++IconFamily:fi'
+        1656:
+            name    : Skull
+            unicode : f1b3
+            slug    : skull
+            familyCollection :
+                - '++IconFamily:fi'
+        1657:
+            name    : Social 500px
+            unicode : f1b4
+            slug    : social-500px
+            familyCollection :
+                - '++IconFamily:fi'
+        1658:
+            name    : Social Adobe
+            unicode : f1b5
+            slug    : social-adobe
+            familyCollection :
+                - '++IconFamily:fi'
+        1659:
+            name    : Social Amazon
+            unicode : f1b6
+            slug    : social-amazon
+            familyCollection :
+                - '++IconFamily:fi'
+        1660:
+            name    : Social Android
+            unicode : f1b7
+            slug    : social-android
+            familyCollection :
+                - '++IconFamily:fi'
+        1661:
+            name    : Social Apple
+            unicode : f1b8
+            slug    : social-apple
+            familyCollection :
+                - '++IconFamily:fi'
+        1662:
+            name    : Social Behance
+            unicode : f1b9
+            slug    : social-behance
+            familyCollection :
+                - '++IconFamily:fi'
+        1663:
+            name    : Social Bing
+            unicode : f1ba
+            slug    : social-bing
+            familyCollection :
+                - '++IconFamily:fi'
+        1664:
+            name    : Social Blogger
+            unicode : f1bb
+            slug    : social-blogger
+            familyCollection :
+                - '++IconFamily:fi'
+        1665:
+            name    : Social Delicious
+            unicode : f1bc
+            slug    : social-delicious
+            familyCollection :
+                - '++IconFamily:fi'
+        1666:
+            name    : Social Designer News
+            unicode : f1bd
+            slug    : social-designer-news
+            familyCollection :
+                - '++IconFamily:fi'
+        1667:
+            name    : Social Deviant Art
+            unicode : f1be
+            slug    : social-deviant-art
+            familyCollection :
+                - '++IconFamily:fi'
+        1668:
+            name    : Social Digg
+            unicode : f1bf
+            slug    : social-digg
+            familyCollection :
+                - '++IconFamily:fi'
+        1669:
+            name    : Social Dribbble
+            unicode : f1c0
+            slug    : social-dribbble
+            familyCollection :
+                - '++IconFamily:fi'
+        1670:
+            name    : Social Drive
+            unicode : f1c1
+            slug    : social-drive
+            familyCollection :
+                - '++IconFamily:fi'
+        1671:
+            name    : Social Dropbox
+            unicode : f1c2
+            slug    : social-dropbox
+            familyCollection :
+                - '++IconFamily:fi'
+        1672:
+            name    : Social Evernote
+            unicode : f1c3
+            slug    : social-evernote
+            familyCollection :
+                - '++IconFamily:fi'
+        1673:
+            name    : Social Facebook
+            unicode : f1c4
+            slug    : social-facebook
+            familyCollection :
+                - '++IconFamily:fi'
+        1674:
+            name    : Social Flickr
+            unicode : f1c5
+            slug    : social-flickr
+            familyCollection :
+                - '++IconFamily:fi'
+        1675:
+            name    : Social Forrst
+            unicode : f1c6
+            slug    : social-forrst
+            familyCollection :
+                - '++IconFamily:fi'
+        1676:
+            name    : Social Foursquare
+            unicode : f1c7
+            slug    : social-foursquare
+            familyCollection :
+                - '++IconFamily:fi'
+        1677:
+            name    : Social Game Center
+            unicode : f1c8
+            slug    : social-game-center
+            familyCollection :
+                - '++IconFamily:fi'
+        1678:
+            name    : Social Github
+            unicode : f1c9
+            slug    : social-github
+            familyCollection :
+                - '++IconFamily:fi'
+        1679:
+            name    : Social Google Plus
+            unicode : f1ca
+            slug    : social-google-plus
+            familyCollection :
+                - '++IconFamily:fi'
+        1680:
+            name    : Social Hacker News
+            unicode : f1cb
+            slug    : social-hacker-news
+            familyCollection :
+                - '++IconFamily:fi'
+        1681:
+            name    : Social Hi5
+            unicode : f1cc
+            slug    : social-hi5
+            familyCollection :
+                - '++IconFamily:fi'
+        1682:
+            name    : Social Instagram
+            unicode : f1cd
+            slug    : social-instagram
+            familyCollection :
+                - '++IconFamily:fi'
+        1683:
+            name    : Social Joomla
+            unicode : f1ce
+            slug    : social-joomla
+            familyCollection :
+                - '++IconFamily:fi'
+        1684:
+            name    : Social Lastfm
+            unicode : f1cf
+            slug    : social-lastfm
+            familyCollection :
+                - '++IconFamily:fi'
+        1685:
+            name    : Social Linkedin
+            unicode : f1d0
+            slug    : social-linkedin
+            familyCollection :
+                - '++IconFamily:fi'
+        1686:
+            name    : Social Medium
+            unicode : f1d1
+            slug    : social-medium
+            familyCollection :
+                - '++IconFamily:fi'
+        1687:
+            name    : Social Myspace
+            unicode : f1d2
+            slug    : social-myspace
+            familyCollection :
+                - '++IconFamily:fi'
+        1688:
+            name    : Social Orkut
+            unicode : f1d3
+            slug    : social-orkut
+            familyCollection :
+                - '++IconFamily:fi'
+        1689:
+            name    : Social Path
+            unicode : f1d4
+            slug    : social-path
+            familyCollection :
+                - '++IconFamily:fi'
+        1690:
+            name    : Social Picasa
+            unicode : f1d5
+            slug    : social-picasa
+            familyCollection :
+                - '++IconFamily:fi'
+        1691:
+            name    : Social Pinterest
+            unicode : f1d6
+            slug    : social-pinterest
+            familyCollection :
+                - '++IconFamily:fi'
+        1692:
+            name    : Social Rdio
+            unicode : f1d7
+            slug    : social-rdio
+            familyCollection :
+                - '++IconFamily:fi'
+        1693:
+            name    : Social Reddit
+            unicode : f1d8
+            slug    : social-reddit
+            familyCollection :
+                - '++IconFamily:fi'
+        1694:
+            name    : Social Skillshare
+            unicode : f1d9
+            slug    : social-skillshare
+            familyCollection :
+                - '++IconFamily:fi'
+        1695:
+            name    : Social Skype
+            unicode : f1da
+            slug    : social-skype
+            familyCollection :
+                - '++IconFamily:fi'
+        1696:
+            name    : Social Smashing Mag
+            unicode : f1db
+            slug    : social-smashing-mag
+            familyCollection :
+                - '++IconFamily:fi'
+        1697:
+            name    : Social Snapchat
+            unicode : f1dc
+            slug    : social-snapchat
+            familyCollection :
+                - '++IconFamily:fi'
+        1698:
+            name    : Social Spotify
+            unicode : f1dd
+            slug    : social-spotify
+            familyCollection :
+                - '++IconFamily:fi'
+        1699:
+            name    : Social Squidoo
+            unicode : f1de
+            slug    : social-squidoo
+            familyCollection :
+                - '++IconFamily:fi'
+        1700:
+            name    : Social Stack Overflow
+            unicode : f1df
+            slug    : social-stack-overflow
+            familyCollection :
+                - '++IconFamily:fi'
+        1701:
+            name    : Social Steam
+            unicode : f1e0
+            slug    : social-steam
+            familyCollection :
+                - '++IconFamily:fi'
+        1702:
+            name    : Social Stumbleupon
+            unicode : f1e1
+            slug    : social-stumbleupon
+            familyCollection :
+                - '++IconFamily:fi'
+        1703:
+            name    : Social Treehouse
+            unicode : f1e2
+            slug    : social-treehouse
+            familyCollection :
+                - '++IconFamily:fi'
+        1704:
+            name    : Social Tumblr
+            unicode : f1e3
+            slug    : social-tumblr
+            familyCollection :
+                - '++IconFamily:fi'
+        1705:
+            name    : Social Twitter
+            unicode : f1e4
+            slug    : social-twitter
+            familyCollection :
+                - '++IconFamily:fi'
+        1706:
+            name    : Social Vimeo
+            unicode : f1e5
+            slug    : social-vimeo
+            familyCollection :
+                - '++IconFamily:fi'
+        1707:
+            name    : Social Windows
+            unicode : f1e6
+            slug    : social-windows
+            familyCollection :
+                - '++IconFamily:fi'
+        1708:
+            name    : Social Xbox
+            unicode : f1e7
+            slug    : social-xbox
+            familyCollection :
+                - '++IconFamily:fi'
+        1709:
+            name    : Social Yahoo
+            unicode : f1e8
+            slug    : social-yahoo
+            familyCollection :
+                - '++IconFamily:fi'
+        1710:
+            name    : Social Yelp
+            unicode : f1e9
+            slug    : social-yelp
+            familyCollection :
+                - '++IconFamily:fi'
+        1711:
+            name    : Social Youtube
+            unicode : f1ea
+            slug    : social-youtube
+            familyCollection :
+                - '++IconFamily:fi'
+        1712:
+            name    : Social Zerply
+            unicode : f1eb
+            slug    : social-zerply
+            familyCollection :
+                - '++IconFamily:fi'
+        1713:
+            name    : Social Zurb
+            unicode : f1ec
+            slug    : social-zurb
+            familyCollection :
+                - '++IconFamily:fi'
+        1714:
+            name    : Sound
+            unicode : f1ed
+            slug    : sound
+            familyCollection :
+                - '++IconFamily:fi'
+        1715:
+            name    : Star
+            unicode : f1ee
+            slug    : star
+            familyCollection :
+                - '++IconFamily:fi'
+        1716:
+            name    : Stop
+            unicode : f1ef
+            slug    : stop
+            familyCollection :
+                - '++IconFamily:fi'
+        1717:
+            name    : Strikethrough
+            unicode : f1f0
+            slug    : strikethrough
+            familyCollection :
+                - '++IconFamily:fi'
+        1718:
+            name    : Subscript
+            unicode : f1f1
+            slug    : subscript
+            familyCollection :
+                - '++IconFamily:fi'
+        1719:
+            name    : Superscript
+            unicode : f1f2
+            slug    : superscript
+            familyCollection :
+                - '++IconFamily:fi'
+        1720:
+            name    : Tablet Landscape
+            unicode : f1f3
+            slug    : tablet-landscape
+            familyCollection :
+                - '++IconFamily:fi'
+        1721:
+            name    : Tablet Portrait
+            unicode : f1f4
+            slug    : tablet-portrait
+            familyCollection :
+                - '++IconFamily:fi'
+        1722:
+            name    : Target Two
+            unicode : f1f5
+            slug    : target-two
+            familyCollection :
+                - '++IconFamily:fi'
+        1723:
+            name    : Target
+            unicode : f1f6
+            slug    : target
+            familyCollection :
+                - '++IconFamily:fi'
+        1724:
+            name    : Telephone Accessible
+            unicode : f1f7
+            slug    : telephone-accessible
+            familyCollection :
+                - '++IconFamily:fi'
+        1725:
+            name    : Telephone
+            unicode : f1f8
+            slug    : telephone
+            familyCollection :
+                - '++IconFamily:fi'
+        1726:
+            name    : Text Color
+            unicode : f1f9
+            slug    : text-color
+            familyCollection :
+                - '++IconFamily:fi'
+        1727:
+            name    : Thumbnails
+            unicode : f1fa
+            slug    : thumbnails
+            familyCollection :
+                - '++IconFamily:fi'
+        1728:
+            name    : Ticket
+            unicode : f1fb
+            slug    : ticket
+            familyCollection :
+                - '++IconFamily:fi'
+        1729:
+            name    : Torso Business
+            unicode : f1fc
+            slug    : torso-business
+            familyCollection :
+                - '++IconFamily:fi'
+        1730:
+            name    : Torso Female
+            unicode : f1fd
+            slug    : torso-female
+            familyCollection :
+                - '++IconFamily:fi'
+        1731:
+            name    : Torso
+            unicode : f1fe
+            slug    : torso
+            familyCollection :
+                - '++IconFamily:fi'
+        1732:
+            name    : Torsos All Female
+            unicode : f1ff
+            slug    : torsos-all-female
+            familyCollection :
+                - '++IconFamily:fi'
+        1733:
+            name    : Torsos All
+            unicode : f200
+            slug    : torsos-all
+            familyCollection :
+                - '++IconFamily:fi'
+        1734:
+            name    : Torsos Female Male
+            unicode : f201
+            slug    : torsos-female-male
+            familyCollection :
+                - '++IconFamily:fi'
+        1735:
+            name    : Torsos Male Female
+            unicode : f202
+            slug    : torsos-male-female
+            familyCollection :
+                - '++IconFamily:fi'
+        1736:
+            name    : Torsos
+            unicode : f203
+            slug    : torsos
+            familyCollection :
+                - '++IconFamily:fi'
+        1737:
+            name    : Trash
+            unicode : f204
+            slug    : trash
+            familyCollection :
+                - '++IconFamily:fi'
+        1738:
+            name    : Trees
+            unicode : f205
+            slug    : trees
+            familyCollection :
+                - '++IconFamily:fi'
+        1739:
+            name    : Trophy
+            unicode : f206
+            slug    : trophy
+            familyCollection :
+                - '++IconFamily:fi'
+        1740:
+            name    : Underline
+            unicode : f207
+            slug    : underline
+            familyCollection :
+                - '++IconFamily:fi'
+        1741:
+            name    : Universal Access
+            unicode : f208
+            slug    : universal-access
+            familyCollection :
+                - '++IconFamily:fi'
+        1742:
+            name    : Unlink
+            unicode : f209
+            slug    : unlink
+            familyCollection :
+                - '++IconFamily:fi'
+        1743:
+            name    : Unlock
+            unicode : f20a
+            slug    : unlock
+            familyCollection :
+                - '++IconFamily:fi'
+        1744:
+            name    : Upload Cloud
+            unicode : f20b
+            slug    : upload-cloud
+            familyCollection :
+                - '++IconFamily:fi'
+        1745:
+            name    : Upload
+            unicode : f20c
+            slug    : upload
+            familyCollection :
+                - '++IconFamily:fi'
+        1746:
+            name    : Usb
+            unicode : f20d
+            slug    : usb
+            familyCollection :
+                - '++IconFamily:fi'
+        1747:
+            name    : Video
+            unicode : f20e
+            slug    : video
+            familyCollection :
+                - '++IconFamily:fi'
+        1748:
+            name    : Volume None
+            unicode : f20f
+            slug    : volume-none
+            familyCollection :
+                - '++IconFamily:fi'
+        1749:
+            name    : Volume Strike
+            unicode : f210
+            slug    : volume-strike
+            familyCollection :
+                - '++IconFamily:fi'
+        1750:
+            name    : Volume
+            unicode : f211
+            slug    : volume
+            familyCollection :
+                - '++IconFamily:fi'
+        1751:
+            name    : Web
+            unicode : f212
+            slug    : web
+            familyCollection :
+                - '++IconFamily:fi'
+        1752:
+            name    : Wheelchair
+            unicode : f213
+            slug    : wheelchair
+            familyCollection :
+                - '++IconFamily:fi'
+        1753:
+            name    : Widget
+            unicode : f214
+            slug    : widget
+            familyCollection :
+                - '++IconFamily:fi'
+        1754:
+            name    : Wrench
+            unicode : f215
+            slug    : wrench
+            familyCollection :
+                - '++IconFamily:fi'
+        1755:
+            name    : X Circle
+            unicode : f216
+            slug    : x-circle
+            familyCollection :
+                - '++IconFamily:fi'
+        1756:
+            name    : X
+            unicode : f217
+            slug    : x
+            familyCollection :
+                - '++IconFamily:fi'
+        1757:
+            name    : Yen
+            unicode : f218
+            slug    : yen
+            familyCollection :
+                - '++IconFamily:fi'
+        1758:
+            name    : Zoom In
+            unicode : f219
+            slug    : zoom-in
+            familyCollection :
+                - '++IconFamily:fi'
+        1759:
+            name    : Zoom Out
+            unicode : f21a
+            slug    : zoom-out
+            familyCollection :
+                - '++IconFamily:fi'
+
+...
