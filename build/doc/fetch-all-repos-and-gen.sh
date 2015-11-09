@@ -70,7 +70,7 @@ function clone_one()
 
     echo "     - Configuring : "
 
-    if [ -f "${cfgfile}" ]; then
+    if [ -e "${cfgfile}" ]; then
         echo "         - [  read  ] YML Filepath    : '${cfgfile}'"
         eval $(parse_yaml "${cfgfile}" "cfg_pkg_")
 
@@ -80,7 +80,7 @@ function clone_one()
         elif [ "${cfg_pkg_api_parser}" == "sami" ] || [ "${cfg_pkg_api_parser}" == "~" ]; then
             echo "         - [  conf  ] Src Parser Type : 'sami'."
             cfg_pkg_api_parser="sami"
-            cfg_pkg_api_binary="./vendor/sami/sami/sami.php"
+            cfg_pkg_api_binary="${tmpdir}/vendor/sami/sami/sami.php"
         else
             echo "         ! [  stop  ] Unsuported parser requested: '${cfg_pkg_api_parser}'."
             return
@@ -148,13 +148,13 @@ function clone_one()
     echo -n "         - [ extern ] Running : '${COMPOSER_BIN} install || ${COMPOSER_BIN} update'"
     ${COMPOSER_BIN} install &>> /dev/null || ${COMPOSER_BIN} update &>> /dev/null
     echo " ... done."
-    if [ ! -f "${tmpdir}/${cfg_pkg_api_binary}" ]; then
+    if [ ! -e "${cfg_pkg_api_binary}" ]; then
         echo "             - [ misdep ] Dependency missing  : 'sami/sami'"
         echo "             - [ depend ] Manual require      : 'sami/sami'"
         echo -n "             - [ extern ] Running             : '${COMPOSER_BIN} require --dev sami/sami'"
         ${COMPOSER_BIN} require --dev sami/sami &>> /dev/null && echo " ... done."
 
-        if [ ! -f "${tmpdir}/${cfg_pkg_api_binary}" ]; then
+        if [ ! -e "${cfg_pkg_api_binary}" ]; then
             echo "         ! [  stop  ] Cannot meet required dependencies!"
             return
         fi
