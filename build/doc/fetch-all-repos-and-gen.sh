@@ -57,7 +57,7 @@ function clone_one()
     shortn="${2}"
     remote="https://github.com/scr-be/${shortn}.git"
     tmpdir="${WORK_DIR}/${shortn}"
-    cfgfile="${WORK_DIR}/../${CFG_FILE}"
+    cfgfile="${WORK_DIR}/${CFG_FILE}"
 
     cd "${WORK_DIR}"
 
