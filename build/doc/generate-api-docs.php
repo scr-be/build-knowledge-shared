@@ -146,9 +146,7 @@ array_walk($executables, function (&$val) use ($replaceDirectoryPlaceholders) {
 });
 
 foreach ($executables as $e) {
-    var_dump($e);
     if (false !== ($e = realpath($e))) { 
-        var_dump($e);
         $binary = $e;
         break;
     }
