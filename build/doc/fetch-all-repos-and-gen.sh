@@ -109,8 +109,8 @@ function clone_one()
         fi
     else
         echo "         - [  read  ] No config file found!"
-        cfg_pkg_api_branch=""
-        cfg_pkg_api_cfgmod=""
+        cfg_pkg_api_branch="origin/master"
+        cfg_pkg_api_cfgmod="clone"
         cfg_pkg_api_parser=""
     fi
 
