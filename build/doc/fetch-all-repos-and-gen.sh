@@ -112,6 +112,8 @@ function clone_one()
         cfg_pkg_api_branch="origin/master"
         cfg_pkg_api_cfgmod="clone"
         cfg_pkg_api_parser=""
+        cfg_pkg_api_runner="~"
+        cfg_pkg_api_binary="${tmpdir}/vendor/sami/sami/sami.php"
     fi
 
     echo "     - Setup Local Repo :"
@@ -120,7 +122,7 @@ function clone_one()
     echo -n "         - [ extern ] Running : 'git checkout -b '${cfg_pkg_api_branch}''"
     git checkout -b "${cfg_pkg_api_branch}" &>> /dev/null  && echo " ... done."
     echo "         - [  info  ] Commit  : '$(git show --oneline | head -n 1 | cut -d" " -f1)'"
-    echo "         - [  info  [ Message : '$(git show --oneline | head -n 1 | cut -d" " -f2-)'"
+    echo "         - [  info  ] Message : '$(git show --oneline | head -n 1 | cut -d" " -f2-)'"
 
     echo "     - Configure runner:"
     if [ "${cfg_pkg_api_cfgmod}" == "submodule" ]; then
@@ -136,7 +138,7 @@ function clone_one()
         echo -n "         - [ remote ] Fetching : '${GIT_CFG_REMOTE}'"
         git clone "${GIT_CFG_REMOTE}" "${GIT_CFG_RDIR}" &>> /dev/null
         echo " ... done."
-        if [ -z ${cfg_pkg_api_runner} ] || [ "${cfg_pkg_api_runner}" == "~" ]; then
+        if [ -z ${cfg_pkg_api_runner} ] || [ "${cfg_pkg_api_runner}" == "~" ] || [ "${cfg_pkg_api_runner}" == "" ]; then
             cfg_pkg_api_runner="${tmpdir}/${GIT_CFG_RDIR}/${CFG_RUNNER}"
             echo "         - [ depend ] Runner   : '${cfg_pkg_api_runner}'"
         fi
@@ -153,7 +155,6 @@ function clone_one()
         echo "             - [ depend ] Manual require      : 'sami/sami'"
         echo -n "             - [ extern ] Running             : '${COMPOSER_BIN} require --dev sami/sami'"
         ${COMPOSER_BIN} require --dev sami/sami &>> /dev/null && echo " ... done."
-
         if [ ! -e "${cfg_pkg_api_binary}" ]; then
             echo "         ! [  stop  ] Cannot meet required dependencies!"
             return
