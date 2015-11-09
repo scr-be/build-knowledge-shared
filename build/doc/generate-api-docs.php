@@ -211,16 +211,16 @@ if ($argc > 3) {
         $atb('    ->in("'.$resolvedPath.'")');
     }
 } else {
-    $resolvedPath = $projectRootPath.DIRECTORY_SEPARATOR.'src';
+    foreach(['src', 'lib'] as $defaultDir) {
+        $resolvedPath = $replaceDirectoryPlaceholders('%DIR_ROOT%%DS%'.$defaultDir);
 
-    if (false === ($resolvedPath = realpath($resolvedPath))) {
-        $out("  - [SKIP] '$resolvedPath'".PHP_EOL);
-    } else {
-        $resolvedPathCount++;
-        $out("  - [okay] '$resolvedPath' (default)".PHP_EOL);
+        if (!empty($resolvedPath) && false !== ($resolvedPath = realpath($resolvedPath))) {
+            $resolvedPathCount++;
+            $out("  - [okay] '$resolvedPath' (default)".PHP_EOL);
 
-        $iterator->in($resolvedPath);
-        $atb('    ->in("'.$resolvedPath.'")');
+            $iterator->in($resolvedPath);
+            $atb('    ->in("'.$resolvedPath.'")');
+        }
     }
 }
 
