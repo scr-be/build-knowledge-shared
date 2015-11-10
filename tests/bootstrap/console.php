@@ -34,6 +34,7 @@ if ($debug) {
 }
 
 $kernel = new \AppKernel($env, $debug);
+
 return (new Application($kernel))->run($input);
 
 /* EOF */

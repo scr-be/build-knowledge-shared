@@ -71,7 +71,7 @@ define('TEST_BS_FILE_CONSOLE_APP', realpath(__DIR__.'/../console.php'));
  *
  * @var string
  */
-define('TEST_BS_FILE_APP_KERNEL', realpath(TEST_BS_ROOT.'/src/Tests/app/AppKernel.php'));
+define('TEST_BS_FILE_APP_KERNEL', realpath(TEST_BS_ROOT.'/tests/app/AppKernel.php'));
 
 /**
  * Path to "local" version of PHPUnit file
@@ -85,6 +85,6 @@ define('TEST_BS_FILE_PHPUNIT_LOCAL', realpath(TEST_BS_ROOT.'/phpunit.xml.dist'))
  *
  * @var string
  */
-define('TEST_BS_VER_MIN_PHPUNIT', '4.5');
+define('TEST_BS_VER_MIN_PHPUNIT', '5.0');
 
 /* EOF */
