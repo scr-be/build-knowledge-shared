@@ -11,6 +11,11 @@
 
 set -e
 
+if [[ ${BUILDER_DEBUG} == "true" ]]
+then
+    set -x
+fi
+
 readonly SCRIPT_CALLER_SPATH="${0}"
 readonly SCRIPT_CALLER_RPATH="$(cd "$(dirname "${BASH_SOURCE[0]}" 2> /dev/null)" && pwd)"
 readonly SCRIPT_CALLER_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
