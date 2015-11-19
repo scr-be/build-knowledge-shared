@@ -15,5 +15,6 @@ readonly SCRIPT_COMMON_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 
 . ${SCRIPT_COMMON_RPATH}/bash-inc_functions.bash
 . ${SCRIPT_COMMON_RPATH}/bash-inc_variables.bash
+. ${SCRIPT_COMMON_RPATH}/bash-inc_common.bash
 
 # EOF #

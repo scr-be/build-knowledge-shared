@@ -121,4 +121,33 @@ function isExtensionEnabled()
     fi
 }
 
+function commaToSpaceSeparated()
+{
+    echo $(echo $(echo "${1:-}" | tr ',' " "))
+}
+
+function valueInList()
+{
+    local needle="${1:-x}"
+    local haystack="${2:-}"
+
+    for item in $(commaToSpaceSeparated ${haystack})
+    do
+        if [ ${item} == ${needle} ]
+        then
+            echo "true"
+            return
+        fi
+    done
+
+    echo "false"
+}
+
+function assignIndirect()
+{
+    if [ "${1:-x}" == "x" ]; then return; fi
+
+    export -n "${1}"="${2:-}"
+}
+
 # EOF #

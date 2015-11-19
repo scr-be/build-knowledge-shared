@@ -15,20 +15,27 @@ readonly SCRIPT_BUILDR_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 
 type outLines &>> /dev/null || exit -1
 
-for e in $(echo $(echo "${scr_pkg_syspkgs_req}" | tr ',' " "))
+for e in $(commaToSpaceSeparated ${scr_pkg_syspkgs_req})
 do
 	bash "${SCRIPT_BUILDR_RPATH}/../_ext-deps/ext-deps_make-${e}.bash"
 done
 
-for e in $(echo $(echo "${scr_pkg_phpexts_req}" | tr ',' " "))
+for e in $(commaToSpaceSeparated ${scr_pkg_phpexts_req})
 do
 	bash "${SCRIPT_BUILDR_RPATH}/../_php-mods/php-mods_make-${e}.bash"
 done
 
-if [ ${BIN_PHPENV} ]
-then
-	${BIN_PHPENV} config-add "${SCRIPT_BUILDR_RPATH}/../_php-incs/php-incs_set-timezone.ini" &>> /dev/null || true
-	${BIN_PHPENV} rehash
-fi
+for e in $(commaToSpaceSeparated ${scr_pkg_phpincs_req})
+do
+	if [ ${BIN_PHPENV} ]
+	then
+		outInfo "Added php-incs_set-${e}.ini to phpenv config."
+		${BIN_PHPENV} config-add "${SCRIPT_BUILDR_RPATH}/../_php-incs/php-incs_set-${e}.ini" &>> /dev/null || outError \
+			"Could not add ${e} to PHP config ini."
+		${BIN_PHPENV} rehash
+	else
+		outError "Could not add ${e} to PHP config ini outside phpenv enviornment."
+	fi
+done
 
 # EOF #
