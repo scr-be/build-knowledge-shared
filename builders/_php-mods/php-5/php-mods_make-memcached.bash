@@ -6,6 +6,6 @@ ${CMD_PRE} apt-get install -qq -y --verbose-versions --reinstall libjson-c2 php5
 mkdir -p build/pecl/ && cd build/pecl/
 wget http://pecl.php.net/get/memcached-2.2.0.tgz && tar xzf memcached-2.2.0.tgz && cd memcached-2.2.0/
 
-phpize && ./configure --enable-memcached-igbinary --enable-memcached-json --enable-memcached-msgpack
+phpize && ./configure --enable-memcached-igbinary --enable-memcached-json
 
 make && ${CMD_PRE} make install
