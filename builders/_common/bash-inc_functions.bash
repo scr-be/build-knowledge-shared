@@ -19,9 +19,9 @@ function outLines()
 
     if [ "${l}" ]
     then
-        echo -n "${l[@]}" | sed -r "s/(.{1,74})/  ${p}  \1\n/g"
+        echo -n "${l[@]}" | sed -r "s/(.{1,110})/  ${p}  \1\n/g"
     else
-        echo "  ${p}"
+        echo -n " " | sed -r "s/(.{1,110})/  ${p}  \1\n/g"
     fi
 }
 
@@ -31,7 +31,6 @@ function outBlock()
     local t="${2:-BLOCK}"
     local l="${@:3}"
 
-    echo -en "\n"
     outLines ${p}
     outLines ${p} ${t}
     outLines ${p} ${l[@]}
@@ -39,43 +38,132 @@ function outBlock()
     echo -en "\n"
 }
 
+function outBlockNoHeader()
+{
+    local p="${1:---}"
+    local l="${@:2}"
+
+    outLines ${p}
+    outLines ${p} ${l[@]}
+    outLines ${p}
+    echo -en "\n"
+}
+
 function outInfo()
 {
-    outBlock "--" "INFO:" "${@}"
+    outBlockNoHeader "--" "${@}"
 }
 
 function outError()
 {
-    outBlock "!!" "ERROR:" "${@}"
+    outBlock "!!" "ERROR" "${@}"
+}
+
+function outCritical()
+{
+    outBlock "!!" "CRITICAL ERROR" "${@}"
+}
+
+function outNotice()
+{
+    outBlockNoHeader "##" "${@}"
 }
 
 function outSuccess()
 {
-    outBlock ">>" "OKAY:" "${@}"
+    outBlockNoHeader ">>" "${@}"
 }
 
 function outErrorAndExit()
 {
     outError ${@:-An unknown error occured.}
-
+    outCritical "Halting execution with non-zero return value."
     exit -1
 }
 
 function outListing()
 {
-    echo -en "\n  ++\n  ++  LISTING:\n"
-    local lines=(${@})
+    local lines=("$@")
     local iterations=${#lines[@]}
+    local leftMaxLength=0
+    local iterationRemainder=0
+    local prefix="- "
 
-    if [ $((($iterations % 2))) == 0 ]
+    for i in $(seq 0 1 $(((${iterations} - 1))))
+    do
+        line="${lines[${i}]}"
+        value="${lines[$(((${i} + 1)))]}"
+
+        if [[ "${line:0:1}" == ":" ]] || [[ "${line}" == "_" ]]
+        then
+            iterationRemainder=$(inverseBoolValueAsInt ${iterationRemainder})
+            continue
+        fi
+
+        if [[ $(((${i} % 2))) != ${iterationRemainder} ]]
+        then
+            continue
+        fi
+
+        wc=$(echo -n "${line}" | wc -m)
+        [[ ${wc} -gt ${leftMaxLength} ]] && leftMaxLength=${wc}
+    done
+
+    iterationRemainder=0
+    leftMaxLength=$(((${leftMaxLength} + 3)))
+
+    for i in $(seq 0 1 $(((${iterations} - 1))))
+    do
+        line="${lines[${i}]}"
+        value="${lines[$(((${i} + 1)))]}"
+
+        if [[ "${line:0:1}" == ":" ]]
+        then
+            title="${line:1}"
+            titleSurround=""
+            iterationRemainder=$(inverseBoolValueAsInt ${iterationRemainder})
+
+            for j in $(seq $(echo -n ${title} | wc -m))
+            do
+                titleSurround="${titleSurround}-"
+            done
+
+            [[ $i != 0 ]] && echo -e "  ${prefix}\n  ${prefix}"
+            echo "  ${prefix}  [ ${title^^} ]"
+            echo "  ${prefix}"
+
+            continue
+        fi
+
+        if [[ "${line}" == "_" ]]
+        then
+            iterationRemainder=$(inverseBoolValueAsInt ${iterationRemainder})
+
+            echo "  ${prefix}"
+            continue
+        fi
+
+        if [[ $(((${i} % 2))) != ${iterationRemainder} ]]
+        then
+            continue
+        fi
+
+        echo -en "  ${prefix}  "
+        echo -n "${line} " | sed -e :a -e "s/^.\{1,${leftMaxLength}\}$/&./;ta";
+        echo " ${value}"
+    done
+    
+    echo -en "\n"
+}
+
+function inverseBoolValueAsInt()
+{
+    if [[ ${1:-x} == 0 ]]
     then
-        for i in $(seq 1 2 ${iterations})
-        do
-            echo "  ++  ${lines[$(((${i} - 1)))]} -> ${lines[${i}]}"
-        done
+        echo 1
+    else
+        echo 0
     fi
-
-    echo -en "  ++\n"
 }
 
 function parseYaml()
@@ -121,9 +209,14 @@ function isExtensionEnabled()
     fi
 }
 
+function commaToOtherSeparated()
+{
+    echo $(echo $(echo "${1}" | tr ',' "${2}"))
+}
+
 function commaToSpaceSeparated()
 {
-    echo $(echo $(echo "${1:-}" | tr ',' " "))
+    commaToOtherSeparated "${1}" " "
 }
 
 function valueInList()
@@ -133,6 +226,7 @@ function valueInList()
 
     for item in $(commaToSpaceSeparated ${haystack})
     do
+        echo $item
         if [ ${item} == ${needle} ]
         then
             echo "true"
@@ -148,6 +242,16 @@ function assignIndirect()
     if [ "${1:-x}" == "x" ]; then return; fi
 
     export -n "${1}"="${2:-}"
+}
+
+function getYesOrNoForCompare()
+{
+    if [[ "${1:-x}" == "${2:-y}" ]]
+    then
+        echo "YES"
+    else
+        echo "NO"
+    fi
 }
 
 # EOF #

@@ -15,7 +15,7 @@
 [[ ${DISTRIB_ID} != ${VER_ENV_DIST} ]] && outErrorAndExit \
     "Automatic builds only supported on Ubuntu at this time. Could not find valid \$DISTRIB_ID."
 
-valueInList "${DISTRIB_CODENAME:-x}" "${VER_ENV_SUPPORT}" &>> /dev/null || outErrorAndExit \
+[[ $(valueInList ${DISTRIB_CODENAME:-x} ${VER_ENV_SUPPORT}) != "true" ]] || outErrorAndExit \
     "Automatic builds only supported on Ubuntu versions (${VER_ENV_SUPPORT}) at this time. Found" \
     "version ${DISTRIB_CODENAME}."
 
@@ -46,7 +46,7 @@ fi
 
 if [ "${VAR_ENV_SCRIBE_PATH}" == "true" ]
 then
-    VAR_ENV_SCRIBE_PATH="${VAR_ENV_SCRIBE_PATH_DEFAULT}" && outInfo \
+    VAR_ENV_SCRIBE_PATH="${VAR_ENV_SCRIBE_PATH_DEFAULT}" && outLines " " && outNotice \
         "Attempting to use default package config location of ${VAR_ENV_SCRIBE_PATH_DEFAULT}."
 fi
 

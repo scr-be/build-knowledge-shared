@@ -15,26 +15,32 @@ readonly SCRIPT_BUILDR_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 
 type outLines &>> /dev/null || exit -1
 
-if [ ${VER_PHP_ON_7} ]
+if [ ${VER_PHP_ON_5:-x} == "x" ]
 then
-	outLines "Skipping coverage uploads for PJP v7."
-	exit
+	outNotice "Skipping coverage/analytics for non-PHP 5.x versions (found ${VER_PHP})."
+	exit 0
 fi
 
-COVERAGE_CLOVER="build/logs/clover.xml"
+for c in $(commaToSpaceSeparated ${scr_pkg_ci_send_req})
+do
+	c_opts=""
+	c_bin="bin/${c}"
+	c_exit=0
+	[[ "${c}" == "codacycoverage" ]] && c_opts="clover -n ${COV_PATH}"
+	[[ "${c}" == "coveralls" ]] && c_opts="-vvv"
 
-if [ ! -e "${COVERAGE_CLOVER}" ]
-then
-	outError "Could not locate clover XML files at ${COVERAGE_CLOVER}"
-else
-	bin/coveralls -vvv
-
-	if [ ${CODACY_PROJECT_TOKEN:-x} == "x" ]
+	if [[ ! -f "${c_bin}" ]]
 	then
-		outError "Please set CODACY_PROJECT_TOKEN."
-	else
-		bin/codacycoverage clover -n ${COVERAGE_CLOVER}
+		outError \
+			"Could not run ${c_bin} as requires binary does not exist." && \
+			continue
 	fi
-fi
+
+	outInfo "Running ${c_bin}"
+	${c_bin} ${c_opts} &>> /dev/null || c_exit=-1
+
+	[[ ${c_exit} != 0 ]] && outError \
+		"Command ${c_bin} exited with non-zero return value."
+done
 
 # EOF #

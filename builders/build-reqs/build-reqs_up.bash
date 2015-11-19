@@ -17,25 +17,28 @@ type outLines &>> /dev/null || exit -1
 
 for e in $(commaToSpaceSeparated ${scr_pkg_syspkgs_req})
 do
-	bash "${SCRIPT_BUILDR_RPATH}/../_ext-deps/ext-deps_make-${e}.bash"
+	outInfo "Running ${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
+	. "${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
 done
 
 for e in $(commaToSpaceSeparated ${scr_pkg_phpexts_req})
 do
-	bash "${SCRIPT_BUILDR_RPATH}/../_php-mods/php-mods_make-${e}.bash"
+	outInfo "Running ${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
+	export PHP_MODULE=${e}
+	. "${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
 done
 
-for e in $(commaToSpaceSeparated ${scr_pkg_phpincs_req})
-do
-	if [ ${BIN_PHPENV} ]
-	then
-		outInfo "Added php-incs_set-${e}.ini to phpenv config."
-		${BIN_PHPENV} config-add "${SCRIPT_BUILDR_RPATH}/../_php-incs/php-incs_set-${e}.ini" &>> /dev/null || outError \
-			"Could not add ${e} to PHP config ini."
-		${BIN_PHPENV} rehash
-	else
-		outError "Could not add ${e} to PHP config ini outside phpenv enviornment."
-	fi
-done
+if [ ${BIN_PHPENV} ]
+then
+	for e in $(commaToSpaceSeparated ${scr_pkg_phpincs_req})
+	do
+		outInfo "Adding PHP config ${INC_INCS_PATH}/${INC_INCS_FILE}${e}.ini"
+		${BIN_PHPENV} config-add "${INC_INCS_PATH}/${INC_INCS_FILE}${e}.ini" &>> /dev/null || outErrorAndExit \
+			"Could not add ${INC_INCS_FILE}${e}.ini to PHP config ini."
+	done
+	${BIN_PHPENV} rehash
+else
+	outNotice "Cannot add/setup configuration INI outside PHPENV enviornments."
+fi
 
 # EOF #
