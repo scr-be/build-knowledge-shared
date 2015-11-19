@@ -6,7 +6,7 @@ CFG_FILE=".scribe-package.yml"
 GIT_CFG_REMOTE="https://github.com/scr-be/build-knowledge-shared.git"
 GIT_CFG_RDIR="./.config"
 SUB_CFG_RDIR="./app/config/shared_public"
-CFG_RUNNER="./build/doc/generate-api-docs.php"
+CFG_RUNNER="./builders/build-docs/build-docs_get-config.php"
 REPOS=("wonka-library" "wonka-bundle")
 
 # thanks github@pkuczynski: https://gist.github.com/pkuczynski/8665367
