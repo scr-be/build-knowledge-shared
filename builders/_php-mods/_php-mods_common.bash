@@ -33,7 +33,7 @@ fi
 outInfo "Running installer script ${RUN_SCRIPT_PATH}"
 bash ${RUN_SCRIPT_PATH}
 
-if [ $(isExtensionEnabled ${PHP_MODULE}) ]; then
+if [[ $(isExtensionEnabled ${PHP_MODULE}) == "true" ]]; then
     outSuccess "Extension already loaded for ${PHP_MODULE}. Skipping ini configuration."
 else
     if [ ${BIN_PHPENV} ]; then
