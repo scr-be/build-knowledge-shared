@@ -35,12 +35,11 @@ fi
 
 if [ "${TRAVIS:-x}" == "x" ]
 then
-    env_location="local"
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
         CMD_PRE="sudo "
-        env_with_phpenv="no"
+        env_location="local" && env_with_phpenv="no"
     else
-        env_with_phpenv="yes"
+        env_location="local" && env_with_phpenv="yes"
     fi
 else
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
@@ -50,13 +49,37 @@ else
     fi
 fi
 
-if [ "${scribe_packaged:-x}" == "x" ] || [ ! -f "${SCRIPT_CALLER_ROOT}/${scribe_packaged}" ]; then
+if [ "${scribe_packaged:-x}" == "x" ]
+then
+    outErrorAndExit \
+        "The 'scribe_packaged' enviornment variable must be defined!"
+fi
+
+if [ "${scribe_packaged:-x}" == "true" ]
+then
+    scribe_packaged=".scribe-package.yml"
+    outInfo \
+        "Attempting to use default package location: .scribe-package.yml"
+fi
+
+
+if [ ! -f "${SCRIPT_CALLER_ROOT}/${scribe_packaged}" ]; then
     outErrorAndExit \
         "The 'scribe_packaged' enviornment variable must be defined and set to the" \
         "location of your configuration YAML."
 fi
 
 eval $(parseYaml "${SCRIPT_CALLER_ROOT}/${scribe_packaged}" "scr_pkg_")
+
+if [ ${scr_pkg_phpexts_req:-x} == "x" ] || [ ${scr_pkg_phpexts_req:-x} == "~" ]
+then
+    scr_pkg_phpexts_req=""
+fi
+
+if [ ${scr_pkg_syspkgs_req:-x} == "x" ] || [ ${scr_pkg_syspkgs_req:-x} == "~" ]
+then
+    scr_pkg_syspkgs_req=""
+fi
 
 outListing \
     "Ver_PHP_Full" "${VER_PHP}" \
@@ -66,8 +89,12 @@ outListing \
     "Env_PHP_Path" "${env_with_phpenv}" \
     "Env_Location" "${env_location}" \
     "Env_Platform" "${DISTRIB_CODENAME}" \
+    "Env_Pkg_File" "${scribe_packaged}" \
     "Env_Requires" "${scr_pkg_phpexts_req:-none}" \
+    "Sys_Requires" "${scr_pkg_syspkgs_req:-none}" \
     "Scr_FilePath" "${SCRIPT_CALLER_SPATH}"
+
+sleep 4
 
 STATE_FILE_INCLUDE="${SCRIPT_CALLER_RPATH}/$(basename ${SCRIPT_CALLER_NAME} .bash)"
 
