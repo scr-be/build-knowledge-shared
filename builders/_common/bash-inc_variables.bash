@@ -32,7 +32,7 @@ fi
 
 if [ ${VER_PHP:0:1} == "7" ]
 then
-    VER_PHP_ON_5="true"
+    VER_PHP_ON_7="true"
 elif [ ${VER_PHP:0:1} == "5" ]
 then
     VER_PHP_ON_5="true"
