@@ -36,10 +36,12 @@ bash ${RUN_SCRIPT_PATH}
 if [[ $(isExtensionEnabled ${PHP_MODULE}) == "true" ]]; then
     outSuccess "Extension already loaded for ${PHP_MODULE}. Skipping ini configuration."
 else
-    if [ ${BIN_PHPENV} ]; then
-        EXT_OUT_PATH=$(realpath ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini)
-        outSuccess "Extension not loaded for ${PHP_MODULE}. Writing out ini configuration to ${EXT_OUT_PATH}."
-        echo "extension=${PHP_MODULE}.so" | tee -a ${EXT_OUT_PATH}
+    if [ ${BIN_PHPENV} ]
+    then
+        outInfo "Added php-incs_set-${PHP_MODULE}.ini to phpenv config."
+        ${BIN_PHPENV} config-add "${SCRIPT_SELF_REAL}/../_php-incs/php-incs_use-${PHP_MODULE}.ini" &>> /dev/null || outError \
+            "Could not add ${PHP_MODULE} to PHP config ini."
+        ${BIN_PHPENV} rehash
     else
         outError \
             "Auto-enabling extensions is only supported in phpenv environments." \
