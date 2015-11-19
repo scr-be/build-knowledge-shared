@@ -51,4 +51,6 @@ fi
 
 outSuccess "Complete."
 
+exit 0
+
 # EOF #
