@@ -29,7 +29,11 @@ define('TEST_BS_FILE_CONSOLE_APP_EXEC_LIMIT', 0);
  *
  * @var string
  */
-define('TEST_BS_ROOT', realpath(__DIR__.'/../../../../../../'));
+if (!realpath(realpath(__DIR__.'/../../../../../../src/')) && !realpath(realpath(__DIR__.'/../../../../../../lib/'))) {
+    define('TEST_BS_ROOT', realpath(__DIR__.'/../../../../../../'));
+} else {
+    define('TEST_BS_ROOT', realpath(__DIR__.'/../../../../'));
+}
 
 /**
  * Path to autoload include

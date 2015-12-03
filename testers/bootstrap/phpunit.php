@@ -11,6 +11,9 @@
 require_once(__DIR__.'/includes/constants.php');
 require_once(TEST_BS_FILE_FUNCTIONS);
 
+list($kernelRoot) = testBootstrap__getParametersFromPHPUnitXML('KERNEL_DIR');
+testBootstrap__removeDirectory($kernelRoot . DIRECTORY_SEPARATOR . 'cache', false);
+
 $loader = require_once(TEST_BS_FILE_LOADER);
 
 if (!class_exists('\PHPUnit_Framework_TestCase') ||

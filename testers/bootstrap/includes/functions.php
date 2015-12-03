@@ -65,8 +65,11 @@ function testBootstrap__recoverableError($message, ...$substitutions)
  * @param \LogicException|null $exception Optional exception to throw on error, otherwise
  *                                        return false if null
  *
+ * @throws \LogicException|\Exception
+ *
  * @return bool|mixed
  */
+
 function testBootstrap__includeFileOnce($filePath, \LogicException $exception = null)
 {
     $filePath = realpath($filePath);
@@ -168,18 +171,50 @@ function testBootstrap__setupContainerParametersFromPHPUnitXML($filePath, \Logic
     $xmlElsSvr = (array) @$xml->xpath('php/server');
 
     foreach ($xmlElsSvr as $xmlEl) {
-        $varName      = (string) @$xmlEl->attributes()->name[0];
-        $defaultValue = (string) @$xmlEl->attributes()->value[0];
+        $name  = (string) @$xmlEl->attributes()->name[0];
+        $value = (string) @$xmlEl->attributes()->value[0];
 
-        if (substr($varName, 0, 9) !== 'SYMFONY__') {
+        if (substr($name, 0, 9) !== 'SYMFONY__') {
             continue;
         }
 
         testBootstrap__setupContainerParameter(
-            str_replace('SYMFONY__', '', $varName),
-            $defaultValue
+            str_replace('SYMFONY__', '', $name),
+            $value
         );
     }
+}
+
+/**
+ * @param string,... $parameters
+ *
+ * @return array
+ */
+function testBootstrap__getParametersFromPHPUnitXML(...$parameters)
+{
+    if (true !== file_exists(TEST_BS_FILE_PHPUNIT_LOCAL)) {
+        testBootstrap__newLogicException(
+            'Could not setup container parameter values/defaults via parsed PHPUnit file at %s.',
+            TEST_BS_FILE_PHPUNIT_LOCAL
+        );
+    }
+
+    $xml       = simplexml_load_string(file_get_contents(TEST_BS_FILE_PHPUNIT_LOCAL));
+    $xmlElsSvr = (array) @$xml->xpath('php/server');
+    $return    = [];
+
+    foreach ($xmlElsSvr as $xmlEl) {
+        $name  = (string) @$xmlEl->attributes()->name[0];
+        $value = (string) @$xmlEl->attributes()->value[0];
+
+        if (false === ($index = array_search($name, $parameters))) {
+            $return[] = null;
+        } else {
+            $return[] = $value;
+        }
+    }
+
+    return $return;
 }
 
 /**
