@@ -8,8 +8,8 @@
  * file that was distributed with this source code.
  */
 
-require_once(realpath(__DIR__.'/constants.php'));
-require_once(TEST_BS_FILE_FUNCTIONS);
+require_once realpath(__DIR__.'/constants.php');
+require_once TEST_BS_FILE_FUNCTIONS;
 
 testBootstrap__removeDirectory(realpath(__DIR__.'/../../../../../../src/Tests/app/cache/'));
 testBootstrap__removeDirectory(__DIR__.'/app/cache/');

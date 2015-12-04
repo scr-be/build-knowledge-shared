@@ -15,5 +15,5 @@ NavMenuItem:
 
     dependencies: null
 
-    data:
-
+    data: []
+...

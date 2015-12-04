@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-require_once(realpath(__DIR__.'/constants.php'));
+require_once realpath(__DIR__.'/constants.php');
 
 /**
- * Create new LogicException instance
+ * Create new LogicException instance.
  *
  * @param string   $message       The error message (passed to sprintf)
  * @param ...mixed $substitutions The message substitutions (passed to sprintf)
@@ -20,9 +20,9 @@ require_once(realpath(__DIR__.'/constants.php'));
  */
 function testBootstrap__newLogicException($message, ...$substitutions)
 {
-    return (new \LogicException(
-        call_user_func_array('sprintf', array_merge((array)$message, (array)$substitutions))
-    ));
+    return new \LogicException(
+        call_user_func_array('sprintf', array_merge((array) $message, (array) $substitutions))
+    );
 }
 
 /**
@@ -59,7 +59,7 @@ function testBootstrap__recoverableError($message, ...$substitutions)
 }
 
 /**
- * Attempt to include a file if it exists
+ * Attempt to include a file if it exists.
  *
  * @param string               $filePath  File path to include
  * @param \LogicException|null $exception Optional exception to throw on error, otherwise
@@ -69,7 +69,6 @@ function testBootstrap__recoverableError($message, ...$substitutions)
  *
  * @return bool|mixed
  */
-
 function testBootstrap__includeFileOnce($filePath, \LogicException $exception = null)
 {
     $filePath = realpath($filePath);
@@ -82,11 +81,11 @@ function testBootstrap__includeFileOnce($filePath, \LogicException $exception = 
         }
     }
 
-    return include_once($filePath);
+    return include_once $filePath;
 }
 
 /**
- * Attempt to include a file if it exists
+ * Attempt to include a file if it exists.
  *
  * @param string               $filePath  File path to include
  * @param \LogicException|null $exception Exception to throw if file is not found
@@ -99,7 +98,7 @@ function testBootstrap__requireFileOnce($filePath, \LogicException $exception)
 }
 
 /**
- * Remove directory if it exists
+ * Remove directory if it exists.
  *
  * @param string $path       Path to remove.
  * @param bool   $removeBase Should the passed base dir be removed.
@@ -112,7 +111,7 @@ function testBootstrap__removeDirectory($path, $removeBase = false)
         return false;
     }
 
-    foreach ((array)glob($path.'/*') as $file) {
+    foreach ((array) glob($path.'/*') as $file) {
         is_dir($file) ? testBootstrap__removeDirectory($file) : unlink($file);
     }
 
@@ -149,7 +148,7 @@ function testBootstrap__setupContainerParameter($varName, $defaultValue)
 }
 
 /**
- * Setup the container parameters using a PHPUnit XML config file
+ * Setup the container parameters using a PHPUnit XML config file.
  *
  * @param string          $filePath  The file path to a valid PHPUnit XML config
  * @param \LogicException $exception Optional exception to throw on error, otherwise
@@ -167,11 +166,11 @@ function testBootstrap__setupContainerParametersFromPHPUnitXML($filePath, \Logic
         return false;
     }
 
-    $xml       = simplexml_load_string(file_get_contents($filePath));
+    $xml = simplexml_load_string(file_get_contents($filePath));
     $xmlElsSvr = (array) @$xml->xpath('php/server');
 
     foreach ($xmlElsSvr as $xmlEl) {
-        $name  = (string) @$xmlEl->attributes()->name[0];
+        $name = (string) @$xmlEl->attributes()->name[0];
         $value = (string) @$xmlEl->attributes()->value[0];
 
         if (substr($name, 0, 9) !== 'SYMFONY__') {
@@ -199,12 +198,12 @@ function testBootstrap__getParametersFromPHPUnitXML(...$parameters)
         );
     }
 
-    $xml       = simplexml_load_string(file_get_contents(TEST_BS_FILE_PHPUNIT_LOCAL));
+    $xml = simplexml_load_string(file_get_contents(TEST_BS_FILE_PHPUNIT_LOCAL));
     $xmlElsSvr = (array) @$xml->xpath('php/server');
-    $return    = [];
+    $return = [];
 
     foreach ($xmlElsSvr as $xmlEl) {
-        $name  = (string) @$xmlEl->attributes()->name[0];
+        $name = (string) @$xmlEl->attributes()->name[0];
         $value = (string) @$xmlEl->attributes()->value[0];
 
         if (false === ($index = array_search($name, $parameters))) {
@@ -218,7 +217,7 @@ function testBootstrap__getParametersFromPHPUnitXML(...$parameters)
 }
 
 /**
- * Set the provided server variable
+ * Set the provided server variable.
  *
  * @param string $varName The variable name to set
  * @param mixed  $value   The value to set it to
@@ -235,7 +234,7 @@ function testBootstrap__setServerVar($varName, $value)
 }
 
 /**
- * Attempt to get a variable from the enviornment
+ * Attempt to get a variable from the enviornment.
  *
  * @param string $varName The name of the variable to search the enviornment for
  *

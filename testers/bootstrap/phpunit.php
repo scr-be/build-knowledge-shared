@@ -8,13 +8,13 @@
  * file that was distributed with this source code.
  */
 
-require_once(__DIR__.'/includes/constants.php');
-require_once(TEST_BS_FILE_FUNCTIONS);
+require_once __DIR__.'/includes/constants.php';
+require_once TEST_BS_FILE_FUNCTIONS;
 
 list($kernelRoot) = testBootstrap__getParametersFromPHPUnitXML('KERNEL_DIR');
-testBootstrap__removeDirectory($kernelRoot . DIRECTORY_SEPARATOR . 'cache', false);
+testBootstrap__removeDirectory($kernelRoot.DIRECTORY_SEPARATOR.'cache', false);
 
-$loader = require_once(TEST_BS_FILE_LOADER);
+$loader = require_once TEST_BS_FILE_LOADER;
 
 if (!class_exists('\PHPUnit_Framework_TestCase') ||
     version_compare(\PHPUnit_Runner_Version::id(), TEST_BS_VER_MIN_PHPUNIT) < 0) {
@@ -24,7 +24,7 @@ if (!class_exists('\PHPUnit_Framework_TestCase') ||
     );
 }
 
-require_once(TEST_BS_FILE_KERNEL);
+require_once TEST_BS_FILE_KERNEL;
 
 return $loader;
 

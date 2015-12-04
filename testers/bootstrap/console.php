@@ -8,8 +8,8 @@
  * file that was distributed with this source code.
  */
 
-require_once(realpath(__DIR__.'/includes/constants.php'));
-require_once(TEST_BS_FILE_FUNCTIONS);
+require_once realpath(__DIR__.'/includes/constants.php');
+require_once TEST_BS_FILE_FUNCTIONS;
 
 testBootstrap__setupContainerParametersFromPHPUnitXML(
     TEST_BS_FILE_PHPUNIT_LOCAL,
@@ -19,7 +19,7 @@ testBootstrap__setupContainerParametersFromPHPUnitXML(
     )
 );
 
-$loader = require_once(TEST_BS_FILE_KERNEL);
+$loader = require_once TEST_BS_FILE_KERNEL;
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;

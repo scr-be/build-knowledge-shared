@@ -29,22 +29,24 @@ ApplicationLocation:
             slug           : dania
             description    : Office Location
             city           : '@City?name=Dania Beach'
-            StateTerritory : '@StateTerritory?code=FL'
+            stateTerritory : '@StateTerritory?code=FL'
 
         2:
             slug           : philly
             description    : Office Location
             city           : '@City?id=177685'
-            StateTerritory : '@StateTerritory?code=PA'
+            stateTerritory : '@StateTerritory?code=PA'
 
         3:
             slug           : allen
             description    : Office Location
             city           : '@City?id=186148'
-            StateTerritory : '@StateTerritory?code=PA'
+            stateTerritory : '@StateTerritory?code=PA'
 
         4:
             slug           : remote
             description    : Remote (From Home / Other)
+            city           : null
+            stateTerritory : null
 
 ...

@@ -18,4 +18,5 @@ NavMenuSubItem:
             entity:     s.mantle.navmenuitem.entity.class
             repository: s.mantle.navmenuitem.repo
 
-    data:
+    data: []
+...

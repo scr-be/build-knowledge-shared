@@ -14,11 +14,11 @@ $verbosity = 1;
 $config = '%DIR_TMP%%DS%.sami-config.php';
 $executables = [
     '%DIR_ROOT%%DS%bin%DS%sami.php',
-    '%DIR_ROOT%%DS%vendor%DS%sami%DS%sami%DS%sami.php'
+    '%DIR_ROOT%%DS%vendor%DS%sami%DS%sami%DS%sami.php',
 ];
 
 if (!isset($argv[1]) || false === ($projectRootPath = realpath($argv[1]))) {
-    die ('A valid project root path must be provided, got "'.(isset($argv[1]) ? $argv[1] : '<empty>').'".'.PHP_EOL);
+    die('A valid project root path must be provided, got "'.(isset($argv[1]) ? $argv[1] : '<empty>').'".'.PHP_EOL);
 }
 
 $dirTmp = $projectRootPath.DIRECTORY_SEPARATOR.'build'.DIRECTORY_SEPARATOR.'.tmp-api';
@@ -27,20 +27,20 @@ $binary = null;
 $cfgGen = ['<?php'];
 
 if (!isset($argv[2]) || empty($projectName = $argv[2])) {
-    die ('A project name must be provided as the second argument argument, got "'.(isset($argv[2]) ? $argv[2] : '<empty>').'".'.PHP_EOL);
+    die('A project name must be provided as the second argument argument, got "'.(isset($argv[2]) ? $argv[2] : '<empty>').'".'.PHP_EOL);
 }
 
-$atb = function(...$b) use (&$cfgGen)
-{
+$atb = function (...$b) use (&$cfgGen) {
     if (count($b) > 0 && is_array($b)) {
-        foreach ($b as $line) { $cfgGen[] = $line; }
+        foreach ($b as $line) {
+            $cfgGen[] = $line;
+        }
     }
 
     return (array) $cfgGen;
 };
 
-$replaceDirectoryPlaceholders = function($path) use ($projectRootPath, $dirTmp, $dirBld)
-{
+$replaceDirectoryPlaceholders = function ($path) use ($projectRootPath, $dirTmp, $dirBld) {
     $path = str_replace('%DIR_ROOT%', $projectRootPath, $path);
     $path = str_replace('%DIR_TMP%', $dirTmp, $path);
     $path = str_replace('%DIR_BUILD%', $dirBld, $path);
@@ -49,27 +49,26 @@ $replaceDirectoryPlaceholders = function($path) use ($projectRootPath, $dirTmp, 
     return $path;
 };
 
-$out = function ($string) use ($verbosity)
-{
-    if ($verbosity > 0) { echo $string; }
+$out = function ($string) use ($verbosity) {
+    if ($verbosity > 0) {
+        echo $string;
+    }
 };
 
-$removeDirectoryRecursive = function($dir) use (&$removeDirectoryRecursive)
-{
+$removeDirectoryRecursive = function ($dir) use (&$removeDirectoryRecursive) {
     if (false === ($dir = realpath($dir))) {
         return true;
     }
 
     $files = array_diff(scandir($dir), ['.', '..']);
     foreach ($files as $f) {
-        (is_dir($dir.DIRECTORY_SEPARATOR.$f)) ? $removeDirectoryRecursive($dir.DIRECTORY_SEPARATOR.$f) : unlink($dir.DIRECTORY_SEPARATOR.$f); 
-    } 
+        (is_dir($dir.DIRECTORY_SEPARATOR.$f)) ? $removeDirectoryRecursive($dir.DIRECTORY_SEPARATOR.$f) : unlink($dir.DIRECTORY_SEPARATOR.$f);
+    }
 
     return rmdir($dir);
 };
 
-$removeAndMakeDirectory = function($dir, $mode = 0777) use ($removeDirectoryRecursive, $out)
-{
+$removeAndMakeDirectory = function ($dir, $mode = 0777) use ($removeDirectoryRecursive, $out) {
     if (false === $removeDirectoryRecursive($dir)) {
         $out("  - [EXIT] Cannot delete dir '$dir'".PHP_EOL);
         exit;
@@ -83,19 +82,19 @@ $removeAndMakeDirectory = function($dir, $mode = 0777) use ($removeDirectoryRecu
     $out("  - [okay] '$dir'".PHP_EOL);
 };
 
-$promptYesNo = function($prompt, $default = true, $exit = false) use ($out)
-{
-    $exitNow = function($string, $code = -1) use ($out) {
+$promptYesNo = function ($prompt, $default = true, $exit = false) use ($out) {
+    $exitNow = function ($string, $code = -1) use ($out) {
         $out(PHP_EOL.$string.PHP_EOL.PHP_EOL);
         exit($code);
     };
 
-    $retYes = function() use ($out) {
+    $retYes = function () use ($out) {
         $out("+++ Response interpreted as 'YES'".PHP_EOL.PHP_EOL);
+
         return true;
     };
 
-    $retNo = function() use ($exitNow, $exit, $out) {
+    $retNo = function () use ($exitNow, $exit, $out) {
         $out("!!! Response interpreted as 'NO'".PHP_EOL);
 
         if ($exit !== false) {
@@ -106,14 +105,14 @@ $promptYesNo = function($prompt, $default = true, $exit = false) use ($out)
     };
 
     $responses_yes = ['yes', 'y'];
-    $responses_no  = ['no',  'n'];
+    $responses_no = ['no',  'n'];
 
     $prompt = '>>> '.$prompt.' '.($default ? '[Y/n]' : '[y/N]').': ';
-    
+
     while (true) {
         $out($prompt);
-        $response = strtolower(chop(fgets(STDIN)));  
-        
+        $response = strtolower(chop(fgets(STDIN)));
+
         if ($response == '' && $default === false && $exit !== false) {
             $exitNow($exit);
         }
@@ -134,7 +133,7 @@ $promptYesNo = function($prompt, $default = true, $exit = false) use ($out)
     }
 };
 
-require($replaceDirectoryPlaceholders('%DIR_ROOT%%DS%vendor%DS%autoload.php'));
+require $replaceDirectoryPlaceholders('%DIR_ROOT%%DS%vendor%DS%autoload.php');
 
 use Sami\Sami;
 use Symfony\Component\Finder\Finder;
@@ -146,14 +145,14 @@ array_walk($executables, function (&$val) use ($replaceDirectoryPlaceholders) {
 });
 
 foreach ($executables as $e) {
-    if (false !== ($e = realpath($e))) { 
+    if (false !== ($e = realpath($e))) {
         $binary = $e;
         break;
     }
 }
 
 if ($binary === null) {
-    die ('A suitable Sami binary could not be found in configured paths: ' . implode(', ', $executables));
+    die('A suitable Sami binary could not be found in configured paths: '.implode(', ', $executables));
 }
 
 $atb(
@@ -163,14 +162,14 @@ $atb(
     PHP_EOL
 );
 
-$out("SAMI CONFIG RUNNER".PHP_EOL."by Rob Frawley 2nd <rmf@scr.be>".PHP_EOL.PHP_EOL);
-$out("Initializing:".PHP_EOL);
+$out('SAMI CONFIG RUNNER'.PHP_EOL.'by Rob Frawley 2nd <rmf@scr.be>'.PHP_EOL.PHP_EOL);
+$out('Initializing:'.PHP_EOL);
 $out("  - [info] Project Name  : $projectName".PHP_EOL);
 $out("  - [info] Base Path     : $projectRootPath".PHP_EOL);
 $out("  - [info] Build Path    : $dirTmp".PHP_EOL);
 $out("  - [info] Output Path   : $dirBld".PHP_EOL);
 $out("  - [info] Sami          : $binary".PHP_EOL);
-$out("  - [info] Output Config : ".($config = $replaceDirectoryPlaceholders($config)).PHP_EOL.PHP_EOL);
+$out('  - [info] Output Config : '.($config = $replaceDirectoryPlaceholders($config)).PHP_EOL.PHP_EOL);
 
 $iterator = Finder::create()->files()->name('*.php');
 $atb(
@@ -180,7 +179,7 @@ $atb(
 );
 
 if (count($excludes) > 0) {
-    $out("Exclude patterns:".PHP_EOL);
+    $out('Exclude patterns:'.PHP_EOL);
 
     foreach ($excludes as $e) {
         $out("  - [okay] '$e'".PHP_EOL);
@@ -192,11 +191,11 @@ if (count($excludes) > 0) {
     $out(PHP_EOL);
 }
 
-$out("Including dirs:".PHP_EOL);
+$out('Including dirs:'.PHP_EOL);
 $resolvedPathCount = 0;
 
 if ($argc > 3) {
-    for ($i = 3; $i < $argc; $i++) {
+    for ($i = 3; $i < $argc; ++$i) {
         $resolvedPath = $projectRootPath.DIRECTORY_SEPARATOR.$argv[$i];
 
         if (false === ($resolvedPath = realpath($resolvedPath))) {
@@ -204,18 +203,18 @@ if ($argc > 3) {
             continue;
         }
 
-        $resolvedPathCount++;
+        ++$resolvedPathCount;
         $out("  - [okay] '$resolvedPath'".PHP_EOL);
 
         $iterator->in($resolvedPath);
         $atb('    ->in("'.$resolvedPath.'")');
     }
 } else {
-    foreach(['src', 'lib'] as $defaultDir) {
+    foreach (['src', 'lib'] as $defaultDir) {
         $resolvedPath = $replaceDirectoryPlaceholders('%DIR_ROOT%%DS%'.$defaultDir);
 
         if (!empty($resolvedPath) && false !== ($resolvedPath = realpath($resolvedPath))) {
-            $resolvedPathCount++;
+            ++$resolvedPathCount;
             $out("  - [okay] '$resolvedPath' (default)".PHP_EOL);
 
             $iterator->in($resolvedPath);
@@ -225,7 +224,7 @@ if ($argc > 3) {
 }
 
 if (true !== ($resolvedPathCount > 0)) {
-    $out("  - [EXIT] No included paths configured.".PHP_EOL);
+    $out('  - [EXIT] No included paths configured.'.PHP_EOL);
     exit;
 } else {
     $atb(';', PHP_EOL);
@@ -234,7 +233,7 @@ if (true !== ($resolvedPathCount > 0)) {
 
 $promptYesNo('Continue using the show configuration?', true, 'Execution canceled via user input.');
 
-$out("Removing and re-created dirs:".PHP_EOL);
+$out('Removing and re-created dirs:'.PHP_EOL);
 $removeAndMakeDirectory($dirTmp);
 $removeAndMakeDirectory($dirBld);
 $out(PHP_EOL);
@@ -253,7 +252,7 @@ $atb(
 $out("Writing Sami config to '$config'".PHP_EOL.PHP_EOL);
 file_put_contents($config, implode(PHP_EOL, $atb()));
 
-$out("Processing...");
+$out('Processing...');
 try {
     $cmd = sprintf('%s update %s', $binary, $config);
 
@@ -263,8 +262,8 @@ try {
     die("An error occured while processing with '$cmd': ".$e->getMessage());
 }
 
-$out("done.".PHP_EOL.PHP_EOL);
-$out("Removing temp dirs:".PHP_EOL);
+$out('done.'.PHP_EOL.PHP_EOL);
+$out('Removing temp dirs:'.PHP_EOL);
 $removeAndMakeDirectory($dirTmp);
 $out(PHP_EOL);
 
