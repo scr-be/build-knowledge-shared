@@ -37,7 +37,7 @@ NavigationItem:
 
         2:
             slug:         security-account
-            name:         '%User.FirstName%\'s Account'
+            name:         %User.FirstName%'s Account
             weight:       1
             description:  Signing in to the site.
             root:         '++NavigationSet:security'
