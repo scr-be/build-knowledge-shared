@@ -1,0 +1,39 @@
+---
+
+#
+# This file is part of the Shared Build Config.
+#
+# (c) Scribe Inc. <oss@scr.be>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
+
+security :
+
+    encoders :
+        Symfony\Component\Security\Core\User\User : plaintext
+
+    role_hierarchy :
+        ROLE_ADMIN       : ROLE_USER
+        ROLE_SUPER_ADMIN : [ ROLE_USER, ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH ]
+
+    providers :
+        in_memory :
+            memory :
+                users :
+                    user  : { password : password, roles: [ "ROLE_USER"  ] }
+                    admin : { password : paddword, roles: [ "ROLE_ADMIN" ] }
+
+    firewalls :
+        dev :
+            pattern  : ^/(_(profiler|wdt)|css|images|js)/
+            security : false
+        login :
+            security : false
+        secured_area :
+            anonymous : ~
+
+    access_control : ~
+
+...
