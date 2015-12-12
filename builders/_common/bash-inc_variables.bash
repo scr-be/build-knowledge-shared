@@ -57,13 +57,13 @@ export VAR_ENV_PKG_ENTRY_REQS="${VAR_ENV_PKG_ENTRY_PREFIX}phpexts_req,${VAR_ENV_
 
 export COV_PATH="$(getReadyTempFilePath "${DIR_CWD}/build/logs/clover.xml")"
 
-export INC_MODS_PATH="$(readlink -f ${SCRIPT_COMMON_RPATH}/../_php-mods/)"
+export INC_MODS_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_php-mods/)"
 export INC_MODS_FILE="php-mods_make-"
-export INC_SYSR_PATH="$(readlink -f ${SCRIPT_COMMON_RPATH}/../_ext-deps/)"
+export INC_SYSR_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_ext-deps/)"
 export INC_SYSR_FILE="ext-deps_make-"
-export INC_INCS_PATH="$(readlink -f ${SCRIPT_COMMON_RPATH}/../_php-incs/)"
+export INC_INCS_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_php-incs/)"
 export INC_INCS_FILE="php-incs_"
-export INC_SYMF_PATH="$(readlink -f ${SCRIPT_COMMON_RPATH}/../_app-make/)"
+export INC_SYMF_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_app-make/)"
 export INC_SYMF_FILE="app-make_"
 
 export LOG_TMP=()

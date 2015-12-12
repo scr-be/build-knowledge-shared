@@ -447,15 +447,15 @@ function outListing()
 
 function getReadyTempPath()
 {
-    local dirty="$(realpath -m ${1})"
+    local dirty="$(readlink -m ${1})"
     local rmdir=${2:-true}
     local ddiff="${dirty/$DIR_CWD/good}"
 
     if [[ "${ddiff:0:4}" != "good" ]]
     then
-        clean="$(realpath -m ${DIR_CWD}/build/bldr-fallback/)"
+        clean="$(readlink -m ${DIR_CWD}/build/bldr-fallback/)"
     else
-        clean="$(realpath -m ${dirty})"
+        clean="$(readlink -m ${dirty})"
     fi
 
     if [[ ${rmdir} == true ]]
@@ -474,7 +474,7 @@ function getReadyTempFilePath()
     local rmdir=${2:-true}
     local dirp="$(getReadyTempPath $(dirname ${dirty}) false)"
     local file="$(basename ${dirty})"
-    local clean="$(realpath -m ${dirp}/${file})"
+    local clean="$(readlink -m ${dirp}/${file})"
 
     if [[ ${rmdir} == true ]]
     then

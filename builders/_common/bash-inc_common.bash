@@ -148,9 +148,9 @@ done
 
 if [[ -z "${scr_pkg_symfcmd_bin}" ]]
 then
-    export APP_MAKE_CLI="$(realpath -m ${DIR_CWD}/app/console)"
+    export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/app/console)"
 else
-    export APP_MAKE_CLI="$(realpath ${DIR_CWD}/${scr_pkg_symfcmd_bin})"
+    export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/${scr_pkg_symfcmd_bin})"
 fi
 
 # EOF #
