@@ -13,7 +13,7 @@ SCRIPT_SELF_PATH="${0}"
 SCRIPT_SELF_BASE="$(basename ${0})"
 SCRIPT_SELF_REAL="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-APP_CMDS=(
+APP_MAKE_CMDS_PHP=(
     "doctrine:database:create -n"
     "doctrine:schema:create -n"
 )

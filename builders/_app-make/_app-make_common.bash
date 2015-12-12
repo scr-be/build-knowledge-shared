@@ -9,55 +9,44 @@
 # file distributed with this source code.
 ##+
 
-APP_CMD_LOG="/tmp/script-app.out"
-
-if [[ ! -x ${SCRIPT_APP} ]]
+if [[ ! -x ${APP_MAKE_CLI} ]]
 then
-    outWarning \
-        "Console command ${SCRIPT_APP} not found."
+    outWarning "App CLI command ${APP_MAKE_CLI} not found."
 else
-    for cmd in "${APP_CMDS[@]}"
+    for c in "${APP_MAKE_CMDS_PHP[@]}"
     do
-        opExec \
-            "${BIN_PHP} $SCRIPT_APP $cmd"
+        APP_MAKE_RET=false
+        APP_MAKE_LOG=$(getReadyTempFilePath ${LOG_SYMF}${c//[^A-Za-z0-9._-]/_}.log)
+        ALL_LOGS+=("${APP_MAKE_LOG}")
 
-        CMD_FAIL=false && touch "${APP_CMD_LOG}"
+        opExec "${BIN_PHP} ${APP_MAKE_CLI} ${c}"
 
-        ${BIN_PHP} $SCRIPT_APP $cmd &>> "${APP_CMD_LOG}" || CMD_FAIL=true
+        "${BIN_PHP}" "${APP_MAKE_CLI}" ${c} &>> "${APP_MAKE_LOG}" || APP_MAKE_RET=true
 
-        if [[ ${CMD_FAIL} == true ]]
+        if [[ ${APP_MAKE_RET} == true ]]
         then
-            outWarning \
-                "Command returned non-zero exit code. Output of command:"
-
-            cat "${APP_CMD_LOG}" && newLine
+            opFailLogOutput "${APP_MAKE_LOG}" "${APP_MAKE_CLI/${DIR_CWD}\//} ${c}"
         fi
-
-        rm -fr "${APP_CMD_LOG}"
     done
 fi
 
-for cmd in "${APP_EXT_CMDS[@]}"
+for c in "${APP_MAKE_CMDS_EXT[@]}"
 do
-    opExec \
-        "${cmd}"
+    opExec "${c}"
 
-    CMD_FAIL=false && touch "${APP_CMD_LOG}"
+    APP_MAKE_RET=false
+    APP_MAKE_LOG=$(getReadyTempFilePath "${LOG_SYSD}${c//[^A-Za-z0-9._-]/_}.log")
+    ALL_LOGS+=("${APP_MAKE_LOG}")
 
-    ${BIN_PHP} $SCRIPT_APP $cmd &>> "${cmd}" || CMD_FAIL=true
+    "${BIN_PHP}" "${c}" &>> "${APP_MAKE_LOG}" || APP_MAKE_RET=true
 
-    if [[ ${CMD_FAIL} == true ]]
+    if [[ ${APP_MAKE_RET} == true ]]
     then
-        outWarning \
-            "Command returned non-zero exit code. Output of command:"
-
-        cat "${APP_CMD_LOG}" && newLine
+        opFailLogOutput "${APP_MAKE_LOG}" "${APP_MAKE_CLI/${DIR_CWD}\//} ${c}"
     fi
-
-    rm -fr "${APP_CMD_LOG}"
 done
 
-APP_CMDS=()
-APP_EXT_CMDS=()
+APP_MAKE_CMDS_PHP=()
+APP_MAKE_CMDS_EXT=()
 
 # EOF #

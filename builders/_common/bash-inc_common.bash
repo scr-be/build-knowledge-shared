@@ -95,8 +95,8 @@ fi
 [[ ${DISTRIB_ID} != ${VER_ENV_DIST} ]] && outError \
     "Automatic builds only supported on Ubuntu at this time. Could not find valid \$DISTRIB_ID."
 
-[[ $(valueInList ${DISTRIB_CODENAME:-x} ${VER_ENV_SUPPORT}) != "true" ]] || outError \
-    "Automatic builds only supported on Ubuntu versions (${VER_ENV_SUPPORT}) at this time. Found" \
+[[ $(valueInList ${DISTRIB_CODENAME:-x} ${VER_ENV_DIST_SUPPORTED}) != "true" ]] || outError \
+    "Automatic builds only supported on Ubuntu versions (${VER_ENV_DIST_SUPPORTED}) at this time. Found" \
     "version ${DISTRIB_CODENAME}."
 
 [[ "${BIN_PHP:-x}" == "x" ]] && outError  \
@@ -106,39 +106,39 @@ if [ "${TRAVIS:-x}" == "x" ]
 then
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
         CMD_PRE="sudo "
-        env_location="local" && env_with_phpenv="no"
+        env_location="local" && env_with_phpenv="no" && env_ver_phpenv="(PHPENV n/a)"
     else
-        env_location="local" && env_with_phpenv="yes"
+        env_location="local" && env_with_phpenv="yes" && env_ver_phpenv="(PHPENV v${VER_PHPENV})"
     fi
 else
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
-        env_location="travis" && env_with_phpenv="no"
+        env_location="travis" && env_with_phpenv="no" && env_ver_phpenv="(PHPENV n/a)"
     else
-        env_location="travis" && env_with_phpenv="yes"
+        env_location="travis" && env_with_phpenv="yes" && env_ver_phpenv="(PHPENV v${VER_PHPENV})"
     fi
 fi
 
-if [ "${VAR_ENV_SCRIBE_PATH:-x}" == "x" ]
+if [ "${VAR_ENV_PKG_PATH:-x}" == "x" ]
 then
     outError \
         "The 'scribe_packaged' enviornment variable must be defined!"
 fi
 
-if [ "${VAR_ENV_SCRIBE_PATH}" == "true" ]
+if [ "${VAR_ENV_PKG_PATH}" == "true" ]
 then
-    VAR_ENV_SCRIBE_PATH="${VAR_ENV_SCRIBE_PATH_DEFAULT}" && outInfo \
-        "Attempting to use default package config location of ${VAR_ENV_SCRIBE_PATH_DEFAULT}."
+    VAR_ENV_PKG_PATH="${VAR_ENV_PKG_PATH_DEFAULT}" && outInfo \
+        "Attempting to use default package config location of ${VAR_ENV_PKG_PATH_DEFAULT}."
 fi
 
-if [ ! -f "${SCRIPT_CALLER_ROOT}/${VAR_ENV_SCRIBE_PATH}" ]; then
+if [ ! -f "${SCRIPT_CALLER_ROOT}/${VAR_ENV_PKG_PATH}" ]; then
     outError \
         "Unable to find the package configuration. This must be defined and set to the" \
         "location of your configuration YAML, or simply true to use the default path."
 fi
 
-eval $(parseYaml "${SCRIPT_CALLER_ROOT}/${VAR_ENV_SCRIBE_PATH}" "${VAR_ENV_SCRIBE_PREFIX}")
+eval $(parseYaml "${SCRIPT_CALLER_ROOT}/${VAR_ENV_PKG_PATH}" "${VAR_ENV_PKG_ENTRY_PREFIX}")
 
-for item in $(commaToSpaceSeparated ${VAR_ENV_SCRIBE_CHECK})
+for item in $(commaToSpaceSeparated ${VAR_ENV_PKG_ENTRY_REQS})
 do
     if [ ${item:-x} == "x" ] || [ ${!item:-x} == "x" ] || [ ${!item:-x} == "~" ]
     then
@@ -146,13 +146,11 @@ do
     fi
 done
 
-export SCRIPT_PWD="$(pwd)"
-
 if [[ -z "${scr_pkg_symfcmd_bin}" ]]
 then
-    export SCRIPT_APP="${SCRIPT_PWD}/app/console"
+    export APP_MAKE_CLI="$(realpath -m ${DIR_CWD}/app/console)"
 else
-    export SCRIPT_APP="${SCRIPT_PWD}/${scr_pkg_symfcmd_bin}"
+    export APP_MAKE_CLI="$(realpath ${DIR_CWD}/${scr_pkg_symfcmd_bin})"
 fi
 
 # EOF #

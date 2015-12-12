@@ -1,9 +1,16 @@
 #!/usr/bin/env bash
 
-mkdir -p build/pecl/ && cd build/pecl/ && rm -fr imagick
+##
+# This file is part of `scr-be/shared-project-knowledge`
+#
+# (c) Rob Frawley 2nd <rmf@scr.be>
+#
+# For the full copyright and license information, view the LICENSE.md
+# file distributed with this source code.
+##
 
-git clone -b phpseven https://github.com/mkoppanen/imagick.git imagick && cd imagick
+MOD_NAME="imagick"
+MOD_PECL_GIT=https://github.com/mkoppanen/imagick.git
+MOD_PECL_GIT_BRANCH="phpseven"
 
-phpize && ./configure
-
-make && ${CMD_PRE} make install
+# EOF

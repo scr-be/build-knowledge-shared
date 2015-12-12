@@ -32,46 +32,59 @@ type outLines &>> /dev/null || . ${SCRIPT_CALLER_RPATH}/../_common/bash-inc_all.
 
 listing=(
     ":General" \
-    "OS Platform"    "${DISTRIB_ID} ${DISTRIB_RELEASE} (${DISTRIB_CODENAME})" \
-    "OS Supported"   "YES"
+    "Running Action" "${ACTION}" \
+    "OS Support"     "YES (${DISTRIB_ID} ${DISTRIB_RELEASE}, ${DISTRIB_CODENAME})"
     "Travis CI"      "$(getYesOrNoForCompare ${env_location} ci)" \
-    "Using Sudo"     "$(getYesOrNoForCompare ${CMD_PRE} "sudo ")" \
-    "Current Action" "${ACTION}" \
+    "Sudo Enabled"   "$(getYesOrNoForCompare ${CMD_PRE} "sudo ")" \
+    "Loaded Config"  "${SCRIPT_CALLER_ROOT}/${VAR_ENV_PKG_PATH}" \
+    \
+    ":Handlers" \
+    "PHP Configurations"    "${INC_INCS_PATH}" \
+    "PHP Extensions"        "${INC_MODS_PATH}" \
+    "External Dependencies" "${INC_SYSR_PATH}" \
+    "Application Commands"  "${INC_SYMF_PATH}" \
     \
     ":PHP" \
-    "Version"             "$(getMajorPHPVersion).x Series" \
-    "Version String"      "${VER_PHP}" \
-    "Version Supported"   "$(getYesOrNoForCompare ${VER_PHP_ON_UNSU:-x} "x")" \
-    "Executable (php)"    "${BIN_PHP}" \
-    "Executable (phpenv)" "${BIN_PHPIZE}" \
-    "Using PhpEnv"        "$(echo ${env_with_phpenv} | tr '[:lower:]' '[:upper:]')" \
+    "Major Release"           "$(getMajorPHPVersion).x Series" \
+    "API Supported"           "YES (${VER_PHPAPI_ENG}/${VER_PHPAPI_MOD})" \
+    "Environment Supported"   "$(getYesOrNoForCompare ${VER_PHP_ON_UNSU:-x} "x") (PHP    v${VER_PHP})" \
+    "PHPEnv Installed"        "$(echo ${env_with_phpenv} | tr '[:lower:]' '[:upper:]') ${env_ver_phpenv}" \
     \
-    ":Builder Paths" \
-    "Loaded Builder File"    "${SCRIPT_CALLER_RPATH}/${SCRIPT_CALLER_NAME}" \
-    "Loaded Config File"     "${SCRIPT_CALLER_ROOT}/${VAR_ENV_SCRIBE_PATH}" \
-    "Extension Installers"   "${INC_MODS_PATH}" \
-    "System Req. Installers" "${INC_SYSR_PATH}" \
-    "Config Includes"        "${INC_INCS_PATH}" \
-    "Symfony Handlers"       "${INC_SYMF_PATH}" \
+    ":Package Config" \
+    "PHP Extensions"       "${scr_pkg_phpexts_req:-NONE}" \
+    "INI Filess"           "${scr_pkg_phpincs_req:-NONE}" \
+    "System Requirements"  "${scr_pkg_syspkgs_req:-NONE}" \
+    "Coverage Services"    "${scr_pkg_ci_send_req:-NONE}" \
+    "Script UP Operations" "${scr_pkg_symf_up_req:-NONE}" \
+    "Script DN Operations" "${scr_pkg_symf_dn_req:-NONE}" \
+    "Script Bin Path"      "${scr_pkg_symfcmd_bin:-NONE}" \
     \
-    ":Builder Config" \
-    "Extension(s)"                "${scr_pkg_phpexts_req:-NONE}" \
-    "INI Files(s)"                "${scr_pkg_phpincs_req:-NONE}" \
-    "System Requirement(s)"       "${scr_pkg_syspkgs_req:-NONE}" \
-    "Configured CI Send(s)"       "${scr_pkg_ci_send_req:-NONE}" \
-    "Application Up Operations"   "${scr_pkg_symf_up_req:-NONE}" \
-    "Application Down Operations" "${scr_pkg_symf_dn_req:-NONE}" \
-    "Application Bin Path"        "${scr_pkg_symfcmd_bin:-NONE}"
+    ":Logging/Working Paths" \
+    "General (L)"        "${LOG_GNRL:-NONE}" \
+    "General (W)"        "${BLD_GNRL:-NONE}" \
+    "Pecl Extension (L)" "${LOG_PECL:-NONE}" \
+    "Pecl Extension (W)" "${BLD_PECL:-NONE}" \
+    "Enviornment (L)"    "${LOG_SYSD:-NONE}" \
+    "Enviornment (W)"    "${BLD_SYSD:-NONE}" \
+    \
+    ":Binary Paths" \
+    "curl"   "${BIN_CURL:-NONE}" \
+    "git"    "${BIN_GIT:-NONE}" \
+    "tar"    "${BIN_TAR:-NONE}" \
+    "make"   "${BIN_MAKE:-NONE}" \
+    "php"    "${BIN_PHP:-NONE}" \
+    "phpenv" "${BIN_PHPENV:-NONE}" \
+    "phpize" "${BIN_PHPIZE:-NONE}" \
+    "pecl"   "${BIN_PECL:-NONE}"
 )
 
 outListing "${listing[@]}"
 
-sleep 2
+sleep 1
 
 if [ ! ${VER_PHP_ON_5} ] && [ ! ${VER_PHP_ON_7} ]
 then
-    outError \
-        "Unsupported PHP version for auto-builds. Found ${VER_PHP}."    
+    outError "Unsupported PHP version for auto-builds. Found ${VER_PHP}."    
 fi
 
 STATE_FILE_INCLUDE="${SCRIPT_CALLER_RPATH}/$(basename ${SCRIPT_CALLER_NAME} .bash)_${ACTION}.bash"
@@ -80,8 +93,7 @@ if [[ ! -f ${STATE_FILE_INCLUDE} ]]
 then
     outWarning "Operation file ${STATE_FILE_INCLUDE} does not exist."
 else
-    opExec \
-        "source ${STATE_FILE_INCLUDE}"
+    opSource "${STATE_FILE_INCLUDE}"
 
     . ${STATE_FILE_INCLUDE}
 fi

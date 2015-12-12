@@ -17,19 +17,18 @@ type outLines &>> /dev/null || exit -1
 
 for e in $(commaToSpaceSeparated ${scr_pkg_syspkgs_req})
 do
-	opExec "source ${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
+	opSource "${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
 	. "${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
 done
 
 for e in $(commaToSpaceSeparated ${scr_pkg_phpexts_req})
 do
-	opExec "source ${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
-	export PHP_MODULE=${e}
+	opSource "${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
+	export MOD_NAME=${e}
 	. "${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
 done
 
-opStart \
-	"Setting up PHP configuration files."
+opStart "Setting up PHP configuration files."
 
 if [ ${BIN_PHPENV} ]
 then

@@ -1,9 +1,17 @@
 #!/usr/bin/env bash
 
-mkdir -p build/pecl/ && cd build/pecl/ && rm -fr igbinary
+##
+# This file is part of `scr-be/shared-project-knowledge`
+#
+# (c) Rob Frawley 2nd <rmf@scr.be>
+#
+# For the full copyright and license information, view the LICENSE.md
+# file distributed with this source code.
+##
 
-git clone -b php7-dev-playground1 https://github.com/igbinary/igbinary.git igbinary && cd igbinary
+MOD_NAME="igbinary"
+MOD_PECL_GIT=https://github.com/igbinary/igbinary.git
+MOD_PECL_GIT_BRANCH="php7-dev-playground1"
+MOD_PECL_FLAGS="--enable-igbinary"
 
-phpize && ./configure --enable-igbinary
-
-make && ${CMD_PRE} make install
+# EOF

@@ -31,13 +31,13 @@ function outLines()
 
     for l in ${@:-}
     do
-        tmp="${l/#$SCRIPT_PWD/.}"
+        tmp="${l/#$DIR_CWD/.}"
         if [[ "$(echo $tmp | wc -m)" != "$((($(echo $l | wc -m) + 1)))" ]]
         then
             l="${tmp}"
         fi
 
-        len=$((($(echo "${l}" | sed -r 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g'| wc -m) + $len + 1)))
+        len=$((($(echo "${l}" | sed -r 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g' | wc -m) + $len + 1)))
 
         if [[ ${len} -gt ${L_MAX} ]]
         then
@@ -157,6 +157,97 @@ function outBlkM()
     newLine
 }
 
+function outSequence()
+{
+    local i=${1:-3}
+    local s="${2:--}"
+    local c="${3:-false}"
+
+    for seq in $(seq 1 ${i})
+    do
+        echo -en "${C_TXT_DEFAULT}${C_TXT}"
+
+        if [[ ${c} != false ]]
+        then
+            echo -en "${3}"
+        fi
+
+        echo -en "${s}${C_RST}"
+    done
+
+    colorReset && newLine
+}
+
+function opFailLogOutput()
+{
+    local f="${1}"
+    local t="${2}"
+    local os=" :: BUILD LOG OUTPUT [ ${t} ] -"
+    local len="$((($(echo ${os} | wc -m) + 12)))"
+
+    outWarning "The previous command provided a non-zero (error) return code. Any available log" \
+        "output will be dumped for review."
+
+    echo -en "  " && \
+        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
+        echo -en "  ${COLOR_L_YELLOW}-${COLOR_B_YELLOW} START DUMP${COLOR_L_YELLOW}${os}${C_RST}" && \
+        newLine && \
+        echo -en "  " && \
+        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
+        newLine
+
+    if [[ -f ${f} ]]
+    then
+        cat ${f}
+    else
+        echo -en "  ${COLOR_B_RED}ERROR --- ${COLOR_L_RED}No log output ot log file \"${f}\" is not present.${C_RST}" && \
+            newLine
+    fi
+
+    newLine
+
+    echo -en "  " && \
+        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
+        echo -en "  ${COLOR_L_YELLOW}-${COLOR_B_YELLOW} END DUMP  ${COLOR_L_YELLOW}${os}${C_RST}" && \
+        newLine && \
+        echo -en "  " && \
+        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
+        newLine
+
+    rm -fr ${f}
+}
+
+function opLogBuild()
+{
+    LOG_TEMP+=("${@}")
+}
+
+function opLogFlush()
+{
+    local t="${1:-MAKE}"
+    local p="${2:---}"
+
+    if [[ ${#LOG_TEMP[@]} -lt 1 ]]
+    then
+        outWarning "No log build lines to flush."
+    fi
+
+    for l in "${LOG_TEMP[@]}"
+    do
+        colorSet "${COLOR_L_PURPLE}" "${COLOR_L_PURPLE}"
+
+        O_NL=false
+        outTitle ${p} ${t} false
+
+        O_PRE=false && O_SPACE=0 && O_SEC_SPACE=5
+        outLines ${p} "${l[@]}"
+    done
+
+    LOG_TEMP=()
+    colorReset
+    newLine
+}
+
 function colorSet()
 {
     if [[ -n ${1} ]] && [[ ${1} != false ]]; then C_PRE="${1}"; fi
@@ -226,7 +317,14 @@ function opFail()
 function opExec()
 {
     colorSet "${COLOR_L_PURPLE}" "${COLOR_L_PURPLE}"
-    outBlkS "++" "EXEC" "${@}"
+    outBlkS "++" "CALL" "${@}"
+    colorReset
+}
+
+function opSource()
+{
+    colorSet "${COLOR_YELLOW}" "${COLOR_YELLOW}"
+    outBlkS "++" "INCS" "${@}"
     colorReset
 }
 
@@ -338,13 +436,54 @@ function outListing()
         do
             echo -en "${COLOR_B_BLACK}.${C_RST}"
         done
-        echo -e " ${COLOR_L_WHITE}${value/#$SCRIPT_PWD/.}${C_RST}"
+        echo -e " ${COLOR_L_WHITE}${value/#$DIR_CWD\//}${C_RST}"
     done
 
     echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
 
     newLine
     colorReset
+}
+
+function getReadyTempPath()
+{
+    local dirty="$(realpath -m ${1})"
+    local rmdir=${2:-true}
+    local ddiff="${dirty/$DIR_CWD/good}"
+
+    if [[ "${ddiff:0:4}" != "good" ]]
+    then
+        clean="$(realpath -m ${DIR_CWD}/build/bldr-fallback/)"
+    else
+        clean="$(realpath -m ${dirty})"
+    fi
+
+    if [[ ${rmdir} == true ]]
+    then
+        rm -fr "${clean}"
+    fi
+
+    mkdir -p "${clean}"
+
+    echo "${clean}/"
+}
+
+function getReadyTempFilePath()
+{
+    local dirty="${1}"
+    local rmdir=${2:-true}
+    local dirp="$(getReadyTempPath $(dirname ${dirty}) false)"
+    local file="$(basename ${dirty})"
+    local clean="$(realpath -m ${dirp}/${file})"
+
+    if [[ ${rmdir} == true ]]
+    then
+        rm -fr "${clean}"
+    fi
+
+    touch "${clean}"
+
+    echo "${clean}"
 }
 
 function inverseBoolValueAsInt()
@@ -375,6 +514,66 @@ function parseYaml()
    }'
 }
 
+function getVersionOfPhp()
+{
+    local v="$(${BIN_PHP} -v 2> /dev/null |\
+        grep -P -o '(PHP|php)\s*([0-9]{1,2}\.){2}([0-9]{1,2})' 2> /dev/null |\
+        cut -d' ' -f2 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 5 ]] || [[ ${len} -gt 9 ]]
+    then
+        outError "Could not determine PHP version!"
+    else
+        echo "${v}"
+    fi
+}
+
+function getVersionOfPhpEnv()
+{
+    local v="$(${BIN_PHPENV} -v 2> /dev/null |\
+        grep -P -o '(ENV|env)\s*([0-9]{1,2}\.){2}([0-9]{1,2})' 2> /dev/null |\
+        cut -d' ' -f2 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 5 ]] || [[ ${len} -gt 9 ]]
+    then
+        echo ""
+    else
+        echo "${v}"
+    fi
+}
+
+function getVersionOfPhpEngApi()
+{
+    local v="$(${BIN_PHPIZE} -v 2> /dev/null |\
+        grep -o -P '[0-9]{8,9}' 2> /dev/null |\
+        head -n 1 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 8 ]] || [[ ${len} -gt 10 ]]
+    then
+        echo ""
+    else
+        echo "${v}"
+    fi
+}
+
+function getVersionOfPhpModApi()
+{
+    local v="$(${BIN_PHPIZE} -v 2> /dev/null |\
+        grep -o -P '[0-9]{8,9}' 2> /dev/null |\
+        tail -n 1 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 8 ]] || [[ ${len} -gt 10 ]]
+    then
+        echo ""
+    else
+        echo "${v}"
+    fi
+}
+
 function getMajorPHPVersion()
 {
     if [ ${VER_PHP_ON_5} ]
@@ -391,6 +590,34 @@ function getMajorPHPVersion()
 function isExtensionEnabled()
 {
     ${BIN_PHP} -m 2> /dev/null | grep ${1} &>> /dev/null
+
+    if [ $? -eq 0 ]
+    then
+        echo "true"
+    else
+        echo "false"
+    fi
+}
+
+function isExtensionPeclInstalled()
+{
+    local e="${1}"
+
+    if [[ $? == 1 ]]
+    then
+        echo false
+        return
+    fi
+
+    ${BIN_PECL} &>> /dev/null
+
+    if [[ $? != 0 ]]
+    then
+        echo "false"
+        return
+    fi
+
+    ${BIN_PECL} list | grep "${1}" &>> /dev/null
 
     if [ $? -eq 0 ]
     then

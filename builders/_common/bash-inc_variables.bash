@@ -11,21 +11,52 @@
 
 export CMD_PRE=""
 export CMD_ENV=""
-export BIN_PHPENV="$(which phpenv 2> /dev/null)"
-export VER_PHPENV="$(${BIN_PHPENV} -v 2> /dev/null | cut -d' ' -f2 2> /dev/null)"
-export BIN_PHP="$(which php 2> /dev/null)"
-export BIN_PHPIZE="$(which phpize 2> /dev/null)"
-export VER_PHP="$(${BIN_PHP} -v 2> /dev/null | head -n 1 | cut -d' ' -f2)"
+
+export DIR_CWD="$(pwd)"
+export TMP_BASE="$(getReadyTempPath "${DIR_CWD}/build")"
+
+export ALL_LOGS=()
+export LOG_TEMP=()
+export LOG_BASE="$(getReadyTempPath "${DIR_CWD}/build/logs/auto")"
+export LOG_GNRL="$(getReadyTempPath "${LOG_BASE}/general")"
+export LOG_PECL="$(getReadyTempPath "${LOG_BASE}/phpext")"
+export LOG_SYMF="$(getReadyTempPath "${LOG_BASE}/symfony")"
+export LOG_SYSD="$(getReadyTempPath "${LOG_BASE}/env")"
+
+export ALL_BLDS=()
+export BLD_BASE="$(getReadyTempPath "${DIR_CWD}/build/work/auto")"
+export BLD_GNRL="$(getReadyTempPath "${BLD_BASE}/general")"
+export BLD_PECL="$(getReadyTempPath "${BLD_BASE}/phpext")"
+export BLD_SYMF="$(getReadyTempPath "${BLD_BASE}/symfony")"
+export BLD_SYSD="$(getReadyTempPath "${BLD_BASE}/env")"
+
+export BIN_PECL="$(which pecl)"
+export BIN_CURL="$(which curl)"
+export BIN_TAR="$(which tar)"
+export BIN_MAKE=$(which make)
+export BIN_GIT=$(which git)
+
+export BIN_PHP="$(which php)"
+export BIN_PHPENV="$(which phpenv)"
+export BIN_PHPIZE=$(which phpize)
+
+export VER_PHP="$(getVersionOfPhp)"
+export VER_PHPENV="$(getVersionOfPhpEnv)"
+export VER_PHPAPI_ENG="$(getVersionOfPhpEngApi)"
+export VER_PHPAPI_MOD="$(getVersionOfPhpModApi)"
 export VER_PHP_ON_7=""
 export VER_PHP_ON_5=""
 export VER_PHP_ON_UNSU=""
+
 export VER_ENV_DIST="Ubuntu"
-export VER_ENV_SUPPORT="wily,vivid,trusty,precise"
-export VAR_ENV_SCRIBE_PATH="${scribe_packaged:-x}"
-export VAR_ENV_SCRIBE_PATH_DEFAULT=".scribe-package.yml"
-export VAR_ENV_SCRIBE_PREFIX="scr_pkg_"
-export VAR_ENV_SCRIBE_CHECK="${VAR_ENV_SCRIBE_PREFIX}phpexts_req,${VAR_ENV_SCRIBE_PREFIX}syspkgs_req,${VAR_ENV_SCRIBE_PREFIX}ci_send_req,${VAR_ENV_SCRIBE_PREFIX}phpincs_req"
-export COV_PATH="build/logs/clover.xml"
+export VER_ENV_DIST_SUPPORTED="wily,vivid,trusty,precise"
+export VAR_ENV_PKG_PATH="${scribe_packaged:-x}"
+export VAR_ENV_PKG_PATH_DEFAULT=".scribe-package.yml"
+export VAR_ENV_PKG_ENTRY_PREFIX="scr_pkg_"
+export VAR_ENV_PKG_ENTRY_REQS="${VAR_ENV_PKG_ENTRY_PREFIX}phpexts_req,${VAR_ENV_PKG_ENTRY_PREFIX}syspkgs_req,${VAR_ENV_PKG_ENTRY_PREFIX}ci_send_req,${VAR_ENV_PKG_ENTRY_PREFIX}phpincs_req"
+
+export COV_PATH="$(getReadyTempFilePath "${DIR_CWD}/build/logs/clover.xml")"
+
 export INC_MODS_PATH="$(readlink -f ${SCRIPT_COMMON_RPATH}/../_php-mods/)"
 export INC_MODS_FILE="php-mods_make-"
 export INC_SYSR_PATH="$(readlink -f ${SCRIPT_COMMON_RPATH}/../_ext-deps/)"
@@ -35,9 +66,12 @@ export INC_INCS_FILE="php-incs_"
 export INC_SYMF_PATH="$(readlink -f ${SCRIPT_COMMON_RPATH}/../_app-make/)"
 export INC_SYMF_FILE="app-make_"
 
-if [ ${VAR_ENV_SCRIBE_PATH}} == "~" ]
+export LOG_TMP=()
+
+echo "$(${BIN_PHP} -v 2> /dev/null | grep -P -o 'PHP [0-9]\.[0-9]\.[0-9]' | cut -d' ' -f2)"
+if [ ${VAR_ENV_PKG_PATH}} == "~" ]
 then
-	VAR_ENV_SCRIBE_PATH="${VAR_ENV_SCRIBE_PATH_DEFAULT}"
+	VAR_ENV_PKG_PATH="${VAR_ENV_PKG_PATH_DEFAULT}"
 fi
 
 if [ ${VER_PHP:0:1} == "7" ]

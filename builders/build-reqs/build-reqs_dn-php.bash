@@ -15,13 +15,11 @@ readonly SCRIPT_BUILDR_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 
 type outLines &>> /dev/null || exit -1
 
-opStart \
-	"Submitting code coverage results."
+opStart "Submitting code coverage results."
 
 if [ ${VER_PHP_ON_5:-x} == "x" ]
 then
 	outInfo "Skipping for version ${VER_PHP} of PHP."
-	exit 0
 else
 	COV_ERROR=false
 
@@ -52,11 +50,9 @@ fi
 
 if [[ ${COV_ERROR} ]]
 then
-	opFail \
-		"Submitting code coverage results."
+	opFail "Submitting code coverage results."
 else
-	opDone \
-		"Submitting code coverage results."
+	opDone "Submitting code coverage results."
 fi
 
 # EOF #

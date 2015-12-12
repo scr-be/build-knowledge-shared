@@ -1,9 +1,17 @@
 #!/usr/bin/env bash
 
-mkdir -p build/pecl/ && cd build/pecl/ && rm -fr memcached
+##
+# This file is part of `scr-be/shared-project-knowledge`
+#
+# (c) Rob Frawley 2nd <rmf@scr.be>
+#
+# For the full copyright and license information, view the LICENSE.md
+# file distributed with this source code.
+##
 
-git clone -b php7 https://github.com/php-memcached-dev/php-memcached.git memcached && cd memcached
+MOD_NAME="memcached"
+MOD_PECL_GIT=https://github.com/php-memcached-dev/php-memcached.git
+MOD_PECL_GIT_BRANCH="php7"
+MOD_PECL_FLAGS="--enable-memcached-json"
 
-phpize && ./configure --enable-memcached-json
-
-make && ${CMD_PRE} make install
+# EOF
