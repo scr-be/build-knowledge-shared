@@ -14,8 +14,7 @@ SCRIPT_SELF_BASE="$(basename ${0})"
 SCRIPT_SELF_REAL="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 APP_CMDS=(
-    "doctrine:database:create -n"
-    "doctrine:schema:create -n"
+    "doctrine:database:drop -n --force"
 )
 
 . ${SCRIPT_SELF_REAL}/_app-make_common.bash

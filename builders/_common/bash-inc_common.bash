@@ -148,11 +148,11 @@ done
 
 export SCRIPT_PWD="$(pwd)"
 
-if [[ -z "${scr_pkg_symfony_bin}" ]]
+if [[ -z "${scr_pkg_symfcmd_bin}" ]]
 then
     export SCRIPT_APP="${SCRIPT_PWD}/app/console"
 else
-    export SCRIPT_APP="${SCRIPT_PWD}/${scr_pkg_symfony_bin}"
+    export SCRIPT_APP="${SCRIPT_PWD}/${scr_pkg_symfcmd_bin}"
 fi
 
 # EOF #

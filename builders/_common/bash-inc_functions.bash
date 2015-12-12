@@ -291,6 +291,8 @@ function outListing()
     leftMaxLength=$(((${leftMaxLength} + 3)))
     C_PRE=${COLOR_WHITE}
 
+    echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
+
     for i in $(seq 0 1 $(((${iterations} - 1))))
     do
         line="${lines[${i}]}"
@@ -338,6 +340,8 @@ function outListing()
         done
         echo -e " ${COLOR_L_WHITE}${value/#$SCRIPT_PWD/.}${C_RST}"
     done
+
+    echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
 
     newLine
     colorReset

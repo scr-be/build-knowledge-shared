@@ -15,14 +15,29 @@ readonly SCRIPT_BUILDR_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 
 type outLines &>> /dev/null || exit -1
 
-for e in $(commaToSpaceSeparated ${scr_pkg_symfony_req})
+if [[ "${ACTION}" == "up-app" ]]
+then
+	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_symf_up_req})
+elif [[ "${ACTION}" == "dn-app" ]]
+then
+	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_symf_dn_req})
+fi
+
+for e in ${APP_INCS}
 do
 	APP_CMDS=()
+	APP_FILE="${INC_SYMF_PATH}/${INC_SYMF_FILE}${e}.bash"
 	opStart \
 		"Executing \"${e}\" application command."
 
-	opExec "source ${INC_SYMF_PATH}/${INC_SYMF_FILE}${e}.bash"
-	. "${INC_SYMF_PATH}/${INC_SYMF_FILE}${e}.bash"
+	if [[ ! -f "${APP_FILE}" ]]
+	then
+		outWarning \
+			"Application include ${APP_FILE} doesn't exist."
+	fi
+
+	opExec "source ${APP_FILE}"
+	. "${APP_FILE}"
 
 	opDone \
 		"Executing \"${e}\" application command."

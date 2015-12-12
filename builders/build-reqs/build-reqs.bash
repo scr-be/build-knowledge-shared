@@ -52,12 +52,16 @@ listing=(
     "Extension Installers"   "${INC_MODS_PATH}" \
     "System Req. Installers" "${INC_SYSR_PATH}" \
     "Config Includes"        "${INC_INCS_PATH}" \
+    "Symfony Handlers"       "${INC_SYMF_PATH}" \
     \
     ":Builder Config" \
-    "Extension(s)"           "${scr_pkg_phpexts_req:-NONE}" \
-    "INI Files(s)"           "${scr_pkg_phpincs_req:-NONE}" \
-    "System Requirement(s)"  "${scr_pkg_syspkgs_req:-NONE}" \
-    "Configured CI Send(s)"  "${scr_pkg_ci_send_req:-NONE}"
+    "Extension(s)"                "${scr_pkg_phpexts_req:-NONE}" \
+    "INI Files(s)"                "${scr_pkg_phpincs_req:-NONE}" \
+    "System Requirement(s)"       "${scr_pkg_syspkgs_req:-NONE}" \
+    "Configured CI Send(s)"       "${scr_pkg_ci_send_req:-NONE}" \
+    "Application Up Operations"   "${scr_pkg_symf_up_req:-NONE}" \
+    "Application Down Operations" "${scr_pkg_symf_dn_req:-NONE}" \
+    "Application Bin Path"        "${scr_pkg_symfcmd_bin:-NONE}"
 )
 
 outListing "${listing[@]}"
