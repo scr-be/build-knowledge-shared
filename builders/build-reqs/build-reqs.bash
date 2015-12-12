@@ -16,11 +16,13 @@ then
     set -x
 fi
 
+readonly SCRIPT_CALLER_MAIN=true
 readonly SCRIPT_CALLER_SPATH="${0}"
 readonly SCRIPT_CALLER_RPATH="$(cd "$(dirname "${BASH_SOURCE[0]}" 2> /dev/null)" && pwd)"
 readonly SCRIPT_CALLER_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 readonly SCRIPT_CALLER_ROOT="$(pwd)"
 
+export SCRIPT_CALLER_MAIN
 export SCRIPT_CALLER_SPATH
 export SCRIPT_CALLER_RPATH
 export SCRIPT_CALLER_NAME
@@ -34,7 +36,7 @@ listing=(
     "OS Supported"   "YES"
     "Travis CI"      "$(getYesOrNoForCompare ${env_location} ci)" \
     "Using Sudo"     "$(getYesOrNoForCompare ${CMD_PRE} "sudo ")" \
-    "Current Action" "Bringing $(if [[ "${1}" == "up" ]]; then echo "UP"; else echo "DOWN"; fi) enviornment" \
+    "Current Action" "${ACTION}" \
     \
     ":PHP" \
     "Version"             "$(getMajorPHPVersion).x Series" \
@@ -64,25 +66,24 @@ sleep 2
 
 if [ ! ${VER_PHP_ON_5} ] && [ ! ${VER_PHP_ON_7} ]
 then
-    outErrorAndExit \
+    outError \
         "Unsupported PHP version for auto-builds. Found ${VER_PHP}."    
 fi
 
-if [[ "${1}" != "up" ]] && [[ "${1}" != "down" ]]
+STATE_FILE_INCLUDE="${SCRIPT_CALLER_RPATH}/$(basename ${SCRIPT_CALLER_NAME} .bash)_${ACTION}.bash"
+
+if [[ ! -f ${STATE_FILE_INCLUDE} ]]
 then
-    outErrorAndExit \
-        "Either 'up' or 'down' must be specified as the cli argument for ${0}."
+    outWarning "Operation file ${STATE_FILE_INCLUDE} does not exist."
+else
+    opExec \
+        "source ${STATE_FILE_INCLUDE}"
+
+    . ${STATE_FILE_INCLUDE}
 fi
 
-STATE_FILE_INCLUDE="${SCRIPT_CALLER_RPATH}/$(basename ${SCRIPT_CALLER_NAME} .bash)_${1}.bash"
-
-outInfo \
-    "Running ${STATE_FILE_INCLUDE}"
-
-. ${STATE_FILE_INCLUDE}
-
-outSuccess \
-    "All routines for action \"$(if [[ "${1}" == "up" ]]; then echo "UP"; else echo "DOWN"; fi)\" completed."
+outComplete \
+    "All operations for \"${ACTION}\" routine completed without error."
 
 exit 0
 

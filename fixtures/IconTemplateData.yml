@@ -1,111 +1,98 @@
 ---
 
-IconTemplate:
+#
+# This file is part of the Teavee HTML Generator Bundle.
+#
+# (c) Rob Frawley 2nd <rmf@build.fail>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
 
-    version:
+IconTemplate :
 
-        structure: 1.0.0
-        data:      1.0.0
+    versions :
+        self : 1.0.0
+        data : 0.9.0
 
-    orm:
+    strategy :
+        persist :
+            prefer : merge
 
-        priority:   101
-        mode:       truncate
-        entity:     s.mantle.icon_template.entity.class
-        repository: s.mantle.icon_template.repo
+    service :
+        entityPath : s.teavee_html_generator.icon_template.entity.class
+        repository : s.teavee_html_generator.icon_template.repo
 
-    dependencies:
-
+    depends :
         IconFamily:
-            entity:     s.mantle.icon_family.entity.class
-            repository: s.mantle.icon_family.repo
+            entityPath : s.teavee_html_generator.icon_family.entity.class
+            repository : s.teavee_html_generator.icon_family.repo
+            autoDepend : true
 
-    data:
+    references :
+        buildFromColumns :
+            - [ slug ]
 
-        0:
-            slug:        'fa-basic'
-            description: 'Basic Font Awesome markup using span html tag.'
-            family:      '++IconFamily:fa'
-            priority:    1
-            engine:      'twig'
-            template:    |
+    fixture :
+
+        -
+            slug        : fa-basic
+            priority    : 1
+            family      : '++IconFamily:fa'
+            description : |
+                Basic Font Awesome markup using span html tag.
+            engine      : twig
+            template    : |
                 <span
-                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
-                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
-                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
-                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
+                    class="{{ family.requiredClasses|join(' ') }} {{ classes|default([])|join(' ') }} {{ family.prefix }}-{{ icon.slug }}"
+                    {% if aria.hasRole %}role="{{ aria.role }}"{% endif %}
+                    {% if aria.isHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{{ aria.label|default(icon.name|first|upper ~ icon.name[1:]|default(''))|default('') }} (Categories: {{ icon.categories|default(['None'])|join(', ') }})">
                 </span>
 
-        1:
-            slug:        'fa-basic-i'
-            description: 'Basic Font Awesome markup using italic html tag.'
-            family:      '++IconFamily:fa'
-            priority:    2
-            engine:      'twig'
-            template:    |
-                <i
-                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
-                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
-                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
-                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
-                </i>
-
-        2:
-            slug:        'md-basic'
-            description: 'Basic Material Design markup using ligatures.'
-            family:      '++IconFamily:md'
-            priority:    1
-            engine:      'twig'
-            template:    |
-                <i
-                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %}"
-                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
-                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
-                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% endif %}"
-                >{{ icon.getSlug() }}</i>
-
-        3:
-            slug:        'mdb-basic'
-            description: 'Basic Material Design markup using ligatures within block-level element.'
-            family:      '++IconFamily:mdb'
-            priority:    1
-            engine:      'twig'
-            template:    |
+        -
+            slug        : md-basic
+            priority    : 1
+            family      : '++IconFamily:md'
+            engine      : twig
+            description : |
+                Basic Material Design markup using ligatures within block-level element.
+            template    : |
                 <div class="md-box">
                     <span
-                        class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %}"
-                        {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
-                        {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
-                        aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% endif %}"
-                    >{{ icon.getSlug() }}</span>
+                        class="{{ family.requiredClasses|join(' ') }} {{ classes|default([])|join(' ') }}"
+                        {% if aria.hasRole %}role="{{ aria.role }}"{% endif %}
+                        {% if aria.isHidden %}aria-hidden="true"{% endif %}
+                        aria-label="{{ aria.label|default(icon.name|first|upper ~ icon.name[1:]|default(''))|default('') }} (Categories: {{ icon.categories|default(['None'])|join(', ') }})"
+                    >{{ icon.slug }}</span>
                 </div>
 
-        4:
-            slug:        'octi-basic'
-            description: 'Octicon markup using span html tag'
-            family:      '++IconFamily:octi'
-            priority:    1
-            engine:      'twig'
-            template:    |
+        -
+            slug        : octi-basic
+            priority    : 1
+            family      : '++IconFamily:octi'
+            engine      : twig
+            description : |
+                Octicon markup using span html tag.
+            template    : |
                 <span
-                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
-                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
-                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
-                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
+                    class="{{ family.requiredClasses|join(' ') }} {{ classes|default([])|join(' ') }} {{ family.prefix() }}-{{ icon.slug() }}"
+                    {% if aria.hasRole %}role="{{ aria.role }}"{% endif %}
+                    {% if aria.isHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{{ aria.label|default(icon.name|first|upper ~ icon.name[1:]|default(''))|default('') }} (Categories: {{ icon.categories|default(['None'])|join(', ') }})">
                 </span>
 
-        5:
-            slug:        'fi-basic'
-            description: 'Foundation icon markup using span html tag'
-            family:      '++IconFamily:fi'
-            priority:    1
-            engine:      'twig'
-            template:    |
+        -
+            slug        : fdn-basic
+            family      : '++IconFamily:fdn'
+            priority    : 1
+            engine      : twig
+            description : |
+                Foundation icon markup using span html tag.
+            template    : |
                 <span
-                    class="{{ family.getRequiredClasses()|join(' ') }} {% if styles %}{{ styles|join(' ') }}{% endif %} {{ family.getPrefix() }}-{{ icon.getSlug() }}"
-                    {% if helper.hasAriaRole %}role="{{ helper.getAriaRole }}"{% endif %}
-                    {% if helper.isAriaHidden %}aria-hidden="true"{% endif %}
-                    aria-label="{% if helper.hasAriaLabel %}{{ helper.getAriaLabel }}{% else %}Icon: {{ icon.getName }}{% if icon.hasCategories %} (Category: {{ icon.getCategories[0] }}){% endif %}{% endif %}">
+                    class="{{ family.requiredClasses|join(' ') }} {{ classes|default([])|join(' ') }} {{ family.prefix() }}-{{ icon.slug() }}"
+                    {% if aria.hasRole %}role="{{ aria.role }}"{% endif %}
+                    {% if aria.isHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{{ aria.label|default(icon.name|first|upper ~ icon.name[1:]|default(''))|default('') }} (Categories: {{ icon.categories|default(['None'])|join(', ') }})">
                 </span>
-
-...

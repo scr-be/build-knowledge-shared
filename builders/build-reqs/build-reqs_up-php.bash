@@ -17,28 +17,34 @@ type outLines &>> /dev/null || exit -1
 
 for e in $(commaToSpaceSeparated ${scr_pkg_syspkgs_req})
 do
-	outInfo "Running ${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
+	opExec "source ${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
 	. "${INC_SYSR_PATH}/${INC_SYSR_FILE}${e}.bash"
 done
 
 for e in $(commaToSpaceSeparated ${scr_pkg_phpexts_req})
 do
-	outInfo "Running ${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
+	opExec "source ${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
 	export PHP_MODULE=${e}
 	. "${INC_MODS_PATH}/${INC_MODS_FILE}${e}.bash"
 done
+
+opStart \
+	"Setting up PHP configuration files."
 
 if [ ${BIN_PHPENV} ]
 then
 	for e in $(commaToSpaceSeparated ${scr_pkg_phpincs_req})
 	do
-		outInfo "Adding PHP config ${INC_INCS_PATH}/${INC_INCS_FILE}${e}.ini"
-		${BIN_PHPENV} config-add "${INC_INCS_PATH}/${INC_INCS_FILE}${e}.ini" &>> /dev/null || outErrorAndExit \
+		opExec "${BIN_PHPENV} config-add ${INC_INCS_PATH}/${INC_INCS_FILE}${e}.ini"
+		${BIN_PHPENV} config-add "${INC_INCS_PATH}/${INC_INCS_FILE}${e}.ini" &>> /dev/null || outWarning \
 			"Could not add ${INC_INCS_FILE}${e}.ini to PHP config ini."
 	done
 	${BIN_PHPENV} rehash
 else
-	outNotice "Cannot add/setup configuration INI outside PHPENV enviornments."
+	outWarning "Cannot add/setup configuration INI outside PHPENV enviornments."
 fi
+
+opDone \
+	"Setting up PHP configuration files."
 
 # EOF #

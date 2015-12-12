@@ -1,0 +1,90 @@
+---
+
+#
+# This file is part of the Teavee HTML Generator Bundle.
+#
+# (c) Rob Frawley 2nd <rmf@build.fail>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
+
+ButtonTemplate :
+
+    versions :
+        self : 1.0.0
+        data : 0.9.0
+
+    strategy :
+        persist :
+            prefer : merge
+
+    service :
+        entityPath : s.teavee_html_generator.button_template.entity.class
+        repository : s.teavee_html_generator.button_template.repo
+
+    fixture :
+
+        -
+            slug        : mzd_a
+            description : |
+                Materialize CSS anchor link as button with tooltip and text content.
+            engine      : twig
+            template    : |
+                <a  {% if tt.avil %}
+                        data-position="{{ tt.pos|default('bottom') }}"
+                        data-delay="{{ tt.delay|default(50) }}"
+                        data-tooltip="{{ tt.text|default('') }}"
+                    {% endif %}
+                    class="{{ b.classesReq|default('btn') }} {{ b.classes|default('') }} {{ tt.classes|default('') }}"
+                    href="{{ b.href|default('#') }}"
+                >{{ b.text }}</a>
+
+        -
+            slug        : mzd_a-icon
+            description : |
+                Materialize CSS anchor link as button with tooltip and icon for content.
+            engine      : twig
+            template    : |
+                 <a  {% if tt.avil %}
+                         data-position="{{ tt.pos|default('bottom') }}"
+                         data-delay="{{ tt.delay|default(50) }}"
+                         data-tooltip="{{ tt.text|default('') }}"
+                     {% endif %}
+                     class="{{ b.classesReq|default('btn') }} {{ b.classes|default('') }} {{ tt.classes|default('') }}"
+                     href="{{ b.href|default('#') }}"
+                 >{{ icon.html }}</a>
+
+        -
+            slug        : mzd_b
+            description : |
+                Materialize CSS as button element with tooltip and text content.
+            engine      : twig
+            template    : |
+                <button {% if tt.avil %}
+                            data-position="{{ tt.pos|default('bottom') }}"
+                            data-delay="{{ tt.delay|default(50) }}"
+                            data-tooltip="{{ tt.text|default('') }}"
+                        {% endif %}
+                        class="{{ b.classesReq|default('btn') }} {{ b.classes|default('') }} {{ tt.classes|default('') }}"
+                        type="{{ b.type }}"
+                        data-href="{{ b.href|default('#') }}"
+                >{{ b.text }}</button>
+
+        -
+            slug        : mzd_b-icon
+            description : |
+                Materialize CSS as button element with tooltip and icon for content.
+            engine      : twig
+            template    : |
+                <button {% if tt.avil %}
+                            data-position="{{ tt.pos|default('bottom') }}"
+                            data-delay="{{ tt.delay|default(50) }}"
+                            data-tooltip="{{ tt.text|default('') }}"
+                        {% endif %}
+                        class="{{ b.classesReq|default('btn') }} {{ b.classes|default('') }} {{ tt.classes|default('') }}"
+                        type="{{ b.type }}"
+                        data-href="{{ b.href|default('#') }}"
+                >{{ icon.html }}</button>
+
+...

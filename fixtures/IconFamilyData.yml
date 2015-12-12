@@ -1,144 +1,130 @@
 ---
 
+#
+# This file is part of the Teavee HTML Generator Bundle.
+#
+# (c) Rob Frawley 2nd <rmf@build.fail>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
+
 IconFamily:
+
+    versions :
+        self : 1.0.0
+        data : 0.9.0
+
+    strategy :
+        persist :
+            prefer : merge
+
+    service :
+        entityPath : s.teavee_html_generator.icon_family.entity.class
+        repository : s.teavee_html_generator.icon_family.repo
+
+    references :
+        buildFromColumns :
+            - [ slug ]
 
     comment: |
         Last updated 2015-10-24 14:00 -0400 with releases from FA, Google Material,
         and GitHub Opticon.
 
-    version:
+    fixture :
 
-        structure: 1.0.0
-        data:      1.0.0
-
-    orm:
-
-        priority:   100
-        mode:       truncate
-        entity:     s.mantle.icon_family.entity.class
-        repository: s.mantle.icon_family.repo
-
-    references:
-
-        usingIndex   : false
-        usingColumns : [ slug ]
-
-    dependencies: null
-
-    data:
-
-        0:
-            slug:    'fa'
-            name:    'Font Awesome'
-            version: 4.2
-            url:     'http://fontawesome.io/'
-            prefix:  'fa'
-            requiredClasses:
-                - 'fa'
-            optionalClasses:
-                - 'fa-fw'
-                - 'fa-lg'
-                - 'fa-2x'
-                - 'fa-3x'
-                - 'fa-4x'
-                - 'fa-5x'
-                - 'fa-li'
-                - 'fa-border'
-                - 'fa-rotate-90'
-                - 'fa-rotate-180'
-                - 'fa-rotate-270'
-                - 'fa-flip-horizontal'
-                - 'fa-flip-vertical'
-                - 'fa-spin'
-                - 'fa-inverse'
-                - 'fa-stack'
-                - 'fa-stack-1x'
-                - 'fa-stack-2x'
-                - 'fa-dark'
-                - 'fa-light'
-                - 'fa-inactive'
-                - 'fa-info'
-                - 'fa-success'
-                - 'fa-warning'
-                - 'fa-danger'
-                - 'fa-primary'
+        -
+            slug    : fa
+            name    : Font Awesome
+            prefix  : fa
+            version : 4.2
+            url     : http://fontawesome.io/
+            aliases : null
+            requiredClasses :
+                - fa
+            optionalClasses :
+                - fa-fw
+                - fa-lg
+                - fa-2x
+                - fa-3x
+                - fa-4x
+                - fa-5x
+                - fa-li
+                - fa-border
+                - fa-rotate-90
+                - fa-rotate-180
+                - fa-rotate-270
+                - fa-flip-horizontal
+                - fa-flip-vertical
+                - fa-spin
+                - fa-inverse
+                - fa-stack
+                - fa-stack-1x
+                - fa-stack-2x
+                - fa-dark
+                - fa-light
+                - fa-inactive
+                - fa-info
+                - fa-success
+                - fa-warning
+                - fa-danger
+                - fa-primary
             attributes: null
 
-        1:
-            slug:    'md'
-            name:    'Google Material Design Icons'
-            version: '50c4d857c61443b763344b7958326e68d20f6934'
-            url:     'https://github.com/google/material-design-icons'
-            prefix:  'md'
-            requiredClasses:
-                - 'material-icons'
-            optionalClasses:
-                - 'md-18'
-                - 'md-24'
-                - 'md-36'
-                - 'md-48'
-                - 'md-72'
-                - 'md-96'
-                - 'md-128'
-                - 'md-256'
-                - 'md-512'
-                - 'md-dark'
-                - 'md-light'
-                - 'md-inactive'
-                - 'md-info'
-                - 'md-success'
-                - 'md-warning'
-                - 'md-danger'
-                - 'md-primary'
-            attributes: null
-
-        2:
-            slug:    'mdb'
-            name:    'Google Material Design Icons Within Block-Level Elements'
-            version: '50c4d857c61443b763344b7958326e68d20f6934'
-            url:     'https://github.com/google/material-design-icons'
-            prefix:  'md'
-            requiredClasses:
-                - 'material-icons'
-            optionalClasses:
-                - 'md-18'
-                - 'md-24'
-                - 'md-36'
-                - 'md-48'
-                - 'md-72'
-                - 'md-96'
-                - 'md-128'
-                - 'md-256'
-                - 'md-512'
-                - 'md-dark'
-                - 'md-light'
-                - 'md-inactive'
-                - 'md-info'
-                - 'md-success'
-                - 'md-warning'
-                - 'md-danger'
-                - 'md-primary'
+        -
+            slug    : md
+            name    : Google Material Design Icons Within Block-Level Elements
+            prefix  : md
+            version : 50c4d857c61443b763344b7958326e68d20f6934
+            url     : https://github.com/google/material-design-icons
+            aliases :
+                - mdb
+            requiredClasses :
+                - material-icons
+            optionalClasses :
+                - md-18
+                - md-24
+                - md-36
+                - md-48
+                - md-72
+                - md-96
+                - md-128
+                - md-256
+                - md-512
+                - md-dark
+                - md-light
+                - md-inactive
+                - md-info
+                - md-success
+                - md-warning
+                - md-danger
+                - md-primary
             attributes:
-                box_class: 'md-box'
+                box_class: md-box
 
-        3:
-            slug:    'octi'
-            name:    'GitHub Octicons'
-            version: 'b01a7f596657e53ed8582fa87efeaef4e51709c2'
-            url:     'https://github.com/github/octicons'
-            prefix:  'octicon'
-            requiredClasses:
-                - 'octicon'
-            optionalClasses:
-                - 'mega-octicon'
+        -
+            slug    : octi
+            name    : GitHub Octicons
+            prefix  : octicon
+            version : b01a7f596657e53ed8582fa87efeaef4e51709c2
+            url     : https://github.com/github/octicons
+            aliases : null
+            requiredClasses :
+                - octicon
+            optionalClasses :
+                - mega-octicon
+            attributes: null
 
-        4:
-            slug:    'fi'
-            name:    'Zurb Foundation Icons'
-            version: 'afed003521ff971bc614de68bba2676e16ce39f4'
-            url:     'https://github.com/zurb/foundation-icon-fonts'
-            prefix:  'fi'
-            requiredClasses:
-                - 'foundation'
+        -
+            slug    : fdn
+            name    : Zurb Foundation Icons
+            prefix  : fi
+            version : afed003521ff971bc614de68bba2676e16ce39f4
+            url     : https://github.com/zurb/foundation-icon-fonts
+            aliases : null
+            requiredClasses :
+                - foundation
+            optionalClasses : null
+            attributes: null
 
 ...

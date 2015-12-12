@@ -20,34 +20,35 @@ fi
 
 type outLines &>> /dev/null || . ${SCRIPT_SELF_REAL}/../_common/bash-inc_all.bash
 
-outInfo "Installing PHP extension \"${PHP_MODULE}\""
+opStart "Install \"${PHP_MODULE}\" extension."
 
 RUN_SCRIPT_PATH="${INC_MODS_PATH}/php-$(getMajorPHPVersion)/${INC_MODS_FILE}${e}.bash"
 
 if [ ! -e ${RUN_SCRIPT_PATH} ]; then
-    outErrorAndExit "Could not find valid script ${RUN_SCRIPT_PATH}"
+    outError "Could not find valid script \"${RUN_SCRIPT_PATH}\"."
 fi
 
 if [ $(isExtensionEnabled ${PHP_MODULE}) == "true" ]
 then
-    outNotice "Removing previous version of extension..."
-    ${CMD_PRE} pecl uninstall ${PHP_MODULE} &>> /dev/null || outNotice \
-        "Failed to remove previous version...attempting install."
+    outInfo "Removing previous installation."
+    opExec "${CMD_PRE}pecl uninstall ${PHP_MODULE} &>> /dev/null"
+    ${CMD_PRE} pecl uninstall ${PHP_MODULE} &>> /dev/null || outWarning \
+        "Failed to remove previous install but blindly attempting to continue anyway."
 fi
 
-outInfo "Running ${RUN_SCRIPT_PATH}"
+opExec "bash ${RUN_SCRIPT_PATH}"
 MOD_RESULT=0
 bash ${RUN_SCRIPT_PATH} &>> /dev/null || MOD_RESULT="$?"
 
 if [[ ${MOD_RESULT} == 0 ]] && [[ $(isExtensionEnabled ${PHP_MODULE}) != "true" ]]; then
     if [ ${BIN_PHPENV} ]
     then
-        ${BIN_PHPENV} config-add "${INC_INCS_PATH}/${INC_INCS_FILE}use-${PHP_MODULE}.ini" &>> /dev/null || outError \
+        opExec "${BIN_PHPENV} config-add ${INC_INCS_PATH}/${INC_INCS_FILE}use-${PHP_MODULE}.ini"
+        ${BIN_PHPENV} config-add "${INC_INCS_PATH}/${INC_INCS_FILE}use-${PHP_MODULE}.ini" &>> /dev/null || outWarning \
             "Could not add ${INC_INCS_FILE}use-${PHP_MODULE}.ini to PHP config."
-        outSuccess "Adding PHP config ${INC_INCS_PATH}/${INC_INCS_FILE}use-${PHP_MODULE}.ini"
         ${BIN_PHPENV} rehash
     else
-        outError \
+        outInfo \
             "Auto-enabling extensions is only supported in phpenv environments." \
             "You need to add \"extension=${PHP_MODULE}.so\" to enable the extension."
     fi
@@ -55,11 +56,11 @@ fi
 
 if [[ ${MOD_RESULT} == 0 ]]
 then
-    outSuccess \
-        "Completed installation of \"${PHP_MODULE}\""
+    opDone \
+        "Install \"${PHP_MODULE}\" extension."
 else
-    outError \
-        "Could not install \"${PHP_MODULE}\""
+    opFail \
+        "Install \"${PHP_MODULE}\" extension."
 fi
 
 # EOF #
