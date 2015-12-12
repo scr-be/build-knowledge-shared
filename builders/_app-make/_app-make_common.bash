@@ -37,4 +37,27 @@ else
     done
 fi
 
+for cmd in "${APP_EXT_CMDS[@]}"
+do
+    opExec \
+        "${cmd}"
+
+    CMD_FAIL=false && touch "${APP_CMD_LOG}"
+
+    ${BIN_PHP} $SCRIPT_APP $cmd &>> "${cmd}" || CMD_FAIL=true
+
+    if [[ ${CMD_FAIL} == true ]]
+    then
+        outWarning \
+            "Command returned non-zero exit code. Output of command:"
+
+        cat "${APP_CMD_LOG}" && newLine
+    fi
+
+    rm -fr "${APP_CMD_LOG}"
+done
+
+APP_CMDS=()
+APP_EXT_CMDS=()
+
 # EOF #
