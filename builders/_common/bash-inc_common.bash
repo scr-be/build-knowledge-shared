@@ -89,50 +89,56 @@ then
     esac
 fi
 
-. /etc/lsb-release || outError \
-    "Automatic builds only supported on Ubuntu at this time. Could not find lsb_release file."
+. /etc/lsb-release || \
+    outError "Automatic builds only supported on Ubuntu at this time. Could not find lsb_release file."
 
-[[ ${DISTRIB_ID} != ${VER_ENV_DIST} ]] && outError \
-    "Automatic builds only supported on Ubuntu at this time. Could not find valid \$DISTRIB_ID."
+[[ ${DISTRIB_ID} != ${VER_ENV_DIST} ]] && \
+    outError "Automatic builds only supported on Ubuntu at this time. Could not find valid \$DISTRIB_ID."
 
-[[ $(valueInList ${DISTRIB_CODENAME:-x} ${VER_ENV_DIST_SUPPORTED}) != "true" ]] || outError \
-    "Automatic builds only supported on Ubuntu versions (${VER_ENV_DIST_SUPPORTED}) at this time. Found" \
-    "version ${DISTRIB_CODENAME}."
+[[ $(valueInList ${DISTRIB_CODENAME:-x} ${VER_ENV_DIST_SUPPORTED}) != "true" ]] || \
+    outError "Automatic builds only supported on Ubuntu versions (${VER_ENV_DIST_SUPPORTED}) at this time." \
+    "Found version ${DISTRIB_CODENAME}."
 
-[[ "${BIN_PHP:-x}" == "x" ]] && outError  \
-    "Could not find a valid PHP binary within your configured path: \"${PATH}\"."
+[[ "${BIN_PHP:-x}" == "x" ]] && \
+    outError "Could not find a valid PHP binary within your configured path: \"${PATH}\"."
 
 if [ "${TRAVIS:-x}" == "x" ]
 then
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
         CMD_PRE="sudo "
-        env_location="local" && env_with_phpenv="no" && env_ver_phpenv="(PHPENV n/a)"
+        env_location="local"
+        env_with_phpenv="no"
+        env_ver_phpenv="(PHPENV n/a)"
     else
-        env_location="local" && env_with_phpenv="yes" && env_ver_phpenv="(PHPENV v${VER_PHPENV})"
+        env_location="local"
+        env_with_phpenv="yes"
+        env_ver_phpenv="(PHPENV v${VER_PHPENV})"
     fi
 else
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
-        env_location="travis" && env_with_phpenv="no" && env_ver_phpenv="(PHPENV n/a)"
+        env_location="travis"
+        env_with_phpenv="no"
+        env_ver_phpenv="(PHPENV n/a)"
     else
-        env_location="travis" && env_with_phpenv="yes" && env_ver_phpenv="(PHPENV v${VER_PHPENV})"
+        env_location="travis"
+        env_with_phpenv="yes"
+        env_ver_phpenv="(PHPENV v${VER_PHPENV})"
     fi
 fi
 
 if [ "${VAR_ENV_PKG_PATH:-x}" == "x" ]
 then
-    outError \
-        "The 'scribe_packaged' enviornment variable must be defined!"
+    outError "The 'scribe_packaged' enviornment variable must be defined!"
 fi
 
 if [ "${VAR_ENV_PKG_PATH}" == "true" ]
 then
-    VAR_ENV_PKG_PATH="${VAR_ENV_PKG_PATH_DEFAULT}" && outInfo \
-        "Attempting to use default package config location of ${VAR_ENV_PKG_PATH_DEFAULT}."
+    VAR_ENV_PKG_PATH="${VAR_ENV_PKG_PATH_DEFAULT}" && \
+        outInfo "Attempting to use default package config location of ${VAR_ENV_PKG_PATH_DEFAULT}."
 fi
 
 if [ ! -f "${SCRIPT_CALLER_ROOT}/${VAR_ENV_PKG_PATH}" ]; then
-    outError \
-        "Unable to find the package configuration. This must be defined and set to the" \
+    outError "Unable to find the package configuration. This must be defined and set to the" \
         "location of your configuration YAML, or simply true to use the default path."
 fi
 
@@ -146,11 +152,11 @@ do
     fi
 done
 
-if [[ -z "${scr_pkg_symfcmd_bin}" ]]
+if [[ -z "${scr_pkg_app_binary}" ]]
 then
     export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/app/console)"
 else
-    export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/${scr_pkg_symfcmd_bin})"
+    export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/${scr_pkg_app_binary})"
 fi
 
 # EOF #

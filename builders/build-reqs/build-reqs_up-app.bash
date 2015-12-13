@@ -17,10 +17,10 @@ type outLines &>> /dev/null || exit -1
 
 if [[ "${ACTION}" == "up-app" ]]
 then
-	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_symf_up_req})
+	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_app_up_ops})
 elif [[ "${ACTION}" == "dn-app" ]]
 then
-	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_symf_dn_req})
+	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_app_dn_ops})
 fi
 
 for e in ${APP_INCS}

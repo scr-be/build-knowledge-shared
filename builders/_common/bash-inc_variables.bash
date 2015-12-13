@@ -13,11 +13,11 @@ export CMD_PRE=""
 export CMD_ENV=""
 
 export DIR_CWD="$(pwd)"
-export TMP_BASE="$(getReadyTempPath "${DIR_CWD}/build")"
+export TMP_BASE="$(readlink -m "${DIR_CWD}/build")"
 
 export ALL_LOGS=()
 export LOG_TEMP=()
-export LOG_BASE="$(getReadyTempPath "${DIR_CWD}/build/logs/auto")"
+export LOG_BASE="$(getReadyTempPath "${DIR_CWD}/build/logs/auto/builder")"
 export LOG_GNRL="$(getReadyTempPath "${LOG_BASE}/general")"
 export LOG_PECL="$(getReadyTempPath "${LOG_BASE}/phpext")"
 export LOG_SYMF="$(getReadyTempPath "${LOG_BASE}/symfony")"
@@ -53,9 +53,9 @@ export VER_ENV_DIST_SUPPORTED="wily,vivid,trusty,precise"
 export VAR_ENV_PKG_PATH="${scribe_packaged:-x}"
 export VAR_ENV_PKG_PATH_DEFAULT=".scribe-package.yml"
 export VAR_ENV_PKG_ENTRY_PREFIX="scr_pkg_"
-export VAR_ENV_PKG_ENTRY_REQS="${VAR_ENV_PKG_ENTRY_PREFIX}phpexts_req,${VAR_ENV_PKG_ENTRY_PREFIX}syspkgs_req,${VAR_ENV_PKG_ENTRY_PREFIX}ci_send_req,${VAR_ENV_PKG_ENTRY_PREFIX}phpincs_req"
+export VAR_ENV_PKG_ENTRY_REQS="${VAR_ENV_PKG_ENTRY_PREFIX}php_r_exts,${VAR_ENV_PKG_ENTRY_PREFIX}env_r_deps,${VAR_ENV_PKG_ENTRY_PREFIX}env_ci_ops,${VAR_ENV_PKG_ENTRY_PREFIX}php_r_cfgs"
 
-export COV_PATH="$(getReadyTempFilePath "${DIR_CWD}/build/logs/clover.xml")"
+export COV_PATH="$(readlink -m ${DIR_CWD}/build/logs/clover.xml)"
 
 export INC_MODS_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_php-mods/)"
 export INC_MODS_FILE="php-mods_make-"
@@ -65,6 +65,8 @@ export INC_INCS_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_php-incs/)"
 export INC_INCS_FILE="php-incs_"
 export INC_SYMF_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_app-make/)"
 export INC_SYMF_FILE="app-make_"
+export INC_EOPT_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_ext-opts/)"
+export INC_EOPT_FILE="ext-opts_"
 
 export LOG_TMP=()
 
