@@ -9,9 +9,15 @@
 # file distributed with this source code.
 ##
 
-opStart "Running \"${RT_MODE^^}\" external operations."
+if [[ ${RT_MODE_DESC} == false ]]
+then
+    RT_MODE_DESC="${RT_MODE}"
+fi
+
+opStart "Running \"${RT_MODE_DESC^^}\""
 
 RT_INDEX=-1
+RT_COUNT=0
 
 for c in "${RT_INCS[@]}"
 do
@@ -26,39 +32,53 @@ do
 
     RT_COMMANDS_RET_SINGLE=0
     RT_COMMANDS_RET=0
-    RT_COMMANDS_ACT=false
     RT_FILEPATH_INC="$(readlink -m ${RT_PATH}/${RT_FILE}${RT_ACT}.bash)"
     RT_FILEPATH_LOG=$(getReadyTempFilePath ${LOG_GEN}${RT_ACT//[^A-Za-z0-9._-]/_}.log)
 
     LOG_ALL+=("${RT_FILEPATH_LOG}")
 
-    opSource "${RT_FILEPATH_INC}"
+    if [[ ${RT_COMMANDS_INC} != false ]]
+    then
+        RT_COMMANDS_ACT=false
 
-    . ${RT_FILEPATH_INC}
+        opSource "${RT_FILEPATH_INC}"
+
+        . ${RT_FILEPATH_INC}
+    fi
 
     if [[ ${RT_COMMANDS_ACT} == false ]] || [[ ${#RT_COMMANDS_ACT[@]} == 0 ]]
     then
-        outInfo "No operation commands defined in ${RT_FILEPATH_INC}"
+        outWarning "No operation commands defined in ${RT_FILEPATH_INC}"
         continue
     fi
 
     for command in "${RT_COMMANDS_ACT[@]}"
     do
-        opExec "${command}"
-        ${command} &>> ${RT_FILEPATH_LOG} || RT_COMMANDS_RET=1
+        RT_COMMANDS_RET_SINGLE=0
 
-        if [[ ${RT_COMMANDS_RET_SINGLE} == 0 ]] && [[ ! ${RT_COMMANDS_ACT_FB[$RT_INDEX]} ]]
+        opExec "${command}"
+        ${command} &>> ${RT_FILEPATH_LOG} || RT_COMMANDS_RET_SINGLE=1
+
+        RT_COUNT=$(((${RT_COUNT} + 1)))
+
+        if [[ ${RT_COMMANDS_RET_SINGLE} == 0 ]] || [[ ${RT_COMMANDS_ACT_FB[$RT_INDEX]} == "" ]]
         then
+            RT_COMMANDS_RET=${RT_COMMANDS_RET_SINGLE}
             continue
         fi
 
-        outWarning "Using fallback command due to previous failure."
+        outWarning "Attempting fallback command due to previous command failure."
 
-        RT_COMMANDS_RET=0
+        RT_COMMANDS_RET_SINGLE=0
         command_fallback=${RT_COMMANDS_ACT_FB[$RT_INDEX]}
 
         opExec "${command_fallback}"
-        ${command_fallback} &>> ${RT_FILEPATH_LOG} || RT_COMMANDS_RET=1
+        ${command_fallback} &>> ${RT_FILEPATH_LOG} || RT_COMMANDS_RET_SINGLE=1
+
+        if [[ ${RT_COMMANDS_RET_SINGLE} == 1 ]]
+        then
+            RT_COMMANDS_RET=${RT_COMMANDS_RET_SINGLE}
+        fi
     done
 
     if [[ ${RT_COMMANDS_RET} != 0 ]]
@@ -67,15 +87,22 @@ do
     fi
 done
 
-opDone "Running \"${RT_MODE^^}\" external operations."
+if [[ ${RT_COUNT} == 0 ]]
+then
+    outWarning "No commands executed for \"${RT_MODE_DESC^^}\""
+fi
+
+opDone "Running \"${RT_MODE_DESC^^}\""
 
 export RT_MODE_APPEND=false
 export RT_MODE=""
+export RT_MODE_DESC=false
 export RT_INCS=()
 export RT_PATH=""
 export RT_FILE=""
 export RT_COMMANDS_RET=0
 export RT_COMMANDS_ACT=()
 export RT_COMMANDS_ACT_FB=()
+export RT_COMMANDS_INC=true
 
 # EOF #

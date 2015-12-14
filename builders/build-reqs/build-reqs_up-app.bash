@@ -18,6 +18,7 @@ type outLines &>> /dev/null || exit -1
 if [[ "${ACTION}" == "up-app" ]]
 then
 	export RT_MODE="app prep"
+	export RT_MODE_DESC="Application Prepare"
 	export RT_MODE_APPEND=false
 	export RT_INCS=($(commaToSpaceSeparated ${scr_pkg_app_prep}))
 	export RT_PATH=${INC_APP_PREP_PATH}
@@ -25,6 +26,7 @@ then
 elif [[ "${ACTION}" == "dn-app" ]]
 then
 	export RT_MODE="app post"
+	export RT_MODE_DESC="Application Post-run"
 	export RT_MODE_APPEND=false
 	export RT_INCS=($(commaToSpaceSeparated ${scr_pkg_app_post}))
 	export RT_PATH=${INC_APP_POST_PATH}

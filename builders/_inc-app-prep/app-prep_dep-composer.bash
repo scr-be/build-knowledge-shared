@@ -10,11 +10,11 @@
 ##
 
 RT_COMMANDS_ACT=(
-    "composer self-update"
+    "${BIN_PHP} $(readlink -m ./composer) install -n"
 )
 
 RT_COMMANDS_ACT_FB=(
-	"sudo composer self-update"
+	"${BIN_PHP} $(readlink -m ./composer) update -n"
 )
 
 # EOF #

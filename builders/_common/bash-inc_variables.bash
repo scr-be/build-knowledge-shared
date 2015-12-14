@@ -33,16 +33,22 @@ export BLD_ENV="$(getReadyTempPath "${BLD_DIR}/env")"
 export BIN_PECL="$(which pecl)"
 export BIN_CURL="$(which curl)"
 export BIN_TAR="$(which tar)"
-export BIN_MAKE=$(which make)
-export BIN_GIT=$(which git)
+export BIN_MAKE="$(which make)"
+export BIN_GIT="$(which git)"
 export BIN_PHP="$(which php)"
 export BIN_PHPENV="$(which phpenv)"
-export BIN_PHPIZE=$(which phpize)
+export BIN_PHPIZE="$(which phpize)"
+export BIN_HHVM="$(which hhvm)"
 
+export VER_HHVM="$(getVersionOfHhvm)"
+export VER_HHVM_COMPILER="$(getVersionOfHhvmCompiler)"
+export VER_HHVM_REPO_SCHEMA="$(getVersionOfHhvmRepoSchema)"
 export VER_PHP="$(getVersionOfPhp)"
 export VER_PHPENV="$(getVersionOfPhpEnv)"
 export VER_PHPAPI_ENG="$(getVersionOfPhpEngApi)"
 export VER_PHPAPI_MOD="$(getVersionOfPhpModApi)"
+export VER_PHP_OPCACHE="$(getVersionOfPhpOpcache)"
+export VER_PHP_XDEBUG="$(getVersionOfPhpXdebug)"
 
 export VER_PHP_ON_7=""
 export VER_PHP_ON_5=""
@@ -53,24 +59,35 @@ export VER_ENV_DIST_SUPPORTED="wily,vivid,trusty,precise"
 export PKG_YML_FILEPATH=".package.yml"
 export PKG_PRE_VARIABLE="scr_pkg_"
 export PKG_ENV_VARIABLE="${build_package:-x}"
-export PKG_REQ_VARIABLE="${PKG_PRE_VARIABLE}env_make,${PKG_PRE_VARIABLE}app_prep,${PKG_PRE_VARIABLE}app_post,${PKG_PRE_VARIABLE}env_post,${PKG_PRE_VARIABLE}php_exts,${PKG_PRE_VARIABLE}env_prep,${PKG_PRE_VARIABLE}env_post,${PKG_PRE_VARIABLE}php_conf"
+export PKG_REQ_VARIABLE="${PKG_PRE_VARIABLE}app_path,${PKG_PRE_VARIABLE}env_make,${PKG_PRE_VARIABLE}app_prep,${PKG_PRE_VARIABLE}app_post,${PKG_PRE_VARIABLE}env_post,${PKG_PRE_VARIABLE}php_exts,${PKG_PRE_VARIABLE}env_prep,${PKG_PRE_VARIABLE}env_post,${PKG_PRE_VARIABLE}php_conf"
 
 export COV_PATH="$(readlink -m ${DIR_CWD}/build/logs/clover.xml)"
 
-export INC_PHP_EXTS_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_php-exts/)"
+export INC_PHP_EXTS_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-php-exts/)"
 export INC_PHP_EXTS_FILE="php-exts_"
-export INC_PHP_CONF_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_php-conf/)"
+export INC_PHP_CONF_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-php-conf/)"
 export INC_PHP_CONF_FILE="php-conf_"
-export INC_ENV_MAKE_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_env-make/)"
+export INC_ENV_MAKE_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-env-make/)"
 export INC_ENV_MAKE_FILE="env-make_"
-export INC_ENV_PREP_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_env-prep/)"
+export INC_ENV_PREP_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-env-prep/)"
 export INC_ENV_PREP_FILE="env-prep_"
-export INC_ENV_POST_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_env-post/)"
+export INC_ENV_POST_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-env-post/)"
 export INC_ENV_POST_FILE="env-post_"
-export INC_APP_PREP_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_app-prep/)"
+export INC_APP_PREP_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-app-prep/)"
 export INC_APP_PREP_FILE="app-prep_"
-export INC_APP_POST_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_app-post/)"
+export INC_APP_POST_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-app-post/)"
 export INC_APP_POST_FILE="app-post_"
+
+export RT_MODE_APPEND=false
+export RT_MODE=""
+export RT_MODE_DESC=false
+export RT_INCS=()
+export RT_PATH=""
+export RT_FILE=""
+export RT_COMMANDS_RET=0
+export RT_COMMANDS_ACT=()
+export RT_COMMANDS_ACT_FB=()
+export RT_COMMANDS_INC=true
 
 if [ ${PKG_REQ_VARIABLE}} == "~" ]
 then
@@ -145,5 +162,6 @@ export OUT_PRE_LINE=true
 export OUT_MAX_CHAR=100
 export OUT_SPACE_F=1
 export OUT_SPACE_N=1
+export OUT_TYPE_SOURCE=false
 
 # EOF #

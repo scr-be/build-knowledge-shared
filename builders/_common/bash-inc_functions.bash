@@ -100,9 +100,9 @@ function outTitle()
     if [[ $s == true ]]
     then
         outPrefix ${p} true
-        outLines ${p} "${CLR_HDR_D}${CLR_HDR}${l}"
+        outLines ${p} "${CLR_HDR_D}${CLR_HDR}${l}${CLR_RST}"
     else
-        outLines ${p} "${CLR_HDR_D}${CLR_HDR}${l}"
+        outLines ${p} "${CLR_HDR_D}${CLR_HDR}${l}${CLR_RST}"
     fi
 
     if [[ $s == true ]]; then outPrefix ${p} true; fi
@@ -112,7 +112,7 @@ function outPrefix()
 {
     if [[ ${3} != true ]]; then echo -en "  "; fi
 
-    echo -en "${CLR_PRE_D}${CLR_PRE}${1}"
+    echo -en "${CLR_PRE_D}${CLR_PRE}${1}${CLR_RST}"
 
     if [[ ${2} == true ]]; then newLine; fi
 }
@@ -175,30 +175,35 @@ function outSequence()
         echo -en "${s}${CLR_RST}"
     done
 
-    colorReset && newLine
+    colorReset
 }
 
 function opFailLogOutput()
 {
     local f="${1}"
     local t="${2}"
-    local os=" :: BUILD LOG OUTPUT [ ${t} ] -"
-    local len="$((($(echo ${os} | wc -m) + 12)))"
+    local os=" :: BUILD LOG OUTPUT [ ${t} ] |"
+    local len="$((($(echo ${os} | wc -m) + 10)))"
 
-    outWarning "The previous command provided a non-zero (error) return code. Any available log" \
+    outWarning "The previous command(s) exited with error return code(s). Any available log" \
         "output will be dumped for review."
 
+    sleep 2
+
     echo -en "  " && \
+        echo -en "${CLR_L_YELLOW}+" &&\
         outSequence ${len} "-" "${CLR_L_YELLOW}" && \
-        echo -en "  ${CLR_L_YELLOW}-${CLR_B_YELLOW} START DUMP${CLR_L_YELLOW}${os}${CLR_RST}" && \
+        echo -en "${CLR_L_YELLOW}+\n" &&\
+        echo -en "  | ${CLR_B_YELLOW}START DUMP${CLR_L_YELLOW}${os}" && \
         newLine && \
-        echo -en "  " && \
+        echo -en "  +" && \
         outSequence ${len} "-" "${CLR_L_YELLOW}" && \
-        newLine
+        echo -en "${CLR_L_YELLOW}+${CLR_RST}" &&\
+        newLine && newLine
 
     if [[ -f ${f} ]]
     then
-        cat ${f}
+        cat ${f} | sed '/^\s*$/d'
     else
         echo -en "  ${CLR_B_RED}ERROR --- ${CLR_L_RED}No log output ot log file \"${f}\" is not present.${CLR_RST}" && \
             newLine
@@ -206,15 +211,21 @@ function opFailLogOutput()
 
     newLine
 
+    local len="$((($(echo ${os} | wc -m) + 8)))"
     echo -en "  " && \
+        echo -en "${CLR_L_YELLOW}+" &&\
         outSequence ${len} "-" "${CLR_L_YELLOW}" && \
-        echo -en "  ${CLR_L_YELLOW}-${CLR_B_YELLOW} END DUMP  ${CLR_L_YELLOW}${os}${CLR_RST}" && \
+        echo -en "${CLR_L_YELLOW}+\n" &&\
+        echo -en "  ${CLR_L_YELLOW}|${CLR_B_YELLOW} END DUMP${CLR_L_YELLOW}${os}" && \
         newLine && \
-        echo -en "  " && \
+        echo -en "  +" && \
         outSequence ${len} "-" "${CLR_L_YELLOW}" && \
-        newLine
+        echo -en "${CLR_L_YELLOW}+${CLR_RST}" &&\
+        newLine && newLine
 
     rm -fr ${f}
+
+    sleep 2
 }
 
 function opLogBuild()
@@ -225,7 +236,7 @@ function opLogBuild()
 function opLogFlush()
 {
     local t="${1:-MAKE}"
-    local p="${2:-\$~}"
+    local p="${2:-==}"
 
     if [[ ${#LOG_BUF[@]} -lt 1 ]]
     then
@@ -295,22 +306,43 @@ function outWelcome()
 
 function opStart()
 {
-    colorSet "${CLR_WHITE}" "${CLR_L_WHITE}" "${CLR_L_WHITE}"
-    outBlkM "##" "START" "${@}"
+    colorSet "${CLR_L_GREEN}" "${CLR_L_GREEN}" "${CLR_L_WHITE}"
+    outBlkM ">>" "OPEN" "${@}"
+    colorReset
+}
+
+function opStartSection()
+{
+    colorSet "${CLR_WHITE}" "${CLR_L_WHITE}" "${CLR_WHITE}"
+    outBlkS "--" "OPEN" "${@}"
     colorReset
 }
 
 function opDone()
 {
-    colorSet "${CLR_WHITE}" "${CLR_L_GREEN}" "${CLR_L_GREEN}" 
-    outBlkM "##" "FINISH" "${@}"
+    colorSet "${CLR_L_GREEN}" "${CLR_L_GREEN}" "${CLR_L_WHITE}"
+    outBlkM "<<" "STOP" "${@}"
+    colorReset
+}
+
+function opDoneSection()
+{
+    colorSet "${CLR_WHITE}" "${CLR_L_WHITE}" "${CLR_WHITE}"
+    outBlkS "--" "STOP" "${@}"
     colorReset
 }
 
 function opFail()
 {
-    colorSet "${CLR_WHITE}" "${CLR_L_RED}" "${CLR_L_RED}" 
+    colorSet "${CLR_L_RED}" "${CLR_L_RED}" "${CLR_L_RED}"
     outBlkM "##" "FAIL" "${@}"
+    colorReset
+}
+
+function opFailSection()
+{
+    colorSet "${CLR_WHITE}" "${CLR_L_WHITE}" "${CLR_WHITE}"
+    outBlkS "##" "FAIL" "${@}"
     colorReset
 }
 
@@ -323,15 +355,20 @@ function opExec()
 
 function opSource()
 {
+    if [[ ${OUT_TYPE_SOURCE} == false ]]
+    then
+        return
+    fi
+
     colorSet "${CLR_YELLOW}" "${CLR_YELLOW}"
-    outBlkS "++" "INCS" "${@}"
+    outBlkS "--" "INCS" "${@}"
     colorReset
 }
 
 function outInfo()
 {
     colorSet "${CLR_YELLOW}" "${CLR_YELLOW}"
-    outBlkS ">>" "INFO" "${@}"
+    outBlkS "--" "INFO" "${@}"
     colorReset
 }
 
@@ -514,6 +551,51 @@ function parseYaml()
    }'
 }
 
+function getVersionOfHhvm()
+{
+    local v="$(hhvm --version 2> /dev/null |\
+        grep -P -o '(VM)\s*([0-9]{1,2}\.){2}([0-9]{1,2})(-dev)?' 2> /dev/null |\
+        cut -d' ' -f2 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 5 ]] || [[ ${len} -gt 13 ]]
+    then
+        echo ""
+    else
+        echo "${v}"
+    fi
+}
+
+function getVersionOfHhvmCompiler()
+{
+    local v="$(hhvm --version 2> /dev/null |\
+        grep -P -o '(Compiler:)\s*([^\n]*)' 2> /dev/null |\
+        cut -d' ' -f2 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 8 ]]
+    then
+        echo ""
+    else
+        echo "${v}"
+    fi
+}
+
+function getVersionOfHhvmRepoSchema()
+{
+    local v="$(hhvm --version 2> /dev/null |\
+        grep -P -o '(schema:)\s*([^\n]*)' 2> /dev/null |\
+        cut -d' ' -f2 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 8 ]]
+    then
+        echo ""
+    else
+        echo "${v}"
+    fi
+}
+
 function getVersionOfPhp()
 {
     local v="$(${BIN_PHP} -v 2> /dev/null |\
@@ -523,20 +605,50 @@ function getVersionOfPhp()
 
     if [[ ${len} -lt 5 ]] || [[ ${len} -gt 9 ]]
     then
-        outError "Could not determine PHP version!"
+        echo ""
     else
         echo "${v}"
+    fi
+}
+
+function getVersionOfPhpOpcache()
+{
+    local v="$(${BIN_PHP} -v 2> /dev/null |\
+        grep -P -o '(OPcache)\s*v([0-9]{1,2}\.){2}([0-9]{1,2})(-[a-z]+)?' 2> /dev/null |\
+        cut -d' ' -f2 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 5 ]]
+    then
+        echo ""
+    else
+        echo "${v:1}"
+    fi
+}
+
+function getVersionOfPhpXdebug()
+{
+    local v="$(${BIN_PHP} -v 2> /dev/null |\
+        grep -P -o '(Xdebug)\s*v([0-9]{1,2}\.){2}([0-9]{1,2})([a-zA-Z0-9-]+)?' 2> /dev/null |\
+        cut -d' ' -f2 2> /dev/null)"
+    local len="$(echo "${v}" | wc -m)"
+
+    if [[ ${len} -lt 5 ]]
+    then
+        echo ""
+    else
+        echo "${v:1}"
     fi
 }
 
 function getVersionOfPhpEnv()
 {
     local v="$(${BIN_PHPENV} -v 2> /dev/null |\
-        grep -P -o '(ENV|env)\s*([0-9]{1,2}\.){2}([0-9]{1,2})' 2> /dev/null |\
+        grep -P -o '(ENV|env)\s*([0-9]{1,2}\.){2}([0-9]{1,2})([0-9a-z-]+)?' 2> /dev/null |\
         cut -d' ' -f2 2> /dev/null)"
     local len="$(echo "${v}" | wc -m)"
 
-    if [[ ${len} -lt 5 ]] || [[ ${len} -gt 9 ]]
+    if [[ ${len} -lt 5 ]]
     then
         echo ""
     else

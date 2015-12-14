@@ -16,7 +16,8 @@ readonly SCRIPT_BUILDR_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 type outLines &>> /dev/null || exit -1
 
 export RT_MODE="ci"
-export RT_MODE_APPEND=true
+export RT_MODE_DESC="Enviornment Post-run"
+export RT_MODE_APPEND=false
 export RT_INCS=($(commaToSpaceSeparated ${scr_pkg_env_post}))
 export RT_PATH=${INC_ENV_POST_PATH}
 export RT_FILE=${INC_ENV_POST_FILE}

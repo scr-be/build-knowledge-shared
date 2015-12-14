@@ -10,11 +10,8 @@
 ##
 
 RT_COMMANDS_ACT=(
-    "composer install -n"
-)
-
-RT_COMMANDS_ACT_FB=(
-	"composer update -n"
+	"${BIN_CURL} -o composer -sS https://getcomposer.org/installer"
+    "${BIN_PHP} $(readlink -m ./composer) -- --filename=composer"
 )
 
 # EOF #

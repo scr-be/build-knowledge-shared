@@ -27,7 +27,7 @@ then
     outError "Could not find valid script \"${MOD_SOURCE_CONFIG}\"."
 fi
 
-opStart "Install \"${MOD_NAME}\" extension."
+opStartSection "Install \"${MOD_NAME}\" extension."
 
 MOD_PECL_CMD=false
 MOD_PECL_CMD_URL=false
@@ -49,7 +49,7 @@ MOD_PECL_BLD=$(getReadyTempPath "${BLD_EXT}${MOD_NAME//[^A-Za-z0-9._-]/_}")
 
 if [[ $(isExtensionEnabled ${MOD_NAME}) == "true" ]] && [[ $(isExtensionPeclInstalled ${MOD_NAME}) == "true" ]]
 then
-    opExec "${CMD_PRE}pecl uninstall ${MOD_NAME} &>> /dev/null"
+    opLogBuild "${CMD_PRE}pecl uninstall ${MOD_NAME} &>> /dev/null"
 
     ${CMD_PRE} pecl uninstall ${MOD_NAME} &>> ${MOD_PECL_LOG} || \
         outWarning "Failed to remove previous install; blindly attempting to continue anyway."
@@ -138,9 +138,11 @@ if [[ ${MOD_PECL_RET} == 0 ]] && [[ $(isExtensionEnabled ${MOD_NAME}) != "true" 
         ${BIN_PHPENV} config-add "${INC_PHP_CONF_PATH}/${INC_PHP_CONF_FILE}use-${MOD_NAME}.ini" &>> /dev/null || \
             outWarning "Could not add ${INC_PHP_CONF_FILE}use-${MOD_NAME}.ini to PHP config."
 
+        opExec "${BIN_PHPENV} rehash"
+
         ${BIN_PHPENV} rehash
     else
-        outInfo \
+        outWarning \
             "Auto-enabling extensions is only supported in phpenv environments." \
             "You need to add \"extension=${MOD_NAME}.so\" to enable the extension."
     fi
@@ -148,10 +150,10 @@ fi
 
 if [[ ${MOD_PECL_RET} == 0 ]]
 then
-    opDone "Install \"${MOD_NAME}\" extension."
+    opDoneSection "Install \"${MOD_NAME}\" extension."
 else
     opFailLogOutput "${MOD_PECL_LOG}" "${MOD_NAME}"
-    opFail "Install \"${MOD_NAME}\" extension."
+    opDoneSmall "Install \"${MOD_NAME}\" extension."
 fi
 
 # EOF #

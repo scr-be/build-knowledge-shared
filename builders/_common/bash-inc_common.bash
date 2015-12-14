@@ -15,23 +15,31 @@ if [[ ${SCRIPT_CALLER_MAIN} ]]
 then
     case "${1}" in
         up)
-            ACTION=up-php
+            ACTION=up-env
         ;;
 
         down)
-            ACTION=up-php
+            ACTION=dn-env
         ;;
 
         dn)
-            ACTION=up-php
+            ACTION=dn-env
         ;;
 
         up-php)
-            ACTION=up-php
+            ACTION=up-env
         ;;
 
         dn-php)
-            ACTION=dn-php
+            ACTION=dn-env
+        ;;
+
+        up-env)
+            ACTION=up-env
+        ;;
+
+        dn-env)
+            ACTION=dn-env
         ;;
 
         up-app)
@@ -44,10 +52,10 @@ then
 
         *)
             echo -en "\nUsage:\n\t./${SCRIPT_CALLER_NAME} (up-|dn-)(php|env)\n\nExamples:\n" \
-                "\t./${SCRIPT_CALLER_NAME} up-php    [ setup php requirements - before composer run or tests ]\n" \
-                "\t./${SCRIPT_CALLER_NAME} dn-php    [ handle post-test operations - submit code coverage, etc ]\n" \
-                "\t./${SCRIPT_CALLER_NAME} up-app    [ setup php app requirements - install fixtures, etc ]\n" \
-                "\t./${SCRIPT_CALLER_NAME} dn-app    [ not currently used for anything - placeholder ]\n\n"
+                "\t./${SCRIPT_CALLER_NAME} up-env\y[ setup env requirements  - prior to any app commands ]\n" \
+                "\t./${SCRIPT_CALLER_NAME} up-app\t[ setup app requirements  - prior to any app tests    ]\n" \
+                "\t./${SCRIPT_CALLER_NAME} dn-app\t[ post-run app functions  - any required app cleanup  ]\n\n" \
+                "\t./${SCRIPT_CALLER_NAME} dn-env\t[ post-run env functions  - any required env actions  ]\n"
             exit
         ;;
     esac
@@ -65,23 +73,39 @@ then
     case "${1}" in
         up)
             newLine
-            outWarning "Use of the 'up' command has been depecated in favor of 'up-php' and will" \
-                "therefore be removed in a subsequent release."
+            outWarning "Use of the 'up' command has been depecated in favor of 'up-php|up-env' and will" \
+                "therefore be removed in a subsequent release. Assuming \"up-php\"."
             ACTION=up-php
             sleep 5
         ;;
 
         down)
             newLine
-            outWarning "Use of the 'down' command has been depecated in favor of \"dn-php\" and will" \
-                "therefore be removed in a subsequent release."
+            outWarning "Use of the 'down' command has been depecated in favor of \"dn-app|dn-env\" and will" \
+                "therefore be removed in a subsequent release. Assuming \"dn-php\"."
             sleep 5
             ACTION=dn-php
         ;;
 
         dn)
             newLine
-            outWarning "Use of the 'dn' command has been depecated in favor of \"dn-php\" and will" \
+            outWarning "Use of the 'dn' command has been depecated in favor of \"dn-app|dn-env\" and will" \
+                "therefore be removed in a subsequent release. Assuming \"dn-php\"."
+            sleep 5
+            ACTION=dn-php
+        ;;
+
+        up-php)
+            newLine
+            outWarning "Use of the 'up-php' command has been depecated in favor of \"up-php\" and will" \
+                "therefore be removed in a subsequent release."
+            sleep 5
+            ACTION=dn-php
+        ;;
+
+        dn-php)
+            newLine
+            outWarning "Use of the 'dn-php' command has been depecated in favor of \"dn-php\" and will" \
                 "therefore be removed in a subsequent release."
             sleep 5
             ACTION=dn-php
@@ -99,27 +123,36 @@ fi
 [[ "${BIN_PHP:-x}" == "x" ]] && \
     outError "Could not find a valid PHP binary within your configured path: \"${PATH}\"."
 
+if [ "${BIN_HHVM:-x}" == "x" ]
+then
+    env_with_hhvm="no"
+    env_ver_hhvm=" (HHVM    N/A)"
+else
+    env_with_hhvm="yes"
+    env_ver_hhvm="(HHVM    v${VER_HHVM})"
+fi
+
 if [ "${TRAVIS:-x}" == "x" ]
 then
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
         CMD_PRE="sudo "
         env_location="local"
         env_with_phpenv="no"
-        env_ver_phpenv="(PHPENV n/a)"
+        env_ver_phpenv=" (PHPEnv  N/A)"
     else
         env_location="local"
         env_with_phpenv="yes"
-        env_ver_phpenv="(PHPENV v${VER_PHPENV})"
+        env_ver_phpenv="(PHPEnv  v${VER_PHPENV})"
     fi
 else
     if [ "${BIN_PHPENV:-x}" == "x" ]; then
         env_location="travis"
         env_with_phpenv="no"
-        env_ver_phpenv="(PHPENV n/a)"
+        env_ver_phpenv=" (PHPEnv  n/a)"
     else
         env_location="travis"
         env_with_phpenv="yes"
-        env_ver_phpenv="(PHPENV v${VER_PHPENV})"
+        env_ver_phpenv="(PHPEnv  v${VER_PHPENV})"
     fi
 fi
 
