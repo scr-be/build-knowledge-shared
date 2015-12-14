@@ -12,24 +12,31 @@
 IconFamily:
 
     versions :
-        self : 1.0.0
-        data : 0.9.0
+
+        meta_format : 1.0.0
+        data_object : 0.1.0
 
     strategy :
+
+        associations :
+
         persist :
-            prefer : merge
+            prefer : purge
+            fallback : merge
 
     service :
-        entityPath : s.teavee_html_generator.icon_family.entity.class
-        repository : s.teavee_html_generator.icon_family.repo
+
+        entity_class : s.teavee_html_generator.icon_family.entity.class
+        service_repo : s.teavee_html_generator.icon_family.repo
 
     references :
-        buildFromColumns :
+
+        create_from_cols :
             - [ slug ]
 
-    comment: |
+    comment : |
         Last updated 2015-10-24 14:00 -0400 with releases from FA, Google Material,
-        and GitHub Opticon.
+        Foundation Icons, and GitHub Opticon.
 
     fixture :
 
@@ -39,7 +46,6 @@ IconFamily:
             prefix  : fa
             version : 4.2
             url     : http://fontawesome.io/
-            aliases : null
             requiredClasses :
                 - fa
             optionalClasses :
@@ -69,7 +75,6 @@ IconFamily:
                 - fa-warning
                 - fa-danger
                 - fa-primary
-            attributes: null
 
         -
             slug    : md
@@ -77,8 +82,6 @@ IconFamily:
             prefix  : md
             version : 50c4d857c61443b763344b7958326e68d20f6934
             url     : https://github.com/google/material-design-icons
-            aliases :
-                - mdb
             requiredClasses :
                 - material-icons
             optionalClasses :
@@ -99,8 +102,7 @@ IconFamily:
                 - md-warning
                 - md-danger
                 - md-primary
-            attributes:
-                box_class: md-box
+                - md-box
 
         -
             slug    : octi
@@ -108,12 +110,10 @@ IconFamily:
             prefix  : octicon
             version : b01a7f596657e53ed8582fa87efeaef4e51709c2
             url     : https://github.com/github/octicons
-            aliases : null
             requiredClasses :
                 - octicon
             optionalClasses :
                 - mega-octicon
-            attributes: null
 
         -
             slug    : fdn
@@ -121,10 +121,7 @@ IconFamily:
             prefix  : fi
             version : afed003521ff971bc614de68bba2676e16ce39f4
             url     : https://github.com/zurb/foundation-icon-fonts
-            aliases : null
             requiredClasses :
                 - foundation
-            optionalClasses : null
-            attributes: null
 
 ...

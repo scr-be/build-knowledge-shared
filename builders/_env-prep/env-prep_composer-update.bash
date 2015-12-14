@@ -7,10 +7,14 @@
 #
 # For the full copyright and license information, view the LICENSE.md
 # file distributed with this source code.
-##+
+##
 
-INC_EOPT_RT_CMDS=(
-    "${BIN_PHP} $(readlink -m bin/coveralls) -vvv -x ${COV_PATH}"
+RT_COMMANDS_ACT=(
+    "composer self-update"
+)
+
+RT_COMMANDS_ACT_FB=(
+	"sudo composer self-update"
 )
 
 # EOF #

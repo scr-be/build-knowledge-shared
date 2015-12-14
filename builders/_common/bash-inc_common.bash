@@ -92,11 +92,8 @@ fi
 . /etc/lsb-release || \
     outError "Automatic builds only supported on Ubuntu at this time. Could not find lsb_release file."
 
-[[ ${DISTRIB_ID} != ${VER_ENV_DIST} ]] && \
-    outError "Automatic builds only supported on Ubuntu at this time. Could not find valid \$DISTRIB_ID."
-
 [[ $(valueInList ${DISTRIB_CODENAME:-x} ${VER_ENV_DIST_SUPPORTED}) != "true" ]] || \
-    outError "Automatic builds only supported on Ubuntu versions (${VER_ENV_DIST_SUPPORTED}) at this time." \
+    outError "Automatic builds only supported on OS versions (${VER_ENV_DIST_SUPPORTED}) at this time." \
     "Found version ${DISTRIB_CODENAME}."
 
 [[ "${BIN_PHP:-x}" == "x" ]] && \
@@ -126,25 +123,25 @@ else
     fi
 fi
 
-if [ "${VAR_ENV_PKG_PATH:-x}" == "x" ]
+if [ "${PKG_ENV_VARIABLE:-x}" == "x" ]
 then
-    outError "The 'scribe_packaged' enviornment variable must be defined!"
+    outError "The 'build_package' enviornment variable must be defined!"
 fi
 
-if [ "${VAR_ENV_PKG_PATH}" == "true" ]
+if [ "${PKG_ENV_VARIABLE}" == "true" ]
 then
-    VAR_ENV_PKG_PATH="${VAR_ENV_PKG_PATH_DEFAULT}" && \
-        outInfo "Attempting to use default package config location of ${VAR_ENV_PKG_PATH_DEFAULT}."
+    PKG_ENV_VARIABLE="${PKG_YML_FILEPATH}" && \
+        outInfo "Attempting to use default package config location of ${PKG_YML_FILEPATH}."
 fi
 
-if [ ! -f "${SCRIPT_CALLER_ROOT}/${VAR_ENV_PKG_PATH}" ]; then
+if [ ! -f "${SCRIPT_CALLER_ROOT}/${PKG_ENV_VARIABLE}" ]; then
     outError "Unable to find the package configuration. This must be defined and set to the" \
         "location of your configuration YAML, or simply true to use the default path."
 fi
 
-eval $(parseYaml "${SCRIPT_CALLER_ROOT}/${VAR_ENV_PKG_PATH}" "${VAR_ENV_PKG_ENTRY_PREFIX}")
+eval $(parseYaml "${SCRIPT_CALLER_ROOT}/${PKG_ENV_VARIABLE}" "${PKG_PRE_VARIABLE}")
 
-for item in $(commaToSpaceSeparated ${VAR_ENV_PKG_ENTRY_REQS})
+for item in $(commaToSpaceSeparated ${PKG_REQ_VARIABLE})
 do
     if [ ${item:-x} == "x" ] || [ ${!item:-x} == "x" ] || [ ${!item:-x} == "~" ]
     then
@@ -152,11 +149,11 @@ do
     fi
 done
 
-if [[ -z "${scr_pkg_app_binary}" ]]
+if [[ -z "${scr_pkg_app_path}" ]]
 then
     export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/app/console)"
 else
-    export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/${scr_pkg_app_binary})"
+    export APP_MAKE_CLI="$(readlink -m ${DIR_CWD}/${scr_pkg_app_path})"
 fi
 
 # EOF #

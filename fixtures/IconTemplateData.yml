@@ -12,26 +12,31 @@
 IconTemplate :
 
     versions :
-        self : 1.0.0
-        data : 0.9.0
+
+        meta_format : 1.0.0
+        data_object : 0.1.0
 
     strategy :
+
         persist :
-            prefer : merge
+            prefer : purge
 
     service :
-        entityPath : s.teavee_html_generator.icon_template.entity.class
-        repository : s.teavee_html_generator.icon_template.repo
 
-    depends :
-        IconFamily:
-            entityPath : s.teavee_html_generator.icon_family.entity.class
-            repository : s.teavee_html_generator.icon_family.repo
-            autoDepend : true
+        entity_class : s.teavee_html_generator.icon_template.entity.class
+        service_repo : s.teavee_html_generator.icon_template.repo
 
     references :
-        buildFromColumns :
+
+        create_from_cols :
             - [ slug ]
+
+    depends :
+
+        IconFamily :
+            entity_class : s.teavee_html_generator.icon_family.entity.class
+            service_repo : s.teavee_html_generator.icon_family.repo
+            auto_depends : true
 
     fixture :
 
@@ -51,7 +56,7 @@ IconTemplate :
                 </span>
 
         -
-            slug        : md-basic
+            slug        : md-basic-box
             priority    : 1
             family      : '++IconFamily:md'
             engine      : twig
@@ -66,6 +71,21 @@ IconTemplate :
                         aria-label="{{ aria.label|default(icon.name|first|upper ~ icon.name[1:]|default(''))|default('') }} (Categories: {{ icon.categories|default(['None'])|join(', ') }})"
                     >{{ icon.slug }}</span>
                 </div>
+
+        -
+            slug        : md-basic
+            priority    : 2
+            family      : '++IconFamily:md'
+            engine      : twig
+            description : |
+                Basic Material Design markup using ligatures.
+            template    : |
+                <span
+                    class="{{ family.requiredClasses|join(' ') }} {{ classes|default([])|join(' ') }}"
+                    {% if aria.hasRole %}role="{{ aria.role }}"{% endif %}
+                    {% if aria.isHidden %}aria-hidden="true"{% endif %}
+                    aria-label="{{ aria.label|default(icon.name|first|upper ~ icon.name[1:]|default(''))|default('') }} (Categories: {{ icon.categories|default(['None'])|join(', ') }})"
+                >{{ icon.name }}</span>
 
         -
             slug        : octi-basic

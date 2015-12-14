@@ -15,7 +15,13 @@ readonly SCRIPT_BUILDR_NAME="$(basename ${SCRIPT_CALLER_SPATH} 2> /dev/null)"
 
 type outLines &>> /dev/null || exit -1
 
-opSource "${INC_EOPT_PATH}/_${INC_EOPT_FILE}ci-common.bash"
-. "${INC_EOPT_PATH}/_${INC_EOPT_FILE}ci-common.bash"
+export RT_MODE="ci"
+export RT_MODE_APPEND=true
+export RT_INCS=($(commaToSpaceSeparated ${scr_pkg_env_post}))
+export RT_PATH=${INC_ENV_POST_PATH}
+export RT_FILE=${INC_ENV_POST_FILE}
+
+opSource "${INC_ENV_POST_PATH}/_${INC_ENV_POST_FILE}common.bash"
+. "${INC_ENV_POST_PATH}/_${INC_ENV_POST_FILE}common.bash"
 
 # EOF #

@@ -36,49 +36,44 @@ listing=(
     "Enviornment:Action"   "${ACTION^^}" \
     "Enviornment:Location" "${env_location^^}" \
     "Enviornment:Travis"   "$(getYesOrNoForCompare ${env_location} ci)" \
-    #"Sudo"                "$(getYesOrNoForCompare ${CMD_PRE} "sudo ")" \
-    "Enviornment:Config"   "${SCRIPT_CALLER_ROOT}/${VAR_ENV_PKG_PATH}" \
+    "Enviornment:Config"   "${SCRIPT_CALLER_ROOT}/${PKG_ENV_VARIABLE}" \
     \
     ":PHP" \
     "Release"               "$(getMajorPHPVersion).x Series" \
     "Supported:API"         "YES (${VER_PHPAPI_ENG}/${VER_PHPAPI_MOD})" \
     "Supported:Environment" "$(getYesOrNoForCompare ${VER_PHP_ON_UNSU:-x} "x") (PHP    v${VER_PHP})" \
-    "Supported:PHPEnv"      "$(echo ${env_with_phpenv} | tr '[:lower:]' '[:upper:]') ${env_ver_phpenv}" \
-   #\
-   #":Handlers" \
-   #"Requires:Extentions"  "${INC_MODS_PATH}" \
-   #"Requires:Config"      "${INC_INCS_PATH}" \
-   #"Required:Enviornment" "${INC_SYSR_PATH}" \
-   #"Application:Reports"  "${INC_EOPT_PATH}" \
-   #"Application:Console"  "${INC_SYMF_PATH}" \
-   #\
-   #":Working/Logging Paths" \
-   #"Work:General"        "${BLD_GNRL:-NONE}" \
-   #"Work:Pecl Extension" "${BLD_PECL:-NONE}" \
-   #"Work:Enviornment"    "${BLD_SYSD:-NONE}" \
-   #"Logs:General"        "${LOG_GNRL:-NONE}" \
-   #"Logs:Pecl Extension" "${LOG_PECL:-NONE}" \
-   #"Logs:Enviornment"    "${LOG_SYSD:-NONE}" \
-   #\
+    "Installed:HHVM"        "NO" \
+    "Installed:PHPEnv"      "$(echo ${env_with_phpenv} | tr '[:lower:]' '[:upper:]') ${env_ver_phpenv}" \
+    \
     ":Repository Package Configuation" \
-    "Requires:Extentions"  "${scr_pkg_php_r_exts:-NONE}" \
-    "Requires:Config"      "${scr_pkg_php_r_cfgs:-NONE}" \
-    "Required:Enviornment" "${scr_pkg_env_r_deps:-NONE}" \
-    "Operations:DN"        "${scr_pkg_app_up_ops:-NONE}" \
-    "Operations:UP"        "${scr_pkg_app_dn_ops:-NONE}" \
-    "Application:Reports"  "${scr_pkg_env_ci_ops:-NONE}" \
-    "Application:Console"  "${scr_pkg_app_binary:-NONE}"
-   #\
-   #":Binary Paths" \
-   #"curl"   "${BIN_CURL:-NONE}" \
-   #"git"    "${BIN_GIT:-NONE}" \
-   #"tar"    "${BIN_TAR:-NONE}" \
-   #"make"   "${BIN_MAKE:-NONE}" \
-   #"php"    "${BIN_PHP:-NONE}" \
-   #"phpenv" "${BIN_PHPENV:-NONE}" \
-   #"phpize" "${BIN_PHPIZE:-NONE}" \
-   #"pecl"   "${BIN_PECL:-NONE}"
+    "Environment:Prep"    "${scr_pkg_env_prep:-NONE}" \
+    "Environment:Make"    "${scr_pkg_env_make:-NONE}" \
+    "Environment:Post"    "${scr_pkg_env_post:-NONE}" \
+    "PHP:Extentions"      "${scr_pkg_php_exts:-NONE}" \
+    "PHP:Configuration"   "${scr_pkg_php_conf:-NONE}" \
+    "Application:Prep"    "${scr_pkg_app_prep:-NONE}" \
+    "Application:Post"    "${scr_pkg_app_post:-NONE}" \
+    "Application:Console" "${scr_pkg_app_path:-NONE}" \
+    \
+    ":Handlers" \
+    "Requires:Extentions"  "${INC_PHP_EXTS_PATH}" \
+    "Requires:Config"      "${INC_PHP_CONF_PATH}" \
+    "Required:Enviornment" "${INC_ENV_MAKE_PATH}" \
+    "Application:Reports"  "${INC_ENV_POST_PATH}" \
+    "Application:Console"  "${INC_APP_PREP_PATH}" \
+    \
+    ":Build and Log Paths" \
+    "Build:General"     "${BLD_GEN:-NONE}" \
+    "Build:Extensions"  "${BLD_EXT:-NONE}" \
+    "Build:Enviornment" "${BLD_ENV:-NONE}" \
+    "Build:Application" "${BLD_APP:-NONE}" \
+    "Logs:General"      "${LOG_GEN:-NONE}" \
+    "Logs:Extensions"   "${LOG_EXT:-NONE}" \
+    "Logs:Enviornment"  "${LOG_ENV:-NONE}" \
+    "Logs:Application"  "${LOG_APP:-NONE}"
 )
+
+
 
 outListing "${listing[@]}"
 

@@ -9,14 +9,8 @@
 # file distributed with this source code.
 ##+
 
-SCRIPT_SELF_PATH="${0}"
-SCRIPT_SELF_BASE="$(basename ${0})"
-SCRIPT_SELF_REAL="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-APP_MAKE_CMDS_PHP=(
-    "doctrine:database:drop -n --force"
+RT_COMMANDS_ACT=(
+    "${BIN_PHP} $(readlink -m bin/codacycoverage) clover -n ${COV_PATH}"
 )
-
-. ${SCRIPT_SELF_REAL}/_app-make_common.bash
 
 # EOF #

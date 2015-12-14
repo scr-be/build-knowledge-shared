@@ -7,16 +7,11 @@
 #
 # For the full copyright and license information, view the LICENSE.md
 # file distributed with this source code.
-##+
+##
 
-SCRIPT_SELF_PATH="${0}"
-SCRIPT_SELF_BASE="$(basename ${0})"
-SCRIPT_SELF_REAL="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-APP_MAKE_CMDS_PHP=(
-    "doctrine:fixtures:load -n"
+RT_COMMANDS_ACT=(
+    "${APP_MAKE_CLI} doctrine:database:create -n"
+    "${APP_MAKE_CLI} doctrine:schema:create -n"
 )
-
-. ${SCRIPT_SELF_REAL}/_app-make_common.bash
 
 # EOF #

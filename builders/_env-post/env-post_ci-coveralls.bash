@@ -7,8 +7,10 @@
 #
 # For the full copyright and license information, view the LICENSE.md
 # file distributed with this source code.
-##
+##+
 
-. $(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/_php-mods_common.bash
+RT_COMMANDS_ACT=(
+    "${BIN_PHP} $(readlink -m bin/coveralls) -vvv -x ${COV_PATH}"
+)
 
 # EOF #

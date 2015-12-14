@@ -17,28 +17,21 @@ type outLines &>> /dev/null || exit -1
 
 if [[ "${ACTION}" == "up-app" ]]
 then
-	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_app_up_ops})
+	export RT_MODE="app prep"
+	export RT_MODE_APPEND=false
+	export RT_INCS=($(commaToSpaceSeparated ${scr_pkg_app_prep}))
+	export RT_PATH=${INC_APP_PREP_PATH}
+	export RT_FILE=${INC_APP_PREP_FILE}
 elif [[ "${ACTION}" == "dn-app" ]]
 then
-	APP_INCS=$(commaToSpaceSeparated ${scr_pkg_app_dn_ops})
+	export RT_MODE="app post"
+	export RT_MODE_APPEND=false
+	export RT_INCS=($(commaToSpaceSeparated ${scr_pkg_app_post}))
+	export RT_PATH=${INC_APP_POST_PATH}
+	export RT_FILE=${INC_APP_POST_FILE}
 fi
 
-for e in ${APP_INCS}
-do
-	APP_CMDS=() && APP_FILE="${INC_SYMF_PATH}/${INC_SYMF_FILE}${e}.bash"
-
-	opStart "Executing \"${e}\" application command."
-
-	if [[ ! -f "${APP_FILE}" ]]
-	then
-		outWarning "Application include ${APP_FILE} doesn't exist."
-	fi
-
-	opSource "${APP_FILE}"
-
-	. "${APP_FILE}"
-
-	opDone "Executing \"${e}\" application command."
-done
+opSource "${RT_PATH}/_${RT_FILE}common.bash"
+. "${RT_PATH}/_${RT_FILE}common.bash"
 
 # EOF #

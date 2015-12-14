@@ -20,7 +20,7 @@ then
     MOD_NAME="$(basename ${SCRIPT_SELF_BASE} .bash)"
 fi
 
-MOD_SOURCE_CONFIG="${INC_MODS_PATH}/php-$(getMajorPHPVersion)/${INC_MODS_FILE}${MOD_NAME}.bash"
+MOD_SOURCE_CONFIG="${INC_PHP_EXTS_PATH}/php-$(getMajorPHPVersion)/${INC_PHP_EXTS_FILE}${MOD_NAME}.bash"
 
 if [ ! -f ${MOD_SOURCE_CONFIG} ]
 then
@@ -44,8 +44,8 @@ opSource "${MOD_SOURCE_CONFIG}"
 
 . ${MOD_SOURCE_CONFIG}
 
-MOD_PECL_LOG=$(getReadyTempFilePath "${LOG_PECL}${MOD_NAME//[^A-Za-z0-9._-]/_}.log")
-MOD_PECL_BLD=$(getReadyTempPath "${BLD_PECL}${MOD_NAME//[^A-Za-z0-9._-]/_}")
+MOD_PECL_LOG=$(getReadyTempFilePath "${LOG_EXT}${MOD_NAME//[^A-Za-z0-9._-]/_}.log")
+MOD_PECL_BLD=$(getReadyTempPath "${BLD_EXT}${MOD_NAME//[^A-Za-z0-9._-]/_}")
 
 if [[ $(isExtensionEnabled ${MOD_NAME}) == "true" ]] && [[ $(isExtensionPeclInstalled ${MOD_NAME}) == "true" ]]
 then
@@ -133,10 +133,10 @@ fi
 if [[ ${MOD_PECL_RET} == 0 ]] && [[ $(isExtensionEnabled ${MOD_NAME}) != "true" ]]; then
     if [ ${BIN_PHPENV} ]
     then
-        opExec "${BIN_PHPENV} config-add ${INC_INCS_PATH}/${INC_INCS_FILE}use-${MOD_NAME}.ini"
+        opExec "${BIN_PHPENV} config-add ${INC_PHP_CONF_PATH}/${INC_PHP_CONF_FILE}use-${MOD_NAME}.ini"
 
-        ${BIN_PHPENV} config-add "${INC_INCS_PATH}/${INC_INCS_FILE}use-${MOD_NAME}.ini" &>> /dev/null || \
-            outWarning "Could not add ${INC_INCS_FILE}use-${MOD_NAME}.ini to PHP config."
+        ${BIN_PHPENV} config-add "${INC_PHP_CONF_PATH}/${INC_PHP_CONF_FILE}use-${MOD_NAME}.ini" &>> /dev/null || \
+            outWarning "Could not add ${INC_PHP_CONF_FILE}use-${MOD_NAME}.ini to PHP config."
 
         ${BIN_PHPENV} rehash
     else

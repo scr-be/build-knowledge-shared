@@ -24,7 +24,7 @@ function outLines()
     local ind=true
     local i=0
 
-    if [[ ${O_PRE} == true ]]
+    if [[ ${OUT_PRE_LINE} == true ]]
     then
         outPrefix "${p}"
     fi
@@ -39,27 +39,27 @@ function outLines()
 
         len=$((($(echo "${l}" | sed -r 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g' | wc -m) + $len + 1)))
 
-        if [[ ${len} -gt ${L_MAX} ]]
+        if [[ ${len} -gt ${OUT_MAX_CHAR} ]]
         then
             len=$(echo "${l}" | sed -r 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g' | wc -m)
             ind=true
             newLine
-            if [[ ${O_PRE} == true ]]
+            if [[ ${OUT_PRE_LINE} == true ]]
             then
                 outPrefix "${p}"
             fi
         fi
 
-        if [[ ${O_PRE} != true ]]
+        if [[ ${OUT_PRE_LINE} != true ]]
         then
-            O_PRE=true
+            OUT_PRE_LINE=true
         fi
 
         if [[ ${i} == 0 ]]
         then
-            SEQ=${O_SPACE}
+            SEQ=${OUT_SPACE_F}
         else
-            SEQ=${O_SEC_SPACE}
+            SEQ=${OUT_SPACE_N}
         fi
 
         if [[ $len == 0 ]] || [[ $ind == true ]]
@@ -73,22 +73,22 @@ function outLines()
             len=$((($length + 1)))
         fi
 
-        echo -en "${C_RST}${C_TXT_DEFAULT}${C_TXT}${l}${C_RST} "
+        echo -en "${CLR_RST}${CLR_TXT_D}${CLR_TXT}${l}${CLR_RST} "
 
         i=$(((${i} + 1)))
     done
 
-    if [[ ${O_NL} == true ]]
+    if [[ ${OUT_NEW_LINE} == true ]]
     then
         newLine
-        O_NL=true
+        OUT_NEW_LINE=true
     else
-        O_NL=true
+        OUT_NEW_LINE=true
     fi
 
-    O_SPACE=1
-    O_SEC_SPACE=1
-    O_PRE=true
+    OUT_SPACE_F=1
+    OUT_SPACE_N=1
+    OUT_PRE_LINE=true
 }
 
 function outTitle()
@@ -100,9 +100,9 @@ function outTitle()
     if [[ $s == true ]]
     then
         outPrefix ${p} true
-        outLines ${p} "${C_HDR_DEFAULT}${C_HDR}${l}"
+        outLines ${p} "${CLR_HDR_D}${CLR_HDR}${l}"
     else
-        outLines ${p} "${C_HDR_DEFAULT}${C_HDR}${l}"
+        outLines ${p} "${CLR_HDR_D}${CLR_HDR}${l}"
     fi
 
     if [[ $s == true ]]; then outPrefix ${p} true; fi
@@ -112,7 +112,7 @@ function outPrefix()
 {
     if [[ ${3} != true ]]; then echo -en "  "; fi
 
-    echo -en "${C_PRE_DEFAULT}${C_PRE}${1}"
+    echo -en "${CLR_PRE_D}${CLR_PRE}${1}"
 
     if [[ ${2} == true ]]; then newLine; fi
 }
@@ -136,10 +136,10 @@ function outBlkS()
     local t="${2:-BLOCK}"
     local l="${@:3}"
 
-    O_NL=false
+    OUT_NEW_LINE=false
     outTitle ${p} "${t}" false
-    O_PRE=false
-    O_SPACE=0
+    OUT_PRE_LINE=false
+    OUT_SPACE_F=0
     outLines ${p} ${l[@]}
 
     newLine
@@ -165,14 +165,14 @@ function outSequence()
 
     for seq in $(seq 1 ${i})
     do
-        echo -en "${C_TXT_DEFAULT}${C_TXT}"
+        echo -en "${CLR_TXT_D}${CLR_TXT}"
 
         if [[ ${c} != false ]]
         then
             echo -en "${3}"
         fi
 
-        echo -en "${s}${C_RST}"
+        echo -en "${s}${CLR_RST}"
     done
 
     colorReset && newLine
@@ -189,29 +189,29 @@ function opFailLogOutput()
         "output will be dumped for review."
 
     echo -en "  " && \
-        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
-        echo -en "  ${COLOR_L_YELLOW}-${COLOR_B_YELLOW} START DUMP${COLOR_L_YELLOW}${os}${C_RST}" && \
+        outSequence ${len} "-" "${CLR_L_YELLOW}" && \
+        echo -en "  ${CLR_L_YELLOW}-${CLR_B_YELLOW} START DUMP${CLR_L_YELLOW}${os}${CLR_RST}" && \
         newLine && \
         echo -en "  " && \
-        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
+        outSequence ${len} "-" "${CLR_L_YELLOW}" && \
         newLine
 
     if [[ -f ${f} ]]
     then
         cat ${f}
     else
-        echo -en "  ${COLOR_B_RED}ERROR --- ${COLOR_L_RED}No log output ot log file \"${f}\" is not present.${C_RST}" && \
+        echo -en "  ${CLR_B_RED}ERROR --- ${CLR_L_RED}No log output ot log file \"${f}\" is not present.${CLR_RST}" && \
             newLine
     fi
 
     newLine
 
     echo -en "  " && \
-        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
-        echo -en "  ${COLOR_L_YELLOW}-${COLOR_B_YELLOW} END DUMP  ${COLOR_L_YELLOW}${os}${C_RST}" && \
+        outSequence ${len} "-" "${CLR_L_YELLOW}" && \
+        echo -en "  ${CLR_L_YELLOW}-${CLR_B_YELLOW} END DUMP  ${CLR_L_YELLOW}${os}${CLR_RST}" && \
         newLine && \
         echo -en "  " && \
-        outSequence ${len} "-" "${COLOR_L_YELLOW}" && \
+        outSequence ${len} "-" "${CLR_L_YELLOW}" && \
         newLine
 
     rm -fr ${f}
@@ -219,52 +219,52 @@ function opFailLogOutput()
 
 function opLogBuild()
 {
-    LOG_TEMP+=("${@}")
+    LOG_BUF+=("${@}")
 }
 
 function opLogFlush()
 {
     local t="${1:-MAKE}"
-    local p="${2:---}"
+    local p="${2:-\$~}"
 
-    if [[ ${#LOG_TEMP[@]} -lt 1 ]]
+    if [[ ${#LOG_BUF[@]} -lt 1 ]]
     then
         outWarning "No log build lines to flush."
     fi
 
-    for l in "${LOG_TEMP[@]}"
+    for l in "${LOG_BUF[@]}"
     do
-        colorSet "${COLOR_L_PURPLE}" "${COLOR_L_PURPLE}"
+        colorSet "${CLR_L_BLUE}" "${CLR_L_BLUE}"
 
-        O_NL=false
+        OUT_NEW_LINE=false
         outTitle ${p} ${t} false
 
-        O_PRE=false && O_SPACE=0 && O_SEC_SPACE=5
+        OUT_PRE_LINE=false && OUT_SPACE_F=0 && OUT_SPACE_N=5
         outLines ${p} "${l[@]}"
     done
 
-    LOG_TEMP=()
+    LOG_BUF=()
     colorReset
     newLine
 }
 
 function colorSet()
 {
-    if [[ -n ${1} ]] && [[ ${1} != false ]]; then C_PRE="${1}"; fi
-    if [[ -n ${2} ]] && [[ ${1} != false ]]; then C_HDR="${2}"; fi
-    if [[ -n ${3} ]] && [[ ${1} != false ]]; then C_TXT="${3}"; fi
+    if [[ -n ${1} ]] && [[ ${1} != false ]]; then CLR_PRE="${1}"; fi
+    if [[ -n ${2} ]] && [[ ${1} != false ]]; then CLR_HDR="${2}"; fi
+    if [[ -n ${3} ]] && [[ ${1} != false ]]; then CLR_TXT="${3}"; fi
 }
 
 function colorReset()
 {
-    C_TXT=""
-    C_PRE=""
-    C_HDR=""
+    CLR_TXT=""
+    CLR_PRE=""
+    CLR_HDR=""
 }
 
 function outWelcome()
 {
-    colorSet "${COLOR_L_WHITE}" "${COLOR_U_WHITE}" "${COLOR_WHITE}"
+    colorSet "${CLR_L_WHITE}" "${CLR_U_WHITE}" "${CLR_WHITE}"
     local p="--"
     local t="${@:1}"
     local l="${@:2}"
@@ -295,56 +295,56 @@ function outWelcome()
 
 function opStart()
 {
-    colorSet "${COLOR_L_WHITE}" "${COLOR_L_WHITE}"
-    outBlkL "--" "BEGN" "${@}"
+    colorSet "${CLR_WHITE}" "${CLR_L_WHITE}" "${CLR_L_WHITE}"
+    outBlkM "##" "START" "${@}"
     colorReset
 }
 
 function opDone()
 {
-    colorSet "${COLOR_L_WHITE}" "${COLOR_L_WHITE}"
-    outBlkL "--" "EXIT" "${@}"
+    colorSet "${CLR_WHITE}" "${CLR_L_GREEN}" "${CLR_L_GREEN}" 
+    outBlkM "##" "FINISH" "${@}"
     colorReset
 }
 
 function opFail()
 {
-    colorSet "${COLOR_L_WHITE}" "${COLOR_L_WHITE}"
-    outBlkL "--" "FAIL" "${@}"
+    colorSet "${CLR_WHITE}" "${CLR_L_RED}" "${CLR_L_RED}" 
+    outBlkM "##" "FAIL" "${@}"
     colorReset
 }
 
 function opExec()
 {
-    colorSet "${COLOR_L_PURPLE}" "${COLOR_L_PURPLE}"
+    colorSet "${CLR_L_PURPLE}" "${CLR_L_PURPLE}"
     outBlkS "++" "CALL" "${@}"
     colorReset
 }
 
 function opSource()
 {
-    colorSet "${COLOR_YELLOW}" "${COLOR_YELLOW}"
+    colorSet "${CLR_YELLOW}" "${CLR_YELLOW}"
     outBlkS "++" "INCS" "${@}"
     colorReset
 }
 
 function outInfo()
 {
-    colorSet "${COLOR_YELLOW}" "${COLOR_YELLOW}"
+    colorSet "${CLR_YELLOW}" "${CLR_YELLOW}"
     outBlkS ">>" "INFO" "${@}"
     colorReset
 }
 
 function outWarning()
 {
-    colorSet "${COLOR_L_RED}" "${COLOR_L_RED}"
-    outBlkS "!!" "WARN" "${@}"
+    colorSet "${CLR_L_RED}" "${CLR_L_RED}"
+    outBlkL "!!" "WARN" "${@}"
     colorReset
 }
 
 function outError()
 {
-    colorSet "${COLOR_L_RED}" "${COLOR_B_RED}" "${COLOR_L_WHITE}"
+    colorSet "${CLR_L_RED}" "${CLR_B_RED}" "${CLR_L_WHITE}"
     outBlkL "##" "CRIT" "${@}"
     colorReset
     exit -1
@@ -352,8 +352,8 @@ function outError()
 
 function outComplete()
 {
-    colorSet "${COLOR_L_GREEN}" "${COLOR_L_GREEN}" "${COLOR_L_WHITE}"
-    outBlkL "--" "DONE" "${@}"
+    colorSet "${CLR_L_WHITE}" "${CLR_L_WHITE}" "${CLR_L_WHITE}"
+    outBlkL "--" "EXITING" "${@}"
     colorReset
 }
 
@@ -387,9 +387,9 @@ function outListing()
 
     iterationRemainder=0
     leftMaxLength=$(((${leftMaxLength} + 3)))
-    C_PRE=${COLOR_WHITE}
+    CLR_PRE=${CLR_WHITE}
 
-    echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
+    echo -e "  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}"
 
     for i in $(seq 0 1 $(((${iterations} - 1))))
     do
@@ -407,9 +407,9 @@ function outListing()
                 titleSurround="${titleSurround}-"
             done
 
-            [[ $i != 0 ]] && echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}\n  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
-            echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}${COLOR_WHITE}${title^^}${C_RST}"
-            echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
+            [[ $i != 0 ]] && echo -e "  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}\n  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}"
+            echo -e "  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}${CLR_WHITE}${title^^}${CLR_RST}"
+            echo -e "  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}"
 
             continue
         fi
@@ -418,7 +418,7 @@ function outListing()
         then
             iterationRemainder=$(inverseBoolValueAsInt ${iterationRemainder})
 
-            echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
+            echo -e "  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}"
             continue
         fi
 
@@ -429,17 +429,17 @@ function outListing()
 
         dotCount=$(((${leftMaxLength} - $(echo ${line} | wc -m) + 2)))
 
-        echo -en "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
-        echo -en "${C_RST}${C_TXT_DEFAULT}${C_TXT}"
+        echo -en "  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}"
+        echo -en "${CLR_RST}${CLR_TXT_D}${CLR_TXT}"
         echo -en "${line} "
         for i in $(seq 1 ${dotCount})
         do
-            echo -en "${COLOR_B_BLACK}.${C_RST}"
+            echo -en "${CLR_B_BLACK}.${CLR_RST}"
         done
-        echo -e " ${COLOR_L_WHITE}${value/#$DIR_CWD\//}${C_RST}"
+        echo -e " ${CLR_L_WHITE}${value/#$DIR_CWD\//}${CLR_RST}"
     done
 
-    echo -e "  ${C_PRE_DEFAULT}${C_PRE}${prefix}${C_RST}"
+    echo -e "  ${CLR_PRE_D}${CLR_PRE}${prefix}${CLR_RST}"
 
     newLine
     colorReset
