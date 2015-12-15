@@ -163,8 +163,7 @@ fi
 
 if [ "${PKG_ENV_VARIABLE}" == "true" ]
 then
-    PKG_ENV_VARIABLE="${PKG_YML_FILEPATH}" && \
-        outInfo "Attempting to use default package config location of ${PKG_YML_FILEPATH}."
+    PKG_ENV_VARIABLE="${PKG_YML_FILEPATH}"
 fi
 
 if [ ! -f "${SCRIPT_CALLER_ROOT}/${PKG_ENV_VARIABLE}" ]; then

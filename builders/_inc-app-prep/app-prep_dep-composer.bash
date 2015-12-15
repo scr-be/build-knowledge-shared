@@ -10,11 +10,7 @@
 ##
 
 RT_COMMANDS_ACT=(
-    "${BIN_PHP} $(readlink -m ./composer) install -n"
-)
-
-RT_COMMANDS_ACT_FB=(
-	"${BIN_PHP} $(readlink -m ./composer) update -n"
+    "${BIN_PHP} ${DIR_CWD}/composer update -n"
 )
 
 # EOF #

@@ -10,8 +10,10 @@
 ##
 
 RT_COMMANDS_ACT=(
-	"${BIN_CURL} -o composer -sS https://getcomposer.org/installer"
-    "${BIN_PHP} $(readlink -m ./composer) -- --filename=composer"
+	"${BIN_CURL} -o ${DIR_CWD}/composer.raw -sS https://getcomposer.org/installer"
+    "${BIN_PHP} ${DIR_CWD}/composer.raw -- --filename=composer --install-dir=${DIR_CWD}"
+    "rm -fr ${DIR_CWD}/composer.raw"
+    "chmod u+x ${DIR_CWD}/composer"
 )
 
 # EOF #
