@@ -19,7 +19,7 @@ IconTemplate :
     strategy :
 
         persist :
-            prefer : purge
+            prefer : merge
 
     service :
 
@@ -46,7 +46,6 @@ IconTemplate :
             family      : '++IconFamily:fa'
             description : |
                 Basic Font Awesome markup using span html tag.
-            engine      : twig
             template    : |
                 <span
                     class="{{ family.requiredClasses|join(' ') }} {{ classes|default([])|join(' ') }} {{ family.prefix }}-{{ icon.slug }}"
@@ -59,7 +58,6 @@ IconTemplate :
             slug        : md-basic-box
             priority    : 1
             family      : '++IconFamily:md'
-            engine      : twig
             description : |
                 Basic Material Design markup using ligatures within block-level element.
             template    : |
@@ -76,7 +74,6 @@ IconTemplate :
             slug        : md-basic
             priority    : 2
             family      : '++IconFamily:md'
-            engine      : twig
             description : |
                 Basic Material Design markup using ligatures.
             template    : |
@@ -91,7 +88,6 @@ IconTemplate :
             slug        : octi-basic
             priority    : 1
             family      : '++IconFamily:octi'
-            engine      : twig
             description : |
                 Octicon markup using span html tag.
             template    : |
@@ -106,7 +102,6 @@ IconTemplate :
             slug        : fdn-basic
             family      : '++IconFamily:fdn'
             priority    : 1
-            engine      : twig
             description : |
                 Foundation icon markup using span html tag.
             template    : |

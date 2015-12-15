@@ -18,11 +18,8 @@ IconFamily:
 
     strategy :
 
-        associations :
-
         persist :
-            prefer : purge
-            fallback : merge
+            prefer : merge
 
     service :
 
