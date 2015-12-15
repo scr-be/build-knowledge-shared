@@ -19,7 +19,7 @@ IconTemplate :
     strategy :
 
         persist :
-            prefer : purge
+            prefer : merge
 
     service :
 
