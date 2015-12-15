@@ -2,7 +2,7 @@
 
 ROOT_DIR="/www/scribe-tools_star-open/repos"
 WORK_DIR="${ROOT_DIR}/.tmp"
-CFG_FILE=".scribe-package.yml"
+CFG_FILE=".package.yml"
 GIT_CFG_REMOTE="https://github.com/scr-be/build-knowledge-shared.git"
 GIT_CFG_RDIR="./.config"
 SUB_CFG_RDIR="./app/config/shared_public"
@@ -73,6 +73,10 @@ function clone_one()
     number="${1}"
     shortn="${2}"
     remote="https://github.com/scr-be/${shortn}.git"
+    echo $number
+    echo $shortn
+    echo $remote
+    exit
     tmpdir="${WORK_DIR}/${shortn}"
     cfgfile="${WORK_DIR}/${CFG_FILE}"
 
