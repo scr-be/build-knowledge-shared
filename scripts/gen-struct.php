@@ -88,6 +88,7 @@ function groupDesc($group)
 {
 	$descs = [
 		'teavee' => 'media, HTML, content, generator',
+		'wonka' => 'core, rudimentary routines',
 	];
 
 	if (array_key_exists($group, $descs)) {
