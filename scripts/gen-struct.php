@@ -4,13 +4,15 @@
 function ask($what, $default = null, \Closure $validator = null)
 {
 	while (true) {
-		echo $what;
+		echo PHP_EOL . '>>> FIELD NAME    - ' . str_pad($what, 50, ' ', STR_PAD_RIGHT);
 
 		if ($default) {
-			echo ' [' . $default . ']';
+			echo ' (BLANK uses default or enter NEW VALUE to override)' . PHP_EOL;
+			echo '>>> DEFAULT VAL   - ' . $default . PHP_EOL;
+			echo '>>> NEW INPUT VAL - ';
+		} else {
+			echo ' : ';
 		}
-
-		echo ': ';
 
 		$stdin = fopen ("php://stdin","r");
 		$input = trim(fgets($stdin));
@@ -126,15 +128,18 @@ if (file_exists($dotPkg)) {
 	}
 }
 
-$rpl['package'] = ask('Name', $dotPkgData['pkg_name']);
-$rpl['desc'] = ask('Description', $dotPkgData['pkg_desc'], $descValidator);
-$rpl['group'] = ask('Group', substr($rpl['package'], 0, strpos($rpl['package'], '-')));
-$rpl['group-desc'] = ask('Group Description', groupDesc($rpl['group']));
-$rpl['bundle'] = ask('Bundle Class', bundleClass($rpl['package'])[1]);
-$rpl['ns'] = ask('Bundle Namespace', bundleClass($rpl['package'])[0]);
-$rpl['bin'] = ask('Console Bin', bundleClass($rpl['package'])[2]);
-$rpl['config-dump'] = ask('Config Key', bundleClass($rpl['package'])[3]);
-$out = ask('Output File', realpath(getcwd()) . DIRECTORY_SEPARATOR . 'README.md');
+$rpl['package'] = ask('Package Name', $dotPkgData['pkg_name']);
+$rpl['desc'] = ask('Short Desc', $dotPkgData['pkg_desc'], $descValidator);
+$rpl['group'] = ask('Group Name', substr($rpl['package'], 0, strpos($rpl['package'], '-')));
+$rpl['group-desc'] = ask('Group Concentration', groupDesc($rpl['group']));
+if ($argv[1] == 'tpl-readme-bundle.md') {
+	$rpl['bundle'] = ask('Bundle Classname', bundleClass($rpl['package'])[1]);
+	$rpl['ns'] = ask('Bundle Namespace', bundleClass($rpl['package'])[0]);
+	$rpl['bin'] = ask('Console Bin Path', bundleClass($rpl['package'])[2]);
+	$rpl['config-dump'] = ask('Config Root Tree Name', bundleClass($rpl['package'])[3]);
+}
+
+$out = realpath(getcwd()) . DIRECTORY_SEPARATOR . 'README.md';
 
 foreach ($rpl as $search => $replace) {
 	$tpl = str_replace('%' . $search . '%', $replace, $tpl);
@@ -142,4 +147,4 @@ foreach ($rpl as $search => $replace) {
 
 file_put_contents($out, $tpl);
 
-echo "Wrote README." . PHP_EOL;
+echo PHP_EOL . 'Wrote new file to ' . $out . PHP_EOL;
