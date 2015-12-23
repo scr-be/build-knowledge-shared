@@ -9,12 +9,11 @@
 # file that was distributed with this source code.
 #
 
-scribe_cache :
-    global :
-        enabled : true
+scribe_teavee_object_cache :
+    enabled : true
     generator :
-        prefix : 'scribe-cache-bundle-test'
-    method :
+        prefix : 'teavee-object-cache-bundle-bundle-test'
+    attendant :
         memcached :
             options_list :
                 serializer : serializer_php
