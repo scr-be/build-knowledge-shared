@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "###\n### Creating basic repo skeleton [bundle tpl]\n###\n"
+echo -e "###\n### Creating basic repo skeleton [BUNDLE]\n###\n"
 
 echo -n "!!! You must execute this from the repo root! Continue? [^C to cancel] "
 read TMP
