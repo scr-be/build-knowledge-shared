@@ -1,6 +1,6 @@
 # World Knowledge
 
-This repository contains a collection of YAML configuration files that allow for the public aspects of Scribe's Symfony projects (Mantle) to function, most notably as it applies to the ORM mapping and fixtures.
+This repository contains a collection of YAML config and data-fixture files, PHPUnit bootstrap logic, CI environment and application helper scripts, and an assortment of other random shared assets required for our projects.
 
 ## ORM Fixtures
 
