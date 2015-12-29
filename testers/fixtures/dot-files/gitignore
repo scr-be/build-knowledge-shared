@@ -48,7 +48,6 @@
 
 # Scribe-Specific
 /app/config/sami.php
-/config/
 
 # Remember to Use *.md Variants
 LICENSE
