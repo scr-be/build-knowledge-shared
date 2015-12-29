@@ -41,12 +41,8 @@ env :
   global :
     - build_package=true
 
-# download required build-knowledge repository, requires for install and after_script
-before_install :
-  - git clone --depth=1 --branch=master https://github.com/scr-be/build-knowledge-shared.git config
-
 # use builder to setup system environment and application requirements
-install :
+before_script :
   - bash config/builders/build-reqs/build-reqs.bash up-env
   - bash config/builders/build-reqs/build-reqs.bash up-app
 
