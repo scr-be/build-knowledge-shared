@@ -43,6 +43,7 @@ env :
 
 # use builder to setup system environment and application requirements
 before_script :
+  - ls -lah ./
   - bash config/builders/build-reqs/build-reqs.bash up-env
   - bash config/builders/build-reqs/build-reqs.bash up-app
 
