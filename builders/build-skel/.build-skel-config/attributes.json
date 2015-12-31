@@ -11,6 +11,10 @@
     "arthur" : {
       "description" : "core doctrine base classes",
       "explanation" : null
+    },
+    "augustus" : {
+      "description" : "basic, core implementations",
+      "explanation" : null
     }
   },
   "tpls" : {
