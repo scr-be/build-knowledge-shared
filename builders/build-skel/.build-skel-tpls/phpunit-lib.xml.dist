@@ -9,9 +9,9 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="true"
-         bootstrap="vendor/autoload.php">
+         bootstrap="./vendor/autoload.php">
     <testsuites>
-        <testsuite name="[scr-be] Package Test Suite (Library)">
+        <testsuite name="scr-be/%package%">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
@@ -22,12 +22,12 @@
     </groups>
     <filter>
         <whitelist>
-            <directory>./lib</directory>
+            <directory>./lib/</directory>
         </whitelist>
     </filter>
     <logging>
-        <log type="coverage-html" target="build/logs/coverage/"/>
-        <log type="coverage-clover" target="build/logs/clover.xml"/>
+        <log type="coverage-html" target="./build/logs/coverage/"/>
+        <log type="coverage-clover" target="./build/logs/clover.xml"/>
     </logging>
     <php>
         <ini name="error_reporting" value="-1" />

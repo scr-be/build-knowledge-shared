@@ -9,7 +9,7 @@
       "explanation" : null
     },
     "arthur" : {
-      "description" : "",
+      "description" : "something, idk",
       "explanation" : ""
     }
   },
@@ -21,7 +21,7 @@
         "dest" : "README.md"
       },
       "phpunit" : {
-        "mode" : "link",
+        "mode" : "copy",
         "from" : ".build-skel-tpls/phpunit-bdl.xml.dist",
         "dest" : "phpunit.xml.dist"
       }
@@ -33,7 +33,7 @@
         "dest" : "README.md"
       },
       "phpunit" : {
-        "mode" : "link",
+        "mode" : "copy",
         "from" : ".build-skel-tpls/phpunit-lib.xml.dist",
         "dest" : "phpunit.xml.dist"
       }

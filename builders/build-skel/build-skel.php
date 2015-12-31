@@ -322,11 +322,13 @@ function performLinkOperations($files)
 		$fileDest = str_replace($cwd, '', $dest);
 		$fileFrom = str_replace($cwd, '', $from);
 
-		$cmd = 'rm -fr ' . escapeshellarg($dest) . '; ln -s ' . escapeshellarg($fileFrom) . ' ' . escapeshellarg($fileDest);
+		$cmdRemove  = 'rm -fr ' . escapeshellarg($dest);
+		$cmdSymlink = 'ln -s ' . escapeshellarg($fileFrom) . ' ' . escapeshellarg($fileDest);
 
 		outInfo('Writing link: ' . $fileDest . ' -> ' . $fileFrom);
 
-		exec($cmd);
+		exec($cmdRemove);
+		exec($cmdSymlink);
 	}
 }
 
@@ -341,10 +343,12 @@ function performCopyOperations($files, $contents)
 			continue;
 		}
 
-		$fileDest = str_replace($cwd, '', $dest);
+		$cmdRemove = 'rm -fr ' . escapeshellarg($dest);
+		$fileDest  = str_replace($cwd, '', $dest);
 
 		outInfo('Writing new file: ' . $fileDest);
 
+		exec($cmdRemove);
 		file_put_contents($fileDest, $contents[$dest]);
 	}
 }
