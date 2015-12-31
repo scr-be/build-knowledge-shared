@@ -12,7 +12,7 @@
 scribe_teavee_object_cache :
     enabled : true
     generator :
-        prefix : 'teavee-object-cache-bundle-bundle-test'
+        prefix : 'teavee-object-cache-bundle-test'
     attendant :
         memcached :
             options_list :
