@@ -39,9 +39,10 @@
       }
     },
     "copy" : {
-      ".build-skel-tpls/travis.yml"      : ".travis.yml",
-      ".build-skel-tpls/license.md"      : "LICENSE.md",
-      ".build-skel-tpls/contributing.md" : "CONTRIBUTING.md"
+      ".build-skel-tpls/travis.yml"        : ".travis.yml",
+      ".build-skel-tpls/license.md"        : "LICENSE.md",
+      ".build-skel-tpls/contributing.md"   : "CONTRIBUTING.md",
+      ".build-skel-tpls/bin-gitignore.txt" : "bin/.gitignore"
     },
     "link" : {
       ".build-skel-tpls/gitignore.txt"   : ".gitignore",

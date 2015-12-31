@@ -302,6 +302,7 @@ function getFileOperations($isBndlMode, $packageCfg, $attributes)
 		$r['bundle']      = ask('Bundle Classname', getPackageInfoParts($r['package'])[1]);
 		$r['ns']          = ask('Bundle Namespace', getPackageInfoParts($r['package'])[0]);
 		$r['bin']         = ask('Console Bin Path', getPackageInfoParts($r['package'])[2]);
+		$r['bin-rel']     = pathinfo($r['bin'], PATHINFO_BASENAME);
 		$r['config-dump'] = ask('Config Root Tree Name', getPackageInfoParts($r['package'])[3]);
 	}
 
