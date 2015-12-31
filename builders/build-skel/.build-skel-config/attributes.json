@@ -39,13 +39,13 @@
       }
     },
     "copy" : {
-      ".build-skel-tpls/travis.yml" : ".travis.yml"
+      ".build-skel-tpls/travis.yml"      : ".travis.yml",
+      ".build-skel-tpls/license.md"      : "LICENSE.md",
+      ".build-skel-tpls/contributing.md" : "CONTRIBUTING.md"
     },
     "link" : {
       ".build-skel-tpls/gitignore.txt"   : ".gitignore",
-      ".build-skel-tpls/coveralls.yml"   : ".coveralls.yml",
-      ".build-skel-tpls/license.md"      : "LICENSE.md",
-      ".build-skel-tpls/contributing.md" : "CONTRIBUTING.md"
+      ".build-skel-tpls/coveralls.yml"   : ".coveralls.yml"
     }
   }
 }
