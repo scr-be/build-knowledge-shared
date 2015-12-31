@@ -1,0 +1,51 @@
+{
+  "groups" : {
+    "teavee" : {
+      "description" : "media, HTML, content, generator",
+      "explanation" : null
+    },
+    "wonka" : {
+      "description" : "core, rudimentary routines",
+      "explanation" : null
+    },
+    "arthur" : {
+      "description" : "",
+      "explanation" : ""
+    }
+  },
+  "tpls" : {
+    "bdl" : {
+      "readme" : {
+        "mode" : "copy",
+        "from" : ".build-skel-tpls/readme-bdl.md",
+        "dest" : "README.md"
+      },
+      "phpunit" : {
+        "mode" : "link",
+        "from" : ".build-skel-tpls/phpunit-bdl.xml.dist",
+        "dest" : "phpunit.xml.dist"
+      }
+    },
+    "lib" : {
+      "readme" : {
+        "mode" : "copy",
+        "from" : ".build-skel-tpls/readme-lib.md",
+        "dest" : "README.md"
+      },
+      "phpunit" : {
+        "mode" : "link",
+        "from" : ".build-skel-tpls/phpunit-lib.xml.dist",
+        "dest" : "phpunit.xml.dist"
+      }
+    },
+    "copy" : {
+      ".build-skel-tpls/travis.yml" : ".travis.yml"
+    },
+    "link" : {
+      ".build-skel-tpls/gitignore.txt"   : ".gitignore",
+      ".build-skel-tpls/coveralls.yml"   : ".coveralls.yml",
+      ".build-skel-tpls/license.md"      : "LICENSE.md",
+      ".build-skel-tpls/contributing.md" : "CONTRIBUTING.md"
+    }
+  }
+}
