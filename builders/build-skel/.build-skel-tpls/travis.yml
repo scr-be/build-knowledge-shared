@@ -1,7 +1,7 @@
 ---
 
 ##
-# This file is part of `scr-be/shared-project-knowledge`
+# This file is part of `scr-be/%package%`
 #
 # (c) Rob Frawley 2nd <rmf@src.run>
 #
@@ -9,13 +9,14 @@
 # file distributed with this source code.
 ##
 
-# Set the required project language environment and advise Travis that this
-# project fully supports the new, speedy, container-built infrastructure.
+# Set the required project language environment and advise
+# Travis that this project fully supports the new, speedy,
+# container-built infrastructure.
 language : php
 sudo     : false
 
-# Build against the following engines: Zend 5.6.x, 7.0.x, and 7.0.x-nightly, and
-# HHVM-stable and -nightly builds.
+# Build against the following engines: Zend 5.6.x, 7.0.x, and
+# 7-nightly, and HHVM-stable and -nightly builds.
 php :
   - 5.6
   - 7.0
@@ -23,9 +24,10 @@ php :
   - hhvm
   - hhvm-nightly
 
-# Define build matrix to allow both HHVM environments to fail, as we are only
-# testing it right now. Also, turn on fast-finish so results are finalized
-# quickly (prior to allowed-failures finishing).
+# Define build matrix to allow both HHVM environments to fail,
+# as we are only testing it right now. Also, turn on fast-finish
+# so results are finalized quickly (prior to allowed-failures
+# finishing).
 matrix :
   fast_finish    : true
   allow_failures :
@@ -33,13 +35,12 @@ matrix :
     - php : hhvm
     - php : hhvm-nightly
 
-# Set a sane clone depth for Git. This results in noticeable speedups and the
-# lost extended commit history isn't needed in this context anyway.
+# Set a sane clone depth for Git.
 git :
   depth : 3
 
-# List of services to enable. Globally we make sure Memcached and MySQL is
-# installed and running.
+# List of services to enable. Globally we make sure Memcached and
+# MySQL is installed and running.
 services :
   - mysql
   - memcached
@@ -49,9 +50,9 @@ addons :
   hosts :
     - mainline.src.run
 
-# Define any required global enviornment variables. Specifically, the
-# package_builder variable must be set to true to enable the automated package
-# builder scripts.
+# Define any required global enviornment variables. Specifically,
+# the package_builder variable must be set to true to enable the
+# automated package builder scripts.
 env :
   global :
     - build_package=true
@@ -71,15 +72,10 @@ install :
 # Run unit tests!
 script : bin/phpunit -vvv
 
-# Use builder to run post-operations, most importantly handle 
+# Use builder to run post-operations, most importantly handle
 # statistics submissions for text coverage.
 after_script :
   - bash .config/builders/build-reqs/build-reqs.bash dn-app
   - bash .config/builders/build-reqs/build-reqs.bash dn-env
-
-# Initiate a deploy for mainline.
-deploy :
-  - provider=script
-  - script=./config/builders/build-dpl/build-dpl.sh
 
 ...
