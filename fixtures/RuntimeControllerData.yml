@@ -1,80 +1,87 @@
 ---
+
 RuntimeController:
 
-    version:
+    versions :
 
-        structure : 1.0.0
-        data      : 1.0.0
+        meta_format : 1.0.0
+        data_object : 0.1.0
 
-    orm:
+    strategy :
 
-        priority   : 10
-        mode       : truncate
-        entity     : s.mantle.state_runtime_controller.entity.class
-        repository : s.mantle.state_runtime_controller.repo
+        persist :
+            prefer : merge
 
-    dependencies: null
+    service :
 
-    data:
+        entity_class : s.mantle.state_runtime_controller.entity.class
+        service_repo : s.mantle.state_runtime_controller.repo
 
-        1:
-            name : "blog"
+    references :
 
-        2:
-            name : "book"
+        create_from_cols :
+            - [ slug ]
 
-        3:
-            name : "default"
+    fixture :
 
-        4:
-            name : "search"
+        -
+            slug : "blog"
 
-        5:
-            name : "create"
+        -
+            slug : "book"
 
-        6:
-            name : "docs"
+        -
+            slug : "default"
 
-        7:
-            name : "project"
+        -
+            slug : "search"
 
-        8:
-            name : "public"
+        -
+            slug : "create"
 
-        9:
-            name : "browser"
+        -
+            slug : "docs"
 
-        10:
-            name : "about"
+        -
+            slug : "project"
 
-        11:
-            name : "services"
+        -
+            slug : "public"
 
-        12:
-            name : "organizations"
+        -
+            slug : "browser"
 
-        13:
-            name : "roles"
+        -
+            slug : "about"
 
-        14:
-            name : "security"
+        -
+            slug : "services"
 
-        15:
-            name : "settings"
+        -
+            slug : "organizations"
 
-        16:
-            name : "users"
+        -
+            slug : "roles"
 
-        17:
-            name : "toc"
+        -
+            slug : "security"
 
-        18:
-            name : "issues"
+        -
+            slug : "settings"
 
-        19:
-            name : "notices"
+        -
+            slug : "users"
 
-        20:
-            name : "systems"
+        -
+            slug : "toc"
+
+        -
+            slug : "issues"
+
+        -
+            slug : "notices"
+
+        -
+            slug : "systems"
 
 ...

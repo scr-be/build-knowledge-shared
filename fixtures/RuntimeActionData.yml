@@ -1,35 +1,51 @@
 ---
-RuntimeAction:
 
-    version:
+#
+# This file is part of the Scribe Shared Bundle.
+#
+# (c) Rob Frawley 2nd <rmf@build.fail>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
 
-        structure : 1.0.0
-        data      : 1.0.0
+RuntimeAction :
 
-    orm:
+    versions :
 
-        priority   : 10
-        mode       : truncate
-        entity     : s.mantle.state_runtime_action.entity.class
-        repository : s.mantle.state_runtime_action.repo
+        meta_format : 1.0.0
+        data_object : 0.1.0
 
-    dependencies: null
+    strategy :
 
-    data:
+        persist :
+            prefer : merge
 
-        1:
-            name : "index"
+    service :
 
-        2:
-            name : "landing"
+        entity_class : s.mantle.state_runtime_action.entity.class
+        service_repo : s.mantle.state_runtime_action
 
-        3:
-            name : "dashboard"
+    references :
 
-        4:
-            name : "list"
+        create_from_cols :
+            - [ slug ]
 
-        5:
-            name : "view"
+    fixture :
+
+        -
+            slug : "index"
+
+        -
+            slug : "landing"
+
+        -
+            slug : "dashboard"
+
+        -
+            slug : "list"
+
+        -
+            slug : "view"
 
 ...

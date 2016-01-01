@@ -1,1771 +1,1544 @@
 ---
-Country:
-
-    version:
-
-        structure : 1.0.0
-        data      : 1.0.0
-
-    orm:
-
-        priority   : 20
-        mode       : truncate
-
-        entity     : s.mantle.locale_country.entity.class
-        repository : s.mantle.locale_country.repo
-
-    references:
-
-        usingId: false
-
-        usingColumns:
-            - code
-
-    dependencies: null
-
-    data:
-
-        1:
-            name       : "Afghanistan"
-            nameProper : "Afghanistan"
-            code       : "AF"
-            codeAlpha3 : "AFG"
-            codeNumeric: 4
-
-        2:
-            name       : "Aland Islands"
-            nameProper : "Aland Islands"
-            code       : "AX"
-            codeAlpha3 : "ALA"
-            codeNumeric: 248
-
-        3:
-            name       : "Albania"
-            nameProper : "Albania"
-            code       : "AL"
-            codeAlpha3 : "ALB"
-            codeNumeric: 8
-
-        4:
-            name       : "Algeria"
-            nameProper : "Algeria"
-            code       : "DZ"
-            codeAlpha3 : "DZA"
-            codeNumeric: 12
-
-        5:
-            name       : "American Samoa"
-            nameProper : "American Samoa"
-            code       : "AS"
-            codeAlpha3 : "ASM"
-            codeNumeric: 16
-
-        6:
-            name       : "Andorra"
-            nameProper : "Andorra"
-            code       : "AD"
-            codeAlpha3 : "AND"
-            codeNumeric: 20
-
-        7:
-            name       : "Angola"
-            nameProper : "Angola"
-            code       : "AO"
-            codeAlpha3 : "AGO"
-            codeNumeric: 24
-
-        8:
-            name       : "Anguilla"
-            nameProper : "Anguilla"
-            code       : "AI"
-            codeAlpha3 : "AIA"
-            codeNumeric: 660
-
-        9:
-            name       : "Antarctica"
-            nameProper : "Antarctica"
-            code       : "AQ"
-            codeAlpha3 : "ATA"
-            codeNumeric: 10
-
-        10:
-            name       : "Antigua and Barbuda"
-            nameProper : "Antigua and Barbuda"
-            code       : "AG"
-            codeAlpha3 : "ATG"
-            codeNumeric: 28
-
-        11:
-            name       : "Argentina"
-            nameProper : "Argentina"
-            code       : "AR"
-            codeAlpha3 : "ARG"
-            codeNumeric: 32
-
-        12:
-            name       : "Armenia"
-            nameProper : "Armenia"
-            code       : "AM"
-            codeAlpha3 : "ARM"
-            codeNumeric: 51
-
-        13:
-            name       : "Aruba"
-            nameProper : "Aruba"
-            code       : "AW"
-            codeAlpha3 : "ABW"
-            codeNumeric: 533
-
-        14:
-            name       : "Australia"
-            nameProper : "Australia"
-            code       : "AU"
-            codeAlpha3 : "AUS"
-            codeNumeric: 36
-
-        15:
-            name       : "Austria"
-            nameProper : "Austria"
-            code       : "AT"
-            codeAlpha3 : "AUT"
-            codeNumeric: 40
-
-        16:
-            name       : "Azerbaijan"
-            nameProper : "Azerbaijan"
-            code       : "AZ"
-            codeAlpha3 : "AZE"
-            codeNumeric: 31
-
-        17:
-            name       : "Bahamas"
-            nameProper : "Bahamas"
-            code       : "BS"
-            codeAlpha3 : "BHS"
-            codeNumeric: 44
-
-        18:
-            name       : "Bahrain"
-            nameProper : "Bahrain"
-            code       : "BH"
-            codeAlpha3 : "BHR"
-            codeNumeric: 48
-
-        19:
-            name       : "Bangladesh"
-            nameProper : "Bangladesh"
-            code       : "BD"
-            codeAlpha3 : "BGD"
-            codeNumeric: 50
-
-        20:
-            name       : "Barbados"
-            nameProper : "Barbados"
-            code       : "BB"
-            codeAlpha3 : "BRB"
-            codeNumeric: 52
-
-        21:
-            name       : "Belarus"
-            nameProper : "Belarus"
-            code       : "BY"
-            codeAlpha3 : "BLR"
-            codeNumeric: 112
-
-        22:
-            name       : "Belgium"
-            nameProper : "Belgium"
-            code       : "BE"
-            codeAlpha3 : "BEL"
-            codeNumeric: 56
-
-        23:
-            name       : "Belize"
-            nameProper : "Belize"
-            code       : "BZ"
-            codeAlpha3 : "BLZ"
-            codeNumeric: 84
-
-        24:
-            name       : "Benin"
-            nameProper : "Benin"
-            code       : "BJ"
-            codeAlpha3 : "BEN"
-            codeNumeric: 204
-
-        25:
-            name       : "Bermuda"
-            nameProper : "Bermuda"
-            code       : "BM"
-            codeAlpha3 : "BMU"
-            codeNumeric: 60
-
-        26:
-            name       : "Bhutan"
-            nameProper : "Bhutan"
-            code       : "BT"
-            codeAlpha3 : "BTN"
-            codeNumeric: 64
-
-        27:
-            name       : "Bolivia, Plurinational State of"
-            nameProper : "Plurinational State of Bolivia"
-            code       : "BO"
-            codeAlpha3 : "BOL"
-            codeNumeric: 68
-
-        28:
-            name       : "Bonaire, Saint Eustatius and Saba"
-            nameProper : "Bonaire, Saint Eustatius and Saba"
-            code       : "BQ"
-            codeAlpha3 : "BES"
-            codeNumeric: 535
-
-        29:
-            name       : "Bosnia and Herzegovina"
-            nameProper : "Bosnia and Herzegovina"
-            code       : "BA"
-            codeAlpha3 : "BIH"
-            codeNumeric: 70
-
-        30:
-            name       : "Botswana"
-            nameProper : "Botswana"
-            code       : "BW"
-            codeAlpha3 : "BWA"
-            codeNumeric: 72
-
-        31:
-            name       : "Bouvet Island"
-            nameProper : "Bouvet Island"
-            code       : "BV"
-            codeAlpha3 : "BVT"
-            codeNumeric: 74
-
-        32:
-            name       : "Brazil"
-            nameProper : "Brazil"
-            code       : "BR"
-            codeAlpha3 : "BRA"
-            codeNumeric: 76
-
-        33:
-            name       : "British Indian Ocean Territory"
-            nameProper : "British Indian Ocean Territory"
-            code       : "IO"
-            codeAlpha3 : "IOT"
-            codeNumeric: 86
-
-        34:
-            name       : "Brunei Darussalam"
-            nameProper : "Brunei Darussalam"
-            code       : "BN"
-            codeAlpha3 : "BRN"
-            codeNumeric: 96
-
-        35:
-            name       : "Bulgaria"
-            nameProper : "Bulgaria"
-            code       : "BG"
-            codeAlpha3 : "BGR"
-            codeNumeric: 100
-
-        36:
-            name       : "Burkina Faso"
-            nameProper : "Burkina Faso"
-            code       : "BF"
-            codeAlpha3 : "BFA"
-            codeNumeric: 854
-
-        37:
-            name       : "Burundi"
-            nameProper : "Burundi"
-            code       : "BI"
-            codeAlpha3 : "BDI"
-            codeNumeric: 108
-
-        38:
-            name       : "Cambodia"
-            nameProper : "Cambodia"
-            code       : "KH"
-            codeAlpha3 : "KHM"
-            codeNumeric: 116
-
-        39:
-            name       : "Cameroon"
-            nameProper : "Cameroon"
-            code       : "CM"
-            codeAlpha3 : "CMR"
-            codeNumeric: 120
-
-        40:
-            name       : "Canada"
-            nameProper : "Canada"
-            code       : "CA"
-            codeAlpha3 : "CAN"
-            codeNumeric: 124
-
-        41:
-            name       : "Cape Verde"
-            nameProper : "Cape Verde"
-            code       : "CV"
-            codeAlpha3 : "CPV"
-            codeNumeric: 132
-
-        42:
-            name       : "Cayman Islands"
-            nameProper : "Cayman Islands"
-            code       : "KY"
-            codeAlpha3 : "CYM"
-            codeNumeric: 136
-
-        43:
-            name       : "Central African Republic"
-            nameProper : "Central African Republic"
-            code       : "CF"
-            codeAlpha3 : "CAF"
-            codeNumeric: 140
-
-        44:
-            name       : "Chad"
-            nameProper : "Chad"
-            code       : "TD"
-            codeAlpha3 : "TCD"
-            codeNumeric: 148
-
-        45:
-            name       : "Chile"
-            nameProper : "Chile"
-            code       : "CL"
-            codeAlpha3 : "CHL"
-            codeNumeric: 152
-
-        46:
-            name       : "China"
-            nameProper : "China"
-            code       : "CN"
-            codeAlpha3 : "CHN"
-            codeNumeric: 156
-
-        47:
-            name       : "Christmas Island"
-            nameProper : "Christmas Island"
-            code       : "CX"
-            codeAlpha3 : "CXR"
-            codeNumeric: 162
-
-        48:
-            name       : "Cocos (Keeling) Islands"
-            nameProper : "Cocos (Keeling) Islands"
-            code       : "CC"
-            codeAlpha3 : "CCK"
-            codeNumeric: 166
-
-        49:
-            name       : "Colombia"
-            nameProper : "Colombia"
-            code       : "CO"
-            codeAlpha3 : "COL"
-            codeNumeric: 170
-
-        50:
-            name       : "Comoros"
-            nameProper : "Comoros"
-            code       : "KM"
-            codeAlpha3 : "COM"
-            codeNumeric: 174
-
-        51:
-            name       : "Congo"
-            nameProper : "Congo"
-            code       : "CG"
-            codeAlpha3 : "COG"
-            codeNumeric: 178
-
-        52:
-            name       : "Congo, The Democratic Republic of the"
-            nameProper : "The Democratic Republic of the Congo"
-            code       : "CD"
-            codeAlpha3 : "COD"
-            codeNumeric: 180
-
-        53:
-            name       : "Cook Islands"
-            nameProper : "Cook Islands"
-            code       : "CK"
-            codeAlpha3 : "COK"
-            codeNumeric: 184
-
-        54:
-            name       : "Costa Rica"
-            nameProper : "Costa Rica"
-            code       : "CR"
-            codeAlpha3 : "CRI"
-            codeNumeric: 188
-
-        55:
-            name       : "Cote d'Ivoire"
-            nameProper : "Cote d'Ivoire"
-            code       : "CI"
-            codeAlpha3 : "CIV"
-            codeNumeric: 384
-
-        56:
-            name       : "Croatia"
-            nameProper : "Croatia"
-            code       : "HR"
-            codeAlpha3 : "HRV"
-            codeNumeric: 191
-
-        57:
-            name       : "Cuba"
-            nameProper : "Cuba"
-            code       : "CU"
-            codeAlpha3 : "CUB"
-            codeNumeric: 192
-
-        58:
-            name       : "Curacao"
-            nameProper : "Curacao"
-            code       : "CW"
-            codeAlpha3 : "CUW"
-            codeNumeric: 531
-
-        59:
-            name       : "Cyprus"
-            nameProper : "Cyprus"
-            code       : "CY"
-            codeAlpha3 : "CYP"
-            codeNumeric: 196
-
-        60:
-            name       : "Czech Republic"
-            nameProper : "Czech Republic"
-            code       : "CZ"
-            codeAlpha3 : "CZE"
-            codeNumeric: 203
-
-        61:
-            name       : "Denmark"
-            nameProper : "Denmark"
-            code       : "DK"
-            codeAlpha3 : "DNK"
-            codeNumeric: 208
-
-        62:
-            name       : "Djibouti"
-            nameProper : "Djibouti"
-            code       : "DJ"
-            codeAlpha3 : "DJI"
-            codeNumeric: 262
-
-        63:
-            name       : "Dominica"
-            nameProper : "Dominica"
-            code       : "DM"
-            codeAlpha3 : "DMA"
-            codeNumeric: 212
-
-        64:
-            name       : "Dominican Republic"
-            nameProper : "Dominican Republic"
-            code       : "DO"
-            codeAlpha3 : "DOM"
-            codeNumeric: 214
-
-        65:
-            name       : "Ecuador"
-            nameProper : "Ecuador"
-            code       : "EC"
-            codeAlpha3 : "ECU"
-            codeNumeric: 218
-
-        66:
-            name       : "Egypt"
-            nameProper : "Egypt"
-            code       : "EG"
-            codeAlpha3 : "EGY"
-            codeNumeric: 818
-
-        67:
-            name       : "El Salvador"
-            nameProper : "El Salvador"
-            code       : "SV"
-            codeAlpha3 : "SLV"
-            codeNumeric: 222
-
-        68:
-            name       : "Equatorial Guinea"
-            nameProper : "Equatorial Guinea"
-            code       : "GQ"
-            codeAlpha3 : "GNQ"
-            codeNumeric: 226
-
-        69:
-            name       : "Eritrea"
-            nameProper : "Eritrea"
-            code       : "ER"
-            codeAlpha3 : "ERI"
-            codeNumeric: 232
-
-        70:
-            name       : "Estonia"
-            nameProper : "Estonia"
-            code       : "EE"
-            codeAlpha3 : "EST"
-            codeNumeric: 233
-
-        71:
-            name       : "Ethiopia"
-            nameProper : "Ethiopia"
-            code       : "ET"
-            codeAlpha3 : "ETH"
-            codeNumeric: 231
-
-        72:
-            name       : "Falkland Islands (Malvinas)"
-            nameProper : "Falkland Islands (Malvinas)"
-            code       : "FK"
-            codeAlpha3 : "FLK"
-            codeNumeric: 238
-
-        73:
-            name       : "Faroe Islands"
-            nameProper : "Faroe Islands"
-            code       : "FO"
-            codeAlpha3 : "FRO"
-            codeNumeric: 234
-
-        74:
-            name       : "Fiji"
-            nameProper : "Fiji"
-            code       : "FJ"
-            codeAlpha3 : "FJI"
-            codeNumeric: 242
-
-        75:
-            name       : "Finland"
-            nameProper : "Finland"
-            code       : "FI"
-            codeAlpha3 : "FIN"
-            codeNumeric: 246
-
-        76:
-            name       : "France"
-            nameProper : "France"
-            code       : "FR"
-            codeAlpha3 : "FRA"
-            codeNumeric: 250
-
-        77:
-            name       : "French Guiana"
-            nameProper : "French Guiana"
-            code       : "GF"
-            codeAlpha3 : "GUF"
-            codeNumeric: 254
-
-        78:
-            name       : "French Polynesia"
-            nameProper : "French Polynesia"
-            code       : "PF"
-            codeAlpha3 : "PYF"
-            codeNumeric: 258
-
-        79:
-            name       : "French Southern Territories"
-            nameProper : "French Southern Territories"
-            code       : "TF"
-            codeAlpha3 : "ATF"
-            codeNumeric: 260
-
-        80:
-            name       : "Gabon"
-            nameProper : "Gabon"
-            code       : "GA"
-            codeAlpha3 : "GAB"
-            codeNumeric: 266
-
-        81:
-            name       : "Gambia"
-            nameProper : "Gambia"
-            code       : "GM"
-            codeAlpha3 : "GMB"
-            codeNumeric: 270
-
-        82:
-            name       : "Georgia"
-            nameProper : "Georgia"
-            code       : "GE"
-            codeAlpha3 : "GEO"
-            codeNumeric: 268
-
-        83:
-            name       : "Germany"
-            nameProper : "Germany"
-            code       : "DE"
-            codeAlpha3 : "DEU"
-            codeNumeric: 276
-
-        84:
-            name       : "Ghana"
-            nameProper : "Ghana"
-            code       : "GH"
-            codeAlpha3 : "GHA"
-            codeNumeric: 288
-
-        85:
-            name       : "Gibraltar"
-            nameProper : "Gibraltar"
-            code       : "GI"
-            codeAlpha3 : "GIB"
-            codeNumeric: 292
-
-        86:
-            name       : "Greece"
-            nameProper : "Greece"
-            code       : "GR"
-            codeAlpha3 : "GRC"
-            codeNumeric: 300
-
-        87:
-            name       : "Greenland"
-            nameProper : "Greenland"
-            code       : "GL"
-            codeAlpha3 : "GRL"
-            codeNumeric: 304
-
-        88:
-            name       : "Grenada"
-            nameProper : "Grenada"
-            code       : "GD"
-            codeAlpha3 : "GRD"
-            codeNumeric: 308
-
-        89:
-            name       : "Guadeloupe"
-            nameProper : "Guadeloupe"
-            code       : "GP"
-            codeAlpha3 : "GLP"
-            codeNumeric: 312
-
-        90:
-            name       : "Guam"
-            nameProper : "Guam"
-            code       : "GU"
-            codeAlpha3 : "GUM"
-            codeNumeric: 316
-
-        91:
-            name       : "Guatemala"
-            nameProper : "Guatemala"
-            code       : "GT"
-            codeAlpha3 : "GTM"
-            codeNumeric: 320
-
-        92:
-            name       : "Guernsey"
-            nameProper : "Guernsey"
-            code       : "GG"
-            codeAlpha3 : "GGY"
-            codeNumeric: 831
-
-        93:
-            name       : "Guinea"
-            nameProper : "Guinea"
-            code       : "GN"
-            codeAlpha3 : "GIN"
-            codeNumeric: 324
-
-        94:
-            name       : "Guinea-Bissau"
-            nameProper : "Guinea-Bissau"
-            code       : "GW"
-            codeAlpha3 : "GNB"
-            codeNumeric: 624
-
-        95:
-            name       : "Guyana"
-            nameProper : "Guyana"
-            code       : "GY"
-            codeAlpha3 : "GUY"
-            codeNumeric: 328
-
-        96:
-            name       : "Haiti"
-            nameProper : "Haiti"
-            code       : "HT"
-            codeAlpha3 : "HTI"
-            codeNumeric: 332
-
-        97:
-            name       : "Heard Island and McDonald Islands"
-            nameProper : "Heard Island and McDonald Islands"
-            code       : "HM"
-            codeAlpha3 : "HMD"
-            codeNumeric: 334
-
-        98:
-            name       : "Holy See (Vatican City State)"
-            nameProper : "Holy See (Vatican City State)"
-            code       : "VA"
-            codeAlpha3 : "VAT"
-            codeNumeric: 336
-
-        99:
-            name       : "Honduras"
-            nameProper : "Honduras"
-            code       : "HN"
-            codeAlpha3 : "HND"
-            codeNumeric: 340
-
-        100:
-            name       : "Hong Kong"
-            nameProper : "Hong Kong"
-            code       : "HK"
-            codeAlpha3 : "HKG"
-            codeNumeric: 344
-
-        101:
-            name       : "Hungary"
-            nameProper : "Hungary"
-            code       : "HU"
-            codeAlpha3 : "HUN"
-            codeNumeric: 348
-
-        102:
-            name       : "Iceland"
-            nameProper : "Iceland"
-            code       : "IS"
-            codeAlpha3 : "ISL"
-            codeNumeric: 352
-
-        103:
-            name       : "India"
-            nameProper : "India"
-            code       : "IN"
-            codeAlpha3 : "IND"
-            codeNumeric: 356
-
-        104:
-            name       : "Indonesia"
-            nameProper : "Indonesia"
-            code       : "ID"
-            codeAlpha3 : "IDN"
-            codeNumeric: 360
-
-        105:
-            name       : "Iran, Islamic Republic of"
-            nameProper : "Islamic Republic of Iran"
-            code       : "IR"
-            codeAlpha3 : "IRN"
-            codeNumeric: 364
-
-        106:
-            name       : "Iraq"
-            nameProper : "Iraq"
-            code       : "IQ"
-            codeAlpha3 : "IRQ"
-            codeNumeric: 368
-
-        107:
-            name       : "Ireland"
-            nameProper : "Ireland"
-            code       : "IE"
-            codeAlpha3 : "IRL"
-            codeNumeric: 372
-
-        108:
-            name       : "Isle of Man"
-            nameProper : "Isle of Man"
-            code       : "IM"
-            codeAlpha3 : "IMN"
-            codeNumeric: 833
-
-        109:
-            name       : "Israel"
-            nameProper : "Israel"
-            code       : "IL"
-            codeAlpha3 : "ISR"
-            codeNumeric: 376
-
-        110:
-            name       : "Italy"
-            nameProper : "Italy"
-            code       : "IT"
-            codeAlpha3 : "ITA"
-            codeNumeric: 380
-
-        111:
-            name       : "Jamaica"
-            nameProper : "Jamaica"
-            code       : "JM"
-            codeAlpha3 : "JAM"
-            codeNumeric: 388
-
-        112:
-            name       : "Japan"
-            nameProper : "Japan"
-            code       : "JP"
-            codeAlpha3 : "JPN"
-            codeNumeric: 392
-
-        113:
-            name       : "Jersey"
-            nameProper : "Jersey"
-            code       : "JE"
-            codeAlpha3 : "JEY"
-            codeNumeric: 832
-
-        114:
-            name       : "Jordan"
-            nameProper : "Jordan"
-            code       : "JO"
-            codeAlpha3 : "JOR"
-            codeNumeric: 400
-
-        115:
-            name       : "Kazakhstan"
-            nameProper : "Kazakhstan"
-            code       : "KZ"
-            codeAlpha3 : "KAZ"
-            codeNumeric: 398
-
-        116:
-            name       : "Kenya"
-            nameProper : "Kenya"
-            code       : "KE"
-            codeAlpha3 : "KEN"
-            codeNumeric: 404
-
-        117:
-            name       : "Kiribati"
-            nameProper : "Kiribati"
-            code       : "KI"
-            codeAlpha3 : "KIR"
-            codeNumeric: 296
-
-        118:
-            name       : "Korea, Democratic People's Republic of"
-            nameProper : "Democratic People's Republic of Korea"
-            code       : "KP"
-            codeAlpha3 : "PRK"
-            codeNumeric: 408
-
-        119:
-            name       : "Korea, Republic of"
-            nameProper : "Republic of Korea"
-            code       : "KR"
-            codeAlpha3 : "KOR"
-            codeNumeric: 410
-
-        120:
-            name       : "Kuwait"
-            nameProper : "Kuwait"
-            code       : "KW"
-            codeAlpha3 : "KWT"
-            codeNumeric: 414
-
-        121:
-            name       : "Kyrgyzstan"
-            nameProper : "Kyrgyzstan"
-            code       : "KG"
-            codeAlpha3 : "KGZ"
-            codeNumeric: 417
-
-        122:
-            name       : "Lao People's Democratic Republic"
-            nameProper : "Lao People's Democratic Republic"
-            code       : "LA"
-            codeAlpha3 : "LAO"
-            codeNumeric: 418
-
-        123:
-            name       : "Latvia"
-            nameProper : "Latvia"
-            code       : "LV"
-            codeAlpha3 : "LVA"
-            codeNumeric: 428
-
-        124:
-            name       : "Lebanon"
-            nameProper : "Lebanon"
-            code       : "LB"
-            codeAlpha3 : "LBN"
-            codeNumeric: 422
-
-        125:
-            name       : "Lesotho"
-            nameProper : "Lesotho"
-            code       : "LS"
-            codeAlpha3 : "LSO"
-            codeNumeric: 426
-
-        126:
-            name       : "Liberia"
-            nameProper : "Liberia"
-            code       : "LR"
-            codeAlpha3 : "LBR"
-            codeNumeric: 430
-
-        127:
-            name       : "Libyan Arab Jamahiriya"
-            nameProper : "Libyan Arab Jamahiriya"
-            code       : "LY"
-            codeAlpha3 : "LBY"
-            codeNumeric: 434
-
-        128:
-            name       : "Liechtenstein"
-            nameProper : "Liechtenstein"
-            code       : "LI"
-            codeAlpha3 : "LIE"
-            codeNumeric: 438
-
-        129:
-            name       : "Lithuania"
-            nameProper : "Lithuania"
-            code       : "LT"
-            codeAlpha3 : "LTU"
-            codeNumeric: 440
-
-        130:
-            name       : "Luxembourg"
-            nameProper : "Luxembourg"
-            code       : "LU"
-            codeAlpha3 : "LUX"
-            codeNumeric: 442
-
-        131:
-            name       : "Macao"
-            nameProper : "Macao"
-            code       : "MO"
-            codeAlpha3 : "MAC"
-            codeNumeric: 446
-
-        132:
-            name       : "Macedonia, The Former Yugoslav Republic of"
-            nameProper : "The Former Yugoslav Republic of Macedonia"
-            code       : "MK"
-            codeAlpha3 : "MKD"
-            codeNumeric: 807
-
-        133:
-            name       : "Madagascar"
-            nameProper : "Madagascar"
-            code       : "MG"
-            codeAlpha3 : "MDG"
-            codeNumeric: 450
-
-        134:
-            name       : "Malawi"
-            nameProper : "Malawi"
-            code       : "MW"
-            codeAlpha3 : "MWI"
-            codeNumeric: 454
-
-        135:
-            name       : "Malaysia"
-            nameProper : "Malaysia"
-            code       : "MY"
-            codeAlpha3 : "MYS"
-            codeNumeric: 458
-
-        136:
-            name       : "Maldives"
-            nameProper : "Maldives"
-            code       : "MV"
-            codeAlpha3 : "MDV"
-            codeNumeric: 462
-
-        137:
-            name       : "Mali"
-            nameProper : "Mali"
-            code       : "ML"
-            codeAlpha3 : "MLI"
-            codeNumeric: 466
-
-        138:
-            name       : "Malta"
-            nameProper : "Malta"
-            code       : "MT"
-            codeAlpha3 : "MLT"
-            codeNumeric: 470
-
-        139:
-            name       : "Marshall Islands"
-            nameProper : "Marshall Islands"
-            code       : "MH"
-            codeAlpha3 : "MHL"
-            codeNumeric: 584
-
-        140:
-            name       : "Martinique"
-            nameProper : "Martinique"
-            code       : "MQ"
-            codeAlpha3 : "MTQ"
-            codeNumeric: 474
-
-        141:
-            name       : "Mauritania"
-            nameProper : "Mauritania"
-            code       : "MR"
-            codeAlpha3 : "MRT"
-            codeNumeric: 478
-
-        142:
-            name       : "Mauritius"
-            nameProper : "Mauritius"
-            code       : "MU"
-            codeAlpha3 : "MUS"
-            codeNumeric: 480
-
-        143:
-            name       : "Mayotte"
-            nameProper : "Mayotte"
-            code       : "YT"
-            codeAlpha3 : "MYT"
-            codeNumeric: 175
-
-        144:
-            name       : "Mexico"
-            nameProper : "Mexico"
-            code       : "MX"
-            codeAlpha3 : "MEX"
-            codeNumeric: 484
-
-        145:
-            name       : "Micronesia, Federated States of"
-            nameProper : "Federated States of Micronesia"
-            code       : "FM"
-            codeAlpha3 : "FSM"
-            codeNumeric: 583
-
-        146:
-            name       : "Moldova, Republic of"
-            nameProper : "Republic of Moldova"
-            code       : "MD"
-            codeAlpha3 : "MDA"
-            codeNumeric: 498
-
-        147:
-            name       : "Monaco"
-            nameProper : "Monaco"
-            code       : "MC"
-            codeAlpha3 : "MCO"
-            codeNumeric: 492
-
-        148:
-            name       : "Mongolia"
-            nameProper : "Mongolia"
-            code       : "MN"
-            codeAlpha3 : "MNG"
-            codeNumeric: 496
-
-        149:
-            name       : "Montenegro"
-            nameProper : "Montenegro"
-            code       : "ME"
-            codeAlpha3 : "MNE"
-            codeNumeric: 499
-
-        150:
-            name       : "Montserrat"
-            nameProper : "Montserrat"
-            code       : "MS"
-            codeAlpha3 : "MSR"
-            codeNumeric: 500
-
-        151:
-            name       : "Morocco"
-            nameProper : "Morocco"
-            code       : "MA"
-            codeAlpha3 : "MAR"
-            codeNumeric: 504
-
-        152:
-            name       : "Mozambique"
-            nameProper : "Mozambique"
-            code       : "MZ"
-            codeAlpha3 : "MOZ"
-            codeNumeric: 508
-
-        153:
-            name       : "Myanmar"
-            nameProper : "Myanmar"
-            code       : "MM"
-            codeAlpha3 : "MMR"
-            codeNumeric: 104
-
-        154:
-            name       : "Namibia"
-            nameProper : "Namibia"
-            code       : "NA"
-            codeAlpha3 : "NAM"
-            codeNumeric: 516
-
-        155:
-            name       : "Nauru"
-            nameProper : "Nauru"
-            code       : "NR"
-            codeAlpha3 : "NRU"
-            codeNumeric: 520
-
-        156:
-            name       : "Nepal"
-            nameProper : "Nepal"
-            code       : "NP"
-            codeAlpha3 : "NPL"
-            codeNumeric: 524
-
-        157:
-            name       : "Netherlands"
-            nameProper : "Netherlands"
-            code       : "NL"
-            codeAlpha3 : "NLD"
-            codeNumeric: 528
-
-        158:
-            name       : "New Caledonia"
-            nameProper : "New Caledonia"
-            code       : "NC"
-            codeAlpha3 : "NCL"
-            codeNumeric: 540
-
-        159:
-            name       : "New Zealand"
-            nameProper : "New Zealand"
-            code       : "NZ"
-            codeAlpha3 : "NZL"
-            codeNumeric: 554
-
-        160:
-            name       : "Nicaragua"
-            nameProper : "Nicaragua"
-            code       : "NI"
-            codeAlpha3 : "NIC"
-            codeNumeric: 558
-
-        161:
-            name       : "Niger"
-            nameProper : "Niger"
-            code       : "NE"
-            codeAlpha3 : "NER"
-            codeNumeric: 562
-
-        162:
-            name       : "Nigeria"
-            nameProper : "Nigeria"
-            code       : "NG"
-            codeAlpha3 : "NGA"
-            codeNumeric: 566
-
-        163:
-            name       : "Niue"
-            nameProper : "Niue"
-            code       : "NU"
-            codeAlpha3 : "NIU"
-            codeNumeric: 570
-
-        164:
-            name       : "Norfolk Island"
-            nameProper : "Norfolk Island"
-            code       : "NF"
-            codeAlpha3 : "NFK"
-            codeNumeric: 574
-
-        165:
-            name       : "Northern Mariana Islands"
-            nameProper : "Northern Mariana Islands"
-            code       : "MP"
-            codeAlpha3 : "MNP"
-            codeNumeric: 580
-
-        166:
-            name       : "Norway"
-            nameProper : "Norway"
-            code       : "NO"
-            codeAlpha3 : "NOR"
-            codeNumeric: 578
-
-        167:
-            name       : "Occupied Palestinian Territory"
-            nameProper : "Occupied Palestinian Territory"
-            code       : "PS"
-            codeAlpha3 : "PSE"
-            codeNumeric: 275
-
-        168:
-            name       : "Oman"
-            nameProper : "Oman"
-            code       : "OM"
-            codeAlpha3 : "OMN"
-            codeNumeric: 512
-
-        169:
-            name       : "Pakistan"
-            nameProper : "Pakistan"
-            code       : "PK"
-            codeAlpha3 : "PAK"
-            codeNumeric: 586
-
-        170:
-            name       : "Palau"
-            nameProper : "Palau"
-            code       : "PW"
-            codeAlpha3 : "PLW"
-            codeNumeric: 585
-
-        171:
-            name       : "Panama"
-            nameProper : "Panama"
-            code       : "PA"
-            codeAlpha3 : "PAN"
-            codeNumeric: 591
-
-        172:
-            name       : "Papua New Guinea"
-            nameProper : "Papua New Guinea"
-            code       : "PG"
-            codeAlpha3 : "PNG"
-            codeNumeric: 598
-
-        173:
-            name       : "Paraguay"
-            nameProper : "Paraguay"
-            code       : "PY"
-            codeAlpha3 : "PRY"
-            codeNumeric: 600
-
-        174:
-            name       : "Peru"
-            nameProper : "Peru"
-            code       : "PE"
-            codeAlpha3 : "PER"
-            codeNumeric: 604
-
-        175:
-            name       : "Philippines"
-            nameProper : "Philippines"
-            code       : "PH"
-            codeAlpha3 : "PHL"
-            codeNumeric: 608
-
-        176:
-            name       : "Pitcairn"
-            nameProper : "Pitcairn"
-            code       : "PN"
-            codeAlpha3 : "PCN"
-            codeNumeric: 612
-
-        177:
-            name       : "Poland"
-            nameProper : "Poland"
-            code       : "PL"
-            codeAlpha3 : "POL"
-            codeNumeric: 616
-
-        178:
-            name       : "Portugal"
-            nameProper : "Portugal"
-            code       : "PT"
-            codeAlpha3 : "PRT"
-            codeNumeric: 620
-
-        179:
-            name       : "Puerto Rico"
-            nameProper : "Puerto Rico"
-            code       : "PR"
-            codeAlpha3 : "PRI"
-            codeNumeric: 630
-
-        180:
-            name       : "Qatar"
-            nameProper : "Qatar"
-            code       : "QA"
-            codeAlpha3 : "QAT"
-            codeNumeric: 634
-
-        181:
-            name       : "Reunion"
-            nameProper : "Reunion"
-            code       : "RE"
-            codeAlpha3 : "REU"
-            codeNumeric: 638
-
-        182:
-            name       : "Romania"
-            nameProper : "Romania"
-            code       : "RO"
-            codeAlpha3 : "ROU"
-            codeNumeric: 642
-
-        183:
-            name       : "Russian Federation"
-            nameProper : "Russian Federation"
-            code       : "RU"
-            codeAlpha3 : "RUS"
-            codeNumeric: 643
-
-        184:
-            name       : "Rwanda"
-            nameProper : "Rwanda"
-            code       : "RW"
-            codeAlpha3 : "RWA"
-            codeNumeric: 646
-
-        185:
-            name       : "Saint Barthelemy"
-            nameProper : "Saint Barthelemy"
-            code       : "BL"
-            codeAlpha3 : "BLM"
-            codeNumeric: 652
-
-        186:
-            name       : "Saint Helena, Ascension and Tristan da Cunha"
-            nameProper : "Saint Helena, Ascension and Tristan da Cunha"
-            code       : "SH"
-            codeAlpha3 : "SHN"
-            codeNumeric: 654
-
-        187:
-            name       : "Saint Kitts and Nevis"
-            nameProper : "Saint Kitts and Nevis"
-            code       : "KN"
-            codeAlpha3 : "KNA"
-            codeNumeric: 659
-
-        188:
-            name       : "Saint Lucia"
-            nameProper : "Saint Lucia"
-            code       : "LC"
-            codeAlpha3 : "LCA"
-            codeNumeric: 662
-
-        189:
-            name       : "Saint Martin (French part)"
-            nameProper : "Saint Martin (French part)"
-            code       : "MF"
-            codeAlpha3 : "MAF"
-            codeNumeric: 663
-
-        190:
-            name       : "Saint Pierre and Miquelon"
-            nameProper : "Saint Pierre and Miquelon"
-            code       : "PM"
-            codeAlpha3 : "SPM"
-            codeNumeric: 666
-
-        191:
-            name       : "Saint Vincent and The Grenadines"
-            nameProper : "Saint Vincent and The Grenadines"
-            code       : "VC"
-            codeAlpha3 : "VCT"
-            codeNumeric: 670
-
-        192:
-            name       : "Samoa"
-            nameProper : "Samoa"
-            code       : "WS"
-            codeAlpha3 : "WSM"
-            codeNumeric: 882
-
-        193:
-            name       : "San Marino"
-            nameProper : "San Marino"
-            code       : "SM"
-            codeAlpha3 : "SMR"
-            codeNumeric: 674
-
-        194:
-            name       : "Sao Tome and Principe"
-            nameProper : "Sao Tome and Principe"
-            code       : "ST"
-            codeAlpha3 : "STP"
-            codeNumeric: 678
-
-        195:
-            name       : "Saudi Arabia"
-            nameProper : "Saudi Arabia"
-            code       : "SA"
-            codeAlpha3 : "SAU"
-            codeNumeric: 682
-
-        196:
-            name       : "Senegal"
-            nameProper : "Senegal"
-            code       : "SN"
-            codeAlpha3 : "SEN"
-            codeNumeric: 686
-
-        197:
-            name       : "Serbia"
-            nameProper : "Serbia"
-            code       : "RS"
-            codeAlpha3 : "SRB"
-            codeNumeric: 688
-
-        198:
-            name       : "Seychelles"
-            nameProper : "Seychelles"
-            code       : "SC"
-            codeAlpha3 : "SYC"
-            codeNumeric: 690
-
-        199:
-            name       : "Sierra Leone"
-            nameProper : "Sierra Leone"
-            code       : "SL"
-            codeAlpha3 : "SLE"
-            codeNumeric: 694
-
-        200:
-            name       : "Singapore"
-            nameProper : "Singapore"
-            code       : "SG"
-            codeAlpha3 : "SGP"
-            codeNumeric: 702
-
-        201:
-            name       : "Sint Maarten (Dutch part)"
-            nameProper : "Sint Maarten (Dutch part)"
-            code       : "SX"
-            codeAlpha3 : "SXM"
-            codeNumeric: 534
-
-        202:
-            name       : "Slovakia"
-            nameProper : "Slovakia"
-            code       : "SK"
-            codeAlpha3 : "SVK"
-            codeNumeric: 703
-
-        203:
-            name       : "Slovenia"
-            nameProper : "Slovenia"
-            code       : "SI"
-            codeAlpha3 : "SVN"
-            codeNumeric: 705
-
-        204:
-            name       : "Solomon Islands"
-            nameProper : "Solomon Islands"
-            code       : "SB"
-            codeAlpha3 : "SLB"
-            codeNumeric: 90
-
-        205:
-            name       : "Somalia"
-            nameProper : "Somalia"
-            code       : "SO"
-            codeAlpha3 : "SOM"
-            codeNumeric: 706
-
-        206:
-            name       : "South Africa"
-            nameProper : "South Africa"
-            code       : "ZA"
-            codeAlpha3 : "ZAF"
-            codeNumeric: 710
-
-        207:
-            name       : "South Georgia and the South Sandwich Islands"
-            nameProper : "South Georgia and the South Sandwich Islands"
-            code       : "GS"
-            codeAlpha3 : "SGS"
-            codeNumeric: 239
-
-        208:
-            name       : "South Sudan, Republic of"
-            nameProper : "Republic of South Sudan"
-            code       : "SS"
-            codeAlpha3 : "SSD"
-            codeNumeric: 728
-
-        209:
-            name       : "Spain"
-            nameProper : "Spain"
-            code       : "ES"
-            codeAlpha3 : "ESP"
-            codeNumeric: 724
-
-        210:
-            name       : "Sri Lanka"
-            nameProper : "Sri Lanka"
-            code       : "LK"
-            codeAlpha3 : "LKA"
-            codeNumeric: 144
-
-        211:
-            name       : "Sudan"
-            nameProper : "Sudan"
-            code       : "SD"
-            codeAlpha3 : "SDN"
-            codeNumeric: 729
-
-        212:
-            name       : "Suriname"
-            nameProper : "Suriname"
-            code       : "SR"
-            codeAlpha3 : "SUR"
-            codeNumeric: 740
-
-        213:
-            name       : "Svalbard and Jan Mayen"
-            nameProper : "Svalbard and Jan Mayen"
-            code       : "SJ"
-            codeAlpha3 : "SJM"
-            codeNumeric: 744
-
-        214:
-            name       : "Swaziland"
-            nameProper : "Swaziland"
-            code       : "SZ"
-            codeAlpha3 : "SWZ"
-            codeNumeric: 748
-
-        215:
-            name       : "Sweden"
-            nameProper : "Sweden"
-            code       : "SE"
-            codeAlpha3 : "SWE"
-            codeNumeric: 752
-
-        216:
-            name       : "Switzerland"
-            nameProper : "Switzerland"
-            code       : "CH"
-            codeAlpha3 : "CHE"
-            codeNumeric: 756
-
-        217:
-            name       : "Syrian Arab Republic"
-            nameProper : "Syrian Arab Republic"
-            code       : "SY"
-            codeAlpha3 : "SYR"
-            codeNumeric: 760
-
-        218:
-            name       : "Taiwan, Province of China"
-            nameProper : "Taiwan, Province of China"
-            code       : "TW"
-            codeAlpha3 : "TWN"
-            codeNumeric: 158
-
-        219:
-            name       : "Tajikistan"
-            nameProper : "Tajikistan"
-            code       : "TJ"
-            codeAlpha3 : "TJK"
-            codeNumeric: 762
-
-        220:
-            name       : "Tanzania, United Republic of"
-            nameProper : "United Republic of Tanzania"
-            code       : "TZ"
-            codeAlpha3 : "TZA"
-            codeNumeric: 834
-
-        221:
-            name       : "Thailand"
-            nameProper : "Thailand"
-            code       : "TH"
-            codeAlpha3 : "THA"
-            codeNumeric: 764
-
-        222:
-            name       : "Timor-Leste"
-            nameProper : "Timor-Leste"
-            code       : "TL"
-            codeAlpha3 : "TLS"
-            codeNumeric: 626
-
-        223:
-            name       : "Togo"
-            nameProper : "Togo"
-            code       : "TG"
-            codeAlpha3 : "TGO"
-            codeNumeric: 768
-
-        224:
-            name       : "Tokelau"
-            nameProper : "Tokelau"
-            code       : "TK"
-            codeAlpha3 : "TKL"
-            codeNumeric: 772
-
-        225:
-            name       : "Tonga"
-            nameProper : "Tonga"
-            code       : "TO"
-            codeAlpha3 : "TON"
-            codeNumeric: 776
-
-        226:
-            name       : "Trinidad and Tobago"
-            nameProper : "Trinidad and Tobago"
-            code       : "TT"
-            codeAlpha3 : "TTO"
-            codeNumeric: 780
-
-        227:
-            name       : "Tunisia"
-            nameProper : "Tunisia"
-            code       : "TN"
-            codeAlpha3 : "TUN"
-            codeNumeric: 788
-
-        228:
-            name       : "Turkey"
-            nameProper : "Turkey"
-            code       : "TR"
-            codeAlpha3 : "TUR"
-            codeNumeric: 792
-
-        229:
-            name       : "Turkmenistan"
-            nameProper : "Turkmenistan"
-            code       : "TM"
-            codeAlpha3 : "TKM"
-            codeNumeric: 795
-
-        230:
-            name       : "Turks and Caicos Islands"
-            nameProper : "Turks and Caicos Islands"
-            code       : "TC"
-            codeAlpha3 : "TCA"
-            codeNumeric: 796
-
-        231:
-            name       : "Tuvalu"
-            nameProper : "Tuvalu"
-            code       : "TV"
-            codeAlpha3 : "TUV"
-            codeNumeric: 798
-
-        232:
-            name       : "Uganda"
-            nameProper : "Uganda"
-            code       : "UG"
-            codeAlpha3 : "UGA"
-            codeNumeric: 800
-
-        233:
-            name       : "Ukraine"
-            nameProper : "Ukraine"
-            code       : "UA"
-            codeAlpha3 : "UKR"
-            codeNumeric: 804
-
-        234:
-            name       : "United Arab Emirates"
-            nameProper : "United Arab Emirates"
-            code       : "AE"
-            codeAlpha3 : "ARE"
-            codeNumeric: 784
-
-        235:
-            name       : "United Kingdom"
-            nameProper : "United Kingdom"
-            code       : "GB"
-            codeAlpha3 : "GBR"
-            codeNumeric: 826
-
-        236:
-            name       : "United States of America, The"
-            nameProper : "The United States of America"
-            code       : "US"
-            codeAlpha3 : "USA"
-            codeNumeric: 840
-
-        237:
-            name       : "United States Minor Outlying Islands"
-            nameProper : "United States Minor Outlying Islands"
-            code       : "UM"
-            codeAlpha3 : "UMI"
-            codeNumeric: 581
-
-        238:
-            name       : "Uruguay"
-            nameProper : "Uruguay"
-            code       : "UY"
-            codeAlpha3 : "URY"
-            codeNumeric: 858
-
-        239:
-            name       : "Uzbekistan"
-            nameProper : "Uzbekistan"
-            code       : "UZ"
-            codeAlpha3 : "UZB"
-            codeNumeric: 860
-
-        240:
-            name       : "Vanuatu"
-            nameProper : "Vanuatu"
-            code       : "VU"
-            codeAlpha3 : "VUT"
-            codeNumeric: 548
-
-        241:
-            name       : "Venezuela, Bolivarian Republic of"
-            nameProper : "Bolivarian Republic of Venezuela"
-            code       : "VE"
-            codeAlpha3 : "VEN"
-            codeNumeric: 862
-
-        242:
-            name       : "Viet Nam"
-            nameProper : "Viet Nam"
-            code       : "VN"
-            codeAlpha3 : "VNM"
-            codeNumeric: 704
-
-        243:
-            name       : "Virgin Islands, British"
-            nameProper : "British Virgin Islands"
-            code       : "VG"
-            codeAlpha3 : "VGB"
-            codeNumeric: 92
-
-        244:
-            name       : "Virgin Islands, U.S."
-            nameProper : "U.S. Virgin Islands"
-            code       : "VI"
-            codeAlpha3 : "VIR"
-            codeNumeric: 850
-
-        245:
-            name       : "Wallis and Futuna"
-            nameProper : "Wallis and Futuna"
-            code       : "WF"
-            codeAlpha3 : "WLF"
-            codeNumeric: 876
-
-        246:
-            name       : "Western Sahara"
-            nameProper : "Western Sahara"
-            code       : "EH"
-            codeAlpha3 : "ESH"
-            codeNumeric: 732
-
-        247:
-            name       : "Yemen"
-            nameProper : "Yemen"
-            code       : "YE"
-            codeAlpha3 : "YEM"
-            codeNumeric: 887
-
-        248:
-            name       : "Zambia"
-            nameProper : "Zambia"
-            code       : "ZM"
-            codeAlpha3 : "ZMB"
-            codeNumeric: 894
-
-        249:
-            name       : "Zimbabwe"
-            nameProper : "Zimbabwe"
-            code       : "ZW"
-            codeAlpha3 : "ZWE"
-            codeNumeric: 716
+
+#
+# This file is part of the Teavee HTML Generator Bundle.
+#
+# (c) Rob Frawley 2nd <rmf@build.fail>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
+
+Country :
+
+    versions :
+
+        meta_format : 1.0.0
+        data_object : 0.1.0
+
+    strategy :
+
+        persist :
+            prefer : merge
+
+    service :
+
+        entity_class : s.mantle.locale_country.entity.class
+        service_repo : s.mantle.locale_country.repo
+
+    references :
+
+        create_from_cols :
+            - [ slug ]
+
+    fixture :
+
+        -
+            slug   : "AF"
+            name   : "Afghanistan"
+            codeA3 : "AFG"
+            codeN  : 4
+
+        -
+            slug   : "AX"
+            name   : "Aland Islands"
+            codeA3 : "ALA"
+            codeN  : 248
+
+        -
+            slug   : "AL"
+            name   : "Albania"
+            codeA3 : "ALB"
+            codeN  : 8
+
+        -
+            slug   : "DZ"
+            name   : "Algeria"
+            codeA3 : "DZA"
+            codeN  : 12
+
+        -
+            slug   : "AS"
+            name   : "American Samoa"
+            codeA3 : "ASM"
+            codeN  : 16
+
+        -
+            slug   : "AD"
+            name   : "Andorra"
+            codeA3 : "AND"
+            codeN  : 20
+
+        -
+            slug   : "AO"
+            name   : "Angola"
+            codeA3 : "AGO"
+            codeN  : 24
+
+        -
+            slug   : "AI"
+            name   : "Anguilla"
+            codeA3 : "AIA"
+            codeN  : 660
+
+        -
+            slug   : "AQ"
+            name   : "Antarctica"
+            codeA3 : "ATA"
+            codeN  : 10
+
+        -
+            slug   : "AG"
+            name   : "Antigua and Barbuda"
+            codeA3 : "ATG"
+            codeN  : 28
+
+        -
+            slug   : "AR"
+            name   : "Argentina"
+            codeA3 : "ARG"
+            codeN  : 32
+
+        -
+            slug   : "AM"
+            name   : "Armenia"
+            codeA3 : "ARM"
+            codeN  : 51
+
+        -
+            slug   : "AW"
+            name   : "Aruba"
+            codeA3 : "ABW"
+            codeN  : 533
+
+        -
+            slug   : "AU"
+            name   : "Australia"
+            codeA3 : "AUS"
+            codeN  : 36
+
+        -
+            slug   : "AT"
+            name   : "Austria"
+            codeA3 : "AUT"
+            codeN  : 40
+
+        -
+            slug   : "AZ"
+            name   : "Azerbaijan"
+            codeA3 : "AZE"
+            codeN  : 31
+
+        -
+            slug   : "BS"
+            name   : "Bahamas"
+            codeA3 : "BHS"
+            codeN  : 44
+
+        -
+            slug   : "BH"
+            name   : "Bahrain"
+            codeA3 : "BHR"
+            codeN  : 48
+
+        -
+            slug   : "BD"
+            name   : "Bangladesh"
+            codeA3 : "BGD"
+            codeN  : 50
+
+        -
+            slug   : "BB"
+            name   : "Barbados"
+            codeA3 : "BRB"
+            codeN  : 52
+
+        -
+            slug   : "BY"
+            name   : "Belarus"
+            codeA3 : "BLR"
+            codeN  : 112
+
+        -
+            slug   : "BE"
+            name   : "Belgium"
+            codeA3 : "BEL"
+            codeN  : 56
+
+        -
+            slug   : "BZ"
+            name   : "Belize"
+            codeA3 : "BLZ"
+            codeN  : 84
+
+        -
+            slug   : "BJ"
+            name   : "Benin"
+            codeA3 : "BEN"
+            codeN  : 204
+
+        -
+            slug   : "BM"
+            name   : "Bermuda"
+            codeA3 : "BMU"
+            codeN  : 60
+
+        -
+            slug   : "BT"
+            name   : "Bhutan"
+            codeA3 : "BTN"
+            codeN  : 64
+
+        -
+            slug   : "BO"
+            name   : "Bolivia, Plurinational State of"
+            codeA3 : "BOL"
+            codeN  : 68
+            proper : "Plurinational State of Bolivia"
+
+        -
+            slug   : "BQ"
+            name   : "Bonaire, Saint Eustatius and Saba"
+            codeA3 : "BES"
+            codeN  : 535
+
+        -
+            slug   : "BA"
+            name   : "Bosnia and Herzegovina"
+            codeA3 : "BIH"
+            codeN  : 70
+
+        -
+            slug   : "BW"
+            name   : "Botswana"
+            codeA3 : "BWA"
+            codeN  : 72
+
+        -
+            slug   : "BV"
+            name   : "Bouvet Island"
+            codeA3 : "BVT"
+            codeN  : 74
+
+        -
+            slug   : "BR"
+            name   : "Brazil"
+            codeA3 : "BRA"
+            codeN  : 76
+
+        -
+            slug   : "IO"
+            name   : "British Indian Ocean Territory"
+            codeA3 : "IOT"
+            codeN  : 86
+
+        -
+            slug   : "BN"
+            name   : "Brunei Darussalam"
+            codeA3 : "BRN"
+            codeN  : 96
+
+        -
+            slug   : "BG"
+            name   : "Bulgaria"
+            codeA3 : "BGR"
+            codeN  : 100
+
+        -
+            slug   : "BF"
+            name   : "Burkina Faso"
+            codeA3 : "BFA"
+            codeN  : 854
+
+        -
+            slug   : "BI"
+            name   : "Burundi"
+            codeA3 : "BDI"
+            codeN  : 108
+
+        -
+            slug   : "KH"
+            name   : "Cambodia"
+            codeA3 : "KHM"
+            codeN  : 116
+
+        -
+            slug   : "CM"
+            name   : "Cameroon"
+            codeA3 : "CMR"
+            codeN  : 120
+
+        -
+            slug   : "CA"
+            name   : "Canada"
+            codeA3 : "CAN"
+            codeN  : 124
+
+        -
+            slug   : "CV"
+            name   : "Cape Verde"
+            codeA3 : "CPV"
+            codeN  : 132
+
+        -
+            slug   : "KY"
+            name   : "Cayman Islands"
+            codeA3 : "CYM"
+            codeN  : 136
+
+        -
+            slug   : "CF"
+            name   : "Central African Republic"
+            codeA3 : "CAF"
+            codeN  : 140
+
+        -
+            slug   : "TD"
+            name   : "Chad"
+            codeA3 : "TCD"
+            codeN  : 148
+
+        -
+            slug   : "CL"
+            name   : "Chile"
+            codeA3 : "CHL"
+            codeN  : 152
+
+        -
+            slug   : "CN"
+            name   : "China"
+            codeA3 : "CHN"
+            codeN  : 156
+
+        -
+            slug   : "CX"
+            name   : "Christmas Island"
+            codeA3 : "CXR"
+            codeN  : 162
+
+        -
+            slug   : "CC"
+            name   : "Cocos (Keeling) Islands"
+            codeA3 : "CCK"
+            codeN  : 166
+
+        -
+            slug   : "CO"
+            name   : "Colombia"
+            codeA3 : "COL"
+            codeN  : 170
+
+        -
+            slug   : "KM"
+            name   : "Comoros"
+            codeA3 : "COM"
+            codeN  : 174
+
+        -
+            slug   : "CG"
+            name   : "Congo"
+            codeA3 : "COG"
+            codeN  : 178
+
+        -
+            slug   : "CD"
+            name   : "Congo, The Democratic Republic of the"
+            codeA3 : "COD"
+            codeN  : 180
+            proper : "The Democratic Republic of the Congo"
+
+        -
+            slug   : "CK"
+            name   : "Cook Islands"
+            codeA3 : "COK"
+            codeN  : 184
+
+        -
+            slug   : "CR"
+            name   : "Costa Rica"
+            codeA3 : "CRI"
+            codeN  : 188
+
+        -
+            slug   : "CI"
+            name   : "Cote d'Ivoire"
+            codeA3 : "CIV"
+            codeN  : 384
+
+        -
+            slug   : "HR"
+            name   : "Croatia"
+            codeA3 : "HRV"
+            codeN  : 191
+
+        -
+            slug   : "CU"
+            name   : "Cuba"
+            codeA3 : "CUB"
+            codeN  : 192
+
+        -
+            slug   : "CW"
+            name   : "Curacao"
+            codeA3 : "CUW"
+            codeN  : 531
+
+        -
+            slug   : "CY"
+            name   : "Cyprus"
+            codeA3 : "CYP"
+            codeN  : 196
+
+        -
+            slug   : "CZ"
+            name   : "Czech Republic"
+            codeA3 : "CZE"
+            codeN  : 203
+
+        -
+            slug   : "DK"
+            name   : "Denmark"
+            codeA3 : "DNK"
+            codeN  : 208
+
+        -
+            slug   : "DJ"
+            name   : "Djibouti"
+            codeA3 : "DJI"
+            codeN  : 262
+
+        -
+            slug   : "DM"
+            name   : "Dominica"
+            codeA3 : "DMA"
+            codeN  : 212
+
+        -
+            slug   : "DO"
+            name   : "Dominican Republic"
+            codeA3 : "DOM"
+            codeN  : 214
+
+        -
+            slug   : "EC"
+            name   : "Ecuador"
+            codeA3 : "ECU"
+            codeN  : 218
+
+        -
+            slug   : "EG"
+            name   : "Egypt"
+            codeA3 : "EGY"
+            codeN  : 818
+
+        -
+            slug   : "SV"
+            name   : "El Salvador"
+            codeA3 : "SLV"
+            codeN  : 222
+
+        -
+            slug   : "GQ"
+            name   : "Equatorial Guinea"
+            codeA3 : "GNQ"
+            codeN  : 226
+
+        -
+            slug   : "ER"
+            name   : "Eritrea"
+            codeA3 : "ERI"
+            codeN  : 232
+
+        -
+            slug   : "EE"
+            name   : "Estonia"
+            codeA3 : "EST"
+            codeN  : 233
+
+        -
+            slug   : "ET"
+            name   : "Ethiopia"
+            codeA3 : "ETH"
+            codeN  : 231
+
+        -
+            slug   : "FK"
+            name   : "Falkland Islands (Malvinas)"
+            codeA3 : "FLK"
+            codeN  : 238
+
+        -
+            slug   : "FO"
+            name   : "Faroe Islands"
+            codeA3 : "FRO"
+            codeN  : 234
+
+        -
+            slug   : "FJ"
+            name   : "Fiji"
+            codeA3 : "FJI"
+            codeN  : 242
+
+        -
+            slug   : "FI"
+            name   : "Finland"
+            codeA3 : "FIN"
+            codeN  : 246
+
+        -
+            slug   : "FR"
+            name   : "France"
+            codeA3 : "FRA"
+            codeN  : 250
+
+        -
+            slug   : "GF"
+            name   : "French Guiana"
+            codeA3 : "GUF"
+            codeN  : 254
+
+        -
+            slug   : "PF"
+            name   : "French Polynesia"
+            codeA3 : "PYF"
+            codeN  : 258
+
+        -
+            slug   : "TF"
+            name   : "French Southern Territories"
+            codeA3 : "ATF"
+            codeN  : 260
+
+        -
+            slug   : "GA"
+            name   : "Gabon"
+            codeA3 : "GAB"
+            codeN  : 266
+
+        -
+            slug   : "GM"
+            name   : "Gambia"
+            codeA3 : "GMB"
+            codeN  : 270
+
+        -
+            slug   : "GE"
+            name   : "Georgia"
+            codeA3 : "GEO"
+            codeN  : 268
+
+        -
+            slug   : "DE"
+            name   : "Germany"
+            codeA3 : "DEU"
+            codeN  : 276
+
+        -
+            slug   : "GH"
+            name   : "Ghana"
+            codeA3 : "GHA"
+            codeN  : 288
+
+        -
+            slug   : "GI"
+            name   : "Gibraltar"
+            codeA3 : "GIB"
+            codeN  : 292
+
+        -
+            slug   : "GR"
+            name   : "Greece"
+            codeA3 : "GRC"
+            codeN  : 300
+
+        -
+            slug   : "GL"
+            name   : "Greenland"
+            codeA3 : "GRL"
+            codeN  : 304
+
+        -
+            slug   : "GD"
+            name   : "Grenada"
+            codeA3 : "GRD"
+            codeN  : 308
+
+        -
+            slug   : "GP"
+            name   : "Guadeloupe"
+            codeA3 : "GLP"
+            codeN  : 312
+
+        -
+            slug   : "GU"
+            name   : "Guam"
+            codeA3 : "GUM"
+            codeN  : 316
+
+        -
+            slug   : "GT"
+            name   : "Guatemala"
+            codeA3 : "GTM"
+            codeN  : 320
+
+        -
+            slug   : "GG"
+            name   : "Guernsey"
+            codeA3 : "GGY"
+            codeN  : 831
+
+        -
+            slug   : "GN"
+            name   : "Guinea"
+            codeA3 : "GIN"
+            codeN  : 324
+
+        -
+            slug   : "GW"
+            name   : "Guinea-Bissau"
+            codeA3 : "GNB"
+            codeN  : 624
+
+        -
+            slug   : "GY"
+            name   : "Guyana"
+            codeA3 : "GUY"
+            codeN  : 328
+
+        -
+            slug   : "HT"
+            name   : "Haiti"
+            codeA3 : "HTI"
+            codeN  : 332
+
+        -
+            slug   : "HM"
+            name   : "Heard Island and McDonald Islands"
+            codeA3 : "HMD"
+            codeN  : 334
+
+        -
+            slug   : "VA"
+            name   : "Holy See (Vatican City State)"
+            codeA3 : "VAT"
+            codeN  : 336
+
+        -
+            slug   : "HN"
+            name   : "Honduras"
+            codeA3 : "HND"
+            codeN  : 340
+
+        -
+            slug   : "HK"
+            name   : "Hong Kong"
+            codeA3 : "HKG"
+            codeN  : 344
+
+        -
+            slug   : "HU"
+            name   : "Hungary"
+            codeA3 : "HUN"
+            codeN  : 348
+
+        -
+            slug   : "IS"
+            name   : "Iceland"
+            codeA3 : "ISL"
+            codeN  : 352
+
+        -
+            slug   : "IN"
+            name   : "India"
+            codeA3 : "IND"
+            codeN  : 356
+
+        -
+            slug   : "ID"
+            name   : "Indonesia"
+            codeA3 : "IDN"
+            codeN  : 360
+
+        -
+            slug   : "IR"
+            name   : "Iran, Islamic Republic of"
+            codeA3 : "IRN"
+            codeN  : 364
+            proper : "Islamic Republic of Iran"
+
+        -
+            slug   : "IQ"
+            name   : "Iraq"
+            codeA3 : "IRQ"
+            codeN  : 368
+
+        -
+            slug   : "IE"
+            name   : "Ireland"
+            codeA3 : "IRL"
+            codeN  : 372
+
+        -
+            slug   : "IM"
+            name   : "Isle of Man"
+            codeA3 : "IMN"
+            codeN  : 833
+
+        -
+            slug   : "IL"
+            name   : "Israel"
+            codeA3 : "ISR"
+            codeN  : 376
+
+        -
+            slug   : "IT"
+            name   : "Italy"
+            codeA3 : "ITA"
+            codeN  : 380
+
+        -
+            slug   : "JM"
+            name   : "Jamaica"
+            codeA3 : "JAM"
+            codeN  : 388
+
+        -
+            slug   : "JP"
+            name   : "Japan"
+            codeA3 : "JPN"
+            codeN  : 392
+
+        -
+            slug   : "JE"
+            name   : "Jersey"
+            codeA3 : "JEY"
+            codeN  : 832
+
+        -
+            slug   : "JO"
+            name   : "Jordan"
+            codeA3 : "JOR"
+            codeN  : 400
+
+        -
+            slug   : "KZ"
+            name   : "Kazakhstan"
+            codeA3 : "KAZ"
+            codeN  : 398
+
+        -
+            slug   : "KE"
+            name   : "Kenya"
+            codeA3 : "KEN"
+            codeN  : 404
+
+        -
+            slug   : "KI"
+            name   : "Kiribati"
+            codeA3 : "KIR"
+            codeN  : 296
+
+        -
+            slug   : "KP"
+            name   : "Korea, Democratic People's Republic of"
+            codeA3 : "PRK"
+            codeN  : 408
+            proper : "Democratic People's Republic of Korea"
+
+        -
+            slug   : "KR"
+            name   : "Korea, Republic of"
+            codeA3 : "KOR"
+            codeN  : 410
+            proper : "Republic of Korea"
+
+        -
+            slug   : "KW"
+            name   : "Kuwait"
+            codeA3 : "KWT"
+            codeN  : 414
+
+        -
+            slug   : "KG"
+            name   : "Kyrgyzstan"
+            codeA3 : "KGZ"
+            codeN  : 417
+
+        -
+            slug   : "LA"
+            name   : "Lao People's Democratic Republic"
+            codeA3 : "LAO"
+            codeN  : 418
+
+        -
+            slug   : "LV"
+            name   : "Latvia"
+            codeA3 : "LVA"
+            codeN  : 428
+
+        -
+            slug   : "LB"
+            name   : "Lebanon"
+            codeA3 : "LBN"
+            codeN  : 422
+
+        -
+            slug   : "LS"
+            name   : "Lesotho"
+            codeA3 : "LSO"
+            codeN  : 426
+
+        -
+            slug   : "LR"
+            name   : "Liberia"
+            codeA3 : "LBR"
+            codeN  : 430
+
+        -
+            slug   : "LY"
+            name   : "Libyan Arab Jamahiriya"
+            codeA3 : "LBY"
+            codeN  : 434
+
+        -
+            slug   : "LI"
+            name   : "Liechtenstein"
+            codeA3 : "LIE"
+            codeN  : 438
+
+        -
+            slug   : "LT"
+            name   : "Lithuania"
+            codeA3 : "LTU"
+            codeN  : 440
+
+        -
+            slug   : "LU"
+            name   : "Luxembourg"
+            codeA3 : "LUX"
+            codeN  : 442
+
+        -
+            slug   : "MO"
+            name   : "Macao"
+            codeA3 : "MAC"
+            codeN  : 446
+
+        -
+            slug   : "MK"
+            name   : "Macedonia, The Former Yugoslav Republic of"
+            codeA3 : "MKD"
+            codeN  : 807
+            proper : "The Former Yugoslav Republic of Macedonia"
+
+        -
+            slug   : "MG"
+            name   : "Madagascar"
+            codeA3 : "MDG"
+            codeN  : 450
+
+        -
+            slug   : "MW"
+            name   : "Malawi"
+            codeA3 : "MWI"
+            codeN  : 454
+
+        -
+            slug   : "MY"
+            name   : "Malaysia"
+            codeA3 : "MYS"
+            codeN  : 458
+
+        -
+            slug   : "MV"
+            name   : "Maldives"
+            codeA3 : "MDV"
+            codeN  : 462
+
+        -
+            slug   : "ML"
+            name   : "Mali"
+            codeA3 : "MLI"
+            codeN  : 466
+
+        -
+            slug   : "MT"
+            name   : "Malta"
+            codeA3 : "MLT"
+            codeN  : 470
+
+        -
+            slug   : "MH"
+            name   : "Marshall Islands"
+            codeA3 : "MHL"
+            codeN  : 584
+
+        -
+            slug   : "MQ"
+            name   : "Martinique"
+            codeA3 : "MTQ"
+            codeN  : 474
+
+        -
+            slug   : "MR"
+            name   : "Mauritania"
+            codeA3 : "MRT"
+            codeN  : 478
+
+        -
+            slug   : "MU"
+            name   : "Mauritius"
+            codeA3 : "MUS"
+            codeN  : 480
+
+        -
+            slug   : "YT"
+            name   : "Mayotte"
+            codeA3 : "MYT"
+            codeN  : 175
+
+        -
+            slug   : "MX"
+            name   : "Mexico"
+            codeA3 : "MEX"
+            codeN  : 484
+
+        -
+            slug   : "FM"
+            name   : "Micronesia, Federated States of"
+            codeA3 : "FSM"
+            codeN  : 583
+            proper : "Federated States of Micronesia"
+
+        -
+            slug   : "MD"
+            name   : "Moldova, Republic of"
+            codeA3 : "MDA"
+            codeN  : 498
+            proper : "Republic of Moldova"
+
+        -
+            slug   : "MC"
+            name   : "Monaco"
+            codeA3 : "MCO"
+            codeN  : 492
+
+        -
+            slug   : "MN"
+            name   : "Mongolia"
+            codeA3 : "MNG"
+            codeN  : 496
+
+        -
+            slug   : "ME"
+            name   : "Montenegro"
+            codeA3 : "MNE"
+            codeN  : 499
+
+        -
+            slug   : "MS"
+            name   : "Montserrat"
+            codeA3 : "MSR"
+            codeN  : 500
+
+        -
+            slug   : "MA"
+            name   : "Morocco"
+            codeA3 : "MAR"
+            codeN  : 504
+
+        -
+            slug   : "MZ"
+            name   : "Mozambique"
+            codeA3 : "MOZ"
+            codeN  : 508
+
+        -
+            slug   : "MM"
+            name   : "Myanmar"
+            codeA3 : "MMR"
+            codeN  : 104
+
+        -
+            slug   : "NA"
+            name   : "Namibia"
+            codeA3 : "NAM"
+            codeN  : 516
+
+        -
+            slug   : "NR"
+            name   : "Nauru"
+            codeA3 : "NRU"
+            codeN  : 520
+
+        -
+            slug   : "NP"
+            name   : "Nepal"
+            codeA3 : "NPL"
+            codeN  : 524
+
+        -
+            slug   : "NL"
+            name   : "Netherlands"
+            codeA3 : "NLD"
+            codeN  : 528
+
+        -
+            slug   : "NC"
+            name   : "New Caledonia"
+            codeA3 : "NCL"
+            codeN  : 540
+
+        -
+            slug   : "NZ"
+            name   : "New Zealand"
+            codeA3 : "NZL"
+            codeN  : 554
+
+        -
+            slug   : "NI"
+            name   : "Nicaragua"
+            codeA3 : "NIC"
+            codeN  : 558
+
+        -
+            slug   : "NE"
+            name   : "Niger"
+            codeA3 : "NER"
+            codeN  : 562
+
+        -
+            slug   : "NG"
+            name   : "Nigeria"
+            codeA3 : "NGA"
+            codeN  : 566
+
+        -
+            slug   : "NU"
+            name   : "Niue"
+            codeA3 : "NIU"
+            codeN  : 570
+
+        -
+            slug   : "NF"
+            name   : "Norfolk Island"
+            codeA3 : "NFK"
+            codeN  : 574
+
+        -
+            slug   : "MP"
+            name   : "Northern Mariana Islands"
+            codeA3 : "MNP"
+            codeN  : 580
+
+        -
+            slug   : "NO"
+            name   : "Norway"
+            codeA3 : "NOR"
+            codeN  : 578
+
+        -
+            slug   : "PS"
+            name   : "Occupied Palestinian Territory"
+            codeA3 : "PSE"
+            codeN  : 275
+
+        -
+            slug   : "OM"
+            name   : "Oman"
+            codeA3 : "OMN"
+            codeN  : 512
+
+        -
+            slug   : "PK"
+            name   : "Pakistan"
+            codeA3 : "PAK"
+            codeN  : 586
+
+        -
+            slug   : "PW"
+            name   : "Palau"
+            codeA3 : "PLW"
+            codeN  : 585
+
+        -
+            slug   : "PA"
+            name   : "Panama"
+            codeA3 : "PAN"
+            codeN  : 591
+
+        -
+            slug   : "PG"
+            name   : "Papua New Guinea"
+            codeA3 : "PNG"
+            codeN  : 598
+
+        -
+            slug   : "PY"
+            name   : "Paraguay"
+            codeA3 : "PRY"
+            codeN  : 600
+
+        -
+            slug   : "PE"
+            name   : "Peru"
+            codeA3 : "PER"
+            codeN  : 604
+
+        -
+            slug   : "PH"
+            name   : "Philippines"
+            codeA3 : "PHL"
+            codeN  : 608
+
+        -
+            slug   : "PN"
+            name   : "Pitcairn"
+            codeA3 : "PCN"
+            codeN  : 612
+
+        -
+            slug   : "PL"
+            name   : "Poland"
+            codeA3 : "POL"
+            codeN  : 616
+
+        -
+            slug   : "PT"
+            name   : "Portugal"
+            codeA3 : "PRT"
+            codeN  : 620
+
+        -
+            slug   : "PR"
+            name   : "Puerto Rico"
+            codeA3 : "PRI"
+            codeN  : 630
+
+        -
+            slug   : "QA"
+            name   : "Qatar"
+            codeA3 : "QAT"
+            codeN  : 634
+
+        -
+            slug   : "RE"
+            name   : "Reunion"
+            codeA3 : "REU"
+            codeN  : 638
+
+        -
+            slug   : "RO"
+            name   : "Romania"
+            codeA3 : "ROU"
+            codeN  : 642
+
+        -
+            slug   : "RU"
+            name   : "Russian Federation"
+            codeA3 : "RUS"
+            codeN  : 643
+
+        -
+            slug   : "RW"
+            name   : "Rwanda"
+            codeA3 : "RWA"
+            codeN  : 646
+
+        -
+            slug   : "BL"
+            name   : "Saint Barthelemy"
+            codeA3 : "BLM"
+            codeN  : 652
+
+        -
+            slug   : "SH"
+            name   : "Saint Helena, Ascension and Tristan da Cunha"
+            codeA3 : "SHN"
+            codeN  : 654
+
+        -
+            slug   : "KN"
+            name   : "Saint Kitts and Nevis"
+            codeA3 : "KNA"
+            codeN  : 659
+
+        -
+            slug   : "LC"
+            name   : "Saint Lucia"
+            codeA3 : "LCA"
+            codeN  : 662
+
+        -
+            slug   : "MF"
+            name   : "Saint Martin (French part)"
+            codeA3 : "MAF"
+            codeN  : 663
+
+        -
+            slug   : "PM"
+            name   : "Saint Pierre and Miquelon"
+            codeA3 : "SPM"
+            codeN  : 666
+
+        -
+            slug   : "VC"
+            name   : "Saint Vincent and The Grenadines"
+            codeA3 : "VCT"
+            codeN  : 670
+
+        -
+            slug   : "WS"
+            name   : "Samoa"
+            codeA3 : "WSM"
+            codeN  : 882
+
+        -
+            slug   : "SM"
+            name   : "San Marino"
+            codeA3 : "SMR"
+            codeN  : 674
+
+        -
+            slug   : "ST"
+            name   : "Sao Tome and Principe"
+            codeA3 : "STP"
+            codeN  : 678
+
+        -
+            slug   : "SA"
+            name   : "Saudi Arabia"
+            codeA3 : "SAU"
+            codeN  : 682
+
+        -
+            slug   : "SN"
+            name   : "Senegal"
+            codeA3 : "SEN"
+            codeN  : 686
+
+        -
+            slug   : "RS"
+            name   : "Serbia"
+            codeA3 : "SRB"
+            codeN  : 688
+
+        -
+            slug   : "SC"
+            name   : "Seychelles"
+            codeA3 : "SYC"
+            codeN  : 690
+
+        -
+            slug   : "SL"
+            name   : "Sierra Leone"
+            codeA3 : "SLE"
+            codeN  : 694
+
+        -
+            slug   : "SG"
+            name   : "Singapore"
+            codeA3 : "SGP"
+            codeN  : 702
+
+        -
+            slug   : "SX"
+            name   : "Sint Maarten (Dutch part)"
+            codeA3 : "SXM"
+            codeN  : 534
+
+        -
+            slug   : "SK"
+            name   : "Slovakia"
+            codeA3 : "SVK"
+            codeN  : 703
+
+        -
+            slug   : "SI"
+            name   : "Slovenia"
+            codeA3 : "SVN"
+            codeN  : 705
+
+        -
+            slug   : "SB"
+            name   : "Solomon Islands"
+            codeA3 : "SLB"
+            codeN  : 90
+
+        -
+            slug   : "SO"
+            name   : "Somalia"
+            codeA3 : "SOM"
+            codeN  : 706
+
+        -
+            slug   : "ZA"
+            name   : "South Africa"
+            codeA3 : "ZAF"
+            codeN  : 710
+
+        -
+            slug   : "GS"
+            name   : "South Georgia and the South Sandwich Islands"
+            codeA3 : "SGS"
+            codeN  : 239
+
+        -
+            slug   : "SS"
+            name   : "South Sudan, Republic of"
+            codeA3 : "SSD"
+            codeN  : 728
+            proper : "Republic of South Sudan"
+
+        -
+            slug   : "ES"
+            name   : "Spain"
+            codeA3 : "ESP"
+            codeN  : 724
+
+        -
+            slug   : "LK"
+            name   : "Sri Lanka"
+            codeA3 : "LKA"
+            codeN  : 144
+
+        -
+            slug   : "SD"
+            name   : "Sudan"
+            codeA3 : "SDN"
+            codeN  : 729
+
+        -
+            slug   : "SR"
+            name   : "Suriname"
+            codeA3 : "SUR"
+            codeN  : 740
+
+        -
+            slug   : "SJ"
+            name   : "Svalbard and Jan Mayen"
+            codeA3 : "SJM"
+            codeN  : 744
+
+        -
+            slug   : "SZ"
+            name   : "Swaziland"
+            codeA3 : "SWZ"
+            codeN  : 748
+
+        -
+            slug   : "SE"
+            name   : "Sweden"
+            codeA3 : "SWE"
+            codeN  : 752
+
+        -
+            slug   : "CH"
+            name   : "Switzerland"
+            codeA3 : "CHE"
+            codeN  : 756
+
+        -
+            slug   : "SY"
+            name   : "Syrian Arab Republic"
+            codeA3 : "SYR"
+            codeN  : 760
+
+        -
+            slug   : "TW"
+            name   : "Taiwan, Province of China"
+            codeA3 : "TWN"
+            codeN  : 158
+
+        -
+            slug   : "TJ"
+            name   : "Tajikistan"
+            codeA3 : "TJK"
+            codeN  : 762
+
+        -
+            slug   : "TZ"
+            name   : "Tanzania, United Republic of"
+            codeA3 : "TZA"
+            codeN  : 834
+            proper : "United Republic of Tanzania"
+
+        -
+            slug   : "TH"
+            name   : "Thailand"
+            codeA3 : "THA"
+            codeN  : 764
+
+        -
+            slug   : "TL"
+            name   : "Timor-Leste"
+            codeA3 : "TLS"
+            codeN  : 626
+
+        -
+            slug   : "TG"
+            name   : "Togo"
+            codeA3 : "TGO"
+            codeN  : 768
+
+        -
+            slug   : "TK"
+            name   : "Tokelau"
+            codeA3 : "TKL"
+            codeN  : 772
+
+        -
+            slug   : "TO"
+            name   : "Tonga"
+            codeA3 : "TON"
+            codeN  : 776
+
+        -
+            slug   : "TT"
+            name   : "Trinidad and Tobago"
+            codeA3 : "TTO"
+            codeN  : 780
+
+        -
+            slug   : "TN"
+            name   : "Tunisia"
+            codeA3 : "TUN"
+            codeN  : 788
+
+        -
+            slug   : "TR"
+            name   : "Turkey"
+            codeA3 : "TUR"
+            codeN  : 792
+
+        -
+            slug   : "TM"
+            name   : "Turkmenistan"
+            codeA3 : "TKM"
+            codeN  : 795
+
+        -
+            slug   : "TC"
+            name   : "Turks and Caicos Islands"
+            codeA3 : "TCA"
+            codeN  : 796
+
+        -
+            slug   : "TV"
+            name   : "Tuvalu"
+            codeA3 : "TUV"
+            codeN  : 798
+
+        -
+            slug   : "UG"
+            name   : "Uganda"
+            codeA3 : "UGA"
+            codeN  : 800
+
+        -
+            slug   : "UA"
+            name   : "Ukraine"
+            codeA3 : "UKR"
+            codeN  : 804
+
+        -
+            slug   : "AE"
+            name   : "United Arab Emirates"
+            codeA3 : "ARE"
+            codeN  : 784
+
+        -
+            slug   : "GB"
+            name   : "United Kingdom"
+            codeA3 : "GBR"
+            codeN  : 826
+
+        -
+            slug   : "US"
+            name   : "United States of America, The"
+            codeA3 : "USA"
+            codeN  : 840
+            proper : "The United States of America"
+
+        -
+            slug   : "UM"
+            name   : "United States Minor Outlying Islands"
+            codeA3 : "UMI"
+            codeN  : 581
+
+        -
+            slug   : "UY"
+            name   : "Uruguay"
+            codeA3 : "URY"
+            codeN  : 858
+
+        -
+            slug   : "UZ"
+            name   : "Uzbekistan"
+            codeA3 : "UZB"
+            codeN  : 860
+
+        -
+            slug   : "VU"
+            name   : "Vanuatu"
+            codeA3 : "VUT"
+            codeN  : 548
+
+        -
+            slug   : "VE"
+            name   : "Venezuela, Bolivarian Republic of"
+            codeA3 : "VEN"
+            codeN  : 862
+            proper : "Bolivarian Republic of Venezuela"
+
+        -
+            slug   : "VN"
+            name   : "Viet Nam"
+            codeA3 : "VNM"
+            codeN  : 704
+
+        -
+            slug   : "VG"
+            name   : "Virgin Islands, British"
+            codeA3 : "VGB"
+            codeN  : 92
+            proper : "British Virgin Islands"
+
+        -
+            slug   : "VI"
+            name   : "Virgin Islands, U.S."
+            codeA3 : "VIR"
+            codeN  : 850
+            proper : "U.S. Virgin Islands"
+
+        -
+            slug   : "WF"
+            name   : "Wallis and Futuna"
+            codeA3 : "WLF"
+            codeN  : 876
+
+        -
+            slug   : "EH"
+            name   : "Western Sahara"
+            codeA3 : "ESH"
+            codeN  : 732
+
+        -
+            slug   : "YE"
+            name   : "Yemen"
+            codeA3 : "YEM"
+            codeN  : 887
+
+        -
+            slug   : "ZM"
+            name   : "Zambia"
+            codeA3 : "ZMB"
+            codeN  : 894
+
+        -
+            slug   : "ZW"
+            name   : "Zimbabwe"
+            codeA3 : "ZWE"
+            codeN  : 716
 
 ...
