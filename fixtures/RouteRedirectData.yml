@@ -276,8 +276,8 @@ RouteRedirect:
 
         -
             slug         : 'blog-to-articles'
-            searchPath   : '{^/blog(.*)}i'
-            redirectPath : '/articles$1'
+            searchPath   : '/blog/(.*)'
+            redirectPath : '/articles/$1'
             regex        : true
 
 ...
