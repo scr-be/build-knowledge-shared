@@ -32,6 +32,7 @@ opStartSection "Install \"${MOD_NAME}\" extension."
 MOD_PECL_CMD=false
 MOD_PECL_CMD_URL=false
 MOD_PECL_DL=false
+MOD_PECL_DL_NAME=false
 MOD_PECL_GIT=false
 MOD_PECL_GIT_BRANCH="master"
 MOD_PECL_GIT_DIR=""
@@ -44,8 +45,8 @@ opSource "${MOD_SOURCE_CONFIG}"
 
 . ${MOD_SOURCE_CONFIG}
 
-MOD_PECL_LOG=$(getReadyTempFilePath "${LOG_EXT}${MOD_NAME//[^A-Za-z0-9._-]/_}.log")
-MOD_PECL_BLD=$(getReadyTempPath "${BLD_EXT}${MOD_NAME//[^A-Za-z0-9._-]/_}")
+MOD_PECL_LOG=$(getReadyTempFilePath "${LOG_EXT}/${MOD_NAME//[^A-Za-z0-9._-]/_}.log")
+MOD_PECL_BLD=$(getReadyTempPath "${BLD_EXT}/${MOD_NAME//[^A-Za-z0-9._-]/_}")
 
 if [[ $(isExtensionEnabled ${MOD_NAME}) == "true" ]] && [[ $(isExtensionPeclInstalled ${MOD_NAME}) == "true" ]]
 then
@@ -79,7 +80,12 @@ then
     if [[ ${MOD_PECL_DL} != false ]]
     then
 
-        opLogBuild "${BIN_CURL} -o ${MOD_NAME}.tar.gz https://pecl.php.net/get/${MOD_NAME}"
+        if [[ ${MOD_PECL_DL_NAME} == false ]]
+        then
+            MOD_PECL_DL_NAME="${MOD_NAME}"
+        fi
+
+        opLogBuild "${BIN_CURL} -o ${MOD_NAME}.tar.gz https://pecl.php.net/get/${MOD_PECL_DL_NAME}"
 
         ${BIN_CURL} -o ${MOD_NAME}.tar.gz https://pecl.php.net/get/${MOD_NAME} &>> ${MOD_PECL_LOG} || \
             MOD_PECL_RET=$?

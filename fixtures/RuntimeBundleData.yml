@@ -1,44 +1,60 @@
 ---
+
+#
+# This file is part of the Teavee HTML Generator Bundle.
+#
+# (c) Rob Frawley 2nd <rmf@build.fail>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
+
 RuntimeBundle:
 
-    version:
+    versions :
 
-        structure : 1.0.0
-        data      : 1.0.0
+        meta_format : 1.0.0
+        data_object : 0.1.0
 
-    orm:
+    strategy :
 
-        priority   : 10
-        mode       : truncate
-        entity     : s.mantle.state_runtime_bundle.entity.class
-        repository : s.mantle.state_runtime_bundle.repo
+        persist :
+            prefer : merge
 
-    dependencies: null
+    service :
 
-    data:
+        entity_class : s.mantle.state_runtime_bundle.entity.class
+        service_repo : s.mantle.state_runtime_bundle.repo
 
-        1:
-            name : "blog"
+    references :
 
-        2:
-            name : "digitalhub"
+        create_from_cols :
+            - [ slug ]
 
-        3:
-            name : "docs"
+    fixture :
 
-        4:
-            name : "file"
+        -
+            slug : "blog"
 
-        5:
-            name : "public"
+        -
+            slug : "digitalhub"
 
-        6:
-            name : "security"
+        -
+            slug : "docs"
 
-        7:
-            name : "shared"
+        -
+            slug : "file"
 
-        8:
-            name : "status"
+        -
+            slug : "public"
+
+        -
+            slug : "security"
+
+        -
+            slug : "shared"
+
+        -
+            slug : "status"
 
 ...

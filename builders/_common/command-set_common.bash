@@ -18,6 +18,7 @@ opStart "Running \"${RT_MODE_DESC^^}\""
 
 RT_INDEX=-1
 RT_COUNT=0
+RT_ENV_MAKE_ENTER_DIR=false
 
 for c in "${RT_INCS[@]}"
 do
@@ -50,6 +51,15 @@ do
     then
         outWarning "No operation commands defined in ${RT_FILEPATH_INC}"
         continue
+    fi
+
+    MOD_ENV_MAKE_BLD="${BLD_EXT}/$(date +%s.%N)"
+    MOD_ENV_MAKE_BLD=$(getReadyTempPath ${MOD_ENV_MAKE_BLD})
+
+    if [[ ${RT_ENV_MAKE_ENTER_DIR} != false ]]
+    then
+        opExec "cd ${MOD_ENV_MAKE_BLD}"
+        cd ${MOD_ENV_MAKE_BLD}
     fi
 
     for command in "${RT_COMMANDS_ACT[@]}"

@@ -67,7 +67,7 @@ IconTemplate :
                         {% if aria.hasRole %}role="{{ aria.role }}"{% endif %}
                         {% if aria.isHidden %}aria-hidden="true"{% endif %}
                         aria-label="{{ aria.label|default(icon.name|first|upper ~ icon.name[1:]|default(''))|default('') }} (Categories: {{ icon.categories|default(['None'])|join(', ') }})"
-                    >{{ icon.slug }}</span>
+                    >s{{ icon.name }}</span>
                 </div>
 
         -

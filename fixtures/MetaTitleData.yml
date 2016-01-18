@@ -1,180 +1,188 @@
 ---
+
 MetaTitle:
 
-    version:
+    versions :
 
-        structure : 1.0.0
-        data      : 1.0.0
+        meta_format : 1.0.0
+        data_object : 0.1.0
 
-    orm:
+    strategy :
 
-        priority   : 25
-        mode       : truncate
-        entity     : s.mantle.meta_title.entity.class
-        repository : s.mantle.meta_title.repo
+        persist :
+            prefer : merge
 
-    dependencies:
+    service :
+
+        entity_class : s.mantle.meta_title.entity.class
+        service_repo : s.mantle.meta_title.repo
+
+    depends:
 
         RuntimeBundle:
-            entity     : s.mantle.state_runtime_bundle.entity.class
-            repository : s.mantle.state_runtime_bundle.repo
+            entity_class : s.mantle.state_runtime_bundle.entity.class
+            service_repo : s.mantle.state_runtime_bundle.repo
 
         RuntimeController:
-            entity     : s.mantle.state_runtime_controller.entity.class
-            repository : s.mantle.state_runtime_controller.repo
+            entity_class : s.mantle.state_runtime_controller.entity.class
+            service_repo : s.mantle.state_runtime_controller.repo
 
         RuntimeAction:
-            entity     : s.mantle.state_runtime_action.entity.class
-            repository : s.mantle.state_runtime_action.repo
+            entity_class : s.mantle.state_runtime_action.entity.class
+            service_repo : s.mantle.state_runtime_action.repo
 
-    data:
+        Locale:
+            entity_class : s.mantle.locale.entity.class
+            service_repo : s.mantle.locale.repo
 
-        1:
+    fixture:
+
+        -
             title      : 'Scribe: Publishing, Well-Formed'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=public'
-            controller : '@RuntimeController?name=default'
-            action     : '@RuntimeAction?name=index'
+            bundle     : '++RuntimeBundle:public'
+            controller : '++RuntimeController:default'
+            action     : '++RuntimeAction:index'
 
-        2:
+        -
             title      : 'Home'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=public'
+            bundle     : '++RuntimeBundle:public'
 
-        3:
+        -
             title      : 'About'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=public'
-            controller : '@RuntimeController?name=about'
+            bundle     : '++RuntimeBundle:public'
+            controller : '++RuntimeController:about'
 
-        4:
+        -
             title      : 'Services'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=public'
-            controller : '@RuntimeController?name=services'
+            bundle     : '++RuntimeBundle:public'
+            controller : '++RuntimeController:services'
 
-        5:
+        -
             title      : 'Articles & Book'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
+            bundle     : '++RuntimeBundle:blog'
 
-        6:
+        -
             title      : 'Featured Article'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
-            controller : '@RuntimeController?name=default'
-            action     : '@RuntimeAction?name=landing'
+            bundle     : '++RuntimeBundle:blog'
+            controller : '++RuntimeController:default'
+            action     : '++RuntimeAction:landing'
 
-        7:
+        -
             title      : 'Articles'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
-            controller : '@RuntimeController?name=blog'
+            bundle     : '++RuntimeBundle:blog'
+            controller : '++RuntimeController:blog'
 
-        8:
+        -
             title      : 'Article Archive'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
-            controller : '@RuntimeController?name=blog'
-            action     : '@RuntimeAction?name=list'
+            bundle     : '++RuntimeBundle:blog'
+            controller : '++RuntimeController:blog'
+            action     : '++RuntimeAction:list'
 
-        9:
+        -
             title      : 'Article'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
-            controller : '@RuntimeController?name=blog'
-            action     : '@RuntimeAction?name=view'
+            bundle     : '++RuntimeBundle:blog'
+            controller : '++RuntimeController:blog'
+            action     : '++RuntimeAction:view'
 
-        10:
+        -
             title      : 'WFDW Book'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
-            controller : '@RuntimeController?name=book'
+            bundle     : '++RuntimeBundle:blog'
+            controller : '++RuntimeController:book'
 
-        11:
+        -
             title      : 'WFDW Chapters'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
-            controller : '@RuntimeController?name=book'
-            action     : '@RuntimeAction?name=list'
+            bundle     : '++RuntimeBundle:blog'
+            controller : '++RuntimeController:book'
+            action     : '++RuntimeAction:list'
 
-        12:
+        -
             title      : 'WFDW Book Chapter'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=blog'
-            controller : '@RuntimeController?name=book'
-            action     : '@RuntimeAction?name=view'
+            bundle     : '++RuntimeBundle:blog'
+            controller : '++RuntimeController:book'
+            action     : '++RuntimeAction:view'
 
-        13:
+        -
             title      : 'Status'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
+            bundle     : '++RuntimeBundle:status'
 
-        14:
+        -
             title      : 'Status Dashboard'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=default'
-            action     : '@RuntimeAction?name=dashboard'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:default'
+            action     : '++RuntimeAction:dashboard'
 
-        15:
+        -
             title      : 'Status SystemName'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=systems'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:systems'
 
-        16:
+        -
             title      : 'Status SystemName'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=systems'
-            action     : '@RuntimeAction?name=list'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:systems'
+            action     : '++RuntimeAction:list'
 
-        17:
+        -
             title      : 'Status System Details'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=systems'
-            action     : '@RuntimeAction?name=view'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:systems'
+            action     : '++RuntimeAction:view'
 
-        18:
+        -
             title      : 'Status Reports'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=issues'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:issues'
 
-        19:
+        -
             title      : 'Status Reports'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=issues'
-            action     : '@RuntimeAction?name=list'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:issues'
+            action     : '++RuntimeAction:list'
 
-        20:
+        -
             title      : 'Status Report Details'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=issues'
-            action     : '@RuntimeAction?name=view'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:issues'
+            action     : '++RuntimeAction:view'
 
-        21:
+        -
             title      : 'Status Updates'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=notices'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:notices'
 
-        22:
+        -
             title      : 'Status Updates'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=notices'
-            action     : '@RuntimeAction?name=list'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:notices'
+            action     : '++RuntimeAction:list'
 
-        23:
+        -
             title      : 'Status Update Details'
             locale     : '++Locale:en_US'
-            bundle     : '@RuntimeBundle?name=status'
-            controller : '@RuntimeController?name=notices'
-            action     : '@RuntimeAction?name=view'
+            bundle     : '++RuntimeBundle:status'
+            controller : '++RuntimeController:notices'
+            action     : '++RuntimeAction:view'
 
 ...
