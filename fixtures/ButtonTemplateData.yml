@@ -31,12 +31,12 @@ ButtonTemplate :
                 Materialize CSS anchor link as button with tooltip and text content.
             engine      : twig
             template    : |
-                <a  {% if tt.avil %}
+                <a  {% if tt.enabled %}
                         data-position="{{ tt.pos|default('bottom') }}"
                         data-delay="{{ tt.delay|default(50) }}"
                         data-tooltip="{{ tt.text|default('') }}"
                     {% endif %}
-                    class="{{ b.classesReq|default('btn') }} {{ b.classes|default('') }} {{ tt.classes|default('') }}"
+                    class="btn {{ b.classes|join(' ') }} {% if tt.enabled %}btn-tooltip{% endif %}"
                     href="{{ b.href|default('#') }}"
                 >{{ b.text }}</a>
 
