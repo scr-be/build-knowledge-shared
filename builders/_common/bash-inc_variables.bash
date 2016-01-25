@@ -89,7 +89,7 @@ export RT_COMMANDS_ACT=()
 export RT_COMMANDS_ACT_FB=()
 export RT_COMMANDS_INC=true
 
-export RT_ENV_MAKE_VER_IMAGE_MAGIK="6.9.3-0"
+export RT_ENV_MAKE_VER_IMAGE_MAGIK="6.9.3-2"
 
 if [ ${PKG_REQ_VARIABLE}} == "~" ]
 then
