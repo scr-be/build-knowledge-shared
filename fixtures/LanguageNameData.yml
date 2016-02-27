@@ -43,7 +43,7 @@ LanguageName :
             slug        : "ab"
             codeA3      : "abk"
             name        : "Abkhaz"
-            family      : "++LanguageFamily:northwest-caucasian"
+            family      : "?=LanguageFamily[northwest-caucasian]"
             nativeNames :
                 - "аҧсуа бызшәа"
                 - "аҧсшәа"
@@ -52,7 +52,7 @@ LanguageName :
             slug        : "aa"
             codeA3      : "aar"
             name        : "Afar"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "Afaraf"
 
@@ -60,7 +60,7 @@ LanguageName :
             slug        : "af"
             codeA3      : "afr"
             name        : "Afrikaans"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Afrikaans"
 
@@ -68,7 +68,7 @@ LanguageName :
             slug        : "ak"
             codeA3      : "aka"
             name        : "Akan"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Akan"
 
@@ -76,7 +76,7 @@ LanguageName :
             slug        : "sq"
             codeA3      : "sqi"
             name        : "Albanian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Shqip"
 
@@ -84,7 +84,7 @@ LanguageName :
             slug        : "am"
             codeA3      : "amh"
             name        : "Amharic"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "አማርኛ"
 
@@ -92,7 +92,7 @@ LanguageName :
             slug        : "ar"
             codeA3      : "ara"
             name        : "Arabic"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "العربية"
 
@@ -100,7 +100,7 @@ LanguageName :
             slug        : "an"
             codeA3      : "arg"
             name        : "Aragonese"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "aragonés"
 
@@ -108,7 +108,7 @@ LanguageName :
             slug        : "hy"
             codeA3      : "hye"
             name        : "Armenian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Հայերեն"
 
@@ -116,7 +116,7 @@ LanguageName :
             slug        : "as"
             codeA3      : "asm"
             name        : "Assamese"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "অসমীয়া"
 
@@ -124,7 +124,7 @@ LanguageName :
             slug        : "av"
             codeA3      : "ava"
             name        : "Avaric"
-            family      : "++LanguageFamily:northeast-caucasian"
+            family      : "?=LanguageFamily[northeast-caucasian]"
             nativeNames :
                 - "авар мацӀ"
                 - "магӀарул мацӀ"
@@ -133,7 +133,7 @@ LanguageName :
             slug        : "ae"
             codeA3      : "ave"
             name        : "Avestan"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "avesta"
 
@@ -141,7 +141,7 @@ LanguageName :
             slug        : "ay"
             codeA3      : "aym"
             name        : "Aymara"
-            family      : "++LanguageFamily:aymaran"
+            family      : "?=LanguageFamily[aymaran]"
             nativeNames :
                 - "aymar aru"
 
@@ -149,7 +149,7 @@ LanguageName :
             slug        : "az"
             codeA3      : "aze"
             name        : "Azerbaijani"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "azərbaycan dili"
 
@@ -157,7 +157,7 @@ LanguageName :
             slug        : "bm"
             codeA3      : "bam"
             name        : "Bambara"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "bamanankan"
 
@@ -165,7 +165,7 @@ LanguageName :
             slug        : "ba"
             codeA3      : "bak"
             name        : "Bashkir"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "башҡорт теле"
 
@@ -173,7 +173,7 @@ LanguageName :
             slug        : "eu"
             codeA3      : "eus"
             name        : "Basque"
-            family      : "++LanguageFamily:language-isolate"
+            family      : "?=LanguageFamily[language-isolate]"
             nativeNames :
                 - "euskara"
                 - "euskera"
@@ -182,7 +182,7 @@ LanguageName :
             slug        : "be"
             codeA3      : "bel"
             name        : "Belarusian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "беларуская мова"
 
@@ -190,7 +190,7 @@ LanguageName :
             slug        : "bn"
             codeA3      : "ben"
             name        : "Bangla"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "বাংলা"
             aliases     :
@@ -200,7 +200,7 @@ LanguageName :
             slug        : "bh"
             codeA3      : "bih"
             name        : "Bihari"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "भोजपुरी"
 
@@ -208,7 +208,7 @@ LanguageName :
             slug        : "bi"
             codeA3      : "bis"
             name        : "Bislama"
-            family      : "++LanguageFamily:creole"
+            family      : "?=LanguageFamily[creole]"
             nativeNames :
                 - "Bislama"
 
@@ -216,7 +216,7 @@ LanguageName :
             slug        : "bs"
             codeA3      : "bos"
             name        : "Bosnian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "bosanski jezik"
 
@@ -224,7 +224,7 @@ LanguageName :
             slug        : "br"
             codeA3      : "bre"
             name        : "Breton"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "brezhoneg"
 
@@ -232,7 +232,7 @@ LanguageName :
             slug        : "bg"
             codeA3      : "bul"
             name        : "Bulgarian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "български език"
 
@@ -240,7 +240,7 @@ LanguageName :
             slug        : "my"
             codeA3      : "mya"
             name        : "Burmese"
-            family      : "++LanguageFamily:sino-tibetan"
+            family      : "?=LanguageFamily[sino-tibetan]"
             nativeNames :
                 - "ဗမာစာ"
 
@@ -248,7 +248,7 @@ LanguageName :
             slug        : "ca"
             codeA3      : "cat"
             name        : "Catalan"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "català"
 
@@ -256,7 +256,7 @@ LanguageName :
             slug        : "ch"
             codeA3      : "cha"
             name        : "Chamorro"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Chamoru"
 
@@ -264,7 +264,7 @@ LanguageName :
             slug        : "ce"
             codeA3      : "che"
             name        : "Chechen"
-            family      : "++LanguageFamily:northeast-caucasian"
+            family      : "?=LanguageFamily[northeast-caucasian]"
             nativeNames :
                 - "нохчийн мотт"
 
@@ -272,7 +272,7 @@ LanguageName :
             slug        : "ny"
             codeA3      : "nya"
             name        : "Chichewa"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "chiCheŵa"
                 - "chinyanja"
@@ -284,7 +284,7 @@ LanguageName :
             slug        : "zh"
             codeA3      : "zho"
             name        : "Chinese"
-            family      : "++LanguageFamily:sino-tibetan"
+            family      : "?=LanguageFamily[sino-tibetan]"
             nativeNames :
                 - "中文 (Zhōngwén)"
                 - "汉语"
@@ -294,7 +294,7 @@ LanguageName :
             slug        : "cv"
             codeA3      : "chv"
             name        : "Chuvash"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "чӑваш чӗлхи"
 
@@ -302,7 +302,7 @@ LanguageName :
             slug        : "kw"
             codeA3      : "cor"
             name        : "Cornish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Kernewek"
 
@@ -310,7 +310,7 @@ LanguageName :
             slug        : "co"
             codeA3      : "cos"
             name        : "Corsican"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "corsu"
                 - "lingua corsa"
@@ -319,7 +319,7 @@ LanguageName :
             slug        : "cr"
             codeA3      : "cre"
             name        : "Cree"
-            family      : "++LanguageFamily:algonquian"
+            family      : "?=LanguageFamily[algonquian]"
             nativeNames :
                 - "ᓀᐦᐃᔭᐍᐏᐣ"
 
@@ -327,7 +327,7 @@ LanguageName :
             slug        : "hr"
             codeA3      : "hrv"
             name        : "Croatian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "hrvatski jezik"
 
@@ -335,7 +335,7 @@ LanguageName :
             slug        : "cs"
             codeA3      : "ces"
             name        : "Czech"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "čeština"
                 - "český jazyk"
@@ -344,7 +344,7 @@ LanguageName :
             slug        : "da"
             codeA3      : "dan"
             name        : "Danish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "dansk"
 
@@ -352,7 +352,7 @@ LanguageName :
             slug        : "dv"
             codeA3      : "div"
             name        : "Divehi"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ދިވެހި"
             aliases     :
@@ -363,7 +363,7 @@ LanguageName :
             slug        : "nl"
             codeA3      : "nld"
             name        : "Dutch"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Nederlands"
                 - "Vlaams"
@@ -372,7 +372,7 @@ LanguageName :
             slug        : "dz"
             codeA3      : "dzo"
             name        : "Dzongkha"
-            family      : "++LanguageFamily:sino-tibetan"
+            family      : "?=LanguageFamily[sino-tibetan]"
             nativeNames :
                 - "རྫོང་ཁ"
 
@@ -380,7 +380,7 @@ LanguageName :
             slug        : "en"
             codeA3      : "eng"
             name        : "English"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "English"
 
@@ -388,7 +388,7 @@ LanguageName :
             slug        : "eo"
             codeA3      : "epo"
             name        : "Esperanto"
-            family      : "++LanguageFamily:constructed"
+            family      : "?=LanguageFamily[constructed]"
             nativeNames :
                 - "Esperanto"
 
@@ -396,7 +396,7 @@ LanguageName :
             slug        : "et"
             codeA3      : "est"
             name        : "Estonian"
-            family      : "++LanguageFamily:uralic"
+            family      : "?=LanguageFamily[uralic]"
             nativeNames :
                 - "eesti"
                 - "eesti keel"
@@ -405,7 +405,7 @@ LanguageName :
             slug        : "ee"
             codeA3      : "ewe"
             name        : "Ewe"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Eʋegbe"
 
@@ -413,7 +413,7 @@ LanguageName :
             slug        : "fo"
             codeA3      : "fao"
             name        : "Faroese"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "føroyskt"
 
@@ -421,7 +421,7 @@ LanguageName :
             slug        : "fj"
             codeA3      : "fij"
             name        : "Fijian"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "vosa Vakaviti"
 
@@ -429,7 +429,7 @@ LanguageName :
             slug        : "fi"
             codeA3      : "fin"
             name        : "Finnish"
-            family      : "++LanguageFamily:uralic"
+            family      : "?=LanguageFamily[uralic]"
             nativeNames :
                 - "suomi"
                 - "suomen kieli"
@@ -438,7 +438,7 @@ LanguageName :
             slug        : "fr"
             codeA3      : "fra"
             name        : "French"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "français"
                 - "langue française"
@@ -447,7 +447,7 @@ LanguageName :
             slug        : "ff"
             codeA3      : "ful"
             name        : "Fula"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Fulfulde"
                 - "Pulaar"
@@ -461,7 +461,7 @@ LanguageName :
             slug        : "gl"
             codeA3      : "glg"
             name        : "Galician"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "galego"
 
@@ -469,7 +469,7 @@ LanguageName :
             slug        : "ka"
             codeA3      : "kat"
             name        : "Georgian"
-            family      : "++LanguageFamily:south-caucasian"
+            family      : "?=LanguageFamily[south-caucasian]"
             nativeNames :
                 - "ქართული"
 
@@ -477,7 +477,7 @@ LanguageName :
             slug        : "de"
             codeA3      : "deu"
             name        : "German"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Deutsch"
 
@@ -485,7 +485,7 @@ LanguageName :
             slug        : "el"
             codeA3      : "ell"
             name        : "Greek (modern)"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ελληνικά"
 
@@ -493,7 +493,7 @@ LanguageName :
             slug        : "gn"
             codeA3      : "grn"
             name        : "Guaraní"
-            family      : "++LanguageFamily:tupian"
+            family      : "?=LanguageFamily[tupian]"
             nativeNames :
                 - "Avañe'ẽ"
 
@@ -501,7 +501,7 @@ LanguageName :
             slug        : "gu"
             codeA3      : "guj"
             name        : "Gujarati"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ગુજરાતી"
 
@@ -509,7 +509,7 @@ LanguageName :
             slug        : "ht"
             codeA3      : "hat"
             name        : "Haitian"
-            family      : "++LanguageFamily:creole"
+            family      : "?=LanguageFamily[creole]"
             nativeNames :
                 - "Kreyòl ayisyen"
             aliases     :
@@ -519,7 +519,7 @@ LanguageName :
             slug        : "ha"
             codeA3      : "hau"
             name        : "Hausa"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "(Hausa) هَوُسَ"
 
@@ -527,7 +527,7 @@ LanguageName :
             slug        : "he"
             codeA3      : "heb"
             name        : "Hebrew (modern)"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "עברית"
 
@@ -535,7 +535,7 @@ LanguageName :
             slug        : "hz"
             codeA3      : "her"
             name        : "Herero"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Otjiherero"
 
@@ -543,7 +543,7 @@ LanguageName :
             slug        : "hi"
             codeA3      : "hin"
             name        : "Hindi"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "हिन्दी"
                 - "हिंदी"
@@ -552,7 +552,7 @@ LanguageName :
             slug        : "ho"
             codeA3      : "hmo"
             name        : "Hiri Motu"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Hiri Motu"
 
@@ -560,7 +560,7 @@ LanguageName :
             slug        : "hu"
             codeA3      : "hun"
             name        : "Hungarian"
-            family      : "++LanguageFamily:uralic"
+            family      : "?=LanguageFamily[uralic]"
             nativeNames :
                 - "magyar"
 
@@ -568,7 +568,7 @@ LanguageName :
             slug        : "ia"
             codeA3      : "ina"
             name        : "Interlingua"
-            family      : "++LanguageFamily:constructed"
+            family      : "?=LanguageFamily[constructed]"
             nativeNames :
                 - "Interlingua"
 
@@ -576,7 +576,7 @@ LanguageName :
             slug        : "id"
             codeA3      : "ind"
             name        : "Indonesian"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Bahasa Indonesia"
 
@@ -584,7 +584,7 @@ LanguageName :
             slug        : "ie"
             codeA3      : "ile"
             name        : "Interlingue"
-            family      : "++LanguageFamily:constructed"
+            family      : "?=LanguageFamily[constructed]"
             nativeNames :
                 - "Interlingue"
             aliases     :
@@ -594,7 +594,7 @@ LanguageName :
             slug        : "ga"
             codeA3      : "gle"
             name        : "Irish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Gaeilge"
 
@@ -602,7 +602,7 @@ LanguageName :
             slug        : "ig"
             codeA3      : "ibo"
             name        : "Igbo"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Asụsụ Igbo"
 
@@ -610,7 +610,7 @@ LanguageName :
             slug        : "ik"
             codeA3      : "ipk"
             name        : "Inupiaq"
-            family      : "++LanguageFamily:eskimo-aleut"
+            family      : "?=LanguageFamily[eskimo-aleut]"
             nativeNames :
                 - "Iñupiaq"
                 - "Iñupiatun"
@@ -619,7 +619,7 @@ LanguageName :
             slug        : "io"
             codeA3      : "ido"
             name        : "Ido"
-            family      : "++LanguageFamily:constructed"
+            family      : "?=LanguageFamily[constructed]"
             nativeNames :
                 - "Ido"
 
@@ -627,7 +627,7 @@ LanguageName :
             slug        : "is"
             codeA3      : "isl"
             name        : "Icelandic"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Íslenska"
 
@@ -635,7 +635,7 @@ LanguageName :
             slug        : "it"
             codeA3      : "ita"
             name        : "Italian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "italiano"
 
@@ -643,7 +643,7 @@ LanguageName :
             slug        : "iu"
             codeA3      : "iku"
             name        : "Inuktitut"
-            family      : "++LanguageFamily:eskimo-aleut"
+            family      : "?=LanguageFamily[eskimo-aleut]"
             nativeNames :
                 - "ᐃᓄᒃᑎᑐᑦ"
 
@@ -651,7 +651,7 @@ LanguageName :
             slug        : "ja"
             codeA3      : "jpn"
             name        : "Japanese"
-            family      : "++LanguageFamily:japonic"
+            family      : "?=LanguageFamily[japonic]"
             nativeNames :
                 - "日本語"
                 - "にほんご"
@@ -660,7 +660,7 @@ LanguageName :
             slug        : "jv"
             codeA3      : "jav"
             name        : "Javanese"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "basa Jawa"
 
@@ -668,7 +668,7 @@ LanguageName :
             slug        : "kl"
             codeA3      : "kal"
             name        : "Greenlandic"
-            family      : "++LanguageFamily:eskimo-aleut"
+            family      : "?=LanguageFamily[eskimo-aleut]"
             nativeNames :
                 - "kalaallisut"
                 - "kalaallit oqaasii"
@@ -679,7 +679,7 @@ LanguageName :
             slug        : "kn"
             codeA3      : "kan"
             name        : "Kannada"
-            family      : "++LanguageFamily:dravidian"
+            family      : "?=LanguageFamily[dravidian]"
             nativeNames :
                 - "ಕನ್ನಡ"
 
@@ -687,7 +687,7 @@ LanguageName :
             slug        : "kr"
             codeA3      : "kau"
             name        : "Kanuri"
-            family      : "++LanguageFamily:nilo-saharan"
+            family      : "?=LanguageFamily[nilo-saharan]"
             nativeNames :
                 - "Kanuri"
 
@@ -695,7 +695,7 @@ LanguageName :
             slug        : "ks"
             codeA3      : "kas"
             name        : "Kashmiri"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "कश्मीरी"
                 - "كشميري"
@@ -704,7 +704,7 @@ LanguageName :
             slug        : "kk"
             codeA3      : "kaz"
             name        : "Kazakh"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "қазақ тілі"
 
@@ -712,7 +712,7 @@ LanguageName :
             slug        : "km"
             codeA3      : "khm"
             name        : "Khmer"
-            family      : "++LanguageFamily:austroasiatic"
+            family      : "?=LanguageFamily[austroasiatic]"
             nativeNames :
                 - "ខ្មែរ"
                 - "ខេមរភាសា"
@@ -722,7 +722,7 @@ LanguageName :
             slug        : "ki"
             codeA3      : "kik"
             name        : "Kikuyu"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Gĩkũyũ"
             aliases     :
@@ -732,7 +732,7 @@ LanguageName :
             slug        : "rw"
             codeA3      : "kin"
             name        : "Kinyarwanda"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Ikinyarwanda"
 
@@ -740,7 +740,7 @@ LanguageName :
             slug        : "ky"
             codeA3      : "kir"
             name        : "Kyrgyz"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "Кыргызча"
                 - "Кыргыз тили"
@@ -749,7 +749,7 @@ LanguageName :
             slug        : "kv"
             codeA3      : "kom"
             name        : "Komi"
-            family      : "++LanguageFamily:uralic"
+            family      : "?=LanguageFamily[uralic]"
             nativeNames :
                 - "коми кыв"
 
@@ -757,7 +757,7 @@ LanguageName :
             slug        : "kg"
             codeA3      : "kon"
             name        : "Kongo"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Kikongo"
 
@@ -765,7 +765,7 @@ LanguageName :
             slug        : "ko"
             codeA3      : "kor"
             name        : "Korean"
-            family      : "++LanguageFamily:koreanic"
+            family      : "?=LanguageFamily[koreanic]"
             nativeNames :
                 - "한국어"
                 - "조선어"
@@ -774,7 +774,7 @@ LanguageName :
             slug        : "ku"
             codeA3      : "kur"
             name        : "Kurdish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Kurdî"
                 - "كوردی"
@@ -783,7 +783,7 @@ LanguageName :
             slug        : "kj"
             codeA3      : "kua"
             name        : "Kwanyama"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Kuanyama"
             aliases     :
@@ -793,7 +793,7 @@ LanguageName :
             slug        : "la"
             codeA3      : "lat"
             name        : "Latin"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "latine"
                 - "lingua latina"
@@ -802,7 +802,7 @@ LanguageName :
             slug        : "lb"
             codeA3      : "ltz"
             name        : "Letzeburgesch"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Lëtzebuergesch"
             aliases     :
@@ -812,7 +812,7 @@ LanguageName :
             slug        : "lg"
             codeA3      : "lug"
             name        : "Ganda"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Luganda"
             aliases     :
@@ -822,7 +822,7 @@ LanguageName :
             slug        : "li"
             codeA3      : "lim"
             name        : "Limburgish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Limburgs"
             aliases     :
@@ -833,7 +833,7 @@ LanguageName :
             slug        : "ln"
             codeA3      : "lin"
             name        : "Lingala"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Lingála"
 
@@ -841,7 +841,7 @@ LanguageName :
             slug        : "lo"
             codeA3      : "lao"
             name        : "Lao"
-            family      : "++LanguageFamily:tai-kadai"
+            family      : "?=LanguageFamily[tai-kadai]"
             nativeNames :
                 - "ພາສາລາວ"
 
@@ -849,7 +849,7 @@ LanguageName :
             slug        : "lt"
             codeA3      : "lit"
             name        : "Lithuanian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "lietuvių kalba"
 
@@ -857,7 +857,7 @@ LanguageName :
             slug        : "lu"
             codeA3      : "lub"
             name        : "Tshiluba"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Tshiluba"
 
@@ -865,7 +865,7 @@ LanguageName :
             slug        : "lv"
             codeA3      : "lav"
             name        : "Latvian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "latviešu valoda"
 
@@ -873,7 +873,7 @@ LanguageName :
             slug        : "gv"
             codeA3      : "glv"
             name        : "Manx"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Gaelg"
                 - "Gailck"
@@ -882,7 +882,7 @@ LanguageName :
             slug        : "mk"
             codeA3      : "mkd"
             name        : "Macedonian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "македонски јазик"
 
@@ -890,7 +890,7 @@ LanguageName :
             slug        : "mg"
             codeA3      : "mlg"
             name        : "Malagasy"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "fiteny malagasy"
 
@@ -898,7 +898,7 @@ LanguageName :
             slug        : "ms"
             codeA3      : "msa"
             name        : "Malay"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "bahasa Melayu"
                 - "بهاس ملايو"
@@ -907,7 +907,7 @@ LanguageName :
             slug        : "ml"
             codeA3      : "mal"
             name        : "Malayalam"
-            family      : "++LanguageFamily:dravidian"
+            family      : "?=LanguageFamily[dravidian]"
             nativeNames :
                 - "മലയാളം"
 
@@ -915,7 +915,7 @@ LanguageName :
             slug        : "mt"
             codeA3      : "mlt"
             name        : "Maltese"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "Malti"
 
@@ -923,7 +923,7 @@ LanguageName :
             slug        : "mi"
             codeA3      : "mri"
             name        : "Māori"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "te reo Māori"
 
@@ -931,7 +931,7 @@ LanguageName :
             slug        : "mr"
             codeA3      : "mar"
             name        : "Marathi (Marāṭhī)"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "मराठी"
 
@@ -939,7 +939,7 @@ LanguageName :
             slug        : "mh"
             codeA3      : "mah"
             name        : "Marshallese"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Kajin M̧ajeļ"
 
@@ -947,7 +947,7 @@ LanguageName :
             slug        : "mn"
             codeA3      : "mon"
             name        : "Mongolian"
-            family      : "++LanguageFamily:mongolic"
+            family      : "?=LanguageFamily[mongolic]"
             nativeNames :
                 - "монгол"
 
@@ -955,7 +955,7 @@ LanguageName :
             slug        : "na"
             codeA3      : "nau"
             name        : "Nauru"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Ekakairũ Naoero"
             aliases     :
@@ -965,7 +965,7 @@ LanguageName :
             slug        : "nv"
             codeA3      : "nav"
             name        : "Navaho"
-            family      : "++LanguageFamily:dene-yeniseian"
+            family      : "?=LanguageFamily[dene-yeniseian]"
             nativeNames :
                 - "Diné bizaad"
             aliases     :
@@ -975,7 +975,7 @@ LanguageName :
             slug        : "nd"
             codeA3      : "nde"
             name        : "Northern Ndebele"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "isiNdebele"
 
@@ -983,7 +983,7 @@ LanguageName :
             slug        : "ne"
             codeA3      : "nep"
             name        : "Nepali"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "नेपाली"
 
@@ -991,7 +991,7 @@ LanguageName :
             slug        : "ng"
             codeA3      : "ndo"
             name        : "Ndonga"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Owambo"
 
@@ -999,7 +999,7 @@ LanguageName :
             slug        : "nb"
             codeA3      : "nob"
             name        : "Norwegian Bokmål"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Norsk bokmål"
             aliases     :
@@ -1009,7 +1009,7 @@ LanguageName :
             slug        : "nn"
             codeA3      : "nno"
             name        : "Norwegian Nynorsk"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Norsk nynorsk"
             aliases     :
@@ -1019,7 +1019,7 @@ LanguageName :
             slug        : "no"
             codeA3      : "nor"
             name        : "Norwegian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Norsk"
 
@@ -1027,7 +1027,7 @@ LanguageName :
             slug        : "ii"
             codeA3      : "iii"
             name        : "Nuosu"
-            family      : "++LanguageFamily:sino-tibetan"
+            family      : "?=LanguageFamily[sino-tibetan]"
             nativeNames :
                 - "ꆈꌠ꒿ Nuosuhxop"
 
@@ -1035,7 +1035,7 @@ LanguageName :
             slug        : "nr"
             codeA3      : "nbl"
             name        : "Southern Ndebele"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "isiNdebele"
 
@@ -1043,7 +1043,7 @@ LanguageName :
             slug        : "oc"
             codeA3      : "oci"
             name        : "Occitan"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "occitan"
                 - "lenga d'òc"
@@ -1052,7 +1052,7 @@ LanguageName :
             slug        : "oj"
             codeA3      : "oji"
             name        : "Ojibwa"
-            family      : "++LanguageFamily:algonquian"
+            family      : "?=LanguageFamily[algonquian]"
             nativeNames :
                 - "ᐊᓂᔑᓈᐯᒧᐎᓐ"
             aliases     :
@@ -1062,7 +1062,7 @@ LanguageName :
             slug        : "cu"
             codeA3      : "chu"
             name        : "Old Church Slavonic"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ѩзыкъ словѣньскъ"
             aliases     :
@@ -1073,7 +1073,7 @@ LanguageName :
             slug        : "om"
             codeA3      : "orm"
             name        : "Oromo"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "Afaan Oromoo"
 
@@ -1081,7 +1081,7 @@ LanguageName :
             slug        : "or"
             codeA3      : "ori"
             name        : "Oriya"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ଓଡ଼ିଆ"
 
@@ -1089,7 +1089,7 @@ LanguageName :
             slug        : "os"
             codeA3      : "oss"
             name        : "Ossetian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ирон æвзаг"
             aliases     :
@@ -1099,7 +1099,7 @@ LanguageName :
             slug        : "pa"
             codeA3      : "pan"
             name        : "Panjabi"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ਪੰਜਾਬੀ"
                 - "پنجابی"
@@ -1108,7 +1108,7 @@ LanguageName :
             slug        : "pi"
             codeA3      : "pli"
             name        : "Pāli"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "पाऴि"
 
@@ -1116,7 +1116,7 @@ LanguageName :
             slug        : "fa"
             codeA3      : "fas"
             name        : "Persian (Farsi)"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "فارسی"
 
@@ -1124,7 +1124,7 @@ LanguageName :
             slug        : "pl"
             codeA3      : "pol"
             name        : "Polish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "język polski"
                 - "polszczyzna"
@@ -1133,7 +1133,7 @@ LanguageName :
             slug        : "ps"
             codeA3      : "pus"
             name        : "Pushto"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "پښتو"
             aliases     :
@@ -1143,7 +1143,7 @@ LanguageName :
             slug        : "pt"
             codeA3      : "por"
             name        : "Portuguese"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "português"
 
@@ -1151,7 +1151,7 @@ LanguageName :
             slug        : "qu"
             codeA3      : "que"
             name        : "Quechua"
-            family      : "++LanguageFamily:quechuan"
+            family      : "?=LanguageFamily[quechuan]"
             nativeNames :
                 - "Runa Simi"
                 - "Kichwa"
@@ -1160,7 +1160,7 @@ LanguageName :
             slug        : "rm"
             codeA3      : "roh"
             name        : "Romansh"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "rumantsch grischun"
 
@@ -1168,7 +1168,7 @@ LanguageName :
             slug        : "rn"
             codeA3      : "run"
             name        : "Kirundi"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Ikirundi"
 
@@ -1176,7 +1176,7 @@ LanguageName :
             slug        : "ro"
             codeA3      : "ron"
             name        : "Romanian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "limba română"
 
@@ -1184,7 +1184,7 @@ LanguageName :
             slug        : "ru"
             codeA3      : "rus"
             name        : "Russian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Русский"
 
@@ -1192,7 +1192,7 @@ LanguageName :
             slug        : "sa"
             codeA3      : "san"
             name        : "Sanskrit (Saṁskṛta)"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "संस्कृतम्"
 
@@ -1200,7 +1200,7 @@ LanguageName :
             slug        : "sc"
             codeA3      : "srd"
             name        : "Sardinian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "sardu"
 
@@ -1208,7 +1208,7 @@ LanguageName :
             slug        : "sd"
             codeA3      : "snd"
             name        : "Sindhi"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "सिन्धी"
                 - "سنڌي، سندھی"
@@ -1217,7 +1217,7 @@ LanguageName :
             slug        : "se"
             codeA3      : "sme"
             name        : "Northern Sami"
-            family      : "++LanguageFamily:uralic"
+            family      : "?=LanguageFamily[uralic]"
             nativeNames :
                 - "Davvisámegiella"
 
@@ -1225,7 +1225,7 @@ LanguageName :
             slug        : "sm"
             codeA3      : "smo"
             name        : "Samoan"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "gagana fa'a Samoa"
 
@@ -1233,7 +1233,7 @@ LanguageName :
             slug        : "sg"
             codeA3      : "sag"
             name        : "Sango"
-            family      : "++LanguageFamily:creole"
+            family      : "?=LanguageFamily[creole]"
             nativeNames :
                 - "yângâ tî sängö"
 
@@ -1241,7 +1241,7 @@ LanguageName :
             slug        : "sr"
             codeA3      : "srp"
             name        : "Serbian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "српски језик"
 
@@ -1249,7 +1249,7 @@ LanguageName :
             slug        : "gd"
             codeA3      : "gla"
             name        : "Gaelic"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Gàidhlig"
             aliases     :
@@ -1259,7 +1259,7 @@ LanguageName :
             slug        : "sn"
             codeA3      : "sna"
             name        : "Shona"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "chiShona"
 
@@ -1267,7 +1267,7 @@ LanguageName :
             slug        : "si"
             codeA3      : "sin"
             name        : "Sinhalese"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "සිංහල"
             aliases     :
@@ -1277,7 +1277,7 @@ LanguageName :
             slug        : "sk"
             codeA3      : "slk"
             name        : "Slovak"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "slovenčina"
                 - "slovenský jazyk"
@@ -1286,7 +1286,7 @@ LanguageName :
             slug        : "sl"
             codeA3      : "slv"
             name        : "Slovene"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "slovenski jezik"
                 - "slovenščina"
@@ -1295,7 +1295,7 @@ LanguageName :
             slug        : "so"
             codeA3      : "som"
             name        : "Somali"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "Soomaaliga"
                 - "af Soomaali"
@@ -1304,7 +1304,7 @@ LanguageName :
             slug        : "st"
             codeA3      : "sot"
             name        : "Southern Sotho"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Sesotho"
             aliases     :
@@ -1314,7 +1314,7 @@ LanguageName :
             slug        : "es"
             codeA3      : "spa"
             name        : "Spanish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "español"
 
@@ -1322,7 +1322,7 @@ LanguageName :
             slug        : "su"
             codeA3      : "sun"
             name        : "Sundanese"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Basa Sunda"
 
@@ -1330,7 +1330,7 @@ LanguageName :
             slug        : "sw"
             codeA3      : "swa"
             name        : "Swahili"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Kiswahili"
 
@@ -1338,7 +1338,7 @@ LanguageName :
             slug        : "ss"
             codeA3      : "ssw"
             name        : "Swati"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "SiSwati"
 
@@ -1346,7 +1346,7 @@ LanguageName :
             slug        : "sv"
             codeA3      : "swe"
             name        : "Swedish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "svenska"
 
@@ -1354,7 +1354,7 @@ LanguageName :
             slug        : "ta"
             codeA3      : "tam"
             name        : "Tamil"
-            family      : "++LanguageFamily:dravidian"
+            family      : "?=LanguageFamily[dravidian]"
             nativeNames :
                 - "தமிழ்"
 
@@ -1362,7 +1362,7 @@ LanguageName :
             slug        : "te"
             codeA3      : "tel"
             name        : "Telugu"
-            family      : "++LanguageFamily:dravidian"
+            family      : "?=LanguageFamily[dravidian]"
             nativeNames :
                 - "తెలుగు"
 
@@ -1370,7 +1370,7 @@ LanguageName :
             slug        : "tg"
             codeA3      : "tgk"
             name        : "Tajik"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "тоҷикӣ"
                 - "toçikī"
@@ -1380,7 +1380,7 @@ LanguageName :
             slug        : "th"
             codeA3      : "tha"
             name        : "Thai"
-            family      : "++LanguageFamily:tai-kadai"
+            family      : "?=LanguageFamily[tai-kadai]"
             nativeNames :
                 - "ไทย"
 
@@ -1388,7 +1388,7 @@ LanguageName :
             slug        : "ti"
             codeA3      : "tir"
             name        : "Tigrinya"
-            family      : "++LanguageFamily:afro-asiatic"
+            family      : "?=LanguageFamily[afro-asiatic]"
             nativeNames :
                 - "ትግርኛ"
 
@@ -1396,7 +1396,7 @@ LanguageName :
             slug        : "bo"
             codeA3      : "bod"
             name        : "Tibetan Standard"
-            family      : "++LanguageFamily:sino-tibetan"
+            family      : "?=LanguageFamily[sino-tibetan]"
             nativeNames :
                 - "བོད་ཡིག"
             aliases     :
@@ -1408,7 +1408,7 @@ LanguageName :
             slug        : "tk"
             codeA3      : "tuk"
             name        : "Turkmen"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "Türkmen"
                 - "Түркмен"
@@ -1417,7 +1417,7 @@ LanguageName :
             slug        : "tl"
             codeA3      : "tgl"
             name        : "Tagalog"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Wikang Tagalog"
                 - "ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔"
@@ -1426,7 +1426,7 @@ LanguageName :
             slug        : "tn"
             codeA3      : "tsn"
             name        : "Tswana"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Setswana"
 
@@ -1434,7 +1434,7 @@ LanguageName :
             slug        : "to"
             codeA3      : "ton"
             name        : "Tonga (Tonga Islands)"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "faka Tonga"
             aliases     :
@@ -1444,7 +1444,7 @@ LanguageName :
             slug        : "tr"
             codeA3      : "tur"
             name        : "Turkish"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "Türkçe"
 
@@ -1452,7 +1452,7 @@ LanguageName :
             slug        : "ts"
             codeA3      : "tso"
             name        : "Tsonga"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Xitsonga"
 
@@ -1460,7 +1460,7 @@ LanguageName :
             slug        : "tt"
             codeA3      : "tat"
             name        : "tt-Cyrl"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "tatar tele"
             aliases     :
@@ -1470,7 +1470,7 @@ LanguageName :
             slug        : "tw"
             codeA3      : "twi"
             name        : "Twi"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Twi"
 
@@ -1478,7 +1478,7 @@ LanguageName :
             slug        : "ty"
             codeA3      : "tah"
             name        : "Tahitian"
-            family      : "++LanguageFamily:austronesian"
+            family      : "?=LanguageFamily[austronesian]"
             nativeNames :
                 - "Reo Tahiti"
 
@@ -1486,7 +1486,7 @@ LanguageName :
             slug        : "ug"
             codeA3      : "uig"
             name        : "ug-Arab"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "Uyghurche"
             aliases     :
@@ -1496,7 +1496,7 @@ LanguageName :
             slug        : "uk"
             name        : "Ukrainian"
             codeA3      : "ukr"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "українська мова"
 
@@ -1504,7 +1504,7 @@ LanguageName :
             slug        : "ur"
             codeA3      : "urd"
             name        : "Urdu"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "اردو"
 
@@ -1512,7 +1512,7 @@ LanguageName :
             slug        : "uz"
             codeA3      : "uzb"
             name        : "Uzbek"
-            family      : "++LanguageFamily:turkic"
+            family      : "?=LanguageFamily[turkic]"
             nativeNames :
                 - "Oʻzbek"
                 - "Ўзбек"
@@ -1522,7 +1522,7 @@ LanguageName :
             slug        : "ve"
             codeA3      : "ven"
             name        : "Venda"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Tshivenḓa"
 
@@ -1530,7 +1530,7 @@ LanguageName :
             slug        : "vi"
             codeA3      : "vie"
             name        : "Vietnamese"
-            family      : "++LanguageFamily:austroasiatic"
+            family      : "?=LanguageFamily[austroasiatic]"
             nativeNames :
                 - "Việt Nam"
 
@@ -1538,7 +1538,7 @@ LanguageName :
             slug        : "vo"
             codeA3      : "vol"
             name        : "Volapük"
-            family      : "++LanguageFamily:constructed"
+            family      : "?=LanguageFamily[constructed]"
             nativeNames :
                 - "Volapük"
 
@@ -1546,7 +1546,7 @@ LanguageName :
             slug        : "wa"
             codeA3      : "wln"
             name        : "Walloon"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "walon"
 
@@ -1554,7 +1554,7 @@ LanguageName :
             slug        : "cy"
             codeA3      : "cym"
             name        : "Welsh"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Cymraeg"
 
@@ -1562,7 +1562,7 @@ LanguageName :
             slug        : "wo"
             codeA3      : "wol"
             name        : "Wolof"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Wollof"
 
@@ -1570,7 +1570,7 @@ LanguageName :
             slug        : "fy"
             codeA3      : "fry"
             name        : "Western Frisian"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "Frysk"
             aliases     :
@@ -1580,7 +1580,7 @@ LanguageName :
             slug        : "xh"
             codeA3      : "xho"
             name        : "Xhosa"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "isiXhosa"
 
@@ -1588,7 +1588,7 @@ LanguageName :
             slug        : "yi"
             codeA3      : "yid"
             name        : "Yiddish"
-            family      : "++LanguageFamily:indo-european"
+            family      : "?=LanguageFamily[indo-european]"
             nativeNames :
                 - "ייִדיש"
 
@@ -1596,7 +1596,7 @@ LanguageName :
             slug        : "yo"
             codeA3      : "yor"
             name        : "Yoruba"
-            family      : "++LanguageFamily:niger-congo"
+            family      : "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "Yorùbá"
 
@@ -1604,7 +1604,7 @@ LanguageName :
             slug        : "za"
             codeA3      : "zha"
             name        : "Chuang"
-            family      : "++LanguageFamily:tai-kadai"
+            family      : "?=LanguageFamily[tai-kadai]"
             nativeNames :
                 - "Saɯ cueŋƅ"
                 - "Saw cuengh"
@@ -1615,7 +1615,7 @@ LanguageName :
             slug        : "zu"
             codeA3      : "zul"
             name        : "Zulu"
-            family: "++LanguageFamily:niger-congo"
+            family: "?=LanguageFamily[niger-congo]"
             nativeNames :
                 - "isiZulu"
 
