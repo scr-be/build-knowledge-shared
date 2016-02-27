@@ -721,6 +721,11 @@ function isExtensionPeclInstalled()
         return
     fi
 
+    if [[ "${BIN_PECL}" == "" ]] || [[ ! -x "${BIN_PECL:-x}" ]]; then
+        echo "false"
+        return
+    fi
+
     ${BIN_PECL} &>> /dev/null
 
     if [[ $? != 0 ]]
