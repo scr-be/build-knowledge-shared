@@ -1,0 +1,56 @@
+---
+
+#
+# This file is part of the Teavee HTML Generator Bundle.
+#
+# (c) Rob Frawley 2nd <rmf@build.fail>
+#
+# For the full copyright and license information, please view the LICENSE.md
+# file that was distributed with this source code.
+#
+
+Button :
+
+    versions :
+
+        meta_format : 1.0.0
+        data_object : 0.1.0
+
+    strategy :
+
+        persist :
+            prefer : merge
+
+    service :
+
+        entity_class : s.teavee_html_generator.button.entity.class
+        service_repo : s.teavee_html_generator.button.repo
+
+    references :
+
+        create_from_cols :
+            - [ slug ]
+
+    fixture :
+
+        -
+            slug        : general
+            description : |
+                General use button.
+            template    : |
+                <a  {% if tt.enabled %}
+                        data-position="{{ tt.pos|default('bottom') }}"
+                        data-delay="{{ tt.delay|default(50) }}"
+                        data-tooltip="{{ tt.text|default('') }}"
+                    {% endif %}
+                    {% for name, value in btn.data %}
+                        data-{{ name }}="{{ value }}"
+                    {% endfor %}
+                    class="btn {{ btn.classes|join(' ') }} {% if tt.enabled %}btn-tooltip{% endif %}"
+                    href="{% if route.enabled %}{{ path(route.name, route.args) }}{% else %}#{% endif %}"
+                >
+                    {% if icon.enabled %}{{ icon(icon.name) }}{% endif %}
+                    {{ btn.text }}
+                </a>
+
+...
