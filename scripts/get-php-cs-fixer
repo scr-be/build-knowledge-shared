@@ -1,0 +1,197 @@
+#!/bin/bash
+
+#
+# PHP-CS-FIXER BUILDER
+#
+# Written by Rob Frawley 2nd <rmf@src.run>
+# Copyright (c) 2016 Rob Frawley 2nd <rmf@src.run>
+# Licensed under the MIT License <http://rmf.mit-license.org/>
+#
+
+_CSF_PWD="${PWD}"
+_CSF_TMP="/tmp/php-cs-fixer-box-build"
+_CSF_REMOTE_HREF="https://github.com/FriendsOfPHP/PHP-CS-Fixer.git"
+_CSF_REMOTE_BRANCH="1.12"
+_BOX_REMOTE_HREF="https://box-project.github.io/box2/installer.php"
+_CSR_REMOTE_HREF="https://raw.githubusercontent.com/src-run/usr-src-runner/master/scripts/get-composer"
+
+function removeTempDir()
+{
+    if [[ "${_CSF_TMP}" == "/" ]]; then
+        echo "Will not remove root directory!"
+        return 255
+    fi
+    rm -fr "${_CSF_TMP}"
+}
+
+function setupTempDir()
+{
+    echo "Using build dir \"${_CSF_TMP}\""
+    removeTempDir
+    mkdir -p "${_CSF_TMP}"
+}
+
+function getFromRemote()
+{
+    local ret=0
+    
+    echo "Cloning source \"PHP-CS-Fixer@${_CSF_REMOTE_BRANCH}\""
+
+    git clone --quiet -b "${_CSF_REMOTE_BRANCH}" "${_CSF_REMOTE_HREF}" "${_CSF_TMP}" > /dev/null
+    ret=$?
+    
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not clone php-cs-fixer!"
+    fi
+
+    return $ret
+}
+
+function getComposer()
+{
+    local ret=0
+    
+    echo "Setting up composer"
+
+    cd "${_CSF_TMP}"
+    bash <(curl -s "${_CSR_REMOTE_HREF}") > /dev/null
+    ret=$?
+
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not get composer!"
+    fi
+    
+    chmod u+x composer.phar
+    return $ret
+}
+
+function getDepends()
+{
+    local ret=0
+    
+    echo "Running composer"
+
+    cd "${_CSF_TMP}"
+    ./composer.phar require -n -q --dev "phpunit/phpunit ^5.0"
+    ret=$?
+
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not get dependencies using composer!"
+    fi
+
+    return $ret
+}
+
+function runTests()
+{
+    local ret=0
+    
+    echo "Running test suite"
+
+    cd "${_CSF_TMP}"
+    vendor/bin/phpunit --no-coverage --colors=never | tail -n 2 | grep -oP '^OK' > /dev/null
+    ret=$?
+
+    if [[ $ret -ne 0 ]]; then
+        echo "Test failures detected!"
+    fi
+
+    return $ret
+}
+
+function getBox()
+{
+    local ret=0
+    
+    echo "Setting up Box"
+
+    cd "${_CSF_TMP}"
+    curl -LSs "${_BOX_REMOTE_HREF}" | php > /dev/null
+    ret=$?
+    
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not setup Box!"
+    fi
+
+    return $ret
+}
+
+function runBox()
+{
+    local ret=0
+    
+    echo "Building executable"
+
+    cd "${_CSF_TMP}"
+    php box.phar build > /dev/null
+    ret=$?
+    
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not build PHAR!"
+    fi
+
+    return $ret
+}
+
+function makeExecutable()
+{
+    local ret=0
+
+    cd "${_CSF_TMP}"
+    chmod u+x php-cs-fixer.phar
+    ret=$?
+    
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not change file attributes!"
+    fi
+
+    return $ret
+}
+
+function moveExecutable()
+{
+    local ret=0
+    
+    echo "Executable moved to \"${_CSF_PWD}/php-cs-fixer\""
+
+    cd "${_CSF_TMP}"
+    mv php-cs-fixer.phar "${_CSF_PWD}/php-cs-fixer"
+    ret=$?
+    
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not move file!"
+    fi
+
+    return $ret
+}
+
+function cleanupTempDir()
+{
+    echo "Cleaning up"
+
+    cd "${_CSF_PWD}"    
+    removeTempDir
+}
+
+function main()
+{
+    echo "Building PHP-CS-Fixer"
+    setupTempDir   || exit 255
+    getFromRemote  || exit 255
+    getComposer    || exit 255
+    getDepends     || exit 255
+    runTests       || exit 255
+    getBox         || exit 255
+    runBox         || exit 255
+    makeExecutable || exit 255
+    moveExecutable || exit 255    
+    cleanupTempDir || exit 255
+    echo "Complete"
+}
+
+main
+
+unset _CSF_PWD _CSF_TMP _CSF_REMOTE_HREF _CSF_REMOTE_BRANCH _BOX_REMOTE_HREF _CSR_REMOTE_HREF
+
+# EOF
+
