@@ -1,0 +1,84 @@
+#!/bin/bash
+
+_C_HREF="https://getcomposer.org/installer"
+_C_FILE="composer-setup.php"
+_C_ALGO="SHA384"
+_C_HASH="41e71d86b40f28e771d4bb662b997f79625196afcca95a5abf44391188c695c6c1456e16154c75a211d238cc3bc5cb47"
+
+function getComposerSetup()
+{
+    local ret=0
+
+    curl --silent -o "${_C_FILE}" ${_C_HREF}
+    ret=$?
+
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not download composer installer from ${_C_HREF}."
+    fi
+
+    return $ret
+}
+
+function checkComposerSetup()
+{
+    local ret=0
+    local phpCheckHash="exit(hash('${_C_ALGO}', file_get_contents('${_C_FILE}')) === '${_C_HASH}' ? 0 : 255);"
+
+    php -r "${phpCheckHash}"
+    ret=$?
+
+    if [[ $ret -ne 0 ]]; then
+        echo "Corrupt installer: '${_C_ALGO}' hash for '${_C_FILE}' !== '${_C_HASH}'."
+    fi
+
+    return $ret
+}
+
+function runComposerSetup()
+{
+    local ret=0
+
+    php "${_C_FILE}"
+    ret=$?
+
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not run setup script '${_C_FILE}'!"
+    fi
+
+    return $ret
+}
+
+function cleanupComposerSetup()
+{
+    local ret=0
+    local phpRemoveSetup="unlink('${_C_FILE}') || exit(255);"
+
+    php -r "${phpRemoveSetup}"
+    ret=$?
+
+    if [[ $ret -ne 0 ]]; then
+        echo "Could not cleanup: unable to remove '${_C_FILE}'."
+    fi
+
+    return $ret
+}
+
+function main()
+{
+    echo "Installing composer."
+    getComposerSetup     || exit 255
+    checkComposerSetup   || exit 255
+    runComposerSetup     || exit 255
+    cleanupComposerSetup || exit 255
+    echo "Complete!"
+}
+
+main
+
+unset _C_HREF
+unset _C_FILE
+unset _C_ALGO
+unset _C_HASH
+
+# EOF
+
