@@ -62,6 +62,9 @@ export PKG_ENV_VARIABLE="${build_package:-x}"
 export PKG_REQ_VARIABLE="${PKG_PRE_VARIABLE}app_path,${PKG_PRE_VARIABLE}env_make,${PKG_PRE_VARIABLE}app_prep,${PKG_PRE_VARIABLE}app_post,${PKG_PRE_VARIABLE}env_post,${PKG_PRE_VARIABLE}php_exts,${PKG_PRE_VARIABLE}env_prep,${PKG_PRE_VARIABLE}env_post,${PKG_PRE_VARIABLE}php_conf"
 
 export COV_PATH="$(readlink -m ${DIR_CWD}/build/logs/clover.xml)"
+if [[ ! -f "${COV_PATH}" ]]; then
+    export COV_PATH="$(readlink -m ${DIR_CWD}/var/build/clover.xml)"
+fi
 
 export INC_PHP_EXTS_PATH="$(readlink -m ${SCRIPT_COMMON_RPATH}/../_inc-php-exts/)"
 export INC_PHP_EXTS_FILE="php-exts_"
